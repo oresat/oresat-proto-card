@@ -24,21 +24,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -160,13 +160,73 @@
 <board>
 <plain>
 <rectangle x1="4.1" y1="4.6" x2="14.1" y2="14.6" layer="21"/>
-<text x="5" y="51" size="2" layer="21" font="vector">OreSat Proto-Card v1.0</text>
-<text x="21" y="48" size="2" layer="21" font="vector">2017/09/20</text>
-<text x="5" y="48" size="2" layer="21" font="vector">PSAS</text>
-<text x="93" y="42" size="2" layer="21" font="vector" rot="R90">+3.3V</text>
-<text x="93" y="23" size="2" layer="21" font="vector" rot="R90">GND</text>
+<text x="5" y="51" size="2" layer="21" font="vector" ratio="15">OreSat Proto-Card v1.1</text>
+<text x="21" y="48" size="2" layer="21" font="vector" ratio="15">2017/09/20</text>
+<text x="5" y="48" size="2" layer="21" font="vector" ratio="15">PSAS</text>
+<text x="93" y="41.6" size="2" layer="21" font="vector" ratio="15" rot="R90">+3.3V</text>
+<text x="93" y="23" size="2" layer="21" font="vector" ratio="15" rot="R90">GND</text>
 <text x="81.4" y="1" size="0.635" layer="21" font="vector" ratio="20">3.3V</text>
 <text x="78" y="1" size="0.635" layer="21" font="vector" ratio="20">VBAT</text>
+<text x="66.04" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">CANL</text>
+<text x="63.5" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">CANH</text>
+<text x="60.96" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="55.88" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="48.26" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="58.42" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">V_PV</text>
+<text x="53.34" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">V_BATT</text>
+<text x="50.8" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">V_BATT</text>
+<text x="33.02" y="68.58" size="1" layer="21" font="vector" ratio="20">1</text>
+<text x="30.48" y="68.58" size="1" layer="21" font="vector" ratio="20">2</text>
+<text x="27.94" y="68.58" size="1" layer="21" font="vector" ratio="20">3</text>
+<text x="25.4" y="68.58" size="1" layer="21" font="vector" ratio="20">4</text>
+<text x="22.86" y="68.58" size="1" layer="21" font="vector" ratio="20">5</text>
+<text x="20.32" y="68.58" size="1" layer="21" font="vector" ratio="20">6</text>
+<text x="17.78" y="68.58" size="1" layer="21" font="vector" ratio="20">7</text>
+<text x="15.24" y="68.58" size="1" layer="21" font="vector" ratio="20">8</text>
+<text x="12.7" y="68.58" size="1" layer="21" font="vector" ratio="20">9</text>
+<text x="10.16" y="68.58" size="1" layer="21" font="vector" ratio="20">10</text>
+<text x="7.62" y="68.58" size="1" layer="21" font="vector" ratio="20">11</text>
+<text x="5.08" y="68.58" size="1" layer="21" font="vector" ratio="20">12</text>
+<text x="53.34" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">CANL</text>
+<text x="50.8" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">CANH</text>
+<text x="48.26" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">GND</text>
+<text x="43.18" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">GND</text>
+<text x="35.56" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">GND</text>
+<text x="45.72" y="70.495" size="1" layer="21" font="vector" ratio="20" rot="SR270">V_PV</text>
+<text x="40.64" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">V_BATT</text>
+<text x="38.1" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">V_BATT</text>
+<text x="45.72" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">1</text>
+<text x="43.18" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">2</text>
+<text x="40.64" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">3</text>
+<text x="38.1" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">4</text>
+<text x="35.56" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">5</text>
+<text x="33.02" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">6</text>
+<text x="30.48" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">7</text>
+<text x="27.94" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">8</text>
+<text x="25.4" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">9</text>
+<text x="22.86" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">10</text>
+<text x="20.32" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">11</text>
+<text x="17.78" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">12</text>
+<text x="64.375" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA0</text>
+<text x="66.875" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA1</text>
+<text x="69.375" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA2/TX</text>
+<text x="71.875" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA3/RX</text>
+<text x="74.375" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA4</text>
+<text x="76.875" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA5</text>
+<text x="79.375" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA6</text>
+<text x="81.875" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PA7</text>
+<text x="84.375" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PB0</text>
+<text x="86.875" y="70" size="1" layer="21" font="vector" ratio="20" rot="R90">PB1</text>
+<text x="86.875" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="84.375" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="81.875" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="79.375" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">PA8</text>
+<text x="76.875" y="60.625" size="1" layer="21" font="vector" ratio="20" rot="R90">PA15</text>
+<text x="74.375" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">PB3</text>
+<text x="71.875" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">PB4</text>
+<text x="69.375" y="61.875" size="1" layer="21" font="vector" ratio="20" rot="R90">PB5</text>
+<text x="66.875" y="59.375" size="1" layer="21" font="vector" ratio="20" rot="R90">PB6/CL</text>
+<text x="64.375" y="59.375" size="1" layer="21" font="vector" ratio="20" rot="R90">PB7/SD</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -3713,7 +3773,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="72.8" y="79.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="72.8" y="79.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="72.8" y="79.2" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
-<attribute name="NAME" x="72.35" y="78.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="73.95" y="77.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="72.8" y="79.2" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="C9" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="64" y="87.6" smashed="yes" rot="R270">
@@ -3722,7 +3782,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="64" y="87.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="64" y="87.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="64" y="87.6" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
-<attribute name="NAME" x="62.85" y="89.7" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="63.35" y="87.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="64" y="87.6" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="C11" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="75.1" y="82.8" smashed="yes">
@@ -3740,7 +3800,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="75.1" y="78.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="75.1" y="78.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="75.1" y="78.4" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
-<attribute name="NAME" x="76.8" y="77.85" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="76.1" y="78.15" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="75.1" y="78.4" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="C17" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="61.4" y="78.5" smashed="yes" rot="R90">
@@ -3749,7 +3809,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="61.4" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="61.4" y="78.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="61.4" y="78.5" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
-<attribute name="NAME" x="62.65" y="78.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="62.65" y="77.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="61.4" y="78.5" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="U3" library="LM3761" package="SOT23-5" value="LM3671MF-3.3" x="80.4" y="83" smashed="yes" rot="R90">
@@ -3757,7 +3817,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="LM3671MF-3.3/NOPBCT-ND" x="80.4" y="83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="TI" x="80.4" y="83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="LM3671MF-3.3/NOPB" x="80.4" y="83" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="79.36" y="80.36" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="78.76" y="80.84" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="80.4" y="83" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="C20" library="rcl" package="C0603" value="4.7u" x="81" y="79.3" smashed="yes" rot="R180">
@@ -3765,7 +3825,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="1276-1001-1-ND" x="81" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="81" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="81" y="79.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="84.235" y="79.565" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="84.335" y="79.565" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="81" y="79.3" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="C21" library="rcl" package="C0603" value="4.7u" x="80" y="86.7" smashed="yes">
@@ -3773,7 +3833,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="1276-1001-1-ND" x="80" y="86.7" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samsung" x="80" y="86.7" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="80" y="86.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="80.465" y="87.335" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="79.565" y="87.335" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="79.965" y="86.695" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
 <element name="L1" library="rcl" package="L2012C" value="10u" x="77.6" y="83" smashed="yes" rot="R270">
@@ -3781,7 +3841,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="587-2452-1-ND" x="77.6" y="83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Taiyo Yuden" x="77.6" y="83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CB2012T100KR" x="77.6" y="83" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="77.17" y="81.505" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="77.27" y="81.505" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="77.6" y="83" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="R13" library="rcl_custom" package=".0402-B-NOSILK" value="665k" x="83" y="82.5" smashed="yes" rot="R270">
@@ -3799,7 +3859,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="83" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F3323CS" x="83" y="84.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="83" y="84.5" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
-<attribute name="NAME" x="82.75" y="88" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="83.35" y="85.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="83" y="84.5" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="C22" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="73.9" y="84.3" smashed="yes" rot="R270">
@@ -3808,7 +3868,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="73.9" y="84.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="73.9" y="84.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="73.9" y="84.3" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
-<attribute name="NAME" x="74.45" y="86.4" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="74.15" y="85.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="73.9" y="84.3" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="X1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="16MHZ-2.5x2mm" x="75.1" y="80.6" smashed="yes" rot="R90">
@@ -3833,7 +3893,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="79.6" y="85.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="79.6" y="85.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="79.6" y="85.1" size="0.635" layer="33" ratio="20" align="center"/>
-<attribute name="NAME" x="82.2" y="86.15" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="82.3" y="85.45" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="79.6" y="85.05" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
 <element name="C23" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="81.2" y="80.9" smashed="yes" rot="R180">
@@ -3850,7 +3910,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="STM32F042K6T7-ND" x="68.3" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="STMicroelectronics" x="68.3" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="STM32F042K6T7" x="68.3" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="72.7" y="87" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="63.9" y="78.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="68.3" y="83.35" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="TP6" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="77.4" y="85.6" smashed="yes" rot="R90">
@@ -3870,12 +3930,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="1276-4275-1-ND" x="70.3" y="77.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="70.3" y="77.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="70.3" y="77.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="69.75" y="76.6" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="69.75" y="76.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="70.3" y="77.4" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="71.65" y="76.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="TP15" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="72.1" y="77.2" smashed="yes">
-<attribute name="NAME" x="70.5" y="78.7" size="0.8" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="73.1" y="73.3" size="0.8" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U$1" library="oresat-eagle" package="ORESAT-CARD-V0.5" value="" x="0" y="0" locked="yes" smashed="yes"/>
 <element name="CM1" library="oresat-eagle" package="CON-1.27-M-RA-HARTING-1515040X601XXX" value="CON-HARTING-FLEX-M-RA-1.27-1515040X601XXX" x="29.8" y="88.54" locked="yes" smashed="yes" rot="R180">
@@ -3883,62 +3943,77 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="13.925" y="86.635" size="0.635" layer="27" ratio="20" rot="R180"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X20" package3d_urn="urn:adsk.eagle:package:22443/2" value="" x="29.8" y="78.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.2" y="75.325" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="4.1" y="77.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="55.2" y="82.945" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X5-PTH-1.27MM" package3d_urn="urn:adsk.eagle:package:38290/1" value="CORTEX_DEBUG_PTH" x="71.9" y="2.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.9252" y="4.0304" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="67.5252" y="1.1304" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="73.7288" y="5.3638" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="46.3" y="72.1" smashed="yes">
 <attribute name="NAME" x="44.7" y="73.6" size="0.8" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X12" package3d_urn="urn:adsk.eagle:package:22487/2" value="" x="19.6" y="72.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.9162" y="70.2712" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="4" y="71.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="34.84" y="75.275" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X20" package3d_urn="urn:adsk.eagle:package:22441/2" value="" x="41.5" y="2.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="40" y="5" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="15.7" y="1.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="66.9" y="5.575" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X10" package3d_urn="urn:adsk.eagle:package:22405/2" value="" x="75.1" y="67.1" smashed="yes">
-<attribute name="NAME" x="62.4" y="70.275" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="62.025" y="66.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="62.4" y="62.655" size="1.27" layer="27"/>
 </element>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="88.9" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.0712" y="39.2938" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="88.0938" y="38.3288" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="92.075" y="39.37" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="88.9" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.0712" y="18.9738" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="88.0738" y="18.1288" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="92.075" y="19.05" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="79.5" y="4.5" rot="R270">
+<element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="79.5" y="4.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="80.235" y="4.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="79.5" y="4.5" size="2" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="78.865" y="4.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="82" y="4.5" rot="R270">
+<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="82" y="4.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="82.635" y="4.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="82" y="4.5" size="2" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="81.365" y="4.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R1" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="79.5" y="7" rot="R90">
+<element name="R1" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="79.5" y="7" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="79.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="79.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="79.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="79.5" y="7" size="2" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="78.95" y="6.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="79.5" y="7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="80.85" y="6.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R2" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="82" y="7" rot="R90">
+<element name="R2" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="82" y="7" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="82" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="82" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="82" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="82" y="7" size="2" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="81.45" y="6.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="82" y="7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="83.35" y="6.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="77.5" y="76.8">
+<element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="77.5" y="76.8" smashed="yes">
+<attribute name="NAME" x="77.6" y="75.335" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="77.8" y="80.4" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="VALUE" x="77.5" y="76.165" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R3" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="74.6" y="76.8" rot="R180">
+<element name="R3" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="74.6" y="76.8" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="74.6" y="80.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="74.6" y="80.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="74.6" y="80.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="74.6" y="80.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="NAME" x="75.3" y="76.25" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="74.6" y="76.8" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="75.4" y="78.15" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -4462,7 +4537,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R3" pad="2"/>
 <wire x1="74.1" y1="75.7" x2="74.1" y2="76.8" width="0.25" layer="1"/>
 </signal>
-<signal name="N$5">
+<signal name="SPARE2">
 <contactref element="CM1" pad="19"/>
 <contactref element="JP1" pad="19"/>
 <contactref element="CM1" pad="20"/>
@@ -4472,7 +4547,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="31.1" y1="81.4" x2="31.1" y2="79.8" width="0.2" layer="1"/>
 <wire x1="31.1" y1="79.8" x2="31.07" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$11">
+<signal name="SPARE3">
 <contactref element="CM1" pad="21"/>
 <contactref element="JP1" pad="21"/>
 <contactref element="CM1" pad="22"/>
@@ -4482,7 +4557,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="28.5" y1="81.8" x2="28.5" y2="79.8" width="0.2" layer="1"/>
 <wire x1="28.5" y1="79.8" x2="28.53" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$12">
+<signal name="SPARE4">
 <contactref element="CM1" pad="23"/>
 <contactref element="JP1" pad="23"/>
 <contactref element="CM1" pad="24"/>
@@ -4492,7 +4567,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="26" y1="80.7" x2="26" y2="79.78" width="0.2" layer="1"/>
 <wire x1="26" y1="79.78" x2="25.99" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$13">
+<signal name="SPARE5">
 <contactref element="CM1" pad="25"/>
 <contactref element="JP1" pad="25"/>
 <contactref element="CM1" pad="26"/>
@@ -4500,7 +4575,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="26.625" y1="85.27" x2="26.625" y2="82.945" width="0.2" layer="1"/>
 <wire x1="26.625" y1="82.945" x2="23.45" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$14">
+<signal name="SPARE6">
 <contactref element="CM1" pad="27"/>
 <contactref element="JP1" pad="27"/>
 <contactref element="CM1" pad="28"/>
@@ -4508,7 +4583,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.355" y1="85.27" x2="25.355" y2="84.215" width="0.2" layer="1"/>
 <wire x1="25.355" y1="84.215" x2="20.91" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$15">
+<signal name="SPARE7">
 <contactref element="CM1" pad="29"/>
 <contactref element="JP1" pad="29"/>
 <contactref element="CM1" pad="30"/>
@@ -4518,7 +4593,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.3" y1="81.4" x2="20" y2="81.4" width="0.2" layer="1"/>
 <wire x1="20" y1="81.4" x2="18.37" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$16">
+<signal name="SPARE8">
 <contactref element="CM1" pad="31"/>
 <contactref element="JP1" pad="31"/>
 <contactref element="CM1" pad="32"/>
@@ -4531,7 +4606,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20.9" y1="81.8" x2="17.86" y2="81.8" width="0.2" layer="1"/>
 <wire x1="17.86" y1="81.8" x2="15.83" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$17">
+<signal name="SPARE9">
 <contactref element="CM1" pad="33"/>
 <contactref element="JP1" pad="33"/>
 <contactref element="CM1" pad="34"/>
@@ -4541,7 +4616,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="20" y1="82.3" x2="15.82" y2="82.3" width="0.2" layer="1"/>
 <wire x1="15.82" y1="82.3" x2="13.29" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$18">
+<signal name="SPARE10">
 <contactref element="CM1" pad="35"/>
 <contactref element="JP1" pad="35"/>
 <contactref element="CM1" pad="36"/>
@@ -4551,7 +4626,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.9" y1="82.7" x2="13.68" y2="82.7" width="0.2" layer="1"/>
 <wire x1="13.68" y1="82.7" x2="10.75" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$19">
+<signal name="SPARE11">
 <contactref element="CM1" pad="37"/>
 <contactref element="JP1" pad="37"/>
 <contactref element="CM1" pad="38"/>
@@ -4561,7 +4636,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.9524" y1="83.1524" x2="11.5924" y2="83.1524" width="0.2" layer="1"/>
 <wire x1="11.5924" y1="83.1524" x2="8.21" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$20">
+<signal name="SPARE12">
 <contactref element="JP1" pad="39"/>
 <contactref element="CM1" pad="39"/>
 <contactref element="CM1" pad="40"/>
@@ -4571,7 +4646,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17" y1="83.6" x2="9.5" y2="83.6" width="0.2" layer="1"/>
 <wire x1="9.5" y1="83.6" x2="5.67" y2="79.77" width="0.2" layer="1"/>
 </signal>
-<signal name="N$21">
+<signal name="SPARE1">
 <contactref element="CM1" pad="17"/>
 <contactref element="JP1" pad="17"/>
 <contactref element="CM1" pad="18"/>

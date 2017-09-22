@@ -16237,7 +16237,7 @@ approximately 3.0V.</text>
 <junction x="233.68" y="152.4"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="19"/>
 <pinref part="JP1" gate="A" pin="19"/>
@@ -16250,7 +16250,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="160.02" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="21"/>
 <wire x1="20.32" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
@@ -16265,7 +16265,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="154.94" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="23"/>
 <wire x1="20.32" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
@@ -16280,7 +16280,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="149.86" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="25"/>
 <wire x1="20.32" y1="144.78" x2="25.4" y2="144.78" width="0.1524" layer="91"/>
@@ -16295,7 +16295,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="144.78" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="27"/>
 <wire x1="20.32" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
@@ -16310,7 +16310,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="139.7" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="29"/>
 <wire x1="20.32" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
@@ -16325,7 +16325,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="134.62" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="SPARE8" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="31"/>
 <wire x1="20.32" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
@@ -16340,7 +16340,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="129.54" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="SPARE9" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="33"/>
 <wire x1="20.32" y1="124.46" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
@@ -16355,7 +16355,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="124.46" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="SPARE10" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="35"/>
 <wire x1="20.32" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
@@ -16370,7 +16370,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="119.38" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="SPARE11" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="37"/>
 <wire x1="20.32" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
@@ -16385,7 +16385,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="114.3" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="SPARE12" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="39"/>
 <wire x1="74.93" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
@@ -16400,7 +16400,7 @@ approximately 3.0V.</text>
 <label x="27.94" y="109.22" size="2.54" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <pinref part="CM1" gate="G$1" pin="17"/>
 <wire x1="20.32" y1="165.1" x2="25.4" y2="165.1" width="0.1524" layer="91"/>
