@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -24,21 +24,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -159,13 +159,13 @@
 </layers>
 <board>
 <plain>
-<rectangle x1="4.1" y1="4.6" x2="14.1" y2="14.6" layer="21"/>
-<text x="5.7" y="27.6" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat Proto-Card v1.1</text>
-<text x="8.7" y="43.6" size="2" layer="21" font="vector" ratio="15" rot="R90">2017/10/02</text>
-<text x="8.7" y="27.6" size="2" layer="21" font="vector" ratio="15" rot="R90">PSAS</text>
+<rectangle x1="83.1" y1="8.3" x2="93.1" y2="18.3" layer="21"/>
+<text x="5.2" y="21.1" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat Proto-Card v1.1</text>
+<text x="8.2" y="37.1" size="2" layer="21" font="vector" ratio="15" rot="R90">2017/10/02</text>
+<text x="8.2" y="21.1" size="2" layer="21" font="vector" ratio="15" rot="R90">PSAS</text>
 <text x="75.06" y="54.22" size="2" layer="21" font="vector" ratio="15" rot="R90">+3.3V</text>
-<text x="81" y="0.5" size="0.635" layer="21" font="vector" ratio="20" rot="R90">3.3V</text>
-<text x="79" y="0.5" size="0.635" layer="21" font="vector" ratio="20" rot="R90">VBAT</text>
+<text x="80.8" y="0.5" size="0.635" layer="21" font="vector" ratio="20" rot="R90">3.3V</text>
+<text x="78.8" y="0.5" size="0.635" layer="21" font="vector" ratio="20" rot="R90">VBAT</text>
 <text x="66.04" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">CANL</text>
 <text x="63.5" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">CANH</text>
 <text x="60.96" y="5.08" size="1" layer="21" font="vector" ratio="20" rot="R90">!SHDN</text>
@@ -213,21 +213,21 @@
 <text x="90.1" y="48.425" size="1" layer="21" font="vector" ratio="20">PA7</text>
 <text x="90.1" y="45.925" size="1" layer="21" font="vector" ratio="20">PB0</text>
 <text x="90.1" y="43.425" size="1" layer="21" font="vector" ratio="20">PB1</text>
-<text x="81.975" y="43.425" size="1" layer="21" font="vector" ratio="20">GND</text>
-<text x="81.975" y="45.925" size="1" layer="21" font="vector" ratio="20">GND</text>
-<text x="81.975" y="48.425" size="1" layer="21" font="vector" ratio="20">GND</text>
-<text x="81.975" y="50.925" size="1" layer="21" font="vector" ratio="20">PA8</text>
-<text x="80.725" y="53.425" size="1" layer="21" font="vector" ratio="20">PA15</text>
-<text x="81.975" y="55.925" size="1" layer="21" font="vector" ratio="20">PB3</text>
-<text x="81.975" y="58.425" size="1" layer="21" font="vector" ratio="20">PB4</text>
-<text x="81.975" y="60.925" size="1" layer="21" font="vector" ratio="20">PB5</text>
-<text x="28.775" y="64.455" size="1" layer="21" font="vector" ratio="20" rot="R90">PB6/CL</text>
-<text x="26.275" y="64.455" size="1" layer="21" font="vector" ratio="20" rot="R90">PB7/SD</text>
+<text x="81.875" y="43.225" size="1" layer="21" font="vector" ratio="20" rot="SR0">GND</text>
+<text x="81.875" y="45.725" size="1" layer="21" font="vector" ratio="20" rot="SR0">GND</text>
+<text x="81.875" y="48.325" size="1" layer="21" font="vector" ratio="20" rot="SR0">GND</text>
+<text x="81.875" y="50.825" size="1" layer="21" font="vector" ratio="20" rot="SR0">PA8</text>
+<text x="80.925" y="53.325" size="1" layer="21" font="vector" ratio="20" rot="SR0">PA15</text>
+<text x="81.775" y="55.925" size="1" layer="21" font="vector" ratio="20" rot="SR0">PB3</text>
+<text x="81.775" y="58.625" size="1" layer="21" font="vector" ratio="20" rot="SR0">PB4</text>
+<text x="81.775" y="61.025" size="1" layer="21" font="vector" ratio="20">PB5</text>
+<text x="79.155" y="63.725" size="1" layer="21" font="vector" ratio="20">PB6/CL</text>
+<text x="79.055" y="66.125" size="1" layer="21" font="vector" ratio="20">PB7/SD</text>
 <text x="48.26" y="74.93" size="1" layer="21" font="vector" ratio="20" rot="SR270">!SHDN</text>
 <text x="38.1" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">GND</text>
 <text x="40.64" y="74.91" size="1" layer="21" font="vector" ratio="20" rot="SR270">GND</text>
 <text x="36.94" y="66.18" size="2" layer="21" font="vector" ratio="15">VBAT</text>
-<text x="83" y="0.4" size="0.635" layer="21" font="vector" ratio="20" rot="R90">PA0</text>
+<text x="82.8" y="0.5" size="0.635" layer="21" font="vector" ratio="20" rot="R90">PA0</text>
 <text x="75.06" y="13.72" size="2" layer="21" font="vector" ratio="15" rot="R90">+3.3V</text>
 </plain>
 <libraries>
@@ -3574,6 +3574,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
+<package name="6_PIN_SERIAL_TARGET_SIDE_W_SILK" urn="urn:adsk.eagle:footprint:37594/1" library_version="1">
+<description>&lt;h3&gt;6 pin Serial Target - Right Angle  SMT with Silk&lt;/h3&gt;
+Package for devices meant to mate to an FTDI connector.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;6_Pin_Serial_Target&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="P$1" x="-6.35" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$2" x="-3.81" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$3" x="-1.27" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$4" x="1.27" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$5" x="3.81" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$6" x="6.35" y="0" drill="1.016" diameter="1.8796"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="21"/>
+<text x="-7.874" y="-0.889" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GRN</text>
+<text x="9.144" y="-0.889" size="1.27" layer="21" font="vector" ratio="15" rot="R90">BLK</text>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:package:38290/1" type="box" library_version="1">
@@ -3596,6 +3625,17 @@ Area: 3.0mm x 2.5mm
 Datasheet referenced for footprint
 Example device(s):
 U.FL
+</description>
+</package3d>
+<package3d name="6_PIN_SERIAL_TARGET_SIDE_W_SILK" urn="urn:adsk.eagle:package:37995/1" type="box" library_version="1">
+<description>6 pin Serial Target - Right Angle  SMT with Silk
+Package for devices meant to mate to an FTDI connector.
+Specifications:
+Pin count:6
+Pin pitch: 0.1"
+
+Example device(s):
+6_Pin_Serial_Target
 </description>
 </package3d>
 </packages3d>
@@ -3647,6 +3687,45 @@ Area: 0.06" x 0.03"
 
 Example device(s):
 LED - BLUE</description>
+</package3d>
+</packages3d>
+</library>
+<library name="SparkFun-Hardware" urn="urn:adsk.eagle:library:519">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:footprint:38613/1" library_version="1">
+<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.048"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:package:38629/1" type="box" library_version="1">
+<description>Standoff (#4 Screw) - Tight fit around screw body
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
+Devices Using
+STAND-OFF</description>
 </package3d>
 </packages3d>
 </library>
@@ -3841,7 +3920,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="83" y="72.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="83" y="72.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="83" y="72.5" size="0.635" layer="33" ratio="20" align="center"/>
-<attribute name="NAME" x="81.6" y="71.35" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="81" y="71.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="83" y="72.5" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
 <element name="C9" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="91.4" y="81.3" smashed="yes" rot="R180">
@@ -3868,7 +3947,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="82.2" y="70.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="82.2" y="70.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="82.2" y="70.2" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
-<attribute name="NAME" x="81.95" y="69.2" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="81.65" y="69.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="82.2" y="70.2" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="C17" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="84.4" y="84.7" smashed="yes" rot="R90">
@@ -3885,7 +3964,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="LM3671MF-3.3/NOPBCT-ND" x="63" y="69.2" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="TI" x="63" y="69.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LM3671MF-3.3/NOPB" x="63" y="69.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.84" y="70.84" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="64.56" y="67.44" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="63" y="69.2" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
 <element name="C20" library="rcl" package="C0603" value="4.7u" x="59.3" y="68.6" smashed="yes" rot="R90">
@@ -3901,7 +3980,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="1276-1001-1-ND" x="66.7" y="69.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Samsung" x="66.7" y="69.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="66.7" y="69.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="67.335" y="70.035" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="67.435" y="70.535" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="66.695" y="69.635" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="L1" library="rcl" package="L2012C" value="10u" x="63" y="72" smashed="yes" rot="R180">
@@ -3909,7 +3988,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="587-2452-1-ND" x="63" y="72" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Taiyo Yuden" x="63" y="72" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CB2012T100KR" x="63" y="72" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="61.505" y="72.33" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="62.595" y="72.77" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="63" y="72" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="R13" library="rcl_custom" package=".0402-B-NOSILK" value="665k" x="62.5" y="66.6" smashed="yes" rot="R180">
@@ -3952,7 +4031,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="296-44211-1-ND" x="81.7" y="84.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Texas Instruments" x="81.7" y="84.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TCAN330GDCNT" x="81.7" y="84.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="82.8" y="82.5" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="81" y="86.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="81.7" y="84.7" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="C19" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="65.1" y="70" smashed="yes" rot="R270">
@@ -3961,7 +4040,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Samsung" x="65.1" y="70" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="65.1" y="70" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="65.1" y="70" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
-<attribute name="NAME" x="65.45" y="67.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="65.45" y="71" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="65.05" y="70" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="C23" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="60.9" y="68.4" smashed="yes" rot="R90">
@@ -3978,7 +4057,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="STM32F042K6T7-ND" x="87.2" y="77" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="STMicroelectronics" x="87.2" y="77" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="STM32F042K6T7" x="87.2" y="77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="82.7" y="81.4" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="82.4" y="80.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="87.15" y="77" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="C24" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="64.5" y="65.4" smashed="yes">
@@ -4024,7 +4103,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="66.9" y="5.575" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X10" package3d_urn="urn:adsk.eagle:package:22405/2" value="" x="87.2" y="55.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.4" y="68.275" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="87.6" y="68.075" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="82.755" y="67.9" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="71.12" y="58.42" smashed="yes" rot="R90">
@@ -4032,12 +4111,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="74.295" y="52.07" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="78.5" y="4.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.235" y="4.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="77.135" y="4.6" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="78.5" y="4.5" size="2" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="77.865" y="4.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="80.5" y="4.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="81.135" y="4.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="79.235" y="4.6" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="80.5" y="4.5" size="2" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="79.865" y="4.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -4046,7 +4125,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="1276-4275-1-ND" x="78.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="78.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="78.5" y="7" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="77.95" y="6.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="77.95" y="6.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="78.5" y="7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="79.85" y="6.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
@@ -4055,12 +4134,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DPN" value="1276-4275-1-ND" x="80.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="80.5" y="7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="80.5" y="7" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="79.95" y="6.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="79.95" y="6.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="80.5" y="7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="81.85" y="6.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="82.5" y="4.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="81.035" y="4.4" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="81.235" y="4.6" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="86.1" y="4.2" size="0.635" layer="27" font="vector" ratio="20" rot="R270" display="off"/>
 <attribute name="VALUE" x="81.865" y="4.5" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -4073,23 +4152,54 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="82.5" y="7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="83.85" y="6.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="CF1" library="oresat-eagle" package="CON-MMCX-F-MOLEX-0734151001" value="CON-MMCX-F-MOLEX-0734151001" x="64.44" y="89.6" locked="yes"/>
-<element name="CF2" library="oresat-eagle" package="CON-MMCX-F-MOLEX-0734151001" value="CON-MMCX-F-MOLEX-0734151001" x="71.84" y="89.6" locked="yes"/>
-<element name="CF3" library="oresat-eagle" package="CON-MMCX-F-MOLEX-0734151001" value="CON-MMCX-F-MOLEX-0734151001" x="79.24" y="89.6" locked="yes"/>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="59" y="89.6">
+<element name="CF1" library="oresat-eagle" package="CON-MMCX-F-MOLEX-0734151001" value="CON-MMCX-F-MOLEX-0734151001" x="64.44" y="89.6" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.74" y="86.9" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="66.94" y="88.6" size="0.635" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="CF2" library="oresat-eagle" package="CON-MMCX-F-MOLEX-0734151001" value="CON-MMCX-F-MOLEX-0734151001" x="71.84" y="89.6" locked="yes" smashed="yes">
+<attribute name="NAME" x="71.14" y="86.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="74.34" y="88.6" size="0.635" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="CF3" library="oresat-eagle" package="CON-MMCX-F-MOLEX-0734151001" value="CON-MMCX-F-MOLEX-0734151001" x="79.24" y="89.6" locked="yes" smashed="yes">
+<attribute name="NAME" x="78.54" y="86.9" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="81.74" y="88.6" size="0.635" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="59" y="89.6" smashed="yes">
+<attribute name="NAME" x="56.53" y="87.94" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="59" y="89.6" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="59" y="89.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="57.73" y="87.06" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="68" y="85">
+<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="68" y="85" smashed="yes">
+<attribute name="NAME" x="69.73" y="83.44" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="68" y="85" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="68" y="85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="66.73" y="82.46" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="84" y="89.6" rot="R180">
+<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="84" y="89.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.43" y="87.94" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="84" y="89.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="84" y="89.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="85.27" y="92.14" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-left"/>
 </element>
-<element name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="50.8" y="67.31" rot="R180"/>
+<element name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="50.8" y="67.31" smashed="yes" rot="R180">
+<attribute name="NAME" x="55.0738" y="69.1188" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="57.15" y="70.485" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="71.12" y="17.78" rot="R90"/>
+<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="6_PIN_SERIAL_TARGET_SIDE_W_SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="" x="87.2" y="32.6" rot="R270"/>
+<element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="93" y="6" smashed="yes">
+<attribute name="VALUE" x="93" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="93" y="89" smashed="yes">
+<attribute name="VALUE" x="93" y="87.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="6" y="89" smashed="yes">
+<attribute name="VALUE" x="6" y="87.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="6" y="6" smashed="yes">
+<attribute name="VALUE" x="6" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="CRYSTALIN">
@@ -4250,9 +4360,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP4" pad="1"/>
 <wire x1="82.95" y1="75.8" x2="79.6" y2="75.8" width="0.3" layer="1"/>
 <wire x1="79.6" y1="75.8" x2="79" y2="75.2" width="0.3" layer="1"/>
-<wire x1="79" y1="75.2" x2="79" y2="71.3" width="0.3" layer="1"/>
-<wire x1="79" y1="71.3" x2="83.7" y2="66.6" width="0.3" layer="1"/>
-<wire x1="83.7" y1="66.6" x2="85.9" y2="66.6" width="0.3" layer="1"/>
+<wire x1="79" y1="75.2" x2="79" y2="70.9" width="0.3" layer="1"/>
+<wire x1="79" y1="70.9" x2="83.3" y2="66.6" width="0.3" layer="1"/>
+<wire x1="83.3" y1="66.6" x2="85.9" y2="66.6" width="0.3" layer="1"/>
 <wire x1="85.9" y1="66.6" x2="85.93" y2="66.63" width="0.3" layer="1"/>
 </signal>
 <signal name="CANH_PH">
@@ -4392,12 +4502,10 @@ Please make sure your boards conform to these design rules.</description>
 <via x="92.8" y="81.3" extent="1-16" drill="0.254"/>
 <via x="79.8" y="75" extent="1-16" drill="0.254"/>
 <via x="83.1" y="49.3" extent="1-16" drill="0.254"/>
-<via x="93" y="6" extent="1-16" drill="0.254"/>
-<via x="5" y="6" extent="1-16" drill="0.254"/>
-<via x="12" y="89" extent="1-16" drill="0.254"/>
-<via x="22" y="90" extent="1-16" drill="0.254"/>
-<via x="55" y="92" extent="1-16" drill="0.254"/>
-<via x="81.7" y="84.5" extent="1-16" drill="0.254"/>
+<via x="4" y="4" extent="1-16" drill="0.254"/>
+<via x="16.5" y="92" extent="1-16" drill="0.254"/>
+<via x="59" y="92" extent="1-16" drill="0.254"/>
+<via x="81.7" y="84.7" extent="1-16" drill="0.254"/>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="C"/>
 <via x="97.5" y="11.5" extent="1-16" drill="0.254"/>
@@ -4551,6 +4659,55 @@ Please make sure your boards conform to these design rules.</description>
 <via x="65.9" y="66.6" extent="1-16" drill="0.254"/>
 <via x="65.9" y="65.4" extent="1-16" drill="0.254"/>
 <via x="82.5" y="2.5" extent="1-16" drill="0.254"/>
+<contactref element="J5" pad="P$6"/>
+<via x="95" y="9" extent="1-16" drill="0.254"/>
+<via x="95" y="4" extent="1-16" drill="0.254"/>
+<via x="90" y="4" extent="1-16" drill="0.254"/>
+<via x="85" y="4" extent="1-16" drill="0.254"/>
+<via x="4" y="9" extent="1-16" drill="0.254"/>
+<via x="9" y="4" extent="1-16" drill="0.254"/>
+<via x="59" y="87.2" extent="1-16" drill="0.254"/>
+<via x="68" y="87.4" extent="1-16" drill="0.254"/>
+<via x="68" y="82.6" extent="1-16" drill="0.254"/>
+<via x="82.1" y="88.2" extent="1-16" drill="0.254"/>
+<via x="84" y="92" extent="1-16" drill="0.254"/>
+<via x="83.4" y="82.4" extent="1-16" drill="0.254"/>
+<via x="73.7" y="79.9" extent="1-16" drill="0.254"/>
+<via x="72" y="81.8" extent="1-16" drill="0.254"/>
+<via x="70.7" y="71.6" extent="1-16" drill="0.254"/>
+<via x="66" y="73" extent="1-16" drill="0.254"/>
+<via x="66" y="75.7" extent="1-16" drill="0.254"/>
+<via x="66" y="78.6" extent="1-16" drill="0.254"/>
+<via x="45.1" y="71.3" extent="1-16" drill="0.254"/>
+<via x="45.1" y="72" extent="1-16" drill="0.254"/>
+<via x="45.1" y="72.8" extent="1-16" drill="0.254"/>
+<via x="47.4" y="72.8" extent="1-16" drill="0.254"/>
+<via x="47.4" y="72" extent="1-16" drill="0.254"/>
+<via x="47.4" y="71.3" extent="1-16" drill="0.254"/>
+<via x="60.1" y="65.5" extent="1-16" drill="0.254"/>
+<via x="62.3" y="65.5" extent="1-16" drill="0.254"/>
+<via x="77.3" y="60.3" extent="1-16" drill="0.254"/>
+<via x="80" y="50" extent="1-16" drill="0.254"/>
+<via x="80" y="55" extent="1-16" drill="0.254"/>
+<via x="80" y="40" extent="1-16" drill="0.254"/>
+<via x="80" y="30" extent="1-16" drill="0.254"/>
+<via x="80" y="20" extent="1-16" drill="0.254"/>
+<via x="90" y="20" extent="1-16" drill="0.254"/>
+<via x="90" y="10" extent="1-16" drill="0.254"/>
+<via x="80" y="10" extent="1-16" drill="0.254"/>
+<via x="83.5" y="62.7" extent="1-16" drill="0.254"/>
+<via x="82.3" y="63.8" extent="1-16" drill="0.254"/>
+<via x="13" y="94.5" extent="1-16" drill="0.254"/>
+<via x="43" y="92" extent="1-16" drill="0.254"/>
+<via x="43" y="85" extent="1-16" drill="0.254"/>
+<via x="16.5" y="85" extent="1-16" drill="0.254"/>
+<via x="29.5" y="92" extent="1-16" drill="0.254"/>
+<via x="47" y="94.5" extent="1-16" drill="0.254"/>
+<via x="57.5" y="7.5" extent="1-16" drill="0.254"/>
+<via x="59.5" y="4.5" extent="1-16" drill="0.254"/>
+<via x="62" y="4.5" extent="1-16" drill="0.254"/>
+<via x="64.5" y="4.5" extent="1-16" drill="0.254"/>
+<via x="67.5" y="4.5" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U6" pad="23"/>
@@ -4661,12 +4818,22 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="90" y1="68.1" x2="90.6" y2="67.5" width="0.3" layer="1"/>
 <wire x1="90.6" y1="67.5" x2="90.6" y2="63.68" width="0.3" layer="1"/>
 <wire x1="90.6" y1="63.68" x2="88.47" y2="61.55" width="0.3" layer="1"/>
+<contactref element="J5" pad="P$3"/>
+<wire x1="88.47" y1="61.55" x2="91.25" y2="61.55" width="0.3" layer="16"/>
+<wire x1="91.25" y1="61.55" x2="95.6" y2="57.2" width="0.3" layer="16"/>
+<wire x1="95.6" y1="57.2" x2="95.6" y2="42.27" width="0.3" layer="16"/>
+<wire x1="95.6" y1="42.27" x2="87.2" y2="33.87" width="0.3" layer="16"/>
 </signal>
 <signal name="PA3/USART2_RX">
 <contactref element="U6" pad="9"/>
 <contactref element="JP4" pad="8"/>
 <wire x1="91.45" y1="74.2" x2="91.45" y2="61.99" width="0.3" layer="1"/>
 <wire x1="91.45" y1="61.99" x2="88.47" y2="59.01" width="0.3" layer="1"/>
+<contactref element="J5" pad="P$2"/>
+<wire x1="88.47" y1="59.01" x2="93.09" y2="59.01" width="0.3" layer="16"/>
+<wire x1="93.09" y1="59.01" x2="95.1" y2="57" width="0.3" layer="16"/>
+<wire x1="95.1" y1="57" x2="95.1" y2="44.31" width="0.3" layer="16"/>
+<wire x1="95.1" y1="44.31" x2="87.2" y2="36.41" width="0.3" layer="16"/>
 </signal>
 <signal name="BOOT">
 <contactref element="U6" pad="31"/>
@@ -6531,6 +6698,9 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$443">
 <via x="66.04" y="15.24" extent="1-16" drill="1" shape="octagon"/>
+</signal>
+<signal name="N$407">
+<via x="12.7" y="15.24" extent="1-16" drill="1" shape="octagon"/>
 </signal>
 </signals>
 <errors>
