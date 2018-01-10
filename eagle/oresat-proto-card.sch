@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -17145,7 +17145,7 @@ approximately 3.0V.</text>
 <pinref part="U6" gate="G$1" pin="PA9"/>
 </segment>
 </net>
-<net name="PA5" class="0">
+<net name="PA5/SPI1_SCK" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PA5"/>
 <wire x1="248.92" y1="139.7" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
@@ -17155,9 +17155,10 @@ approximately 3.0V.</text>
 <pinref part="JP4" gate="A" pin="12"/>
 <wire x1="294.64" y1="48.26" x2="274.32" y2="48.26" width="0.1524" layer="91"/>
 <label x="279.4" y="48.26" size="1.778" layer="95"/>
+<label x="246.38" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="PA6" class="0">
+<net name="PA6/SPI1_MISO" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PA6"/>
 <wire x1="248.92" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
@@ -17167,9 +17168,10 @@ approximately 3.0V.</text>
 <pinref part="JP4" gate="A" pin="14"/>
 <wire x1="292.1" y1="45.72" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
 <label x="279.4" y="45.72" size="1.778" layer="95"/>
+<label x="246.38" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="PA7" class="0">
+<net name="PA7/SPI1_MOSI" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PA7"/>
 <wire x1="248.92" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
@@ -17179,6 +17181,7 @@ approximately 3.0V.</text>
 <pinref part="JP4" gate="A" pin="16"/>
 <wire x1="289.56" y1="43.18" x2="274.32" y2="43.18" width="0.1524" layer="91"/>
 <label x="279.4" y="43.18" size="1.778" layer="95"/>
+<label x="246.38" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PB3" class="0">
@@ -17703,6 +17706,7 @@ approximately 3.0V.</text>
 <pinref part="JP4" gate="A" pin="10"/>
 <wire x1="297.18" y1="50.8" x2="274.32" y2="50.8" width="0.1524" layer="91"/>
 <label x="279.4" y="50.8" size="1.778" layer="95"/>
+<label x="246.38" y="142.24" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PA1" class="0">

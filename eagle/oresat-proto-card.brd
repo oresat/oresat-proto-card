@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3810,10 +3810,11 @@ Please make sure your boards conform to these design rules.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -4771,7 +4772,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="80.4" y="82.9" extent="1-16" drill="0.254"/>
 <wire x1="80.4" y1="82.9" x2="80.4" y2="83.725" width="0.3" layer="1"/>
 </signal>
-<signal name="PA5">
+<signal name="PA5/SPI1_SCK">
 <contactref element="U6" pad="11"/>
 <contactref element="JP4" pad="12"/>
 <wire x1="91.45" y1="75.8" x2="92.2" y2="75.8" width="0.3" layer="1"/>
@@ -4779,7 +4780,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="93.2" y1="74.8" x2="93.2" y2="58.66" width="0.3" layer="1"/>
 <wire x1="93.2" y1="58.66" x2="88.47" y2="53.93" width="0.3" layer="1"/>
 </signal>
-<signal name="PA6">
+<signal name="PA6/SPI1_MISO">
 <contactref element="U6" pad="12"/>
 <contactref element="JP4" pad="14"/>
 <wire x1="91.45" y1="76.6" x2="92.5" y2="76.6" width="0.3" layer="1"/>
@@ -4787,7 +4788,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="93.7" y1="75.4" x2="93.7" y2="56.62" width="0.3" layer="1"/>
 <wire x1="93.7" y1="56.62" x2="88.47" y2="51.39" width="0.3" layer="1"/>
 </signal>
-<signal name="PA7">
+<signal name="PA7/SPI1_MOSI">
 <contactref element="U6" pad="13"/>
 <contactref element="JP4" pad="16"/>
 <wire x1="91.45" y1="77.4" x2="92.7" y2="77.4" width="0.3" layer="1"/>
