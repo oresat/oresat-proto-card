@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15894,7 +15894,12 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="CARD" library="oresat-card" deviceset="ORESAT-CARD-V0.5" device=""/>
-<part name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device=""/>
+<part name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="SAM10145-ND"/>
+<attribute name="MFR" value="Samtec"/>
+<attribute name="MPN" value="TFM-120-01-L-D-RA"/>
+</part>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="VBUS3" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="VBUS4" library="oresat-supplies" deviceset="VBUS" device=""/>
@@ -15922,7 +15927,12 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="U1" library="ic-pwr-tps63070x" deviceset="TPS63070X" device="" value="TPS63070"/>
+<part name="U1" library="ic-pwr-tps63070x" deviceset="TPS63070X" device="" value="TPS63070">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="296-44874-1-ND"/>
+<attribute name="MFR" value="TI"/>
+<attribute name="MPN" value="TPS63070"/>
+</part>
 <part name="C5" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
@@ -15981,7 +15991,12 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="VBUS6" library="oresat-supplies" deviceset="VBUS" device=""/>
-<part name="J7" library="J-CNC-3220-10-0100-00-ARM-SWD-port" deviceset="1.27MM-SWD-CONNECTOR" device=""/>
+<part name="J7" library="J-CNC-3220-10-0100-00-ARM-SWD-port" deviceset="1.27MM-SWD-CONNECTOR" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1175-1627-ND"/>
+<attribute name="MFR" value="CNC Tech"/>
+<attribute name="MPN" value="3220-10-0100-00"/>
+</part>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -16153,6 +16168,10 @@ built in</text>
 <instance part="J6" gate="G$1" x="16.51" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="22.86" y="208.915" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="10.16" y="102.87" size="1.778" layer="96" rot="MR180"/>
+<attribute name="DIS" x="16.51" y="157.48" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="16.51" y="157.48" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="16.51" y="157.48" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="16.51" y="157.48" size="2.54" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="VBUS1" gate="1" x="93.98" y="190.5"/>
 <instance part="VBUS3" gate="1" x="170.18" y="100.33"/>
@@ -16187,7 +16206,12 @@ built in</text>
 <instance part="TP1" gate="G$1" x="254" y="248.92" smashed="yes">
 <attribute name="NAME" x="256.54" y="247.65" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U1" gate="G$1" x="189.23" y="236.22"/>
+<instance part="U1" gate="G$1" x="189.23" y="236.22">
+<attribute name="DIS" x="189.23" y="236.22" size="2.54" layer="96" display="off"/>
+<attribute name="DPN" x="189.23" y="236.22" size="2.54" layer="96" display="off"/>
+<attribute name="MFR" x="189.23" y="236.22" size="2.54" layer="96" display="off"/>
+<attribute name="MPN" x="189.23" y="236.22" size="2.54" layer="96" display="off"/>
+</instance>
 <instance part="C5" gate="CE" x="167.64" y="220.98" rot="MR0">
 <attribute name="DIS" x="167.64" y="220.98" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DPN" x="167.64" y="220.98" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -16276,7 +16300,12 @@ built in</text>
 </instance>
 <instance part="GND53" gate="1" x="157.48" y="220.98"/>
 <instance part="VBUS6" gate="1" x="124.46" y="254"/>
-<instance part="J7" gate="J" x="381" y="76.2"/>
+<instance part="J7" gate="J" x="381" y="76.2">
+<attribute name="DIS" x="381" y="76.2" size="2.54" layer="96" display="off"/>
+<attribute name="MFR" x="381" y="76.2" size="2.54" layer="96" display="off"/>
+<attribute name="MPN" x="381" y="76.2" size="2.54" layer="96" display="off"/>
+<attribute name="DPN" x="381" y="76.2" size="2.54" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY1" gate="G$1" x="370.84" y="93.98" rot="MR0"/>
 <instance part="GND13" gate="1" x="370.84" y="63.5" rot="MR0"/>
 </instances>
@@ -16776,7 +16805,7 @@ built in</text>
 <pinref part="U6" gate="G$1" pin="PA11"/>
 </segment>
 </net>
-<net name="CAN_EN" class="0">
+<net name="CAN_SHDN" class="0">
 <segment>
 <wire x1="187.96" y1="127" x2="248.92" y2="127" width="0.1524" layer="91"/>
 <label x="246.38" y="127" size="1.778" layer="95" rot="MR0"/>
@@ -16784,7 +16813,7 @@ built in</text>
 <pinref part="U6" gate="G$1" pin="PA10"/>
 </segment>
 </net>
-<net name="CAN_LSTN" class="0">
+<net name="CAN_SILENT" class="0">
 <segment>
 <wire x1="248.92" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="129.54" x2="190.5" y2="121.92" width="0.1524" layer="91"/>

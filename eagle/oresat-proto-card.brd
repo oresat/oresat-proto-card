@@ -4319,7 +4319,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="6" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="CARD" library="oresat-card" package="ORESAT-CARD-V1.0" value="ORESAT-CARD-V0.5" x="0" y="0" locked="yes"/>
-<element name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" package="J-SAMTEC-TFM-120-X1-XXX-D-RA" value="J-SAMTEC-TFM-120-X1-XXX-D-RA" x="49.3" y="89" locked="yes"/>
+<element name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" package="J-SAMTEC-TFM-120-X1-XXX-D-RA" value="J-SAMTEC-TFM-120-X1-XXX-D-RA" x="49.3" y="89" locked="yes">
+<attribute name="DIS" value="Digi-Key" x="49.3" y="89" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="SAM10145-ND" x="49.3" y="89" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samtec" x="49.3" y="89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TFM-120-01-L-D-RA" x="49.3" y="89" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C4" library="oresat-rcl" package=".0603-B-NOSILK" value="10u" x="59.4" y="71.1" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="59.4" y="71.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DPN" value="1276-1001-1-ND" x="59.4" y="71.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4349,6 +4354,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="70.9" y="67.65" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="U1" library="ic-pwr-tps63070x" package="TPS63070X" value="TPS63070" x="62.8" y="69.6" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="62.8" y="69.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="296-44874-1-ND" x="62.8" y="69.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TI" x="62.8" y="69.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="TPS63070" x="62.8" y="69.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="63.55" y="71.95" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="C5" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="63.1" y="66.2" smashed="yes" rot="R270">
@@ -4449,8 +4458,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J7" library="J-CNC-3220-10-0100-00-ARM-SWD-port" package="1.27MM_2X5" value="1.27MM-SWD-CONNECTOR" x="71.8" y="3.8" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="71.8" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="1175-1627-ND" x="71.8" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFP" value="3220-10-0100-00" x="71.8" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="CNC Tech" x="71.8" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="3220-10-0100-00" x="71.8" y="3.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -5016,7 +5025,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="73.07" y1="3.165" x2="73.07" y2="1.73" width="0.3" layer="1"/>
 <wire x1="73.07" y1="1.73" x2="73.7" y2="1.1" width="0.3" layer="1"/>
 </signal>
-<signal name="CAN_EN">
+<signal name="CAN_SHDN">
 <contactref element="U2" pad="5"/>
 <contactref element="U6" pad="20"/>
 <wire x1="87.6" y1="81.25" x2="87.6" y2="82.5" width="0.3" layer="1"/>
@@ -5029,7 +5038,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="85.1" y1="86.7" x2="80.4" y2="86.7" width="0.3" layer="16"/>
 <wire x1="87.1" y1="82.5" x2="86.1" y2="83.5" width="0.3" layer="16"/>
 </signal>
-<signal name="CAN_LSTN">
+<signal name="CAN_SILENT">
 <contactref element="U2" pad="8"/>
 <contactref element="U6" pad="19"/>
 <wire x1="88.4" y1="81.25" x2="88.4" y2="82.5" width="0.3" layer="1"/>
