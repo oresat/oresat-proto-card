@@ -15972,7 +15972,12 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="VBUS2" library="oresat-supplies" deviceset="VBUS" device=""/>
-<part name="J1" library="J-Samtec-TFM-110-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-110-X1-XXX-D-RA" device=""/>
+<part name="J1" library="J-Samtec-TFM-110-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-110-X1-XXX-D-RA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="SAM10113-ND"/>
+<attribute name="MFR" value="Samtec"/>
+<attribute name="MPN" value="TFM-110-01-L-D-RA "/>
+</part>
 <part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
 <part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
 </parts>
@@ -16298,6 +16303,10 @@ ARM SWD connector</text>
 <instance part="J1" gate="G$1" x="16.51" y="57.15" smashed="yes" rot="MR0">
 <attribute name="NAME" x="22.86" y="83.185" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="10.16" y="25.4" size="1.778" layer="96"/>
+<attribute name="DIS" x="16.51" y="57.15" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="16.51" y="57.15" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="16.51" y="57.15" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="16.51" y="57.15" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="JP9" gate="A" x="64.77" y="57.15"/>
 <instance part="JP10" gate="A" x="77.47" y="177.8"/>
