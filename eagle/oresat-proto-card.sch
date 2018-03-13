@@ -15987,7 +15987,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <text x="304.8" y="151.13" size="1.778" layer="97" rot="MR0">NRST pull-up
 built in</text>
 <text x="341.63" y="26.67" size="3.81" layer="94">OreSat Proto-Card</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">1.1</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">2.0</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are ceramic 10% X5R &gt;= 16V Vwv unless marked</text>
 <text x="147.32" y="236.22" size="1.778" layer="97">0603</text>
@@ -17669,15 +17669,20 @@ ARM SWD connector</text>
 <approved hash="104,1,269.24,157.48,U6,VDDA,3.3V,,,"/>
 <approved hash="104,1,269.24,106.68,U6,VSS,GND,,,"/>
 <approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
+<approved hash="104,1,176.53,248.92,U1,VIN,VBUS,,,"/>
+<approved hash="104,1,201.93,248.92,U1,VOUT,3.3V,,,"/>
+<approved hash="104,1,191.77,213.36,U1,PGND,GND,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,78.6977,160.246,JP1,,,,,"/>
 <approved hash="113,1,101.837,150.086,JP2,,,,,"/>
 <approved hash="113,1,141.207,160.246,JP3,,,,,"/>
 <approved hash="113,1,270.468,51.0261,JP4,,,,,"/>
-<approved hash="113,1,179.307,67.5361,JP5,,,,,"/>
-<approved hash="113,1,179.307,87.8561,JP7,,,,,"/>
-<approved hash="113,1,179.307,49.7561,JP6,,,,,"/>
-<approved hash="113,1,183.473,25.4677,J5,,,,,"/>
+<approved hash="113,1,298.687,232.636,JP5,,,,,"/>
+<approved hash="113,1,298.687,252.956,JP7,,,,,"/>
+<approved hash="113,1,298.687,214.856,JP6,,,,,"/>
+<approved hash="113,1,170.773,17.7123,J5,,,,,"/>
+<approved hash="113,1,178.037,38.3261,JP8,,,,,"/>
+<approved hash="113,1,62.4671,57.3761,JP9,,,,,"/>
+<approved hash="113,1,78.6977,179.296,JP10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
