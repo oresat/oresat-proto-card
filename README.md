@@ -38,3 +38,11 @@ easy way to hack in functionality. NOT MEANT FOR FLIGHT.
       - RF Adapters - In Series SMPM JACK/JACK BULLET .21IN
       - Molex w/3D: https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000220_RF_COAX_CONNECTORS.xml
 
+## LICENSE
+
+Copyright Portland State Aerospace Society 2018.
+
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+
