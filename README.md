@@ -49,7 +49,7 @@ You may redistribute and modify this documentation under the terms of the CERN O
 ## Version Information
 
 Version | Date       | Notes
------------------------------------------------
+--------|------------|-------------------------
 3.0     | 2018/11/22 | Big changes in structure, mostly springs. Changed RF connectors to SMPM. Optimized layout for more proto area. 
 2.0     | 2018/03/?? | New 1.27 mm connectors, again.
 1.0     | ??         | New connectors.
