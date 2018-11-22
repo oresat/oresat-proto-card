@@ -7,7 +7,7 @@ easy way to hack in functionality. NOT MEANT FOR FLIGHT.
 
 - Populates the two 1.27 mm connectors from the backplane.
 - Populates all three SMPM RF connectors from the backplane.
-- Standard TPS63070-bsaed buck/boost SPS (Vin = 2.5 to 7 V)
+- Standard TPS63070-bsaed buck/boost SPS (Vin = 2.5 to 7 V, Vout = 3.3V)
 - Has our standard/favorite STM32F042K6 microcontroller.
    - With SWD, UART (FTDI), and CAN (to the backplane).
 - Has lots of breakouts, but DO NOT POPULATE THE 0.1 IN CONNECTORS, THEY'RE TOO TALL!!!
@@ -45,4 +45,12 @@ Copyright Portland State Aerospace Society 2018.
 This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
 
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+
+## Version Information
+
+Version | Date       | Notes
+-----------------------------------------------
+3.0     | 2018/11/22 | Big changes in structure, mostly springs. Changed RF connectors to SMPM. Optimized layout for more proto area. 
+2.0     | 2018/03/?? | New 1.27 mm connectors, again.
+1.0     | ??         | New connectors.
 
