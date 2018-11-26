@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15920,7 +15920,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R12" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100k">
+<part name="R12" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="150k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -16003,7 +16003,7 @@ built in</text>
 <text x="341.63" y="26.67" size="3.81" layer="94">OreSat Proto-Card</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">2.0</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
-<text x="11.43" y="2.54" size="1.778" layer="97">All caps are ceramic 10% X5R &gt;= 16V Vwv unless marked</text>
+<text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
 <text x="147.32" y="236.22" size="1.778" layer="97">0603</text>
 <text x="125.73" y="236.22" size="1.778" layer="97">0805</text>
 <text x="134.62" y="236.22" size="1.778" layer="97">0805</text>
