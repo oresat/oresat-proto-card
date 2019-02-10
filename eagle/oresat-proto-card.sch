@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15811,9 +15811,9 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <pin name="RS-" x="5.08" y="20.32" length="short" direction="pas" rot="R270"/>
 <pin name="VCC" x="-15.24" y="10.16" length="short" direction="pwr"/>
 <pin name="INHIBIT" x="-15.24" y="0" length="short" direction="in"/>
-<pin name="COUT1" x="-15.24" y="-2.54" length="short" direction="out"/>
+<pin name="COUT1" x="-15.24" y="-2.54" length="short" direction="oc"/>
 <pin name="LE" x="-15.24" y="-5.08" length="short" direction="in"/>
-<pin name="COUT2" x="-15.24" y="-12.7" length="short" direction="out"/>
+<pin name="COUT2" x="-15.24" y="-12.7" length="short" direction="oc"/>
 <pin name="GND" x="0" y="-25.4" length="short" direction="pwr" rot="R90"/>
 <pin name="CIN2-" x="15.24" y="-17.78" length="short" direction="in" rot="R180"/>
 <pin name="CIN2+" x="15.24" y="-12.7" length="short" direction="in" rot="R180"/>
@@ -21959,7 +21959,6 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <text x="245.11" y="172.72" size="1.778" layer="97">0603</text>
 <text x="64.77" y="96.52" size="1.778" layer="97">OreSat Power Domain (OPD)
 Power Supply (3.3V)</text>
-<text x="363.22" y="187.96" size="1.778" layer="97">(From power domain pins)</text>
 <text x="40.64" y="215.9" size="3.81" layer="97">OreSat Power Domain (OPD) Controller</text>
 <wire x1="22.86" y1="220.98" x2="157.48" y2="220.98" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="220.98" x2="157.48" y2="74.93" width="0.1524" layer="97"/>
@@ -22002,8 +22001,8 @@ Power Supply (3.3V)</text>
 <attribute name="DPN" x="383.54" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="383.54" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="383.54" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="382.0414" y="186.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="386.842" y="186.69" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="382.27" y="185.42" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="382.27" y="190.5" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="R" x="294.64" y="69.85" smashed="yes" rot="R90">
 <attribute name="DIS" x="294.64" y="69.85" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22232,7 +22231,7 @@ Power Supply (3.3V)</text>
 <attribute name="MFR" x="337.82" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="337.82" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="336.3214" y="175.26" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="336.042" y="180.34" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="336.55" y="180.34" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R33" gate="R" x="322.58" y="177.8" smashed="yes" rot="R180">
 <attribute name="DIS" x="322.58" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
@@ -22279,8 +22278,8 @@ Power Supply (3.3V)</text>
 <attribute name="DPN" x="347.98" y="193.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="347.98" y="193.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="347.98" y="193.04" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="346.4814" y="189.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="346.202" y="194.31" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="346.71" y="187.96" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="346.71" y="194.31" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R36" gate="R" x="254" y="170.18" smashed="yes" rot="R90">
 <attribute name="DIS" x="254" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22301,24 +22300,24 @@ Power Supply (3.3V)</text>
 <instance part="GND36" gate="1" x="254" y="160.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="256.54" y="157.48" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C2" gate="CE" x="254" y="180.34" smashed="yes" rot="MR180">
-<attribute name="DIS" x="254" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="DPN" x="254" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MFR" x="254" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="254" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="NAME" x="255.27" y="182.88" size="1.778" layer="95"/>
-<attribute name="VALUE" x="255.27" y="180.34" size="1.778" layer="96" rot="MR180"/>
+<instance part="C2" gate="CE" x="254" y="179.07" smashed="yes" rot="MR180">
+<attribute name="DIS" x="254" y="179.07" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="DPN" x="254" y="179.07" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MFR" x="254" y="179.07" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="254" y="179.07" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="NAME" x="255.27" y="181.61" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="179.07" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND37" gate="1" x="360.68" y="154.94" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="363.22" y="152.4" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R38" gate="R" x="360.68" y="176.53" smashed="yes" rot="R90">
-<attribute name="DIS" x="360.68" y="176.53" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="360.68" y="176.53" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="360.68" y="176.53" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="360.68" y="176.53" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="359.1814" y="172.72" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="358.902" y="177.8" size="1.778" layer="96" rot="R90"/>
+<instance part="R38" gate="R" x="360.68" y="177.8" smashed="yes" rot="R90">
+<attribute name="DIS" x="360.68" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="360.68" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="360.68" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="360.68" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="359.41" y="172.72" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="359.41" y="179.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP8" gate="G$1" x="203.2" y="129.54" smashed="yes">
 <attribute name="NAME" x="200.66" y="125.73" size="1.778" layer="95" font="vector"/>
@@ -22605,6 +22604,7 @@ Power Supply (3.3V)</text>
 <wire x1="276.86" y1="78.74" x2="276.86" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="TP17" gate="G$1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="2"/>
+<junction x="276.86" y="76.2"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -22914,7 +22914,7 @@ Power Supply (3.3V)</text>
 <pinref part="R37" gate="R" pin="2"/>
 <wire x1="254" y1="175.26" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="C2" gate="CE" pin="1"/>
-<wire x1="254" y1="177.8" x2="254" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="254" y1="176.53" x2="254" y2="175.26" width="0.1524" layer="91"/>
 <junction x="254" y="175.26"/>
 </segment>
 </net>
@@ -22929,7 +22929,7 @@ Power Supply (3.3V)</text>
 <wire x1="203.2" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="TP8" gate="G$1" pin="1"/>
 <junction x="203.2" y="129.54"/>
-<wire x1="360.68" y1="171.45" x2="360.68" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="172.72" x2="360.68" y2="170.18" width="0.1524" layer="91"/>
 <label x="144.78" y="139.7" size="1.778" layer="95"/>
 <label x="355.6" y="129.54" size="1.778" layer="95"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
@@ -22965,7 +22965,7 @@ Power Supply (3.3V)</text>
 <junction x="213.36" y="58.42"/>
 </segment>
 </net>
-<net name="N$585" class="0">
+<net name="MAX4211-3V3" class="0">
 <segment>
 <pinref part="C5" gate="CE" pin="1"/>
 <wire x1="243.84" y1="182.88" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
@@ -22983,7 +22983,7 @@ Power Supply (3.3V)</text>
 <pinref part="VBUSP1" gate="G$1" pin="VBUSP"/>
 <wire x1="383.54" y1="203.2" x2="383.54" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="C2" gate="CE" pin="2"/>
-<wire x1="254" y1="185.42" x2="254" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="254" y1="184.15" x2="254" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="254" y1="208.28" x2="363.22" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="208.28" x2="363.22" y2="198.12" width="0.1524" layer="91"/>
 <junction x="363.22" y="198.12"/>
@@ -23028,7 +23028,7 @@ Power Supply (3.3V)</text>
 <segment>
 <pinref part="R38" gate="R" pin="2"/>
 <pinref part="VPD1" gate="G$1" pin="VPD"/>
-<wire x1="360.68" y1="185.42" x2="360.68" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="185.42" x2="360.68" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="V+"/>
@@ -23763,27 +23763,30 @@ ARM SWD connector</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,332.74,139.7,X1,SHIELD,GND,,,"/>
-<approved hash="104,1,175.26,144.78,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,276.86,157.48,U6,VDD,3.3V,,,"/>
-<approved hash="104,1,269.24,157.48,U6,VDDA,3.3V,,,"/>
-<approved hash="104,1,269.24,106.68,U6,VSS,GND,,,"/>
-<approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
-<approved hash="104,1,176.53,248.92,U1,VIN,VBUS,,,"/>
-<approved hash="104,1,201.93,248.92,U1,VOUT,3.3V,,,"/>
-<approved hash="104,1,191.77,213.36,U1,PGND,GND,,,"/>
+<approved hash="104,3,283.21,186.69,X1,SHIELD,GND,,,"/>
+<approved hash="104,3,135.89,191.77,U2,VCC,3.3V,,,"/>
+<approved hash="104,3,227.33,204.47,U6,VDD,3.3V,,,"/>
+<approved hash="104,3,219.71,204.47,U6,VDDA,3.3V,,,"/>
+<approved hash="104,3,219.71,153.67,U6,VSS,GND,,,"/>
+<approved hash="104,3,212.09,204.47,U6,VDDIO2,3.3V,,,"/>
+<approved hash="104,2,127,149.86,U3,V+,VPD,,,"/>
+<approved hash="104,2,269.24,185.42,U4,VCC,MAX4211-3V3,,,"/>
+<approved hash="104,2,226.06,73.66,U5,VIN,VBUSP,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,270.468,51.0261,JP4,,,,,"/>
-<approved hash="113,1,310.117,246.606,JP5,,,,,"/>
-<approved hash="113,1,326.627,228.826,JP7,,,,,"/>
-<approved hash="113,1,310.117,228.826,JP6,,,,,"/>
-<approved hash="113,1,170.773,17.7123,J5,,,,,"/>
-<approved hash="113,1,178.037,38.3261,JP8,,,,,"/>
-<approved hash="113,1,76.4371,57.3761,JP9,,,,,"/>
-<approved hash="113,1,76.1577,115.796,JP10,,,,,"/>
-<approved hash="113,1,138.667,109.446,JP1,,,,,"/>
-<approved hash="113,1,65.9977,180.566,JP11,,,,,"/>
-<approved hash="113,1,326.627,249.146,JP3,,,,,"/>
+<approved hash="113,3,220.938,98.0161,JP4,,,,,"/>
+<approved hash="113,1,251.697,82.7761,JP5,,,,,"/>
+<approved hash="113,1,251.697,64.9961,JP6,,,,,"/>
+<approved hash="113,3,133.943,64.7023,J5,,,,,"/>
+<approved hash="113,3,140.733,85.3161,JP8,,,,,"/>
+<approved hash="113,1,223.757,78.9661,JP9,,,,,"/>
+<approved hash="113,1,223.478,128.496,JP10,,,,,"/>
+<approved hash="113,1,269.477,122.146,JP1,,,,,"/>
+<approved hash="113,1,245.11,204.696,JP11,,,,,"/>
+<approved hash="113,1,268.207,85.3161,JP3,,,,,"/>
+<approved hash="113,2,284.48,199.21,R29,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME2,,,,,"/>
+<approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
+<approved hash="113,2,233.68,180.823,U7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
