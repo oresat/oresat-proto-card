@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -21155,7 +21155,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <part name="Q4" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
 <part name="Q5" library="Tova" deviceset="PMV45EN" device=""/>
 <part name="Q6" library="Tova" deviceset="PMV45EN" device=""/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="XC63FP" device="M" package3d_urn="urn:adsk.eagle:package:30367/1"/>
+<part name="U7" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="XC63FP" device="M" package3d_urn="urn:adsk.eagle:package:30367/1"/>
 <part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
@@ -22411,7 +22411,7 @@ Power Supply (3.3V)</text>
 <attribute name="VALUE" x="363.22" y="165.1" size="1.778" layer="96"/>
 <attribute name="NAME" x="363.22" y="167.64" size="1.778" layer="95"/>
 </instance>
-<instance part="IC1" gate="G$1" x="233.68" y="185.42" smashed="yes">
+<instance part="U7" gate="G$1" x="233.68" y="185.42" smashed="yes">
 <attribute name="NAME" x="236.22" y="177.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="236.22" y="175.26" size="1.778" layer="96"/>
 </instance>
@@ -22575,7 +22575,7 @@ Power Supply (3.3V)</text>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
 <wire x1="233.68" y1="175.26" x2="233.68" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22969,7 +22969,7 @@ Power Supply (3.3V)</text>
 <segment>
 <pinref part="C5" gate="CE" pin="1"/>
 <wire x1="243.84" y1="182.88" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="U7" gate="G$1" pin="OUT"/>
 <wire x1="243.84" y1="185.42" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="VCC"/>
 <wire x1="243.84" y1="185.42" x2="269.24" y2="185.42" width="0.1524" layer="91"/>
@@ -23059,7 +23059,7 @@ Power Supply (3.3V)</text>
 <net name="N$398" class="0">
 <segment>
 <pinref part="C4" gate="CE" pin="1"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="U7" gate="G$1" pin="IN"/>
 <wire x1="223.52" y1="185.42" x2="226.06" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="185.42" x2="223.52" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="185.42" x2="223.52" y2="203.2" width="0.1524" layer="91"/>
