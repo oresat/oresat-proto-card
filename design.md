@@ -6,6 +6,8 @@ The TPS6211 is the Best Thing Ever because it's a high efficiency, high frequenc
 uses an internal P channel MOSFET (PFETs) for switching, not a boosted N channel. It's got a decent temp rating and
 it's small. It can be frequency locked, which is awesome. And it requires very few external components.
 
+TPS62111RSA
+
 **TODO:** TPS6211x Driving EN and SYNC Pins (SLVA295)
 **TODO:** Check the evaluation board?
 
@@ -53,10 +55,12 @@ it's small. It can be frequency locked, which is awesome. And it requires very f
 
 ### Components
 
-- Inductor: ECS-MPI4040R4-6R8-R
+- Inductor: ECS-MPI4040R4-6R8-R 
    - Really only the inductor is special; everything else is just low Resr ceramic caps, where less R and more C is better.
    - Chose the smallest foot print inductor with height <= 2.0 mm that worked for the worst case TPS6211 switch current  of 2.4A
-   - 4.7 x 4.31 x 2.0 mm, Irms = 2.4 A, Isat = 3.2 A, DCR = 91 mOhm
+   - 6.8 uH +/- 20%, 4.7 x 4.31 x 2.0 mm, Irms = 2.4 A, Isat = 3.2 A, DCR = 91 mOhm, AEC-Q200 qualified
+   - Don't love the 20%, but everything else, based on the size, is good. Don't forget: must be < 2.0 mm tall.
+   
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -74,6 +78,7 @@ that have a > 5V voltage, like Vbus or Vbusp.
 
 - https://datasheets.maximintegrated.com/en/ds/MAX7310.pdf
 - 2.7 - 5V, 1.7 uA standby, -40°C to +125°C
+- QFN package: MAX7310ATE
 
 ### Components
 
@@ -82,7 +87,12 @@ that have a > 5V voltage, like Vbus or Vbusp.
    - R in series with power: something to prevent death and destruction if it latches up.
    - R in series with SDA/SCL: something to prevent D&D if those lines latch up. Would be great if we could have OC SDA latch up and still use 
      I2C bus... is that even possible?
-     
+
+### Musings
+
+- What can we do to make this thing even more bulletproof? What about some kind of CAN transciever-like "disconnect if low too long"?
+  Unclear how to do this since we don't have access to the driver internals :( - Maybe disconnect ALL drivers if low too long?
+
 -----------------------------------------------------------------------------------------------------------------------
 
 ## MAX4211 High-Side Power and Current Monitors
@@ -91,6 +101,9 @@ We wanted a circuitbreaker that used a PFET for the switch. This is very, very h
 efuse, we found this IC instead. It's a "power and current monitor", and it's really just a circuit breaker IC with an external PFET.
 Is it better than building it ourselves? Well, frankly, it's just about the same with some nice features built into it, like latching off, 
 and less comparators, and decent voltage range. So OK, we'll use it. 
+
+QFN package, largest current gain (reduces Rsense), internal voltage divider, MAX4211CETE
+   - MAX4211FETE is OK, but the power output is lost.
 
 ### Components
 
@@ -110,44 +123,37 @@ and less comparators, and decent voltage range. So OK, we'll use it.
       - https://www.digikey.com/product-detail/en/microchip-technology/MCP1703AT-3302E-CB/MCP1703AT-3302E-CBCT-ND/3598398
       - http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
    - Alternative: Taiwan Semiconductor TS9011
-   
-   
 
+### Calculating Rsense
 
+Some protocards will take ~ 50 mA when on (magnetometers) could take up to 3 amps (DxWiFi PA) We'll need to be able to adjust this. Arbitrarily, 
+it seems like 100 mA is a good lower bound on the circuit breaker, and 5 A (which is greater than the PFET max current of 3.7A) is a good 
+maximum. 
 
+Design example for a 250 mA trip
 
+- Just assume a 25 mV drop across Rsense. This means @ 250 mA, a 25 mV drop implies Rsense = 0.1 ohm
+- Ploss = .25^2*.1 = 6.25 mW
+- Iout = 25 mV *  40.96 current gain = 1.024V
+- Vref = 1.19 - 1.23 V
 
+Huh! Let's assume a different way:
 
+- Rsense = 0.1 ohms
+- VIout = 40.96 * Rsense * I
+- So to find I @ 1.19V minimum cutoff is 1.19 V /(40.96 * .1) = 290 mA
+   - 1.23 V / (40.96 * .1) = 300 mA
 
+So a 300 mA current draw with a 0.1 ohm Rsense and losing 9 mW will always cause a trip.
 
+Looking at the comparator input errors:
 
+- Comparator Input Offset = +/- 5 mV max
+- Comparator Hysteresis = 5 mV
 
+So worst case, 10 mV error. To keep this under 10%, make sure the trip voltage is > 100 mV.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+What's the power use at 300 mA? That's (1.8, 2.2, 2.52) W. So 9 mW is max 0.05% power loss of the system. seems OK.
 
 
 
