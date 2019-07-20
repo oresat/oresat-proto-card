@@ -22422,6 +22422,8 @@ Power Supply (3.3V)</text>
 <wire x1="167.64" y1="119.38" x2="167.64" y2="220.98" width="0.1524" layer="97"/>
 <text x="236.22" y="215.9" size="3.81" layer="97">Card Power Switch and Circuit Breaker</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
+<text x="111.252" y="100.584" size="1.778" layer="97">Note: Address 0b0111110x is 
+reserved on all oresat cards</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
