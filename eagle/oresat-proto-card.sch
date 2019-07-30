@@ -21573,9 +21573,6 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <part name="VBUSP3" library="oresat-supplies" deviceset="VBUSP" device=""/>
 <part name="VBUSP5" library="oresat-supplies" deviceset="VBUSP" device=""/>
 <part name="VBUSP6" library="oresat-supplies" deviceset="VBUSP" device=""/>
-<part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP3" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP4" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP5" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP10" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP18" library="Tova" deviceset="TEST-POINT" device=""/>
@@ -22407,19 +22404,19 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <text x="64.77" y="124.46" size="1.778" layer="97">OreSat Power Domain (OPD)
 Power Supply (3.3V)</text>
 <text x="40.64" y="215.9" size="3.81" layer="97">OreSat Power Domain (OPD) Controller</text>
-<wire x1="22.86" y1="220.98" x2="157.48" y2="220.98" width="0.1524" layer="97"/>
-<wire x1="157.48" y1="220.98" x2="157.48" y2="29.21" width="0.1524" layer="97"/>
-<wire x1="157.48" y1="29.21" x2="22.86" y2="29.21" width="0.1524" layer="97"/>
+<wire x1="22.86" y1="220.98" x2="177.8" y2="218.44" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="218.44" x2="177.8" y2="26.67" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="26.67" x2="22.86" y2="29.21" width="0.1524" layer="97"/>
 <wire x1="22.86" y1="29.21" x2="22.86" y2="220.98" width="0.1524" layer="97"/>
 <text x="210.82" y="96.52" size="3.81" layer="97">3.3V Card Switching Supply</text>
-<wire x1="180.34" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="307.34" y1="101.6" x2="307.34" y2="30.48" width="0.1524" layer="97"/>
-<wire x1="307.34" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="97"/>
-<wire x1="180.34" y1="30.48" x2="180.34" y2="101.6" width="0.1524" layer="97"/>
-<wire x1="167.64" y1="220.98" x2="396.24" y2="220.98" width="0.1524" layer="97"/>
+<wire x1="307.34" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="30.48" x2="182.88" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="220.98" x2="396.24" y2="220.98" width="0.1524" layer="97"/>
 <wire x1="396.24" y1="220.98" x2="396.24" y2="119.38" width="0.1524" layer="97"/>
-<wire x1="396.24" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="97"/>
-<wire x1="167.64" y1="119.38" x2="167.64" y2="220.98" width="0.1524" layer="97"/>
+<wire x1="396.24" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="119.38" x2="182.88" y2="220.98" width="0.1524" layer="97"/>
 <text x="236.22" y="215.9" size="3.81" layer="97">Card Power Switch and Circuit Breaker</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
 <text x="111.252" y="100.584" size="1.778" layer="97">Note: Address 0b0111110x is 
@@ -22915,15 +22912,6 @@ reserved on all oresat cards</text>
 </instance>
 <instance part="TP1" gate="G$1" x="81.28" y="114.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.82" y="118.11" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="TP2" gate="G$1" x="147.32" y="137.16" smashed="yes">
-<attribute name="NAME" x="144.78" y="133.35" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP3" gate="G$1" x="152.4" y="134.62" smashed="yes">
-<attribute name="NAME" x="149.86" y="130.81" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP4" gate="G$1" x="147.32" y="132.08" smashed="yes">
-<attribute name="NAME" x="144.78" y="128.27" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP5" gate="G$1" x="152.4" y="129.54" smashed="yes">
 <attribute name="NAME" x="149.86" y="125.73" size="1.778" layer="95" font="vector"/>
@@ -23658,32 +23646,27 @@ reserved on all oresat cards</text>
 <junction x="292.1" y="198.12"/>
 </segment>
 </net>
-<net name="N$480" class="0">
+<net name="PB6/SCL" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="IO3"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<label x="172.72" y="132.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="142.24" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="137.16" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$482" class="0">
+<net name="PB7/SDA" class="0">
 <segment>
-<pinref part="TP3" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="IO4"/>
-<wire x1="152.4" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<label x="167.64" y="132.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="167.64" y1="134.62" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$518" class="0">
+<net name="BOOT" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="IO5"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$523" class="0">
-<segment>
-<pinref part="TP5" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="IO6"/>
-<wire x1="152.4" y1="129.54" x2="142.24" y2="129.54" width="0.1524" layer="91"/>
+<label x="162.56" y="132.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="142.24" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$573" class="0">
@@ -23746,6 +23729,13 @@ reserved on all oresat cards</text>
 <wire x1="109.22" y1="73.66" x2="109.22" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$385" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IO6"/>
+<wire x1="142.24" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -23762,6 +23752,14 @@ USB 5V (DEV ONLY)</text>
 ARM SWD connector</text>
 <text x="123.19" y="149.86" size="2.54" layer="97">CAN Transceiver</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
+<wire x1="266.7" y1="121.92" x2="266.7" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="76.2" x2="294.64" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="294.64" y1="76.2" x2="294.64" y2="121.92" width="0.1524" layer="97"/>
+<wire x1="294.64" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="97"/>
+<text x="267.97" y="81.28" size="1.778" layer="97">Emergency M0 
+bootstrapping over OPD 
+I2C Address: 
+0b0111110x</text>
 </plain>
 <instances>
 <instance part="C3" gate="CE" x="238.76" y="218.44" smashed="yes" rot="MR180">
@@ -24110,6 +24108,10 @@ ARM SWD connector</text>
 <wire x1="203.2" y1="114.3" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="210.82" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<wire x1="246.38" y1="114.3" x2="274.32" y2="114.3" width="0.1524" layer="91"/>
+<junction x="246.38" y="114.3"/>
+<label x="274.32" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="274.32" y1="114.3" x2="274.32" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRESET" class="0">
@@ -24132,6 +24134,10 @@ ARM SWD connector</text>
 <wire x1="200.66" y1="116.84" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
 <label x="210.82" y="106.68" size="1.778" layer="95" rot="MR0"/>
+<label x="279.4" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="248.92" y1="116.84" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
+<junction x="248.92" y="116.84"/>
+<wire x1="279.4" y1="116.84" x2="279.4" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -24290,6 +24296,10 @@ ARM SWD connector</text>
 <pinref part="TP15" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="157.48" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
 <junction x="241.3" y="157.48"/>
+<wire x1="241.3" y1="160.02" x2="284.48" y2="160.02" width="0.1524" layer="91"/>
+<junction x="241.3" y="160.02"/>
+<wire x1="284.48" y1="160.02" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="284.48" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="PA0" class="0">
