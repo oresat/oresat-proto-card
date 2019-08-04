@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -21433,13 +21433,13 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="U$1" library="oresat-cards" deviceset="ORESAT-CARD-V1.1" device="-3XRF"/>
-<part name="R39" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<part name="R39" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R40" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<part name="R40" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21908,7 +21908,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <wire x1="118.11" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AUX_CAN2_H" class="0">
+<net name="AUX-1" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
@@ -21923,7 +21923,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_CAN2_L" class="0">
+<net name="AUX-2" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
@@ -21938,7 +21938,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_VBUS2" class="0">
+<net name="AUX-3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="111.76" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
@@ -21953,7 +21953,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_VBUS1" class="0">
+<net name="AUX-4" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
 <wire x1="111.76" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
@@ -21968,7 +21968,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_GND3" class="0">
+<net name="AUX-5" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="111.76" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
@@ -21983,7 +21983,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_GND2" class="0">
+<net name="AUX-6" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="11"/>
 <pinref part="JP9" gate="A" pin="6"/>
@@ -22011,7 +22011,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_GND1" class="0">
+<net name="AUX-9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="17"/>
 <wire x1="111.76" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
@@ -22062,7 +22062,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="AUX_CAN1_L" class="0">
+<net name="AUX-8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="15"/>
 <wire x1="111.76" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
@@ -22077,7 +22077,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <label x="121.92" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AUX_CAN1_H" class="0">
+<net name="AUX-7" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="111.76" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
@@ -22229,6 +22229,11 @@ Power Supply (3.3V)</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
 <text x="111.252" y="100.584" size="1.778" layer="97">Note: Address 0b0111110x is 
 reserved on all oresat cards</text>
+<text x="170.18" y="121.92" size="1.778" layer="97">Place only if
+I2C pullups
+not placed.</text>
+<text x="170.18" y="114.3" size="1.778" layer="97">47k forces
+slow I2C</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>

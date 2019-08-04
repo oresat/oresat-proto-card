@@ -24,20 +24,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -6045,7 +6045,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="63.9" y="65.05" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="U$1" library="oresat-cards" package="ORESAT-CARD-V1.1-3XRF" value="ORESAT-CARD-V1.1-3XRF" x="0" y="0" locked="yes" smashed="yes"/>
-<element name="R39" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="55.7" y="64" smashed="yes" rot="R180">
+<element name="R39" library="rcl_custom" package=".0402-B-NOSILK" value="47k" x="55.7" y="64" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="55.7" y="64" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="55.7" y="64" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="55.7" y="64" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
@@ -6054,7 +6054,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="53.1" y="63.35" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="56.5" y="65.35" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R40" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="55.7" y="62.9" smashed="yes" rot="R180">
+<element name="R40" library="rcl_custom" package=".0402-B-NOSILK" value="47k" x="55.7" y="62.9" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="55.7" y="62.9" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="55.7" y="62.9" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="55.7" y="62.9" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
@@ -8013,7 +8013,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.72" y1="25.53" x2="17.7" y2="25.53" width="1" layer="16"/>
 <wire x1="17.7" y1="25.53" x2="17.73" y2="25.5" width="1" layer="16"/>
 </signal>
-<signal name="AUX_CAN2_H">
+<signal name="AUX-1">
 <contactref element="J1" pad="1"/>
 <contactref element="JP9" pad="1"/>
 <contactref element="J1" pad="2"/>
@@ -8025,7 +8025,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="27.615" y1="87.335" x2="28.65" y2="86.3" width="0.3" layer="16"/>
 <wire x1="28.65" y1="86.3" x2="31.25" y2="86.3" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_CAN2_L">
+<signal name="AUX-2">
 <contactref element="J1" pad="3"/>
 <contactref element="JP9" pad="2"/>
 <contactref element="J1" pad="4"/>
@@ -8037,7 +8037,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.89" y1="83.94" x2="30.89" y2="82.8" width="0.3" layer="16"/>
 <wire x1="26.95" y1="85.5" x2="29.45" y2="85.5" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_VBUS2">
+<signal name="AUX-3">
 <contactref element="J1" pad="5"/>
 <contactref element="JP9" pad="3"/>
 <contactref element="J1" pad="6"/>
@@ -8048,7 +8048,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.075" y1="86.375" x2="26.95" y2="84.5" width="0.3" layer="16"/>
 <wire x1="26.95" y1="84.5" x2="27.35" y2="84.5" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_VBUS1">
+<signal name="AUX-4">
 <contactref element="J1" pad="7"/>
 <contactref element="JP9" pad="4"/>
 <contactref element="J1" pad="8"/>
@@ -8057,7 +8057,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.81" y1="84.14" x2="25.81" y2="82.8" width="0.3" layer="16"/>
 <wire x1="23.805" y1="86.145" x2="25.81" y2="84.14" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_GND3">
+<signal name="AUX-5">
 <contactref element="J1" pad="9"/>
 <contactref element="JP9" pad="5"/>
 <contactref element="J1" pad="10"/>
@@ -8066,7 +8066,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.535" y1="87.359" x2="22.535" y2="85.715" width="0.3" layer="16"/>
 <wire x1="22.535" y1="88.629" x2="22.535" y2="87.359" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_GND2">
+<signal name="AUX-6">
 <contactref element="J1" pad="11"/>
 <contactref element="JP9" pad="6"/>
 <contactref element="J1" pad="12"/>
@@ -8088,7 +8088,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.185" y1="86.835" x2="15.55" y2="86.2" width="0.3" layer="16"/>
 <wire x1="15.55" y1="86.2" x2="12.65" y2="86.2" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_GND1">
+<signal name="AUX-9">
 <contactref element="J1" pad="17"/>
 <contactref element="JP9" pad="9"/>
 <contactref element="J1" pad="18"/>
@@ -8141,7 +8141,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="29" y1="77.1" x2="29" y2="75.2" width="0.2" layer="1"/>
 <wire x1="29" y1="75.2" x2="28.2" y2="74.4" width="0.2" layer="1"/>
 </signal>
-<signal name="AUX_CAN1_L">
+<signal name="AUX-8">
 <contactref element="J1" pad="15"/>
 <contactref element="JP9" pad="8"/>
 <contactref element="J1" pad="16"/>
@@ -8152,7 +8152,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="18.725" y1="86.075" x2="18.15" y2="85.5" width="0.3" layer="16"/>
 <wire x1="15.65" y1="83.6" x2="15.65" y2="82.8" width="0.3" layer="16"/>
 </signal>
-<signal name="AUX_CAN1_H">
+<signal name="AUX-7">
 <contactref element="J1" pad="13"/>
 <contactref element="JP9" pad="7"/>
 <contactref element="J1" pad="14"/>
