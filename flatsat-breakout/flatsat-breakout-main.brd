@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -172,8 +172,8 @@
 <text x="8.5" y="42.4" size="1" layer="21">OPD_PWR</text>
 <text x="10" y="39.8" size="1" layer="21">CAN2_H</text>
 <text x="10" y="37.3" size="1" layer="21">CAN2_L</text>
-<text x="11.3" y="32.2" size="1" layer="21">VBUS</text>
-<text x="12.1" y="24.5" size="1" layer="21">GND</text>
+<text x="10.8" y="32.2" size="1" layer="21">VBUS</text>
+<text x="11.6" y="24.5" size="1" layer="21">GND</text>
 <text x="9.7" y="19.5" size="1" layer="21">CAN1_H</text>
 <text x="9.9" y="16.9" size="1" layer="21">CAN1_L</text>
 <text x="13.2" y="11.8" size="1" layer="21">!SD</text>
@@ -182,6 +182,15 @@
 <wire x1="-10" y1="1" x2="-11" y2="0" width="0.5" layer="49"/>
 <wire x1="-12" y1="-1" x2="-11" y2="0" width="0.5" layer="49"/>
 <text x="-17" y="2" size="1" layer="49">AUX connector here.</text>
+<text x="6" y="63.5" size="1.1" layer="21" font="vector" ratio="12">FlatSat Breakout - Main v1.0
+2019-08-05  Backplane v2.1 </text>
+<wire x1="15.5" y1="36.5" x2="15" y2="36.5" width="0.1524" layer="21"/>
+<wire x1="15" y1="36.5" x2="15" y2="29" width="0.1524" layer="21"/>
+<wire x1="15" y1="29" x2="15.5" y2="29" width="0.1524" layer="21"/>
+<wire x1="15.5" y1="28.5" x2="15" y2="28.5" width="0.1524" layer="21"/>
+<wire x1="15" y1="28.5" x2="15" y2="21.5" width="0.1524" layer="21"/>
+<wire x1="15" y1="21.5" x2="15.5" y2="21.5" width="0.1524" layer="21"/>
+<text x="12.1" y="14.5" size="1" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="J-Samtec-SFM-120-02-X-DH">
@@ -944,11 +953,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="9.4054" y="6.477" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X20" package3d_urn="urn:adsk.eagle:package:22443/2" value="" x="5" y="36.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.175" y="61.9" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="4.6" y="62.175" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="0.555" y="61.9" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X20" package3d_urn="urn:adsk.eagle:package:22443/2" value="" x="29" y="36.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.175" y="61.9" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="28.6" y="62.175" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="24.555" y="61.9" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="2.5" y="8" smashed="yes">
@@ -964,7 +973,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="31.5" y="63.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X20" package3d_urn="urn:adsk.eagle:package:22441/2" value="" x="17" y="36.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.8288" y="61.9762" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="16.5238" y="62.3288" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="13.825" y="61.9" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
@@ -1337,6 +1346,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
