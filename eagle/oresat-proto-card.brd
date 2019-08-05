@@ -4961,7 +4961,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
 <wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="20"/>
 <wire x1="0" y1="9" x2="0.5" y2="8.5" width="0.001" layer="20" curve="90"/>
-<wire x1="0.5" y1="8.5" x2="2.1" y2="8.5" width="0.001" layer="20"/>
+<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="20"/>
 <wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
 <wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
 <wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
@@ -4985,19 +4985,19 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="89.4" y1="93.7" x2="88.16795" y2="93.7" width="0.001" layer="20"/>
 <wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
 <wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="97.7" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
+<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
 <wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="20" curve="90"/>
 <wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="20"/>
-<wire x1="97.2" y1="4.1" x2="97.2" y2="8" width="0.001" layer="20"/>
-<wire x1="84.8" y1="3.6" x2="96.7" y2="3.6" width="0.001" layer="20"/>
+<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="20"/>
+<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
 <wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="20"/>
 <wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="20" curve="90"/>
 <wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
 <wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
-<wire x1="3.1" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
-<wire x1="2.6" y1="8" x2="2.6" y2="4.1" width="0.001" layer="20"/>
-<wire x1="2.6" y1="8" x2="2.1" y2="8.5" width="0.001" layer="20" curve="90"/>
+<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
+<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="20"/>
+<wire x1="2.75" y1="8" x2="2.25" y2="8.5" width="0.001" layer="20" curve="90"/>
 <wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
 <wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
 <wire x1="64.66795" y1="94.7" x2="66.4" y2="93.7" width="0.001" layer="20" curve="59.999988"/>
@@ -5012,11 +5012,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="87.16795" y1="90.7" x2="87.66795" y2="91.2" width="0.001" layer="20" curve="90"/>
 <wire x1="88.16795" y1="93.7" x2="87.66795" y2="93.2" width="0.001" layer="20" curve="90"/>
 <wire x1="89.4" y1="93.7" x2="91.13205" y2="94.7" width="0.001" layer="20" curve="59.999988"/>
-<wire x1="97.7" y1="8.5" x2="97.2" y2="8" width="0.001" layer="20" curve="90"/>
-<wire x1="96.7" y1="3.6" x2="97.2" y2="4.1" width="0.001" layer="20" curve="90"/>
+<wire x1="97.55" y1="8.5" x2="97.05" y2="8" width="0.001" layer="20" curve="90"/>
+<wire x1="96.55" y1="3.6" x2="97.05" y2="4.1" width="0.001" layer="20" curve="90"/>
 <wire x1="84.8" y1="3.6" x2="84.3" y2="3.1" width="0.001" layer="20" curve="90"/>
 <wire x1="15.5" y1="3.1" x2="15" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="2.6" y1="4.1" x2="3.1" y2="3.6" width="0.001" layer="20" curve="90"/>
+<wire x1="2.75" y1="4.1" x2="3.25" y2="3.6" width="0.001" layer="20" curve="90"/>
 <wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="52"/>
 <wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="51"/>
 <wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="52"/>
@@ -5083,8 +5083,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="15.5" y1="2.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
 <wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="100"/>
 <wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="2.5" y1="91.4" x2="2.5" y2="8.3" width="0.001" layer="100"/>
-<wire x1="97.3" y1="8.3" x2="97.3" y2="91.4" width="0.001" layer="100"/>
+<wire x1="2.5" y1="91.4" x2="2.5" y2="8.45" width="0.001" layer="100"/>
+<wire x1="97.3" y1="8.45" x2="97.3" y2="91.4" width="0.001" layer="100"/>
 <wire x1="49.9" y1="44.671840625" x2="49.9" y2="90" width="0.001" layer="100"/>
 <wire x1="9.872909375" y1="88" x2="56.421040625" y2="88" width="0.001" layer="100"/>
 <wire x1="21.9" y1="90" x2="21.9" y2="86" width="0.001" layer="100"/>
@@ -5101,9 +5101,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="100" curve="90"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
 <wire x1="84.3" y1="2.5" x2="84.3" y2="3.1" width="0.001" layer="100"/>
-<wire x1="84.8" y1="3.6" x2="96.7" y2="3.6" width="0.001" layer="100"/>
-<wire x1="97.2" y1="4.1" x2="97.2" y2="8" width="0.001" layer="100"/>
-<wire x1="97.7" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="100"/>
+<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="100"/>
+<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="100"/>
+<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="100"/>
 <wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="100" curve="90"/>
 <wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="100"/>
 <wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="100"/>
@@ -5131,13 +5131,13 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="100"/>
 <wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="100"/>
 <wire x1="0" y1="9" x2="0.5" y2="8.5" width="0.001" layer="100" curve="90"/>
-<wire x1="0.5" y1="8.5" x2="2.1" y2="8.5" width="0.001" layer="100"/>
-<wire x1="2.6" y1="8" x2="2.6" y2="4.1" width="0.001" layer="100"/>
-<wire x1="3.1" y1="3.6" x2="15" y2="3.6" width="0.001" layer="100"/>
+<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="100"/>
+<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="100"/>
+<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="100"/>
 <wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.001" layer="100" curve="-90"/>
 <wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.2" y1="4.1" x2="96.7" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.2" y1="8" x2="97.7" y2="8.5" width="0.001" layer="100" curve="-90"/>
+<wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="100" curve="-90"/>
+<wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.001" layer="100" curve="-90"/>
 <wire x1="91.13205" y1="94.7" x2="89.4" y2="93.7" width="0.001" layer="100" curve="-59.999988"/>
 <wire x1="87.66795" y1="93.2" x2="88.16795" y2="93.7" width="0.001" layer="100" curve="-90"/>
 <wire x1="87.66795" y1="91.2" x2="87.16795" y2="90.7" width="0.001" layer="100" curve="-90"/>
@@ -5152,8 +5152,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="66.4" y1="93.7" x2="64.66795" y2="94.7" width="0.001" layer="100" curve="-59.999988"/>
 <wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="2.1" y1="8.5" x2="2.6" y2="8" width="0.001" layer="100" curve="-90"/>
-<wire x1="3.1" y1="3.6" x2="2.6" y2="4.1" width="0.001" layer="100" curve="-90"/>
+<wire x1="2.25" y1="8.5" x2="2.75" y2="8" width="0.001" layer="100" curve="-90"/>
+<wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.001" layer="100" curve="-90"/>
 </package>
 </packages>
 </library>
