@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22234,6 +22234,8 @@ I2C pullups
 not placed.</text>
 <text x="170.18" y="114.3" size="1.778" layer="97">47k forces
 slow I2C</text>
+<text x="284.48" y="210.82" size="1.778" layer="100">connect Iout and Pout to 
+M0 to monitor power draw</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
