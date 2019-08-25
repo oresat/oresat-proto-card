@@ -21446,6 +21446,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22236,6 +22237,9 @@ not placed.</text>
 slow I2C</text>
 <text x="284.48" y="210.82" size="1.778" layer="100">connect Iout and Pout to 
 M0 to monitor power draw</text>
+<text x="308.102" y="188.976" size="1.778" layer="97">Iout and Pout are analog voltages (0-1.2V)
+that corresponds to current and power 
+draw respectively</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -23781,6 +23785,9 @@ resistors @ MAX7310!</text>
 <instance part="VBUSP5" gate="G$1" x="139.7" y="93.98" smashed="yes">
 <attribute name="VALUE" x="139.7" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="TP2" gate="G$1" x="299.72" y="198.12" smashed="yes" rot="MR0">
+<attribute name="NAME" x="297.18" y="195.58" size="1.778" layer="95" font="vector" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23973,6 +23980,8 @@ resistors @ MAX7310!</text>
 <pinref part="U6" gate="G$1" pin="NRST"/>
 <pinref part="J7" gate="A" pin="!RESET"/>
 <wire x1="322.58" y1="116.84" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<junction x="299.72" y="198.12"/>
 </segment>
 </net>
 <net name="PB6/SCL" class="0">
