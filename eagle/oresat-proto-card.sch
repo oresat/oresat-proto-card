@@ -21447,6 +21447,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 </part>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
 <part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP3" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22832,6 +22833,9 @@ draw respectively</text>
 <attribute name="NAME" x="166.37" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="166.37" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="TP3" gate="G$1" x="276.86" y="139.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="274.32" y="137.16" size="1.778" layer="95" font="vector" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23288,6 +23292,8 @@ draw respectively</text>
 <pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="365.76" y1="162.56" x2="363.22" y2="162.56" width="0.1524" layer="91"/>
 <junction x="363.22" y="162.56"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<junction x="276.86" y="139.7"/>
 </segment>
 </net>
 <net name="N$604" class="0">
