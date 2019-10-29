@@ -24230,7 +24230,7 @@ resistors @ MAX7310!</text>
 <label x="210.82" y="104.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="POUTNAM" class="0">
+<net name="POUTPROT" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PA8"/>
 <wire x1="198.12" y1="180.34" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
