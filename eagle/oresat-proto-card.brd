@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6963,12 +6963,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="10.915" y="64.391" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
 <element name="U2" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="23.88" y="74.7" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="23.88" y="74.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="296-44211-1-ND" x="23.88" y="74.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Texas Instruments" x="23.88" y="74.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TCAN330GDCNT" x="23.88" y="74.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="23.3" y="72.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="23.88" y="74.7" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="U6" library="STM32F042K" package="QFP32-7X7" value="STM32F042K6" x="13.72" y="71.2" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="13.72" y="71.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="497-18516-ND" x="13.72" y="71.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="STMicroelectronics" x="13.72" y="71.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="STM32F042K6T7" x="13.72" y="71.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.92" y="74.6" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -6976,9 +6980,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R17" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="8" y="68.7" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="8" y="68.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.45" y="67.9" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="8" y="68.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="9.35" y="67.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -6987,78 +6991,114 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="6.1" y="65.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X10" package3d_urn="urn:adsk.eagle:package:22405/2" value="" x="13.72" y="49.4" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="13.72" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DNP" value="609-3221-ND" x="13.72" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Amphenol" x="13.72" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="67996-420HLF" x="13.72" y="49.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.12" y="62.275" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="9.275" y="62.1" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="25.4" y="50.8" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="25.4" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="732-5329-ND" x="25.4" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Wurth" x="25.4" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="61302011121" x="25.4" y="50.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="24.5" y="57.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="22.225" y="57.15" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="17" y="15.5" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="17" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="511-1584-1-ND" x="17" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Rohm" x="17" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SML-E12M8WT86" x="17" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.1" y="16.865" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="" x="17" y="15.5" size="2" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="17" y="16.135" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="17" y="14" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="17" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="511-1584-1-ND" x="17" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Rohm" x="17" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SML-E12M8WT86" x="17" y="14" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.1" y="15.265" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="" x="17" y="14" size="2" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="17" y="14.635" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R1" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="20" y="15.5" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="20" y="15.5" size="2" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="20" y="15.5" size="2" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="20" y="15.5" size="2" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="20" y="15.5" size="2" layer="27" display="off"/>
+<attribute name="DPN" value="A129632CT-ND" x="20" y="15.5" size="2" layer="27" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="20" y="15.5" size="2" layer="27" display="off"/>
+<attribute name="MPN" value="CRGCQ0402F2K7" x="20" y="15.5" size="2" layer="27" display="off"/>
 <attribute name="NAME" x="19.4" y="16.05" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="20" y="15.5" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.2" y="14.15" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R2" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="20" y="14" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="20" y="14" size="2" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="20" y="14" size="2" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="20" y="14" size="2" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="20" y="14" size="2" layer="27" display="off"/>
+<attribute name="DPN" value="A129632CT-ND" x="20" y="14" size="2" layer="27" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="20" y="14" size="2" layer="27" display="off"/>
+<attribute name="MPN" value="CRGCQ0402F2K7" x="20" y="14" size="2" layer="27" display="off"/>
 <attribute name="NAME" x="19.4" y="14.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="20" y="14" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.2" y="12.65" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="AMBER" x="17" y="17" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="17" y="17" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1830-1064-1-ND" x="17" y="17" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Inolux" x="17" y="17" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="IN-S63AT5A" x="17" y="17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.1" y="18.265" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="16.7" y="13.4" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="" x="16.7" y="13.4" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="VALUE" x="17" y="17.635" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R3" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="20" y="17" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="MFR" value="Samsung" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="DPN" value="A129632CT-ND" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="MPN" value="CRGCQ0402F2K7" x="20" y="13.6" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
 <attribute name="NAME" x="19.3" y="17.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="20" y="17" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="19.2" y="15.65" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="71.9" y="82.2" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="71.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A118077CT-ND" x="71.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="71.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="1909763-1" x="71.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="74.15" y="80.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="71.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="71.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="74.44" y="80.93" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="77.9" y="82.2" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="77.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A118077CT-ND" x="77.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="77.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="1909763-1" x="77.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="80.33" y="80.54" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="77.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="77.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="80.44" y="80.93" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="83.9" y="82.2" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A118077CT-ND" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="1909763-1" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="86.23" y="80.64" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09193" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="86.44" y="80.93" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
 <element name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="25.4" y="22.86" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="25.4" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="732-5329-ND" x="25.4" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Wurth" x="25.4" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="61302011121" x="25.4" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.5" y="29.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="28.575" y="16.51" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="6_PIN_SERIAL_TARGET_SIDE_W_SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="" x="13.72" y="26.8" smashed="yes" rot="R270"/>
+<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="6_PIN_SERIAL_TARGET_SIDE_W_SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="DNP" x="13.72" y="26.8" smashed="yes" rot="R270"/>
 <element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="93" y="6" locked="yes" smashed="yes">
 <attribute name="VALUE" x="93" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
@@ -7072,56 +7112,91 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="6" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" package="J-SAMTEC-TFM-120-X1-XXX-D-RA" value="J-SAMTEC-TFM-120-X1-XXX-D-RA" x="49.9" y="87.994" locked="yes" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="SAM10145-ND	" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samtec" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TFM-120-01-L-D-RA" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="62.854" y="85.962" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="J7" library="J-Samtec-FTSH-105-XXX-DV-K-ARM-SWD" package="CON10_2X5_DUK_FTSH" value="FTSH-105-XX-X-DV-K" x="20.5" y="8" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="20.5" y="8" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="SAM13160CT-ND" x="20.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samtec" x="20.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FTSH-105-01-F-DV-K" x="20.5" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.478" y="4.366" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="19" y="25.5" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="19" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-5329-ND" x="19" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Wurth" x="19" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="61302011121" x="19" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.4838" y="27.3288" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="21.54" y="28.675" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J1" library="J-Samtec-TFM-110-X1-XXX-D-RA" package="J-SAMTEC-TFM-110-X1-XXX-D-RA" value="J-SAMTEC-TFM-110-X1-XXX-D-RA" x="21.9" y="87.994" locked="yes" smashed="yes">
+<attribute name="DIS" value="Digikey" x="21.9" y="87.994" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="SAM10113-ND" x="21.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samtec" x="21.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TFM-110-01-L-D-RA " x="21.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.504" y="85.962" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X10" package3d_urn="urn:adsk.eagle:package:22406/2" value="" x="22" y="82.8" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="22" y="82.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="732-5329-ND
+" x="22" y="82.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Wurth" x="22" y="82.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="61302011121" x="22" y="82.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.9212" y="82.0738" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="34.7" y="85.975" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X05" package3d_urn="urn:adsk.eagle:package:22470/2" value="" x="41.91" y="80.01" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="41.91" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="609-3243-ND" x="41.91" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Amphenol" x="41.91" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="67997-410HLF" x="41.91" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41" y="83" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.26" y="84.455" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="36.83" y="6.35" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="36.83" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="732-5329-ND" x="36.83" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Wurth" x="36.83" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="61302011121" x="36.83" y="6.35" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.5" y="4.77" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.21" y="3.175" size="1.27" layer="27"/>
 </element>
 <element name="CM1" library="J-Molex-SMPM-73300-003X" package="J-MOLEX-SMPM-073300-003X" value="J-MOLEX-SMPM-73300-003X" x="71.9" y="90.7" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="71.9" y="90.7" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10772-ND" x="71.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Molex" x="71.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="73300-0020" x="71.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="67.15" y="84.64" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="CM2" library="J-Molex-SMPM-73300-003X" package="J-MOLEX-SMPM-073300-003X" value="J-MOLEX-SMPM-73300-003X" x="77.9" y="90.7" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="77.9" y="90.7" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10772-ND" x="77.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Molex" x="77.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="73300-0020" x="77.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="75.667" y="82.543" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="CM3" library="J-Molex-SMPM-73300-003X" package="J-MOLEX-SMPM-073300-003X" value="J-MOLEX-SMPM-73300-003X" x="83.9" y="90.7" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="83.9" y="90.7" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="WM10772-ND" x="83.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Molex" x="83.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="73300-0020" x="83.9" y="90.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.953" y="84.623" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="25.4" y="38.1" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="732-5329-ND" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Wurth" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="61302011121" x="25.4" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.5" y="42.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="28.575" y="34.29" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U3" library="U-Maxim-MAX7310-I2C-GPIO-expander" package="QFN65P400X400X80-17T210" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE" x="55.9" y="69.7" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="55.9" y="69.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="MAX7310ATE+-ND" x="55.9" y="69.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Maxim" x="55.9" y="69.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MAX7310ATE" x="55.9" y="69.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="53.9" y="72.6004" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -7138,14 +7213,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R4" library="rcl_custom" package=".0402-B-NOSILK" value="100" x="61.1" y="70.9" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-100LRCT-ND" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-07100RL" x="61.1" y="70.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="61.1" y="70.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="60.6" y="71.45" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="61.9" y="72.25" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="U4" library="U-Maxim-MAX4211-power-monitor" package="QFN65P400X400X80-17T210" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE" x="42.5" y="66.9" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="42.5" y="66.9" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="MAX4211FETE+-ND" x="42.5" y="66.9" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Maxim" x="42.5" y="66.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MAX4211FETE" x="42.5" y="66.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.7" y="69.2996" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -7261,59 +7338,63 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R25" library="rcl_custom" package=".0402-B-NOSILK" value="100" x="64.8" y="78" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-100LRCT-ND" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-07100RL" x="64.8" y="78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="64.8" y="78" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="64.25" y="77.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="63.45" y="78.8" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R26" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="58.3" y="66.6" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="58.3" y="66.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.3" y="66.6" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="59.4" y="66.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="57.5" y="65.25" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R27" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="46.4" y="75.1" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="46.4" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="46.4" y="75.1" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="47.75" y="74.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="47.75" y="74.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R28" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="50" y="72.7" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="50" y="72.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="50" y="72.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="50.35" y="74.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="48.65" y="73.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m" x="39.6" y="75.2" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="39.6" y="75.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="CSR1206FTR100CT-ND" x="39.6" y="75.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Stackpole" x="39.6" y="75.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CSR1206FTR100" x="39.6" y="75.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38.83" y="73.37" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="SPICEPREFIX" value="R" x="39.6" y="75.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="40.87" y="77.74" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R30" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="51.6" y="70.1" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="51.6" y="70.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="51.6" y="70.1" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="52.75" y="69.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="52.95" y="69.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R31" library="rcl_custom" package=".0402-B-NOSILK" value="0" x="43.5" y="71" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-0.0JRCT-ND" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402JR-070RL" x="43.5" y="71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="43.5" y="71" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="42.8" y="71.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="44.3" y="72.35" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -7329,9 +7410,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R33" library="rcl_custom" package=".0402-B-NOSILK" value="0" x="46.3" y="64.4" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-0.0JRCT-ND" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402JR-070RL" x="46.3" y="64.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="46.3" y="64.4" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="45.5" y="64.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="47.1" y="65.75" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -7362,9 +7443,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R35" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="37.5" y="73.1" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Yageo" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="37.5" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="37.5" y="73.1" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="38.65" y="72.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="38.85" y="72.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -7388,19 +7469,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="38.8" y="66.25" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C2" library="rcl_custom" package=".0402-B-NOSILK" value="NP" x="37" y="63.9" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="37" y="63.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="37" y="63.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="37" y="63.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="37" y="63.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="37" y="63.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="36.4" y="62.75" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="37.8" y="65.25" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R38" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="48.4" y="68.4" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="48.4" y="68.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="48.4" y="68.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="48.45" y="62.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="47.05" y="69.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -7412,7 +7489,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="31.4" y="73.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U5" library="U-TI-TPS6211x-SPS-buck" package="S-PVQFN-16" value="TPS62111RSA" x="29.6" y="70.1" smashed="yes" rot="R180">
-<attribute name="MFR" value="TI" x="29.6" y="70.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="29.6" y="70.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="296-37681-2-ND" x="29.6" y="70.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Texas Instruments" x="29.6" y="70.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="TPS62111RSA" x="29.6" y="70.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="26.1" y="71.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
@@ -7423,20 +7502,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="31.5" y="77.3" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C7" library="oresat-rcl" package=".0805-B-NOSILK" value="10u" x="33.5" y="69.2" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="33.5" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-6472-1-ND" x="33.5" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="33.5" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL21B106KOQNNNG" x="33.5" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="32.4" y="70.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="33.5" y="69.2" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="31.7" y="70.7" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C10" library="oresat-rcl" package=".0603-B-NOSILK" value="1u" x="27.9" y="73.1" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="27.9" y="73.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="27.1" y="73.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="27.9" y="73.1" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="29.1" y="74.7" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C12" library="oresat-rcl" package=".0805-B-NOSILK" value="22u" x="32.8" y="65.4" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="32.8" y="65.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="490-9959-1-ND" x="32.8" y="65.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata" x="32.8" y="65.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM21BD71A226ME44L" x="32.8" y="65.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.9" y="63" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="32.8" y="65.4" size="0.4" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="34.6" y="63.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -7446,9 +7533,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R7" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="30.6" y="76.1" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="30.6" y="76.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="30.6" y="76.1" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="30.2" y="76.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="31.4" y="77.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -7463,34 +7550,48 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="35.2" y="77.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="L2" library="L-ECS-MPI4040" package="ECS-MPI4040" value="6.8u" x="29.6" y="64.8" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="29.6" y="64.8" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="XC2337CT-ND" x="29.6" y="64.8" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="ECS" x="29.6" y="64.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ECS-MPI4040R4-6R8-R" x="29.6" y="64.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.8" y="61.6" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="32.6" y="64.8" size="0.635" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="Q3" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="35.1" y="73.1" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="35.1" y="73.1" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="35.1" y="73.1" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Diodes Inc" x="35.1" y="73.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="DMP3050LVT-7" x="35.1" y="73.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.702" y="75.083" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q4" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="44" y="75.1" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="44" y="75.1" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="44" y="75.1" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Diodes Inc" x="44" y="75.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="DMP3050LVT-7" x="44" y="75.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.502" y="76.283" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q5" library="Tova" package="SOT23" value="PMV45EN" x="47.8" y="73.1" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="47.8" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1727-2307-1-ND" x="47.8" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Nexperia" x="47.8" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="PMV45EN2R" x="47.8" y="73.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.2" y="72.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="50.8" y="71.1" size="1" layer="27" rot="R90"/>
 </element>
 <element name="Q6" library="Tova" package="SOT23" value="PMV45EN" x="50.5" y="67.8" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="50.5" y="67.8" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1727-2307-1-ND" x="50.5" y="67.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Nexperia" x="50.5" y="67.8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PMV45EN2R" x="50.5" y="67.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.9" y="68.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.5" y="64.8" size="1" layer="27"/>
 </element>
 <element name="C5" library="oresat-rcl" package=".0603-B-NOSILK" value="1u" x="38" y="66.2" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="38" y="66.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="38" y="66.2" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="35.6" y="65.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="39.2" y="67.8" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -7508,29 +7609,35 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="64.3" y="69" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="AMBER" x="59.65" y="63.325" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="59.65" y="63.325" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1830-1064-1-ND" x="59.65" y="63.325" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Inolux" x="59.65" y="63.325" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="IN-S63AT5A" x="59.65" y="63.325" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.75" y="62.59" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="" x="59.35" y="59.825" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.65" y="63.96" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R12" library="rcl_custom" package=".0402-B-NOSILK" value="2.7k" x="60" y="64.9" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
+<attribute name="DPN" value="A129632CT-ND" x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
+<attribute name="MFR" value="TE Connectivity " x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
+<attribute name="MPN" value="CRGCQ0402F2K7" x="60" y="67.9" size="0.635" layer="27" ratio="20" rot="R180" display="off"/>
 <attribute name="NAME" x="60" y="64.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="61.1" y="64.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="60.8" y="66.25" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="Q1" library="Q-MOSFET-PCH-dual-SOT23-6" package="SOT23-6" value="DMP2240UDM" x="65.3" y="75.1" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="65.3" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="DMP2240UDMDICT-ND" x="65.3" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Diodes Inc" x="65.3" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="DMP2240UDM" x="65.3" y="75.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="63.292" y="74.627" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="R15" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="68.2" y="71.6" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="68.2" y="71.6" size="0.635" layer="27" ratio="20" rot="R270" display="off"/>
 <attribute name="NAME" x="68.2" y="71.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="66.1" y="72.2" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="66.85" y="72.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -7538,23 +7645,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$1" library="oresat-cards" package="ORESAT-CARD-V1.1-3XRF" value="ORESAT-CARD-V1.1-3XRF" x="0" y="0" locked="yes" smashed="yes"/>
 <element name="R39" library="rcl_custom" package=".0402-B-NOSILK" value="47k" x="55.7" y="64.2" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="DPN" value="311-47.0KLRCT-ND" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-0747KL" x="55.7" y="64.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="NAME" x="55.7" y="64.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="53.8" y="65.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="56.5" y="65.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R40" library="rcl_custom" package=".0402-B-NOSILK" value="47k" x="55.7" y="63.2" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="DPN" value="311-47.0KLRCT-ND" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-0747KL" x="55.7" y="63.2" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
 <attribute name="NAME" x="55.7" y="63.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="54.9" y="62.05" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="56.5" y="64.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X05" package3d_urn="urn:adsk.eagle:package:22470/2" value="" x="55.88" y="80.01" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="55.88" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="609-3243-ND" x="55.88" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Amphenol " x="55.88" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="67997-410HLF" x="55.88" y="80.01" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="62.57" y="79.765" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="62.23" y="84.455" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -7569,23 +7680,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R16" library="rcl_custom" package=".0402-B-NOSILK" value="330k" x="67.1" y="68.8" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="749-1575-1-ND" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCS04020C3303FE000" x="67.1" y="68.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="67.1" y="68.8" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="66.45" y="68" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="68.45" y="68" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R18" library="rcl_custom" package=".0402-B-NOSILK" value="1M" x="69.4" y="71.6" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00MLRCT-ND" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-071ML" x="69.4" y="71.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="69.4" y="71.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="70.55" y="70.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="68.05" y="72.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U7" library="Q-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="68.8" y="69.2" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="68.8" y="69.2" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="68.8" y="69.2" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Microchip" x="68.8" y="69.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MIC842LYC5" x="68.8" y="69.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="67.46" y="67.17" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -7596,41 +7709,43 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R41" library="rcl_custom" package=".0402-B-NOSILK" value="100" x="65.8" y="78" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-100LRCT-ND" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-07100RL" x="76.1" y="81.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="65.8" y="78" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="66.95" y="77.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="64.45" y="78.8" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R42" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="71.3" y="76.6" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="74" y="83.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="71.3" y="76.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="71.65" y="78.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="69.95" y="77.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R43" library="rcl_custom" package=".0402-B-NOSILK" value="330k" x="70.22" y="73.95" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="749-1575-1-ND" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Vishay" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MCS04020C3303FE000" x="67.32" y="73.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="70.22" y="73.95" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="71.47" y="71.25" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="71.57" y="73.15" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R44" library="rcl_custom" package=".0402-B-NOSILK" value="1M" x="72.7" y="76.6" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1.00MLRCT-ND" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-071ML" x="72.1" y="79.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="72.7" y="76.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="73.85" y="75.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="71.35" y="77.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="U1" library="Q-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="72" y="74.3" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="72" y="74.3" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="72" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Microchip" x="72" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MIC842LYC5" x="72" y="74.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="72.46" y="72.17" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -7640,24 +7755,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="70.2" y="77.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k" x="21.8" y="72.1" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="21.8" y="72.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="21.8" y="72.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Yageo" x="21.8" y="72.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="21.8" y="72.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="22.435" y="71.465" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="SPICEPREFIX" value="R" x="21.8" y="72.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="" x="21.8" y="72.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.435" y="74.005" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0603-B-NOSILK" value="1u" x="70.7" y="69.2" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="70.7" y="69.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="70.7" y="69.2" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="72.1" y="68.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="69.1" y="70.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C6" library="oresat-rcl" package=".0603-B-NOSILK" value="1u" x="73.9" y="74.3" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Yageo" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="73.9" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="73.9" y="74.3" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="75.2" y="73.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="72.3" y="75.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>

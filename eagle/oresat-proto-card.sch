@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21202,107 +21202,194 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MPN" value="ECS-160-10-36Q-ES-TR"/>
 </part>
 <part name="U2" library="TCAN330" deviceset="TCAN330" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="296-44211-1-ND"/>
 <attribute name="MFR" value="Texas Instruments"/>
 <attribute name="MPN" value="TCAN330GDCNT"/>
 </part>
 <part name="U6" library="STM32F042K" deviceset="STM32F042K6" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="497-18516-ND"/>
 <attribute name="MFR" value="STMicroelectronics"/>
 <attribute name="MPN" value="STM32F042K6T7"/>
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R17" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="TP15" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2"/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DNP" value="609-3221-ND"/>
+<attribute name="MFR" value="Amphenol"/>
+<attribute name="MPN" value="67996-420HLF"/>
+</part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5329-ND"/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61302011121"/>
+</part>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="511-1584-1-ND"/>
+<attribute name="MFR" value="Rohm"/>
+<attribute name="MPN" value="SML-E12M8WT86"/>
 <attribute name="PROD_ID" value=""/>
 </part>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="511-1584-1-ND"/>
+<attribute name="MFR" value="Rohm"/>
+<attribute name="MPN" value="SML-E12M8WT86"/>
 <attribute name="PROD_ID" value=""/>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0402F2K7"/>
 </part>
 <part name="R2" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0402F2K7"/>
 </part>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="AMBER"/>
+<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="AMBER">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1830-1064-1-ND"/>
+<attribute name="MFR" value="Inolux"/>
+<attribute name="MPN" value="IN-S63AT5A"/>
+<attribute name="PROD_ID" value=""/>
+</part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0402F2K7"/>
 </part>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A118077CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="1909763-1"/>
+</part>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A118077CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="1909763-1"/>
+</part>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL2PIN" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="A118077CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="1909763-1"/>
+</part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5329-ND"/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61302011121"/>
+</part>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="6_PIN_SERIAL_TARGET" device="SILK" package3d_urn="urn:adsk.eagle:package:37995/1"/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="6_PIN_SERIAL_TARGET" device="SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="DNP"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="SAM10145-ND "/>
 <attribute name="MFR" value="Samtec"/>
 <attribute name="MPN" value="TFM-120-01-L-D-RA"/>
 </part>
 <part name="J7" library="J-Samtec-FTSH-105-XXX-DV-K-ARM-SWD" deviceset="FTSH-105-XX-X-DV-K" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="SAM13160CT-ND"/>
 <attribute name="MFR" value="Samtec"/>
 <attribute name="MPN" value="FTSH-105-01-F-DV-K"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5329-ND"/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61302011121"/>
+</part>
 <part name="J1" library="J-Samtec-TFM-110-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-110-X1-XXX-D-RA" device="">
+<attribute name="DIS" value="Digikey"/>
+<attribute name="DPN" value="SAM10113-ND"/>
 <attribute name="MFR" value="Samtec"/>
 <attribute name="MPN" value="TFM-110-01-L-D-RA "/>
 </part>
-<part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
-<part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5329-ND "/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61302011121"/>
+</part>
+<part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="609-3243-ND"/>
+<attribute name="MFR" value="Amphenol"/>
+<attribute name="MPN" value="67997-410HLF"/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5329-ND"/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61302011121"/>
+</part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CM1" library="J-Molex-SMPM-73300-003X" deviceset="J-MOLEX-SMPM-73300-003X" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10772-ND"/>
 <attribute name="MFR" value="Molex"/>
 <attribute name="MPN" value="73300-0020"/>
 </part>
 <part name="CM2" library="J-Molex-SMPM-73300-003X" deviceset="J-MOLEX-SMPM-73300-003X" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10772-ND"/>
 <attribute name="MFR" value="Molex"/>
 <attribute name="MPN" value="73300-0020"/>
 </part>
 <part name="CM3" library="J-Molex-SMPM-73300-003X" deviceset="J-MOLEX-SMPM-73300-003X" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM10772-ND"/>
 <attribute name="MFR" value="Molex"/>
 <attribute name="MPN" value="73300-0020"/>
 </part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="732-5329-ND"/>
+<attribute name="MFR" value="Wurth"/>
+<attribute name="MPN" value="61302011121"/>
+</part>
 <part name="U3" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX7310ATE+-ND"/>
 <attribute name="MFR" value="Maxim"/>
 <attribute name="MPN" value="MAX7310ATE"/>
 </part>
@@ -21316,11 +21403,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07100RL"/>
 </part>
 <part name="U4" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX4211FETE+-ND"/>
 <attribute name="MFR" value="Maxim"/>
 <attribute name="MPN" value="MAX4211FETE"/>
 </part>
@@ -21402,44 +21491,55 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R25" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07100RL"/>
 </part>
 <part name="R26" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="VBUS3" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R27" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R28" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m"/>
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="CSR1206FTR100CT-ND"/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="CSR1206FTR100"/>
+</part>
 <part name="R30" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R31" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402JR-070RL"/>
 </part>
 <part name="R32" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -21449,9 +21549,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="R33" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402JR-070RL"/>
 </part>
 <part name="R34" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -21468,9 +21568,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP14" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="R35" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="R36" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -21485,18 +21585,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="NP">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
-</part>
+<part name="C2" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="NP"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R38" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="TP8" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -21504,30 +21599,42 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP9" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="U5" library="U-TI-TPS6211x-SPS-buck" deviceset="TPS6211X" device="" value="TPS62111RSA">
-<attribute name="MFR" value="TI"/>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="296-37681-2-ND"/>
+<attribute name="MFR" value="Texas Instruments"/>
 <attribute name="MPN" value="TPS62111RSA"/>
 </part>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP16" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP19" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u"/>
+<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-6472-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL21B106KOQNNNG"/>
+</part>
 <part name="C10" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u"/>
+<part name="C12" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="490-9959-1-ND"/>
+<attribute name="MFR" value="Murata"/>
+<attribute name="MPN" value="GRM21BD71A226ME44L"/>
+</part>
 <part name="TP17" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R7" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="R10" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -21537,24 +21644,40 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L2" library="L-ECS-MPI4040" deviceset="L-ECS-MPI4040" device="" value="6.8u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="XC2337CT-ND"/>
 <attribute name="MFR" value="ECS"/>
 <attribute name="MPN" value="ECS-MPI4040R4-6R8-R"/>
 </part>
 <part name="Q3" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND"/>
 <attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="DMP3050LVT-7"/>
 </part>
 <part name="Q4" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND"/>
 <attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="DMP3050LVT-7"/>
 </part>
-<part name="Q5" library="Tova" deviceset="PMV45EN" device=""/>
-<part name="Q6" library="Tova" deviceset="PMV45EN" device=""/>
+<part name="Q5" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1727-2307-1-ND"/>
+<attribute name="MFR" value="Nexperia"/>
+<attribute name="MPN" value="PMV45EN2R"/>
+</part>
+<part name="Q6" library="Tova" deviceset="PMV45EN" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1727-2307-1-ND"/>
+<attribute name="MFR" value="Nexperia"/>
+<attribute name="MPN" value="PMV45EN2R"/>
+</part>
 <part name="C5" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUSP1" library="oresat-supplies" deviceset="VBUSP" device=""/>
@@ -21570,56 +21693,69 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP18" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP20" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="AMBER">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1830-1064-1-ND"/>
+<attribute name="MFR" value="Inolux"/>
+<attribute name="MPN" value="IN-S63AT5A"/>
 <attribute name="PROD_ID" value=""/>
 </part>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="MFR" value="TE Connectivity "/>
+<attribute name="MPN" value="CRGCQ0402F2K7"/>
 </part>
 <part name="Q1" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="DMP2240UDMDICT-ND"/>
 <attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="DMP2240UDM"/>
 </part>
 <part name="R15" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="oresat-cards" deviceset="ORESAT-CARD-V1.1" device="-3XRF"/>
 <part name="R39" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0747KL"/>
 </part>
 <part name="R40" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0747KL"/>
 </part>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X5" device="" package3d_urn="urn:adsk.eagle:package:22470/2">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="609-3243-ND"/>
+<attribute name="MFR" value="Amphenol "/>
+<attribute name="MPN" value="67997-410HLF"/>
+</part>
 <part name="TP2" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP3" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP5" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="R16" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="MFR" value="Vishay"/>
+<attribute name="MPN" value="MCS04020C3303FE000"/>
 </part>
 <part name="R18" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-071ML"/>
 </part>
 <part name="U7" library="Q-Microchip-MIC842-Comparator" deviceset="MIC842" device="" value="MIC842LYC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
 <attribute name="MFR" value="Microchip"/>
 <attribute name="MPN" value="MIC842LYC5"/>
 </part>
@@ -21628,49 +21764,63 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP7" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="R41" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-07100RL"/>
 </part>
 <part name="R42" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R43" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="MFR" value="Vishay"/>
+<attribute name="MPN" value="MCS04020C3303FE000"/>
 </part>
 <part name="R44" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-071ML"/>
 </part>
 <part name="U1" library="Q-Microchip-MIC842-Comparator" deviceset="MIC842" device="" value="MIC842LYC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
 <attribute name="MFR" value="Microchip"/>
 <attribute name="MPN" value="MIC842LYC5"/>
 </part>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD5" library="oresat-supplies" deviceset="VPD" device=""/>
 <part name="TP22" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="SPICEPREFIX" value=""/>
+</part>
 <part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -21706,6 +21856,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="JP5" gate="A" x="254" y="81.28" smashed="yes">
 <attribute name="NAME" x="247.65" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.65" y="71.12" size="1.778" layer="96"/>
+<attribute name="DIS" x="254" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="254" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="254" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="254" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="242.57" y="90.17" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="242.57" y="92.964" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -21713,14 +21867,26 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="J2" gate="G$1" x="359.41" y="205.74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="356.87" y="200.66" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="356.87" y="198.12" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="359.41" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="359.41" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="359.41" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="359.41" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="359.41" y="187.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="356.87" y="182.88" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="356.87" y="180.34" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="359.41" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="359.41" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="359.41" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="359.41" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="359.41" y="170.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="356.87" y="165.1" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="356.87" y="162.56" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="359.41" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="359.41" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="359.41" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="359.41" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="359.41" y="160.02" smashed="yes">
 <attribute name="VALUE" x="356.87" y="157.48" size="1.778" layer="96"/>
@@ -21734,6 +21900,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="JP6" gate="A" x="254" y="63.5" smashed="yes">
 <attribute name="NAME" x="247.65" y="71.755" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.65" y="53.34" size="1.778" layer="96"/>
+<attribute name="DIS" x="254" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="254" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="254" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="254" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="H1" gate="G$1" x="299.72" y="7.62" smashed="yes"/>
 <instance part="H2" gate="G$1" x="302.26" y="7.62" smashed="yes"/>
@@ -21744,20 +21914,32 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="VALUE" x="102.87" y="115.57" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFR" x="109.22" y="170.18" size="2.54" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="109.22" y="170.18" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="DIS" x="109.22" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="109.22" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="109.22" y="78.74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="115.57" y="104.775" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="102.87" y="46.99" size="1.778" layer="96"/>
 <attribute name="MFR" x="109.22" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="109.22" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIS" x="109.22" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="109.22" y="78.74" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="JP9" gate="A" x="226.06" y="78.74" smashed="yes">
 <attribute name="NAME" x="219.71" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.71" y="60.96" size="1.778" layer="96"/>
+<attribute name="DIS" x="226.06" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="226.06" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="226.06" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="226.06" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP10" gate="A" x="222.25" y="127" smashed="yes">
 <attribute name="NAME" x="215.9" y="135.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="215.9" y="116.84" size="1.778" layer="96"/>
+<attribute name="DIS" x="222.25" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="222.25" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="222.25" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="222.25" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="341.63" y="160.02" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="344.17" y="157.48" size="1.778" layer="96" rot="MR0"/>
@@ -21773,18 +21955,24 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="VALUE" x="314.96" y="204.47" size="1.27" layer="95"/>
 <attribute name="MPN" x="341.63" y="205.74" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="341.63" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="341.63" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="341.63" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CM2" gate="G$1" x="341.63" y="187.96" smashed="yes">
 <attribute name="NAME" x="314.96" y="189.23" size="1.27" layer="95"/>
 <attribute name="VALUE" x="314.96" y="186.69" size="1.27" layer="95"/>
 <attribute name="MPN" x="341.63" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="341.63" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="341.63" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="341.63" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CM3" gate="G$1" x="341.63" y="170.18" smashed="yes">
 <attribute name="NAME" x="314.96" y="171.45" size="1.27" layer="95"/>
 <attribute name="VALUE" x="314.96" y="168.91" size="1.27" layer="95"/>
 <attribute name="MPN" x="341.63" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="341.63" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="341.63" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="341.63" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="147.32" y="118.11" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="149.86" y="115.57" size="1.778" layer="96" rot="MR0"/>
@@ -21792,6 +21980,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="JP3" gate="A" x="270.51" y="83.82" smashed="yes">
 <attribute name="NAME" x="264.16" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="264.16" y="76.2" size="1.778" layer="96"/>
+<attribute name="DIS" x="270.51" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="270.51" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="270.51" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="270.51" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="261.62" y="109.22" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="264.16" y="106.68" size="1.778" layer="96" rot="MR0"/>
@@ -21802,6 +21994,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="JP1" gate="A" x="271.78" y="119.38" smashed="yes">
 <attribute name="NAME" x="265.43" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="265.43" y="109.22" size="1.778" layer="96"/>
+<attribute name="DIS" x="271.78" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="271.78" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="271.78" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND38" gate="1" x="259.08" y="195.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="261.62" y="193.04" size="1.778" layer="96" rot="MR0"/>
@@ -21815,6 +22011,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="JP2" gate="A" x="243.84" y="200.66" smashed="yes">
 <attribute name="NAME" x="237.49" y="208.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="237.49" y="190.5" size="1.778" layer="96"/>
+<attribute name="DIS" x="243.84" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="243.84" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="243.84" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="243.84" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -22475,10 +22675,18 @@ bootloader</text>
 <instance part="D1" gate="G$1" x="396.24" y="218.44" smashed="yes">
 <attribute name="NAME" x="392.811" y="213.868" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="398.145" y="213.868" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="DIS" x="396.24" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="396.24" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="396.24" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="396.24" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="304.8" y="59.69" smashed="yes">
 <attribute name="NAME" x="301.371" y="55.118" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="306.705" y="55.118" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="DIS" x="304.8" y="59.69" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="304.8" y="59.69" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="304.8" y="59.69" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="304.8" y="59.69" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="396.24" y="208.28" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="398.78" y="205.74" size="1.778" layer="96" rot="MR0"/>
@@ -22510,6 +22718,8 @@ bootloader</text>
 <attribute name="VALUE" x="134.62" y="132.08" size="1.778" layer="96"/>
 <attribute name="MPN" x="129.54" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="129.54" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="129.54" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="129.54" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="129.54" y="129.54" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="132.08" y="127" size="1.778" layer="96" rot="MR0"/>
@@ -22538,6 +22748,8 @@ bootloader</text>
 <attribute name="VALUE" x="299.72" y="185.42" size="1.778" layer="96"/>
 <attribute name="MPN" x="297.18" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="297.18" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="297.18" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="297.18" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="297.18" y="182.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="299.72" y="180.34" size="1.778" layer="96" rot="MR0"/>
@@ -22691,6 +22903,10 @@ bootloader</text>
 <instance part="R29" gate="G$1" x="297.18" y="236.22" smashed="yes">
 <attribute name="NAME" x="292.1" y="237.49" size="1.778" layer="95"/>
 <attribute name="VALUE" x="298.45" y="237.49" size="1.778" layer="96"/>
+<attribute name="DIS" x="297.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="297.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="297.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="297.18" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="R" x="322.58" y="185.42" smashed="yes" rot="R90">
 <attribute name="DIS" x="322.58" y="185.42" size="1.778" layer="96" rot="R90" display="off"/>
@@ -22784,10 +23000,6 @@ bootloader</text>
 <attribute name="VALUE" x="269.24" y="195.58" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C2" gate="CE" x="266.7" y="217.17" smashed="yes" rot="MR180">
-<attribute name="DIS" x="266.7" y="217.17" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="DPN" x="266.7" y="217.17" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MFR" x="266.7" y="217.17" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="266.7" y="217.17" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="NAME" x="262.89" y="219.71" size="1.778" layer="95"/>
 <attribute name="VALUE" x="267.97" y="219.71" size="1.778" layer="96"/>
 </instance>
@@ -22813,6 +23025,8 @@ bootloader</text>
 <attribute name="VALUE" x="254" y="45.72" size="1.778" layer="96"/>
 <attribute name="MFR" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND39" gate="1" x="248.92" y="40.64" smashed="yes">
 <attribute name="VALUE" x="246.38" y="38.1" size="1.778" layer="96"/>
@@ -22826,6 +23040,10 @@ bootloader</text>
 <instance part="C7" gate="CE" x="205.74" y="68.58" smashed="yes">
 <attribute name="NAME" x="207.01" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.01" y="63.5" size="1.778" layer="96"/>
+<attribute name="DIS" x="205.74" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="205.74" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="205.74" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="205.74" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="CE" x="213.36" y="68.58" smashed="yes">
 <attribute name="DIS" x="213.36" y="68.58" size="1.778" layer="96" display="off"/>
@@ -22847,6 +23065,10 @@ bootloader</text>
 <instance part="C12" gate="CE" x="287.02" y="68.58" smashed="yes">
 <attribute name="NAME" x="288.29" y="68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="288.29" y="63.5" size="1.778" layer="96"/>
+<attribute name="DIS" x="287.02" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="287.02" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="287.02" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="287.02" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP17" gate="G$1" x="287.02" y="76.2" smashed="yes">
 <attribute name="NAME" x="289.56" y="74.93" size="1.778" layer="95" font="vector"/>
@@ -22878,26 +23100,40 @@ bootloader</text>
 <attribute name="VALUE" x="275.59" y="76.2" size="1.778" layer="96"/>
 <attribute name="MFR" x="274.32" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="274.32" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="274.32" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="274.32" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="368.3" y="233.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="361.95" y="240.03" size="1.778" layer="96"/>
 <attribute name="NAME" x="361.95" y="242.57" size="1.778" layer="95"/>
 <attribute name="MFR" x="368.3" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="368.3" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="368.3" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="368.3" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q4" gate="G$1" x="220.98" y="233.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="218.44" y="240.03" size="1.778" layer="96"/>
 <attribute name="NAME" x="218.44" y="242.57" size="1.778" layer="95"/>
 <attribute name="MFR" x="220.98" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="220.98" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="220.98" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="220.98" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="215.9" y="220.98" smashed="yes">
 <attribute name="VALUE" x="218.44" y="220.98" size="1.778" layer="96"/>
 <attribute name="NAME" x="218.44" y="223.52" size="1.778" layer="95"/>
+<attribute name="DIS" x="215.9" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="215.9" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="215.9" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="215.9" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="373.38" y="203.2" smashed="yes">
 <attribute name="VALUE" x="375.92" y="203.2" size="1.778" layer="96"/>
 <attribute name="NAME" x="375.92" y="205.74" size="1.778" layer="95"/>
+<attribute name="DIS" x="373.38" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="373.38" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="373.38" y="203.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="373.38" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="CE" x="256.54" y="218.44" smashed="yes">
 <attribute name="DIS" x="256.54" y="218.44" size="1.778" layer="96" display="off"/>
@@ -22940,6 +23176,10 @@ bootloader</text>
 <instance part="D4" gate="G$1" x="219.71" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.282" y="187.071" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="224.282" y="192.405" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="DIS" x="219.71" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="219.71" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="219.71" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="219.71" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND47" gate="1" x="230.886" y="181.864" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="233.426" y="179.324" size="1.778" layer="96" rot="MR0"/>
@@ -23011,6 +23251,8 @@ bootloader</text>
 <instance part="U7" gate="G$1" x="139.7" y="39.37" smashed="yes">
 <attribute name="MFR" x="139.7" y="39.37" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="139.7" y="39.37" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="39.37" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="39.37" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND44" gate="1" x="139.7" y="24.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="142.24" y="21.59" size="1.778" layer="96" rot="MR0"/>
@@ -23059,6 +23301,8 @@ bootloader</text>
 <instance part="U1" gate="G$1" x="139.7" y="83.82" smashed="yes">
 <attribute name="MPN" x="139.7" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="139.7" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND50" gate="1" x="139.7" y="68.58" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="142.24" y="66.04" size="1.778" layer="96" rot="MR0"/>
@@ -23072,6 +23316,8 @@ bootloader</text>
 <instance part="Q1" gate=".2" x="96.52" y="81.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="95.25" y="74.93" size="1.778" layer="96"/>
 <attribute name="NAME" x="95.25" y="77.47" size="1.778" layer="95"/>
+<attribute name="DIS" x="96.52" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="96.52" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="CE" x="116.84" y="35.56" smashed="yes">
 <attribute name="DIS" x="116.84" y="35.56" size="1.778" layer="96" display="off"/>
@@ -24041,12 +24287,16 @@ resistors @ MAX7310!</text>
 <attribute name="VALUE" x="130.81" y="160.02" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFR" x="134.62" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="134.62" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIS" x="134.62" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="134.62" y="177.8" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="218.44" y="180.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="209.55" y="154.94" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.55" y="152.4" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MFR" x="218.44" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="218.44" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIS" x="218.44" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="218.44" y="180.34" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND31" gate="1" x="241.3" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="243.84" y="139.7" size="1.778" layer="96" rot="MR0"/>
@@ -24071,6 +24321,10 @@ resistors @ MAX7310!</text>
 <instance part="JP4" gate="A" x="218.44" y="99.06" smashed="yes">
 <attribute name="NAME" x="212.09" y="112.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="81.28" size="1.778" layer="96"/>
+<attribute name="DIS" x="218.44" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="DNP" x="218.44" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="218.44" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="218.44" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="208.28" y="58.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="210.82" y="55.88" size="1.778" layer="96" rot="MR0"/>
@@ -24078,6 +24332,10 @@ resistors @ MAX7310!</text>
 <instance part="D3" gate="G$1" x="172.72" y="215.9" smashed="yes">
 <attribute name="NAME" x="169.291" y="211.328" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="174.625" y="211.328" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="DIS" x="172.72" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="172.72" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="172.72" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="172.72" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="172.72" y="205.74" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="175.26" y="203.2" size="1.778" layer="96" rot="MR0"/>
@@ -24101,6 +24359,8 @@ resistors @ MAX7310!</text>
 <attribute name="MFR" x="330.2" y="124.46" size="2.54" layer="96" display="off"/>
 <attribute name="MPN" x="330.2" y="124.46" size="2.54" layer="96" display="off"/>
 <attribute name="NAME" x="323.85" y="142.875" size="1.778" layer="95"/>
+<attribute name="DIS" x="330.2" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="330.2" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="320.04" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="320.04" y="145.034" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -24111,6 +24371,10 @@ resistors @ MAX7310!</text>
 <instance part="JP8" gate="G$1" x="137.16" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="143.51" y="89.535" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="143.51" y="78.74" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="137.16" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="137.16" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="137.16" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="137.16" y="83.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -24127,6 +24391,10 @@ resistors @ MAX7310!</text>
 <instance part="R24" gate="G$1" x="144.78" y="121.92" smashed="yes">
 <attribute name="NAME" x="140.97" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.97" y="118.618" size="1.778" layer="96"/>
+<attribute name="DIS" x="144.78" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="144.78" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="144.78" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="144.78" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
