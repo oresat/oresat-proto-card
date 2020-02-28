@@ -10167,6 +10167,7 @@ LED</description>
 <part name="C8" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10381,6 +10382,9 @@ Select</text>
 <instance part="JP3" gate="G$1" x="223.52" y="53.34" smashed="yes">
 <attribute name="NAME" x="217.17" y="59.055" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="93.98" y="154.94" smashed="yes">
+<attribute name="VALUE" x="91.44" y="152.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10634,6 +10638,13 @@ Select</text>
 <pinref part="C8" gate="CE" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="132.08" y1="162.56" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND_2"/>
+<wire x1="76.2" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="88.9" y1="152.4" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
