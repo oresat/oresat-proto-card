@@ -10147,20 +10147,19 @@ LED</description>
 </library>
 <library name="oresat-misc">
 <packages>
-<package name="1MM-TP" urn="urn:adsk.eagle:footprint:27902/1" locally_modified="yes">
+<package name="TP" urn="urn:adsk.eagle:footprint:27902/1" locally_modified="yes">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="25"/>
 <text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-1.397" y="-1.913" size="0.635" layer="37" font="vector" ratio="20">&gt;TP_SIGNAL_NAME</text>
-<pad name="TP" x="0" y="0" drill="0.254" diameter="1"/>
+<text x="-1.27" y="-2.54" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<pad name="TP" x="0" y="0" drill="0.75"/>
 </package>
 </packages>
 <packages3d>
 <package3d name="P1-13" urn="urn:adsk.eagle:package:27946/1" type="box">
 <description>TEST PAD</description>
 <packageinstances>
-<packageinstance name="1MM-TP"/>
+<packageinstance name="TP"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -10170,19 +10169,19 @@ LED</description>
 <wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TP" prefix="TP">
+<deviceset name="TP" prefix="TP" uservalue="yes">
 <description>&lt;b&gt;Test pad&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1MM-TP" package="1MM-TP">
+<device name="1MM-TP" package="TP">
 <connects>
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
@@ -10192,7 +10191,7 @@ LED</description>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="12" constant="no"/>
-<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10487,19 +10486,15 @@ Select</text>
 </instance>
 <instance part="RX1" gate="G$1" x="38.1" y="170.18" smashed="yes">
 <attribute name="NAME" x="36.83" y="171.45" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="39.37" y="168.91" size="1.778" layer="97"/>
 </instance>
 <instance part="RX2" gate="G$1" x="45.72" y="170.18" smashed="yes">
 <attribute name="NAME" x="44.45" y="171.45" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="46.99" y="168.91" size="1.778" layer="97"/>
 </instance>
 <instance part="TX1" gate="G$1" x="53.34" y="170.18" smashed="yes">
 <attribute name="NAME" x="52.07" y="171.45" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="54.61" y="168.91" size="1.778" layer="97"/>
 </instance>
 <instance part="TX2" gate="G$1" x="60.96" y="170.18" smashed="yes">
 <attribute name="NAME" x="59.69" y="171.45" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="62.23" y="168.91" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -11072,6 +11067,10 @@ Select</text>
 <approved hash="113,1,230.271,147.914,J5,,,,,"/>
 <approved hash="113,1,221.217,56.1061,JP3,,,,,"/>
 <approved hash="113,1,109.457,26.8961,JP4,,,,,"/>
+<approved hash="113,1,39.294,168.666,RX1,,,,,"/>
+<approved hash="113,1,46.914,168.666,RX2,,,,,"/>
+<approved hash="113,1,54.3956,168.666,TX1,,,,,"/>
+<approved hash="113,1,62.0156,168.666,TX2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
