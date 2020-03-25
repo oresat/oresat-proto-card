@@ -1430,7 +1430,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <symbols>
 <symbol name="ORESAT-DEBUG-CONNECTOR">
 <pin name="GND" x="11.43" y="-27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VBUSP" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VBUS" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="VTARGET" x="11.43" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-TX" x="11.43" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-RX" x="11.43" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -1479,7 +1479,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
+<connect gate="G$1" pin="VBUS" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -1504,7 +1504,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
+<connect gate="G$1" pin="VBUS" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -10149,7 +10149,7 @@ LED</description>
 <packages>
 <package name="TP" urn="urn:adsk.eagle:footprint:27902/1" locally_modified="yes">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
-<circle x="0" y="0" radius="0.762" width="0.1524" layer="25"/>
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="21"/>
 <text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <pad name="TP" x="0" y="0" drill="0.75"/>
@@ -10558,12 +10558,12 @@ Select</text>
 <label x="81.28" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBUSP" class="0">
+<net name="VBUS" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <label x="35.56" y="73.66" size="1.778" layer="95"/>
 <wire x1="45.72" y1="73.66" x2="31.75" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VBUSP"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
