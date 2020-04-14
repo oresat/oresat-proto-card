@@ -10886,9 +10886,9 @@ Select</text>
 <junction x="60.96" y="152.4"/>
 </segment>
 <segment>
-<label x="96.52" y="53.34" size="1.778" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="CARD-TX"/>
-<wire x1="31.75" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
+<label x="96.52" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="CARD-RX"/>
+<wire x1="31.75" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTS#" class="0">
@@ -10917,9 +10917,9 @@ Select</text>
 <junction x="45.72" y="154.94"/>
 </segment>
 <segment>
-<label x="104.14" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="CARD-RX"/>
-<wire x1="31.75" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="104.14" y="53.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="CARD-TX"/>
+<wire x1="31.75" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CTS#" class="0">
