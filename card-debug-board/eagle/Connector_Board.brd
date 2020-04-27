@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -229,7 +229,7 @@ Ver 1</text>
 <wire x1="24.5" y1="24.3" x2="24.5" y2="23.8" width="0.127" layer="21" style="shortdash"/>
 <text x="10.5" y="14.3" size="0.635" layer="21" font="vector" ratio="20" rot="R90">RX</text>
 <text x="14.22" y="14.31" size="0.635" layer="21" font="vector" ratio="20" rot="R90">TX</text>
-<text x="18.21" y="16.7" size="0.635" layer="21" font="vector" ratio="20">VBUS</text>
+<text x="18.21" y="16.7" size="0.635" layer="21" font="vector" ratio="20">VBUSP</text>
 <text x="56.453" y="29.722" size="0.635" layer="21" font="vector" ratio="20">RESET</text>
 <wire x1="5.9" y1="8" x2="5.9" y2="7.1" width="0.1" layer="41" style="shortdash"/>
 <wire x1="8.3" y1="8" x2="8.3" y2="7.1" width="0.1" layer="41" style="shortdash"/>
@@ -2117,165 +2117,278 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="CM1" library="J-Samtec-FTSH-105-XXX-DV-K-ARM-SWD" package="CON10_2X5_DUK_FTSH" value="FTSH-105-XX-X-DV-K" x="56.8" y="6" smashed="yes">
+<attribute name="DESCRIPTION" value="Connector Header Surface Mount 10 position 0.050&quot; (1.27mm)" x="56.8" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SAM13160CT-ND" x="56.8" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Samtec Inc." x="56.8" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FTSH-105-01-F-DV-K-TR" x="56.8" y="6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="60.8" y="5.5" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 </element>
 <element name="D1" library="D-Comchip_Schottky_Diode_CDBU0520" package="DIOC1709X85N" value="CDBU0520" x="24.1" y="26" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70426688" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/comchiptechnology-cdbu0520/70426688/" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="COMCHIP TECHNOLOGY CDBU0520, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.85mm" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Comchip Technology" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CDBU0520" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="750-CDBU0520" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=750-CDBU0520" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Diode Schottky 20V 500mA Surface Mount 0603/SOD-523F" x="24.1" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="641-1332-1-ND" x="24.1" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Comchip Technology" x="24.1" y="26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CDBU0520" x="24.1" y="26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="21.941" y="26" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="9066848" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9066848" x="6.32" y="56.48" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J2" library="J-Wurth-629105136821-Micro-USB-A" package="629105136821" package3d_urn="urn:adsk.eagle:package:2054433/2" value="" x="23.5" y="1.4" smashed="yes">
+<attribute name="DESCRIPTION" value="CONN RCPT USB2.0 MICRO B SMD R/A" x="23.5" y="1.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-3155-1-ND" x="23.5" y="1.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="23.5" y="1.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="629105136821" x="23.5" y="1.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.745" y="2.8289" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-A-S-SILK-FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1" value="USB_A_SMT_FEMALE" x="41.9" y="6.6" locked="yes" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="SparkFun Accessories USB Female Type A SMD Connector" x="41.9" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="SparkFun" x="41.9" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PRT-09011" x="41.9" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="474-PRT-09011" x="41.9" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.8" y="7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09520" x="50.79" y="28.19" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-09011" x="50.79" y="28.19" locked="yes" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="48.758" y="0.25" locked="yes" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="19.3123" y="14.6304" smashed="yes">
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 3POS 2.54MM" x="19.3123" y="14.6304" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5316-ND" x="19.3123" y="14.6304" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="19.3123" y="14.6304" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300311121" x="19.3123" y="14.6304" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="24.7225" y="15.8242" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULARITY" value="92" x="37.0923" y="-22.1996" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="15.5023" y="11.4554" size="1.27" layer="27"/>
 </element>
 <element name="J5" library="J-Wurth-629105136821-Micro-USB-A" package="629105136821" package3d_urn="urn:adsk.eagle:package:2054433/2" value="" x="7.5" y="1.4" smashed="yes">
+<attribute name="DESCRIPTION" value="CONN RCPT USB2.0 MICRO B SMD R/A" x="7.5" y="1.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-3155-1-ND" x="7.5" y="1.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="7.5" y="1.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="629105136821" x="7.5" y="1.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.745" y="2.8289" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="J1" library="oresat-edge_connector" package="TE_2-1734592-0" value="ORESAT-DEBUG-CONNECTOR-CARD" x="31" y="29.2" smashed="yes">
+<attribute name="DESCRIPTION" value="20 Position FPC Connector Contacts, Bottom 0.020&quot; (0.50mm) Surface Mount, Right Angle" x="31" y="29.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="A100287CT-ND" x="31" y="29.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="31" y="29.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2-1734592-0" x="31" y="29.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37" y="26.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.31" y="32.05" size="0.635" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U1" library="U-FTDI-FT230X-USB_to_UART" package="SOP64P599X175-16N" value="FT230XS-R" x="6.3" y="19.7" smashed="yes" rot="R270">
-<attribute name="ALLIED_NUMBER" value="70403908" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/ftdi-ft230xs-r/70403908/" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="UART Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.753mm" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="FTDI Chip" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="768-1135-1-ND" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="FTDI Chip" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="FT230XS-R" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="895-FT230XS-R" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=895-FT230XS-R" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="3.1" y="18.483" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7570010P" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7570010P" x="6.3" y="19.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.49" y="18.43" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="L1" library="oresat-rcl" package=".0805-A-NOSILK" value="600 ohm" x="8.5" y="11.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.592" y="10.773003125" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="FERRITE BEAD 600 OHM 0805 1LN" x="8.5" y="11.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="240-2390-1-ND" x="8.5" y="11.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Laird-Signal Integrity Products" x="8.5" y="11.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MI0805K601R-10" x="8.5" y="11.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.5" y="11.1" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="9.592" y="10.773003125" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="6.7" y="12.600003125" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R1" library="oresat-rcl" package=".0603-C-NOSILK" value="27" x="6.501" y="7.49" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.009" y="8.648" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="RES SMD 27 OHM 1% 1/10W 0603" x="6.501" y="7.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-27R0ELFCT-ND" x="6.501" y="7.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns Inc." x="6.501" y="7.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-27R0ELF" x="6.501" y="7.49" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.501" y="7.49" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="6.009" y="8.648" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="8.051" y="6.49" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R2" library="oresat-rcl" package=".0603-C-NOSILK" value="27" x="7.7" y="7.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.208" y="8.658" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="RES SMD 27 OHM 1% 1/10W 0603" x="7.7" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-27R0ELFCT-ND" x="7.7" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns Inc." x="7.7" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-27R0ELF" x="7.7" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.7" y="7.5" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="7.208" y="8.658" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="9.25" y="6.5" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C1" library="oresat-rcl" package=".0603-C-NOSILK" value="10nF" x="10.6" y="6.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.186" y="6.707" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" x="10.6" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-13185-1-ND" x="10.6" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Wurth Elektronik" x="10.6" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="885382206002" x="10.6" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.6" y="6.1" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="10.186" y="6.707" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="11.6" y="7.65" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VDC" value="50V" x="10.6" y="6.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7uF" x="6" y="13.4" smashed="yes">
-<attribute name="NAME" x="3.9096" y="13.11" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)" x="6" y="13.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="445-14258-1-ND" x="6" y="13.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TDK" x="6" y="13.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7S1A475K080AC" x="6" y="13.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6" y="13.4" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="3.9096" y="13.11" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="5" y="11.85" size="0.8" layer="27" font="vector" ratio="15"/>
+<attribute name="VDC" value="10V" x="6" y="13.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="oresat-rcl" package=".0603-C-NOSILK" value="100nF" x="6" y="14.6" smashed="yes">
-<attribute name="NAME" x="3.8858" y="14.2608" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="C3" library="oresat-rcl" package=".0603-C-NOSILK" value=".1u" x="6" y="14.6" smashed="yes">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="6" y="14.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="6" y="14.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="6" y="14.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="6" y="14.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6" y="14.6" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="3.8858" y="14.2608" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="5" y="13.05" size="0.8" layer="27" font="vector" ratio="15"/>
+<attribute name="VDC" value="10V" x="6" y="14.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0603-C-NOSILK" value="47pF" x="5.3" y="7.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.808" y="8.658" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="CAP CER 47PF 25V NP0 0603" x="5.3" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12679-1-ND" x="5.3" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="5.3" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033A470FAT2A" x="5.3" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.3" y="7.5" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="4.808" y="8.658" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="6.85" y="6.5" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<attribute name="VDC" value="25V" x="5.3" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="oresat-rcl" package=".0603-C-NOSILK" value="47pF" x="8.9" y="7.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.408" y="8.658" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="CAP CER 47PF 25V NP0 0603" x="8.9" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12679-1-ND" x="8.9" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="8.9" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033A470FAT2A" x="8.9" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.9" y="7.5" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="8.408" y="8.658" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="10.45" y="6.5" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<attribute name="VDC" value="25V" x="8.9" y="7.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C6" library="oresat-rcl" package=".0603-C-NOSILK" value="100nF" x="9.9" y="17.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.408" y="19.158" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="C6" library="oresat-rcl" package=".0603-C-NOSILK" value=".1u" x="9.9" y="17.9" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="9.9" y="17.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="9.9" y="17.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="9.9" y="17.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="9.9" y="17.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="9.9" y="17.9" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="9.408" y="19.158" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="8.35" y="18.9" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="VDC" value="10V" x="9.9" y="17.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="14.2" y="21.1" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="14.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="14.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="14.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="14.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.708" y="22.358" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="14.2" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="12.65" y="22.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R5" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="12.8" y="21.1" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="12.8" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="12.8" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="12.8" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="12.8" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.308" y="22.358" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="12.8" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="11.25" y="22.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R6" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="9.9" y="21.1" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="9.9" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="9.9" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="9.9" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="9.9" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="9.408" y="22.358" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="9.9" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="8.35" y="22.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R7" library="oresat-rcl" package=".0603-C-NOSILK" value="270" x="11.3" y="17.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.8334" y="19.158" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 1% 1/10W 0603" x="11.3" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P270HCT-ND" x="11.3" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="11.3" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Panasonic Electronic Components" x="11.3" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.3" y="17.9" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="10.8334" y="19.158" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="12.85" y="16.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R8" library="oresat-rcl" package=".0603-C-NOSILK" value="270" x="12.8" y="17.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.3461" y="19.158" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 1% 1/10W 0603" x="12.8" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P270HCT-ND" x="12.8" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="12.8" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Panasonic Electronic Components" x="12.8" y="17.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.8" y="17.9" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="12.3461" y="19.158" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="14.35" y="16.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="12.8" y="14.8" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)" x="12.8" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-12017-1-ND" x="12.8" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="12.8" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040" x="12.8" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.432" y="12.5" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="12.8" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.165" y="14.8" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="11.3" y="14.8" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)" x="11.3" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-12017-1-ND" x="11.3" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="11.3" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040" x="11.3" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.0447" y="12.5" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="11.3" y="14.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="10.665" y="14.8" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="Q1" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="16.5" y="8.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="P-Channel 30V 4.1A 350mW Surface Mount SOT-23-6L" x="16.5" y="8.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SIL3407-TPMSCT-ND" x="16.5" y="8.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co" x="16.5" y="8.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SIL3407-TP" x="16.5" y="8.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="18.5969" y="7.2383" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R9" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="17.1" y="5.9" smashed="yes">
+<attribute name="DESCRIPTION" value="100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" x="17.1" y="5.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603JG100KTR-ND" x="17.1" y="5.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="17.1" y="5.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603JG100K" x="17.1" y="5.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.627" y="4.545" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.1" y="5.9" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="16.1" y="4.35" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R10" library="oresat-rcl" package=".0603-C-NOSILK" value="1k" x="14.8" y="5.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.9762" y="4.545" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603" x="14.8" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1.00KHRCT-ND" x="14.8" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="14.8" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071KL" x="14.8" y="5.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="14.8" y="5.9" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="13.9762" y="4.545" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.8" y="7.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="100nF" x="14.7" y="11.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.586" y="10.761" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value=".1u" x="14.7" y="11.1" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="14.7" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="14.7" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="14.7" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="14.7" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="14.7" y="11.1" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="12.586" y="10.761" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.7" y="12.65" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VDC" value="10V" x="14.7" y="11.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C8" library="oresat-rcl" package=".0603-C-NOSILK" value="100nF" x="18.3" y="11" smashed="yes">
-<attribute name="NAME" x="19.613" y="10.734" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="C8" library="oresat-rcl" package=".0603-C-NOSILK" value=".1u" x="18.3" y="11" smashed="yes">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="18.3" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="18.3" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="18.3" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="18.3" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.3" y="11" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="19.613" y="10.734" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="17.3" y="9.45" size="0.8" layer="27" font="vector" ratio="15"/>
+<attribute name="VDC" value="10V" x="18.3" y="11" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="39.7" y="20.9" smashed="yes">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 2 position 0.100&quot; (2.54mm)" x="39.7" y="20.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5315-ND" x="39.7" y="20.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="39.7" y="20.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300211121" x="39.7" y="20.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="38.9998" y="18.6448" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="98" x="39.7" y="20.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.16" y="17.725" size="1.27" layer="27"/>
 </element>
 <element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="49.1" y="26" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 5 position 0.100&quot; (2.54mm)" x="49.1" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5318-ND" x="49.1" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="49.1" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300511121" x="49.1" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="48.4" y="18.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="POPULARITY" value="69" x="49.1" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="52.275" y="19.65" size="1.27" layer="27" rot="R90"/>
@@ -2296,17 +2409,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="11.7" y="22.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="12.4" y="20.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="C9" library="oresat-rcl" package=".0603-C-NOSILK" value="100nF" x="13.9" y="1.9" smashed="yes">
-<attribute name="NAME" x="13.5" y="2.55" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="C9" library="oresat-rcl" package=".0603-C-NOSILK" value=".1u" x="13.9" y="1.9" smashed="yes">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="13.9" y="1.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="13.9" y="1.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="13.9" y="1.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="13.9" y="1.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="13.9" y="1.9" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="13.5" y="2.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="12.9" y="0.35" size="0.8" layer="27" font="vector" ratio="15"/>
+<attribute name="VDC" value="10V" x="13.9" y="1.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C10" library="oresat-rcl" package=".0603-C-NOSILK" value="100nF" x="17" y="1.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.5" y="2.55" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="C10" library="oresat-rcl" package=".0603-C-NOSILK" value=".1u" x="17" y="1.9" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="17" y="1.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="17" y="1.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="17" y="1.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="17" y="1.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17" y="1.9" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="16.5" y="2.55" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="18" y="3.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<attribute name="VDC" value="10V" x="17" y="1.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SW1" library="apdm_ap_v2" package="SW-MOM-OMRON-6X6X4.3" value="B3F-1000" x="57.6" y="26" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.05A 24V" x="57.6" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SW400-ND" x="57.6" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Omron Electronics Inc-EMC Div" x="57.6" y="26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3F-1000" x="57.6" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="56.9" y="22" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="57.6" y="24.2" size="0.85" layer="33" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="54.6" y="31" size="0.85" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -2377,7 +2504,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="5.6" y="19"/>
 </polygon>
 </signal>
-<signal name="VBUS">
+<signal name="VBUSP">
 <contactref element="D1" pad="1"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="2"/>
@@ -2389,6 +2516,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="26" y="27"/>
 <vertex x="26.8" y="27"/>
 </polygon>
+<wire x1="26.75" y1="27.5" x2="26.25" y2="27.5" width="0" layer="19" extent="1-1"/>
+<wire x1="24.95" y1="26" x2="26.25" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="CM1" pad="2"/>
@@ -2469,13 +2598,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="62" y="34"/>
 <vertex x="62" y="0"/>
 <vertex x="0" y="0"/>
-<vertex x="0" y="0"/>
 </polygon>
 <polygon width="0.1524" layer="16" rank="6">
 <vertex x="0" y="34"/>
 <vertex x="62" y="34"/>
 <vertex x="62" y="0"/>
-<vertex x="0" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
 <contactref element="J5" pad="5"/>

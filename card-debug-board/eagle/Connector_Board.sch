@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1239,18 +1239,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="ALLIED_NUMBER" value="70426688" constant="no"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/comchiptechnology-cdbu0520/70426688/" constant="no"/>
-<attribute name="DESCRIPTION" value="COMCHIP TECHNOLOGY CDBU0520, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)" constant="no"/>
-<attribute name="HEIGHT" value="0.85mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Comchip Technology" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CDBU0520" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="750-CDBU0520" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=750-CDBU0520" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="9066848" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9066848" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1444,7 +1433,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <symbols>
 <symbol name="ORESAT-DEBUG-CONNECTOR">
 <pin name="GND" x="11.43" y="-27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VBUS" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VBUSP" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="VTARGET" x="11.43" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-TX" x="11.43" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-RX" x="11.43" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -1493,7 +1482,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="1 2"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -1518,7 +1507,7 @@ Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CDBU0520-HF-R
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="1 2"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -1623,16 +1612,10 @@ Source: &lt;a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ALLIED_NUMBER" value="70403908" constant="no"/>
-<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/ftdi-ft230xs-r/70403908/" constant="no"/>
 <attribute name="DESCRIPTION" value="UART Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V" constant="no"/>
-<attribute name="HEIGHT" value="1.753mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="FTDI Chip" constant="no"/>
+<attribute name="MANUFACTURER" value="FTDI Chip" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="FT230XS-R" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="895-FT230XS-R" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=895-FT230XS-R" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7570010P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7570010P" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10311,59 +10294,236 @@ Mfg.: Omron, Dim: 6mm x 6mm x 4.3mm, 150gf, 10E6 cycles, Gold Plated Contacts, M
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="J2" library="J-Wurth-629105136821-Micro-USB-A" deviceset="MICRO-USB-SOCKET" device="" package3d_urn="urn:adsk.eagle:package:2054433/2"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_A" device="_SMT_FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="J2" library="J-Wurth-629105136821-Micro-USB-A" deviceset="MICRO-USB-SOCKET" device="" package3d_urn="urn:adsk.eagle:package:2054433/2">
+<attribute name="DESCRIPTION" value="CONN RCPT USB2.0 MICRO B SMD R/A"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-3155-1-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="629105136821"/>
+</part>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_A" device="_SMT_FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1">
+<attribute name="DESCRIPTION" value="SparkFun Accessories USB Female Type A SMD Connector"/>
+<attribute name="MANUFACTURER" value="SparkFun"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PRT-09011"/>
+<attribute name="MOUSER_PART_NUMBER" value="474-PRT-09011"/>
+</part>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2">
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 3POS 2.54MM"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5316-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300311121"/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="D-Comchip_Schottky_Diode_CDBU0520" deviceset="CDBU0520" device=""/>
-<part name="CM1" library="J-Samtec-FTSH-105-XXX-DV-K-ARM-SWD" deviceset="FTSH-105-XX-X-DV-K" device=""/>
+<part name="D1" library="D-Comchip_Schottky_Diode_CDBU0520" deviceset="CDBU0520" device="">
+<attribute name="DESCRIPTION" value="Diode Schottky 20V 500mA Surface Mount 0603/SOD-523F"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="641-1332-1-ND"/>
+<attribute name="MANUFACTURER" value="Comchip Technology"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CDBU0520"/>
+</part>
+<part name="CM1" library="J-Samtec-FTSH-105-XXX-DV-K-ARM-SWD" deviceset="FTSH-105-XX-X-DV-K" device="">
+<attribute name="DESCRIPTION" value="Connector Header Surface Mount 10 position 0.050&quot; (1.27mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SAM13160CT-ND"/>
+<attribute name="MANUFACTURER" value="Samtec Inc."/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FTSH-105-01-F-DV-K-TR"/>
+</part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J5" library="J-Wurth-629105136821-Micro-USB-A" deviceset="MICRO-USB-SOCKET" device="" package3d_urn="urn:adsk.eagle:package:2054433/2"/>
+<part name="J5" library="J-Wurth-629105136821-Micro-USB-A" deviceset="MICRO-USB-SOCKET" device="" package3d_urn="urn:adsk.eagle:package:2054433/2">
+<attribute name="DESCRIPTION" value="CONN RCPT USB2.0 MICRO B SMD R/A"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-3155-1-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="629105136821"/>
+</part>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="oresat-edge_connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-CARD"/>
-<part name="U1" library="U-FTDI-FT230X-USB_to_UART" deviceset="FT230XS-R" device=""/>
-<part name="L1" library="oresat-rcl" deviceset="L-US" device="0805-A-NOSILK" value="600 ohm"/>
-<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27"/>
-<part name="R2" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27"/>
-<part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10nF"/>
-<part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7uF"/>
-<part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
-<part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47pF"/>
-<part name="C5" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47pF"/>
-<part name="C6" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
+<part name="J1" library="oresat-edge_connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-CARD">
+<attribute name="DESCRIPTION" value="20 Position FPC Connector Contacts, Bottom 0.020&quot; (0.50mm) Surface Mount, Right Angle"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="A100287CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2-1734592-0"/>
+</part>
+<part name="U1" library="U-FTDI-FT230X-USB_to_UART" deviceset="FT230XS-R" device="">
+<attribute name="DIGI-KEY_PART_NUMBER" value="768-1135-1-ND"/>
+</part>
+<part name="L1" library="oresat-rcl" deviceset="L-US" device="0805-A-NOSILK" value="600 ohm">
+<attribute name="DESCRIPTION" value="FERRITE BEAD 600 OHM 0805 1LN"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="240-2390-1-ND"/>
+<attribute name="MANUFACTURER" value="Laird-Signal Integrity Products"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MI0805K601R-10"/>
+</part>
+<part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27">
+<attribute name="DESCRIPTION" value="RES SMD 27 OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-27R0ELFCT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-27R0ELF"/>
+</part>
+<part name="R2" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27">
+<attribute name="DESCRIPTION" value="RES SMD 27 OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-27R0ELFCT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-27R0ELF"/>
+</part>
+<part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10nF">
+<attribute name="DESCRIPTION" value="10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-13185-1-ND"/>
+<attribute name="MANUFACTURER" value="Wurth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="885382206002"/>
+<attribute name="VDC" value="50V"/>
+</part>
+<part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7uF">
+<attribute name="DESCRIPTION" value="4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="445-14258-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7S1A475K080AC"/>
+<attribute name="VDC" value="10V"/>
+</part>
+<part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value=".1u">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
+<attribute name="VDC" value="10V"/>
+</part>
+<part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47pF">
+<attribute name="DESCRIPTION" value="CAP CER 47PF 25V NP0 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12679-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033A470FAT2A"/>
+<attribute name="VDC" value="25V"/>
+</part>
+<part name="C5" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47pF">
+<attribute name="DESCRIPTION" value="CAP CER 47PF 25V NP0 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12679-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033A470FAT2A"/>
+<attribute name="VDC" value="25V"/>
+</part>
+<part name="C6" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value=".1u">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
+<attribute name="VDC" value="10V"/>
+</part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
-<part name="R5" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
-<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
-<part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="270"/>
-<part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="270"/>
-<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="Q1" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
-<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
-<part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
-<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
-<part name="C8" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
+<part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF"/>
+</part>
+<part name="R5" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF"/>
+</part>
+<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF"/>
+</part>
+<part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="270">
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P270HCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Panasonic Electronic Components"/>
+</part>
+<part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="270">
+<attribute name="DESCRIPTION" value="RES SMD 270 OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P270HCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Panasonic Electronic Components"/>
+</part>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
+<attribute name="DESCRIPTION" value="Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-12017-1-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040"/>
+</part>
+<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
+<attribute name="DESCRIPTION" value="Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-12017-1-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040"/>
+</part>
+<part name="Q1" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="">
+<attribute name="DESCRIPTION" value="P-Channel 30V 4.1A 350mW Surface Mount SOT-23-6L"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SIL3407-TPMSCT-ND"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SIL3407-TP"/>
+</part>
+<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
+<attribute name="DESCRIPTION" value="100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603JG100KTR-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603JG100K"/>
+</part>
+<part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k">
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1.00KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071KL"/>
+</part>
+<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value=".1u">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
+<attribute name="VDC" value="10V"/>
+</part>
+<part name="C8" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value=".1u">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
+<attribute name="VDC" value="10V"/>
+</part>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 2 position 0.100&quot; (2.54mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5315-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300211121"/>
+</part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 5 position 0.100&quot; (2.54mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5318-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300511121"/>
+</part>
 <part name="RX1" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="RX2" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="TX1" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="TX2" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="!RTS" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="C9" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
-<part name="C10" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100nF"/>
-<part name="SW1" library="apdm_ap_v2" deviceset="SW-MOM-TACTILE" device="-B3F-1000" value="B3F-1000"/>
+<part name="C9" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value=".1u">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
+<attribute name="VDC" value="10V"/>
+</part>
+<part name="C10" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value=".1u">
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
+<attribute name="VDC" value="10V"/>
+</part>
+<part name="SW1" library="apdm_ap_v2" deviceset="SW-MOM-TACTILE" device="-B3F-1000" value="B3F-1000">
+<attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SW400-ND"/>
+<attribute name="MANUFACTURER" value="Omron Electronics Inc-EMC Div"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B3F-1000"/>
+</part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -10405,6 +10565,7 @@ Select</text>
 <text x="83.82" y="21.59" size="2.286" layer="94">DEBUG BREAKOUT</text>
 <text x="16.51" y="168.91" size="1.778" layer="97" rot="R90">RX</text>
 <text x="26.67" y="168.91" size="1.778" layer="97" rot="R90">TX</text>
+<text x="27.94" y="86.36" size="2.286" layer="94">VBUSP Supply</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10416,14 +10577,26 @@ Select</text>
 <instance part="J2" gate="G$1" x="256.54" y="109.22" smashed="yes">
 <attribute name="NAME" x="251.46" y="119.888" size="1.778" layer="95"/>
 <attribute name="VALUE" x="254" y="95.25" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="256.54" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="256.54" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="256.54" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="256.54" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="251.46" y="60.96" smashed="yes">
 <attribute name="NAME" x="246.38" y="71.374" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="246.38" y="53.086" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="251.46" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="251.46" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="251.46" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="251.46" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="218.44" y="111.76" smashed="yes">
 <attribute name="NAME" x="212.09" y="117.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="104.14" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="218.44" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="218.44" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="218.44" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="218.44" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="264.16" y="60.96" smashed="yes">
 <attribute name="VALUE" x="261.62" y="58.42" size="1.778" layer="96"/>
@@ -10433,9 +10606,17 @@ Select</text>
 </instance>
 <instance part="D1" gate="G$1" x="48.26" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.546" y="79.375" size="1.778" layer="95" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="CM1" gate="A" x="160.02" y="78.74" smashed="yes">
 <attribute name="NAME" x="153.67" y="97.155" size="1.778" layer="95"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="160.02" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="160.02" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="160.02" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="160.02" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="243.84" y="114.3" smashed="yes">
 <attribute name="VALUE" x="241.3" y="111.76" size="1.778" layer="96"/>
@@ -10452,6 +10633,10 @@ Select</text>
 <instance part="J5" gate="G$1" x="231.14" y="162.56" smashed="yes">
 <attribute name="NAME" x="226.06" y="173.228" size="1.778" layer="95"/>
 <attribute name="VALUE" x="228.6" y="148.59" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="231.14" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="213.36" y="167.64" smashed="yes">
 <attribute name="VALUE" x="210.82" y="165.1" size="1.778" layer="96"/>
@@ -10461,46 +10646,98 @@ Select</text>
 </instance>
 <instance part="J1" gate="G$1" x="20.32" y="53.34" smashed="yes">
 <attribute name="NAME" x="17.78" y="85.09" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="20.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="20.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="20.32" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="20.32" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="G$1" x="109.22" y="162.56" smashed="yes">
 <attribute name="NAME" x="95.25" y="190.5" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="95.25" y="187.96" size="1.778" layer="96" align="center-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="109.22" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="L" x="185.42" y="190.5" smashed="yes">
 <attribute name="NAME" x="180.34" y="193.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="189.23" size="1.778" layer="96" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="185.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="185.42" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="R" x="147.32" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="151.13" y="145.8214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="151.13" y="150.622" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="147.32" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="147.32" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="147.32" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="147.32" y="147.32" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R2" gate="R" x="147.32" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="151.13" y="153.4414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="151.13" y="158.242" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="147.32" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="147.32" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="147.32" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="147.32" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C1" gate="CE" x="195.58" y="187.96" smashed="yes">
 <attribute name="NAME" x="197.104" y="188.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="197.104" y="183.261" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="195.58" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="CE" x="172.72" y="187.96" smashed="yes">
 <attribute name="NAME" x="174.244" y="188.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="174.244" y="183.261" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="172.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="172.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="172.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="172.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="172.72" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="CE" x="162.56" y="187.96" smashed="yes">
 <attribute name="NAME" x="164.084" y="188.341" size="1.778" layer="95"/>
 <attribute name="VALUE" x="164.084" y="183.261" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="162.56" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="162.56" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="162.56" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="162.56" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="162.56" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="CE" x="160.02" y="144.78" smashed="yes">
 <attribute name="NAME" x="161.544" y="145.161" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.544" y="140.081" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="160.02" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="160.02" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="160.02" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="160.02" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="160.02" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="CE" x="170.18" y="144.78" smashed="yes">
 <attribute name="NAME" x="171.704" y="145.161" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.704" y="140.081" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="170.18" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="CE" x="78.74" y="142.24" smashed="yes">
-<attribute name="NAME" x="80.264" y="142.621" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.264" y="137.541" size="1.778" layer="96"/>
+<instance part="C6" gate="CE" x="78.74" y="144.78" smashed="yes">
+<attribute name="NAME" x="80.264" y="145.161" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.264" y="140.081" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="78.74" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="160.02" y="137.16" smashed="yes">
 <attribute name="VALUE" x="157.48" y="134.62" size="1.778" layer="96"/>
@@ -10508,55 +10745,105 @@ Select</text>
 <instance part="GND10" gate="1" x="170.18" y="137.16" smashed="yes">
 <attribute name="VALUE" x="167.64" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="78.74" y="139.7" smashed="yes">
-<attribute name="VALUE" x="76.2" y="137.16" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="78.74" y="137.16" smashed="yes">
+<attribute name="VALUE" x="76.2" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="R" x="58.42" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.9186" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="55.118" y="156.21" size="1.778" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="58.42" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="58.42" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="58.42" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="58.42" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R5" gate="R" x="38.1" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.5986" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="34.798" y="156.21" size="1.778" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="38.1" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="38.1" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="38.1" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="38.1" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R6" gate="R" x="48.26" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.7586" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="44.958" y="156.21" size="1.778" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="48.26" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="48.26" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="48.26" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="48.26" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R7" gate="R" x="17.78" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.2786" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="14.478" y="156.21" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="17.78" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="17.78" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="17.78" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="17.78" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R8" gate="R" x="27.94" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.4386" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="24.638" y="156.21" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="27.94" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="27.94" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="27.94" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="27.94" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="27.94" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.369" y="167.132" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="26.035" y="167.132" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="27.94" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="27.94" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="27.94" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="27.94" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="17.78" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.209" y="167.132" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="15.875" y="167.132" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="17.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="17.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="17.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="17.78" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="167.64" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.37" y="176.53" size="1.778" layer="95"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="167.64" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="167.64" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="167.64" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="167.64" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R9" gate="R" x="157.48" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.9814" y="163.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="160.782" y="163.83" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="157.48" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="157.48" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="157.48" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="157.48" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R10" gate="R" x="147.32" y="177.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="151.13" y="176.3014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="151.13" y="181.102" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="147.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="147.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="147.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="147.32" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C7" gate="CE" x="175.26" y="167.64" smashed="yes">
 <attribute name="NAME" x="176.784" y="168.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.784" y="162.941" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="175.26" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="175.26" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="175.26" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="175.26" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="175.26" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="CE" x="185.42" y="167.64" smashed="yes">
 <attribute name="NAME" x="186.944" y="168.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.944" y="162.941" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="185.42" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="185.42" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="185.42" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="185.42" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="185.42" y="160.02" smashed="yes">
 <attribute name="VALUE" x="182.88" y="157.48" size="1.778" layer="96"/>
@@ -10564,6 +10851,10 @@ Select</text>
 <instance part="JP3" gate="G$1" x="220.98" y="60.96" smashed="yes">
 <attribute name="NAME" x="214.63" y="66.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="55.88" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="220.98" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="220.98" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="220.98" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="220.98" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="111.76" y="137.16" smashed="yes">
 <attribute name="VALUE" x="109.22" y="134.62" size="1.778" layer="96"/>
@@ -10574,6 +10865,10 @@ Select</text>
 <instance part="JP4" gate="A" x="111.76" y="33.02" smashed="yes">
 <attribute name="NAME" x="105.41" y="41.275" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.41" y="22.86" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="111.76" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="111.76" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="111.76" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="111.76" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="RX1" gate="G$1" x="38.1" y="185.42" smashed="yes">
 <attribute name="NAME" x="36.83" y="186.69" size="1.778" layer="95"/>
@@ -10593,14 +10888,28 @@ Select</text>
 <instance part="C9" gate="CE" x="222.25" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="222.631" y="150.876" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="217.551" y="150.876" size="1.778" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="222.25" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="222.25" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="222.25" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="222.25" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="VDC" x="222.25" y="152.4" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C10" gate="CE" x="247.65" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="248.031" y="97.536" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="242.951" y="97.536" size="1.778" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="247.65" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="247.65" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="247.65" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="247.65" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="VDC" x="247.65" y="99.06" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SW1" gate="G1" x="151.13" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="146.05" y="64.77" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="143.51" y="64.77" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="MANUFACTURER" x="151.13" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="151.13" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="151.13" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="151.13" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="151.13" y="49.53" smashed="yes">
 <attribute name="VALUE" x="148.59" y="46.99" size="1.778" layer="96"/>
@@ -10679,7 +10988,6 @@ Select</text>
 <junction x="48.26" y="147.32"/>
 <junction x="38.1" y="147.32"/>
 <wire x1="58.42" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="147.32" x2="78.74" y2="144.78" width="0.1524" layer="91"/>
 <junction x="78.74" y="147.32"/>
 <pinref part="U1" gate="G$1" pin="RESET#"/>
 <pinref part="U1" gate="G$1" pin="3V3OUT"/>
@@ -10690,12 +10998,12 @@ Select</text>
 <wire x1="78.74" y1="157.48" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUSP" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <label x="35.56" y="81.28" size="1.778" layer="95"/>
 <wire x1="45.72" y1="81.28" x2="31.75" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
+<pinref part="J1" gate="G$1" pin="VBUSP"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -10831,7 +11139,6 @@ Select</text>
 <segment>
 <pinref part="C6" gate="CE" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="78.74" y1="137.16" x2="78.74" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="CE" pin="2"/>
@@ -11183,17 +11490,7 @@ Select</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,246.38,58.42,J3,VBUS,N$2,,,"/>
-<approved hash="104,1,91.44,142.24,U1,VCCIO,3V3OUT,,,"/>
-<approved hash="104,1,109.22,129.54,U1,GND_1,GND,,,"/>
-<approved hash="104,1,111.76,129.54,U1,GND_2,GND,,,"/>
-<approved hash="106,1,129.54,160.02,SLEEP#,,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
-<approved hash="113,1,258.211,102.194,J2,,,,,"/>
-<approved hash="113,1,218.677,105.636,JP1,,,,,"/>
-<approved hash="113,1,230.271,147.914,J5,,,,,"/>
-<approved hash="113,1,221.217,56.1061,JP3,,,,,"/>
-<approved hash="113,1,109.457,26.8961,JP4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
