@@ -10300,7 +10300,7 @@ Mfg.: Omron, Dim: 6mm x 6mm x 4.3mm, 150gf, 10E6 cycles, Gold Plated Contacts, M
 <attribute name="MANUFACTURER" value="Würth Elektronik"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="629105136821"/>
 </part>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_A" device="_SMT_FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1">
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_A" device="_SMT_FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1" value="USB_A_SMT_FEMALE">
 <attribute name="DESCRIPTION" value="SparkFun Accessories USB Female Type A SMD Connector"/>
 <attribute name="MANUFACTURER" value="SparkFun"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PRT-09011"/>
@@ -10555,7 +10555,7 @@ Select</text>
 <wire x1="7.62" y1="114.3" x2="7.62" y2="4.826" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="7.62" y1="4.826" x2="116.84" y2="4.826" width="0.1524" layer="94" style="shortdash"/>
 <text x="180.34" y="27.94" size="3.81" layer="94">OreSat Debug Connector Board</text>
-<text x="264.16" y="7.62" size="2.54" layer="94">1</text>
+<text x="264.16" y="7.62" size="2.54" layer="94">1.1</text>
 <text x="53.34" y="88.9" size="2.286" layer="94">Power
 Select</text>
 <text x="55.88" y="78.74" size="2.286" layer="94">JTAG/SWD</text>
@@ -10566,6 +10566,7 @@ Select</text>
 <text x="16.51" y="168.91" size="1.778" layer="97" rot="R90">RX</text>
 <text x="26.67" y="168.91" size="1.778" layer="97" rot="R90">TX</text>
 <text x="27.94" y="86.36" size="2.286" layer="94">VBUSP Supply</text>
+<text x="10.16" y="5.08" size="3.81" layer="97">Mirrored Edge Connector</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
