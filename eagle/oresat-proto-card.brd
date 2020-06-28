@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="15" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="58" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -24,15 +24,15 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -54,13 +54,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -10461,37 +10461,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="7,39,14cfeac1b45e4c50"/>
-<approved hash="7,39,97afe1dd49d741ae"/>
-<approved hash="7,39,a2f32f591eb1745a"/>
-<approved hash="7,39,1dfb8ad9143174d2"/>
-<approved hash="7,39,9dfb83139dfbfd08"/>
-<approved hash="7,39,143d03149dfcf4d2"/>
-<approved hash="7,39,94cfeac1ade0d5fa"/>
-<approved hash="7,39,0aa574bf345e4c50"/>
-<approved hash="7,39,8469b1e531e50469"/>
-<approved hash="7,39,729b6f17ef17f29b"/>
-<approved hash="7,39,bbadb61c87f4f45a"/>
-<approved hash="7,39,5281f2d53e7caa22"/>
-<approved hash="7,39,22f3361387fbed10"/>
-<approved hash="7,39,3f7baec67b8e1674"/>
 <approved hash="4,1,45c44457806b81f8"/>
 <approved hash="4,1,c5c2c45f706371fe"/>
 <approved hash="4,1,1dc01c5fb863b9fc"/>
-<approved hash="7,39,2eca6177e177aeca"/>
-<approved hash="7,39,9d85914611461d85"/>
-<approved hash="7,39,ca7db73c373c4a7d"/>
-<approved hash="19,1,aad2ac52485a4eda"/>
-<approved hash="19,1,34cf37db43d340c7"/>
-<approved hash="19,1,f8cbf9f8f1f0f0c3"/>
-<approved hash="19,1,f84bfb18f310f043"/>
-<approved hash="19,1,984e9b1b53135046"/>
-<approved hash="19,1,494f4a5b42534147"/>
-<approved hash="19,1,98ce99fb51f350c6"/>
 <approved hash="4,1,094654cadc66b26c"/>
 <approved hash="4,1,3615f58de851648f"/>
 <approved hash="4,1,e0bf3e94969c7940"/>
-<approved hash="4,1,c69fc2f6aa8407eb"/>
 <approved hash="4,1,a9fb9a88d81bdb84"/>
 <approved hash="4,1,fd6db0c3a8447d44"/>
 <approved hash="4,1,2cca2e1af87f51b6"/>
@@ -10587,20 +10562,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,16,8cc9edd0dab369f6"/>
 <approved hash="4,16,b1ae2df7e510ab51"/>
 <approved hash="4,16,ded2bd4ac052b448"/>
-<approved hash="7,39,4a0b5d86dd86ca0b"/>
-<approved hash="7,39,1f7a2cf5acf59f7a"/>
-<approved hash="7,39,c708069f869f4708"/>
-<approved hash="23,1,ee5294269470ee04"/>
-<approved hash="23,1,283cf648f78629f2"/>
 <approved hash="4,1,bfad2e72b36b8bb2"/>
-<approved hash="4,1,70db42e21b5c262f"/>
-<approved hash="4,1,e4df0ae3335906c9"/>
-<approved hash="4,1,8e599a3cf28e672a"/>
-<approved hash="4,1,da742613fe89cf0b"/>
-<approved hash="4,1,8e82b13320fd93c1"/>
-<approved hash="4,1,2ce2eada83678633"/>
-<approved hash="4,1,010dd1f4c6127c01"/>
-<approved hash="7,39,dbbdc84e484e5bbd"/>
 <approved hash="19,1,1c421b414b494c4a"/>
 <approved hash="19,1,f307f3c73bcf3b0f"/>
 <approved hash="19,1,ec55ec91d099d05d"/>
