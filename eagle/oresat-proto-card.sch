@@ -15717,15 +15717,15 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="P2.7KDBCT-ND"/>
+<attribute name="MFR" value="Panasonic"/>
+<attribute name="MPN" value="ERA-3AEB272V"/>
 </part>
 <part name="R17" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="P2.7KDBCT-ND"/>
+<attribute name="MFR" value="Panasonic"/>
+<attribute name="MPN" value="ERA-3AEB272V"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U2" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
@@ -15737,16 +15737,16 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="399-14941-1-ND"/>
+<attribute name="MFR" value="Kemet"/>
+<attribute name="MPN" value="C0603C104K4PAC7867"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R24" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-10.0HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
 </part>
 <part name="U6" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15832,29 +15832,29 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R60" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND "/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL "/>
 </part>
 <part name="R61" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R62" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R63" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R64" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
@@ -15871,16 +15871,16 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="R65" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R66" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R67" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15890,9 +15890,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="R68" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R69" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15909,9 +15909,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP23" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R70" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="R71" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15930,9 +15930,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R73" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="TP24" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP31" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -15953,9 +15953,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="C11" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="DPN" value="311-1444-1-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+<attribute name="MPN" value="CC0603KRX5R7BB105"/>
 </part>
 <part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15970,9 +15970,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R74" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="R75" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16013,9 +16013,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="C17" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="DPN" value="311-1444-1-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+<attribute name="MPN" value="CC0603KRX5R7BB105"/>
 </part>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUSP4" library="oresat-supplies" deviceset="VBUSP" device=""/>
@@ -16037,9 +16037,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R76" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity "/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="P2.7KDBCT-ND"/>
+<attribute name="MFR" value="Panasonic"/>
+<attribute name="MPN" value="ERA-3AEB272V"/>
 </part>
 <part name="Q10" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16049,68 +16049,68 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="R77" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP39" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP40" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R78" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
-<attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="DPN" value="A129718CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F330K"/>
 </part>
 <part name="R79" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND  "/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD9" library="oresat-supplies" deviceset="VPD" device=""/>
 <part name="TP41" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R80" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND "/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL "/>
 </part>
 <part name="R81" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
-<attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
+<attribute name="MFR" value="Stackpole"/>
+<attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R82" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
-<attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="DPN" value="A129718CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F330K"/>
 </part>
 <part name="R83" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND  "/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND77" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD10" library="oresat-supplies" deviceset="VPD" device=""/>
 <part name="TP42" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="C22" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="DPN" value="311-1444-1-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+<attribute name="MPN" value="CC0603KRX5R7BB105"/>
 </part>
 <part name="GND78" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C23" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="DPN" value="311-1444-1-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+<attribute name="MPN" value="CC0603KRX5R7BB105"/>
 </part>
 <part name="GND79" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U11" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
@@ -17233,7 +17233,7 @@ bootloader</text>
 <attribute name="DPN" x="269.24" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFR" x="269.24" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="269.24" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="267.97" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="267.97" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.97" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R75" gate="R" x="269.24" y="73.66" smashed="yes" rot="R90">
@@ -18298,11 +18298,11 @@ I2C Address:
 <text x="13.97" y="139.7" size="1.778" layer="97">NOTE: PB6 and PB7 tied
 together via 2x 10k
 resistors @ MAX7310!</text>
-<wire x1="347.98" y1="111.76" x2="347.98" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="347.98" y1="76.2" x2="375.92" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="375.92" y1="76.2" x2="375.92" y2="111.76" width="0.1524" layer="97"/>
-<wire x1="375.92" y1="111.76" x2="347.98" y2="111.76" width="0.1524" layer="97"/>
-<text x="355.6" y="88.9" size="1.778" layer="97">Power/Current 
+<wire x1="121.92" y1="134.62" x2="121.92" y2="99.06" width="0.1524" layer="97"/>
+<wire x1="121.92" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="97"/>
+<wire x1="149.86" y1="99.06" x2="149.86" y2="134.62" width="0.1524" layer="97"/>
+<wire x1="149.86" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="97"/>
+<text x="129.54" y="111.76" size="1.778" layer="97">Power/Current 
 draw from OPD.
 Signal is analog 
 voltage 0-1.2V</text>
@@ -18476,13 +18476,13 @@ programming board</text>
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="R49" gate="R" x="353.06" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="351.5614" y="100.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="356.362" y="100.33" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIS" x="353.06" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="353.06" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="353.06" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="353.06" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R49" gate="R" x="127" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.5014" y="123.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.302" y="123.19" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="127" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="127" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="127" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="127" y="127" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="20.32" y="71.12" smashed="yes">
 <attribute name="NAME" x="17.78" y="102.87" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -18768,16 +18768,16 @@ programming board</text>
 </net>
 <net name="NRESET" class="0">
 <segment>
-<wire x1="78.74" y1="210.82" x2="114.3" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="210.82" x2="195.58" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="210.82" x2="91.44" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="210.82" x2="195.58" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="210.82" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
 <label x="34.29" y="91.44" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="NRST"/>
 <pinref part="J7" gate="G$1" pin="NRST"/>
 <wire x1="31.75" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="210.82" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
-<junction x="114.3" y="210.82"/>
-<label x="114.3" y="154.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="91.44" y1="210.82" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
+<junction x="91.44" y="210.82"/>
+<label x="91.44" y="154.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP11" gate="A" pin="1"/>
@@ -18809,12 +18809,12 @@ programming board</text>
 <label x="193.04" y="205.74" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U7" gate="G$1" pin="PA13-SWDIO"/>
 <pinref part="J7" gate="G$1" pin="SWDIO"/>
-<wire x1="81.28" y1="205.74" x2="119.38" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="205.74" x2="195.58" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="205.74" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="205.74" x2="195.58" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="88.9" x2="31.75" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="205.74" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
-<junction x="119.38" y="205.74"/>
-<label x="119.38" y="154.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="96.52" y1="205.74" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<junction x="96.52" y="205.74"/>
+<label x="96.52" y="154.94" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP11" gate="A" pin="5"/>
@@ -18829,12 +18829,12 @@ programming board</text>
 <label x="193.04" y="203.2" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U7" gate="G$1" pin="PA14-SWCLK"/>
 <pinref part="J7" gate="G$1" pin="SWCLK"/>
-<wire x1="83.82" y1="203.2" x2="121.92" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="203.2" x2="99.06" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="31.75" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="203.2" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
-<junction x="121.92" y="203.2"/>
-<label x="121.92" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="99.06" y1="203.2" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
+<junction x="99.06" y="203.2"/>
+<label x="99.06" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP11" gate="A" pin="7"/>
@@ -18942,16 +18942,16 @@ programming board</text>
 <wire x1="27.94" y1="208.28" x2="27.94" y2="180.34" width="0.1524" layer="91"/>
 <label x="27.94" y="180.34" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="U7" gate="G$1" pin="PF11-BOOT0"/>
-<wire x1="195.58" y1="208.28" x2="116.84" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="208.28" x2="93.98" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R47" gate="R" pin="2"/>
-<wire x1="116.84" y1="208.28" x2="38.1" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="208.28" x2="38.1" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="208.28" x2="27.94" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="200.66" x2="38.1" y2="203.2" width="0.1524" layer="91"/>
 <junction x="38.1" y="208.28"/>
 <wire x1="38.1" y1="203.2" x2="38.1" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="208.28" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
-<junction x="116.84" y="208.28"/>
-<label x="116.84" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="93.98" y1="208.28" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
+<junction x="93.98" y="208.28"/>
+<label x="93.98" y="175.26" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="TP25" gate="G$1" pin="1"/>
 <junction x="38.1" y="203.2"/>
 </segment>
@@ -18959,25 +18959,6 @@ programming board</text>
 <pinref part="JP11" gate="A" pin="3"/>
 <wire x1="96.52" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PA8/POUTPROT" class="0">
-<segment>
-<label x="350.52" y="132.08" size="1.778" layer="95" rot="MR270"/>
-<wire x1="353.06" y1="109.22" x2="353.06" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="PA8"/>
-<wire x1="353.06" y1="165.1" x2="287.02" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R49" gate="R" pin="2"/>
-<label x="243.84" y="165.1" size="1.778" layer="95"/>
-<wire x1="287.02" y1="165.1" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="165.1" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
-<junction x="287.02" y="165.1"/>
-<label x="287.02" y="147.32" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="6"/>
-<wire x1="261.62" y1="33.02" x2="254" y2="33.02" width="0.1524" layer="91"/>
-<label x="261.62" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$521" class="0">
@@ -19003,8 +18984,8 @@ programming board</text>
 </net>
 <net name="POUT" class="0">
 <segment>
-<wire x1="353.06" y1="99.06" x2="353.06" y2="93.98" width="0.1524" layer="91"/>
-<label x="353.06" y="93.98" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="127" y1="121.92" x2="127" y2="116.84" width="0.1524" layer="91"/>
+<label x="127" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="R49" gate="R" pin="1"/>
 </segment>
 </net>
@@ -19177,18 +19158,6 @@ programming board</text>
 <label x="238.76" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PB0" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="PB0"/>
-<wire x1="195.58" y1="185.42" x2="170.18" y2="185.42" width="0.1524" layer="91"/>
-<label x="170.18" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP11" gate="A" pin="9"/>
-<wire x1="121.92" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
-<label x="121.92" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="PB1" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PB1"/>
@@ -19343,6 +19312,36 @@ programming board</text>
 <pinref part="JP11" gate="A" pin="20"/>
 <wire x1="137.16" y1="15.24" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
 <label x="170.18" y="15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PB0/POUTPROT" class="0">
+<segment>
+<label x="350.52" y="132.08" size="1.778" layer="95" rot="MR270"/>
+<wire x1="127" y1="132.08" x2="127" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="127" y1="185.42" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="R49" gate="R" pin="2"/>
+<wire x1="121.92" y1="185.42" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
+<label x="121.92" y="170.18" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U7" gate="G$1" pin="PB0"/>
+<wire x1="127" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
+<junction x="127" y="185.42"/>
+</segment>
+<segment>
+<pinref part="JP11" gate="A" pin="9"/>
+<wire x1="121.92" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<label x="121.92" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PA8" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="PA8"/>
+<wire x1="241.3" y1="165.1" x2="287.02" y2="165.1" width="0.1524" layer="91"/>
+<label x="287.02" y="165.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="A" pin="6"/>
+<wire x1="261.62" y1="33.02" x2="254" y2="33.02" width="0.1524" layer="91"/>
+<label x="261.62" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
