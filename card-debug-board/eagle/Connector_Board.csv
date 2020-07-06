@@ -1,24 +1,24 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"MANUFACTURER";"MANUFACTURER_PART_NUMBER";"MOUSER_PART_NUMBER";"POPULARITY";"PROD_ID";"SF_ID";"VALUE";"VDC";
-"2";"";"MICRO-USB-SOCKET";"629105136821";"J2, J5";"WR-COM SMT Horizontal 5 Contacts Micro USB Type B,5 pins=>Code : Con_I-O_COM_MicroUSB_629105136821";"CONN RCPT USB2.0 MICRO B SMD R/A";"732-3155-1-ND";"Würth Elektronik";"629105136821";"";"";"";"";"";"";
-"1";"";"PINHD-1X2";"1X02";"JP3";"PIN HEADER";"Connector Header Through Hole 2 position 0.100" (2.54mm)";"732-5315-ND";"Würth Elektronik";"61300211121";"";"98";"";"";"";"";
-"1";"";"PINHD-1X3";"1X03";"JP1";"PIN HEADER";"CONN HEADER VERT 3POS 2.54MM";"732-5316-ND";"Würth Elektronik";"61300311121";"";"92";"";"";"";"";
-"1";"";"PINHD-1X5";"1X05";"JP4";"PIN HEADER";"Connector Header Through Hole 5 position 0.100" (2.54mm)";"732-5318-ND";"Würth Elektronik";"61300511121";"";"69";"";"";"";"";
-"6";".1u";"C-EU0603-C-NOSILK";".0603-C-NOSILK";"C3, C6, C7, C8, C9, C10";"CAPACITOR, European symbol";"0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)";"478-0603ZD104KAT2ACT-ND";"AVX";"0603ZD104KAT2A";"";"";"";"";"";"10V";
-"1";"100k";"R-US_0603-C-NOSILK";".0603-C-NOSILK";"R9";"RESISTOR, American symbol";"100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film";"RMCF0603JG100KTR-ND";"Stackpole Electronics Inc";"RMCF0603JG100K";"";"";"";"";"";"";
-"3";"10k";"R-US_0603-C-NOSILK";".0603-C-NOSILK";"R3, R5, R6";"RESISTOR, American symbol";"10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film";"CR0603-FX-1002ELFCT-ND";"Bourns";"CR0603-FX-1002ELF";"";"";"";"";"";"";
-"1";"10nF";"C-EU0603-C-NOSILK";".0603-C-NOSILK";"C1";"CAPACITOR, European symbol";"10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)";"732-13185-1-ND";"Wurth Elektronik";"885382206002";"";"";"";"";"";"50V";
-"1";"1k";"R-US_0603-C-NOSILK";".0603-C-NOSILK";"R10";"RESISTOR, American symbol";"RES SMD 1K OHM 1% 1/10W 0603";"311-1.00KHRCT-ND";"Yageo";"RC0603FR-071KL";"";"";"";"";"";"";
-"2";"27";"R-US_0603-C-NOSILK";".0603-C-NOSILK";"R1, R2";"RESISTOR, American symbol";"RES SMD 27 OHM 1% 1/10W 0603";"CR0603-FX-27R0ELFCT-ND";"Bourns Inc.";"CR0603-FX-27R0ELF";"";"";"";"";"";"";
-"2";"270";"R-US_0603-C-NOSILK";".0603-C-NOSILK";"R7, R8";"RESISTOR, American symbol";"RES SMD 270 OHM 1% 1/10W 0603";"P270HCT-ND";"Panasonic Electronic Components";"Panasonic Electronic Components";"";"";"";"";"";"";
-"1";"4.7uF";"C-EU0603-C-NOSILK";".0603-C-NOSILK";"C2";"CAPACITOR, European symbol";"4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)";"445-14258-1-ND";"TDK";"C1608X7S1A475K080AC";"";"";"";"";"";"10V";
-"2";"47pF";"C-EU0603-C-NOSILK";".0603-C-NOSILK";"C4, C5";"CAPACITOR, European symbol";"CAP CER 47PF 25V NP0 0603";"478-12679-1-ND";"AVX Corporation";"06033A470FAT2A";"";"";"";"";"";"25V";
-"1";"600 ohm";"L-US0805-A-NOSILK";".0805-A-NOSILK";"L1";"INDUCTOR, American symbol";"FERRITE BEAD 600 OHM 0805 1LN";"240-2390-1-ND";"Laird-Signal Integrity Products";"MI0805K601R-10";"";"";"";"";"";"";
-"1";"B3F-1000";"SW-MOM-TACTILE-B3F-1000";"SW-MOM-OMRON-6X6X4.3";"SW1";"Momentary Tactile Switch";"SWITCH TACTILE SPST-NO 0.05A 24V";"SW400-ND";"Omron Electronics Inc-EMC Div";"B3F-1000";"";"";"";"";"";"";
-"1";"CDBU0520";"CDBU0520";"DIOC1709X85N";"D1";"COMCHIP TECHNOLOGY CDBU0520, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)";"Diode Schottky 20V 500mA Surface Mount 0603/SOD-523F";"641-1332-1-ND";"Comchip Technology";"CDBU0520";"";"";"";"";"";"";
-"1";"FT230XS-R";"FT230XS-R";"SOP64P599X175-16N";"U1";"UART Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V";"UART Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V";"768-1135-1-ND";"FTDI Chip";"FT230XS-R";"895-FT230XS-R";"";"";"";"";"";
-"1";"FTSH-105-XX-X-DV-K";"FTSH-105-XX-X-DV-K";"CON10_2X5_DUK_FTSH";"CM1";"";"Connector Header Surface Mount 10 position 0.050" (1.27mm)";"SAM13160CT-ND";"Samtec Inc.";"FTSH-105-01-F-DV-K-TR";"";"";"";"";"";"";
-"2";"GREEN";"LED-GREEN0603";"LED-0603";"D2, D3";"Green SMD LED";"Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)";"732-12017-1-ND";"Würth Elektronik";"150060VS55040";"";"";"DIO-00821";"";"GREEN";"";
-"1";"MOSFET-PCH-SOT23-6";"MOSFET-PCH-SOT23-6";"SOT23-6";"Q1";"P channel MOSFET in an SOT23-6";"P-Channel 30V 4.1A 350mW Surface Mount SOT-23-6L";"SIL3407-TPMSCT-ND";"Micro Commercial Co";"SIL3407-TP";"";"";"";"";"";"";
-"1";"ORESAT-DEBUG-CONNECTOR-CARD";"ORESAT-DEBUG-CONNECTOR-CARD";"TE_2-1734592-0";"J1";"";"20 Position FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle";"A100287CT-ND";"TE Connectivity AMP Connectors";"2-1734592-0";"";"";"";"";"";"";
-"5";"TEST-POINT-LARGE";"TEST-POINT-LARGE";"1X01";"!RTS, RX1, RX2, TX1, TX2";"";"";"";"";"";"";"";"";"";"";"";
-"1";"USB_A_SMT_FEMALE";"USB_A_SMT_FEMALE";"USB-A-S-SILK-FEMALE";"J3";"USB-A Connector";"SparkFun Accessories USB Female Type A SMD Connector";"";"SparkFun";"PRT-09011";"474-PRT-09011";"";"CONN-09520";"PRT-09011";"";"";
+Qty,Value,Device,Package,Parts,Description,DESCRIPTION,DIGI-KEY_PART_NUMBER,MANUFACTURER,MANUFACTURER_PART_NUMBER,MOUSER_PART_NUMBER,POPULARITY,PROD_ID,SF_ID,VALUE,VDC
+2,,MICRO-USB-SOCKET,629105136821,"J2, J5","WR-COM SMT Horizontal 5 Contacts Micro USB Type B,5 pins=>Code : Con_I-O_COM_MicroUSB_629105136821","CONN RCPT USB2.0 MICRO B SMD R/A",732-3155-1-ND,"Würth Elektronik",629105136821,,,,,,
+2,,PINHD-1X2,1X02,"JP2,JP3","PIN HEADER","Connector Header Through Hole 2 position 0.100",732-5315-ND,"Würth Elektronik",61300211121,,98,,,,
+1,,PINHD-1X3,1X03,JP1,"PIN HEADER","CONN HEADER VERT 3POS 2.54MM",732-5316-ND,"Würth Elektronik",61300311121,,92,,,,
+1,,PINHD-1X5,1X05,JP4,"PIN HEADER","Connector Header Through Hole 5 position 0.100",732-5318-ND,"Würth Elektronik",61300511121,,69,,,,
+6,.1u,C-EU0603-C-NOSILK,.0603-C-NOSILK,"C3, C6, C7, C8, C9, C10","CAPACITOR, European symbol","0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)",478-0603ZD104KAT2ACT-ND,AVX,0603ZD104KAT2A,,,,,,10V
+1,100k,R-US_0603-C-NOSILK,.0603-C-NOSILK,R9,"RESISTOR, American symbol","100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film",RMCF0603JG100KTR-ND,"Stackpole Electronics Inc",RMCF0603JG100K,,,,,,
+3,10k,R-US_0603-C-NOSILK,.0603-C-NOSILK,"R3, R5, R6","RESISTOR, American symbol","10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film",CR0603-FX-1002ELFCT-ND,Bourns,CR0603-FX-1002ELF,,,,,,
+1,10nF,C-EU0603-C-NOSILK,.0603-C-NOSILK,C1,"CAPACITOR, European symbol","10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)",732-13185-1-ND,"Wurth Elektronik",885382206002,,,,,,50V
+1,1k,R-US_0603-C-NOSILK,.0603-C-NOSILK,R10,"RESISTOR, American symbol","RES SMD 1K OHM 1% 1/10W 0603",311-1.00KHRCT-ND,Yageo,RC0603FR-071KL,,,,,,
+2,27,R-US_0603-C-NOSILK,.0603-C-NOSILK,"R1, R2","RESISTOR, American symbol","RES SMD 27 OHM 1% 1/10W 0603",CR0603-FX-27R0ELFCT-ND,"Bourns Inc.",CR0603-FX-27R0ELF,,,,,,
+2,270,R-US_0603-C-NOSILK,.0603-C-NOSILK,"R7, R8","RESISTOR, American symbol","RES SMD 270 OHM 1% 1/10W 0603",P270HCT-ND,"Panasonic Electronic Components","Panasonic Electronic Components",,,,,,
+1,4.7uF,C-EU0603-C-NOSILK,.0603-C-NOSILK,C2,"CAPACITOR, European symbol","4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)",445-14258-1-ND,TDK,C1608X7S1A475K080AC,,,,,,10V
+2,47pF,C-EU0603-C-NOSILK,.0603-C-NOSILK,"C4, C5","CAPACITOR, European symbol","CAP CER 47PF 25V NP0 0603",478-12679-1-ND,"AVX Corporation",06033A470FAT2A,,,,,,25V
+1,"600 ohm",L-US0805-A-NOSILK,.0805-A-NOSILK,L1,"INDUCTOR, American symbol","FERRITE BEAD 600 OHM 0805 1LN",240-2390-1-ND,"Laird-Signal Integrity Products",MI0805K601R-10,,,,,,
+1,B3F-1000,SW-MOM-TACTILE-B3F-1000,SW-MOM-OMRON-6X6X4.3,SW1,"Momentary Tactile Switch","SWITCH TACTILE SPST-NO 0.05A 24V",SW400-ND,"Omron Electronics Inc-EMC Div",B3F-1000,,,,,,
+2,CDBU0520,CDBU0520,DIOC1709X85N,"D1,D2","COMCHIP TECHNOLOGY CDBU0520, SMT Schottky Diode, 30V 0.5A, 2-Pin SOD-523F (0603)","Diode Schottky 20V 500mA Surface Mount 0603/SOD-523F",641-1332-1-ND,"Comchip Technology",CDBU0520,,,,,,
+1,FT230XS-R,FT230XS-R,SOP64P599X175-16N,U1,"UART Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V","UART Interface RS232, RS422, RS485, SIE, UART 3MBd, 5 V",768-1135-1-ND,"FTDI Chip",FT230XS-R,895-FT230XS-R,,,,,
+1,FTSH-105-XX-X-DV-K,FTSH-105-XX-X-DV-K,CON10_2X5_DUK_FTSH,CM1,,"Connector Header Surface Mount 10 position 0.050",SAM13160CT-ND,"Samtec Inc.",FTSH-105-01-F-DV-K-TR,,,,,,
+2,GREEN,LED-GREEN0603,LED-0603,"D2, D3","Green SMD LED","Green 573nm LED Indication - Discrete 2V 0603 (1608 Metric)",732-12017-1-ND,"Würth Elektronik",150060VS55040,,,DIO-00821,,GREEN,
+1,MOSFET-PCH-SOT23-6,MOSFET-PCH-SOT23-6,SOT23-6,Q1,"P channel MOSFET in an SOT23-6","P-Channel 30V 4.1A 350mW Surface Mount SOT-23-6L",SIL3407-TPMSCT-ND,"Micro Commercial Co",SIL3407-TP,,,,,,
+1,ORESAT-DEBUG-CONNECTOR-CARD,ORESAT-DEBUG-CONNECTOR-CARD,TE_2-1734592-0,J1,,"20 Position FPC Connector Contacts, Bottom 0.020",A100287CT-ND,"TE Connectivity AMP Connectors",2-1734592-0,,,,,,
+5,TEST-POINT-LARGE,TEST-POINT-LARGE,1X01,"!RTS, RX1, RX2, TX1, TX2",,,,,,,,,,,
+1,USB_A_SMT_FEMALE,USB_A_SMT_FEMALE,USB-A-S-SILK-FEMALE,J3,"USB-A Connector","SparkFun Accessories USB Female Type A SMD Connector",,SparkFun,PRT-09011,474-PRT-09011,,CONN-09520,PRT-09011,,

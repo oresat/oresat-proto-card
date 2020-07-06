@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10525,6 +10525,18 @@ Mfg.: Omron, Dim: 6mm x 6mm x 4.3mm, 150gf, 10E6 cycles, Gold Plated Contacts, M
 <attribute name="MANUFACTURER_PART_NUMBER" value="B3F-1000"/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D4" library="D-Comchip_Schottky_Diode_CDBU0520" deviceset="CDBU0520" device="">
+<attribute name="DESCRIPTION" value="Diode Schottky 20V 500mA Surface Mount 0603/SOD-523F"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="641-1332-1-ND"/>
+<attribute name="MANUFACTURER" value="Comchip Technology"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CDBU0520"/>
+</part>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 2 position 0.100&quot; (2.54mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5315-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61300211121"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -10556,17 +10568,18 @@ Select</text>
 <wire x1="7.62" y1="4.826" x2="116.84" y2="4.826" width="0.1524" layer="94" style="shortdash"/>
 <text x="180.34" y="27.94" size="3.81" layer="94">OreSat Debug Connector Board</text>
 <text x="264.16" y="7.62" size="2.54" layer="94">1.1</text>
-<text x="53.34" y="88.9" size="2.286" layer="94">Power
+<text x="99.06" y="88.9" size="2.286" layer="94">Power
 Select</text>
 <text x="55.88" y="78.74" size="2.286" layer="94">JTAG/SWD</text>
 <text x="93.98" y="63.5" size="2.286" layer="94">USB to UART</text>
 <text x="76.2" y="53.34" size="2.286" layer="94">CARD IS USB DEVICE</text>
-<text x="50.8" y="45.72" size="2.286" layer="94">CARD IS USB HOST</text>
+<text x="63.5" y="45.72" size="2.286" layer="94">CARD IS USB HOST</text>
 <text x="83.82" y="21.59" size="2.286" layer="94">DEBUG BREAKOUT</text>
 <text x="16.51" y="168.91" size="1.778" layer="97" rot="R90">RX</text>
 <text x="26.67" y="168.91" size="1.778" layer="97" rot="R90">TX</text>
-<text x="27.94" y="86.36" size="2.286" layer="94">VBUSP Supply</text>
+<text x="73.66" y="86.36" size="2.286" layer="94">VBUSP Supply</text>
 <text x="10.16" y="5.08" size="3.81" layer="97">Mirrored Edge Connector</text>
+<text x="40.64" y="137.16" size="2.286" layer="94">3.0V supply for Solar</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10605,12 +10618,12 @@ Select</text>
 <instance part="GND2" gate="1" x="241.3" y="53.34" smashed="yes">
 <attribute name="VALUE" x="238.76" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="48.26" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.546" y="79.375" size="1.778" layer="95" rot="R180"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" x="48.26" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="D1" gate="G$1" x="93.98" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.266" y="79.375" size="1.778" layer="95" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="93.98" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="93.98" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="CM1" gate="A" x="160.02" y="78.74" smashed="yes">
 <attribute name="NAME" x="153.67" y="97.155" size="1.778" layer="95"/>
@@ -10915,15 +10928,30 @@ Select</text>
 <instance part="GND15" gate="1" x="151.13" y="49.53" smashed="yes">
 <attribute name="VALUE" x="148.59" y="46.99" size="1.778" layer="96"/>
 </instance>
+<instance part="D4" gate="G$1" x="35.56" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.465" y="131.826" size="1.778" layer="95" rot="R270"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="35.56" y="129.54" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="35.56" y="129.54" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="35.56" y="129.54" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="35.56" y="129.54" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="38.1" y="137.16" smashed="yes">
+<attribute name="NAME" x="31.75" y="142.875" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="132.08" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="38.1" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="38.1" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="38.1" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="38.1" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="HOSTD_P" class="1">
 <segment>
-<label x="35.56" y="45.72" size="1.778" layer="95" xref="yes"/>
+<label x="45.72" y="45.72" size="1.778" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="HOST-D+"/>
-<wire x1="31.75" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="D+"/>
@@ -10934,9 +10962,9 @@ Select</text>
 </net>
 <net name="HOSTD_N" class="1">
 <segment>
-<label x="50.8" y="43.18" size="1.778" layer="95" xref="yes"/>
+<label x="63.5" y="43.18" size="1.778" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="HOST-D-"/>
-<wire x1="31.75" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="63.5" x2="243.84" y2="63.5" width="0.1524" layer="91"/>
@@ -10982,7 +11010,8 @@ Select</text>
 <junction x="58.42" y="147.32"/>
 <pinref part="R7" gate="R" pin="2"/>
 <wire x1="48.26" y1="147.32" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="147.32" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R8" gate="R" pin="2"/>
 <junction x="27.94" y="147.32"/>
@@ -10997,13 +11026,16 @@ Select</text>
 <junction x="91.44" y="152.4"/>
 <wire x1="91.44" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="157.48" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
+<junction x="35.56" y="147.32"/>
+<wire x1="35.56" y1="139.7" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VBUSP" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<label x="35.56" y="81.28" size="1.778" layer="95"/>
-<wire x1="45.72" y1="81.28" x2="31.75" y2="81.28" width="0.1524" layer="91"/>
+<label x="81.28" y="81.28" size="1.778" layer="95"/>
+<wire x1="91.44" y1="81.28" x2="31.75" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="VBUSP"/>
 </segment>
 </net>
@@ -11183,9 +11215,9 @@ Select</text>
 <label x="203.2" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="50.8" y1="86.36" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="86.36" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<label x="50.8" y="86.36" size="1.778" layer="95" xref="yes"/>
+<label x="96.52" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DEBUG-0/HOST5V" class="0">
@@ -11201,12 +11233,17 @@ Select</text>
 <label x="208.28" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="DEBUG-1" class="0">
+<net name="DEBUG-1/SOLAR3V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="DEBUG-1"/>
-<wire x1="31.75" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <label x="81.28" y="35.56" size="1.778" layer="95"/>
 <pinref part="JP4" gate="A" pin="2"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="35.56" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="127" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<junction x="35.56" y="35.56"/>
+<label x="36.83" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DEBUG-2" class="0">
@@ -11487,11 +11524,29 @@ Select</text>
 <wire x1="251.46" y1="99.06" x2="250.19" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="132.08" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,243.84,66.04,J3,VBUS,N$2,,,"/>
+<approved hash="104,1,91.44,157.48,U1,VCCIO,3V3OUT,,,"/>
+<approved hash="104,1,109.22,144.78,U1,GND_1,GND,,,"/>
+<approved hash="104,1,111.76,144.78,U1,GND_2,GND,,,"/>
+<approved hash="106,1,129.54,175.26,SLEEP#,,,,,"/>
 <approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,1,255.671,109.814,J2,,,,,"/>
+<approved hash="113,1,216.137,113.256,JP1,,,,,"/>
+<approved hash="113,1,230.271,163.154,J5,,,,,"/>
+<approved hash="113,1,218.677,63.7261,JP3,,,,,"/>
+<approved hash="113,1,109.457,34.5161,JP4,,,,,"/>
+<approved hash="113,1,35.7971,139.926,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
