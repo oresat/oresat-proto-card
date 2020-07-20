@@ -2214,8 +2214,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="732-13185-1-ND" x="52.578" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Wurth Elektronik" x="52.578" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="885382206002" x="52.578" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.578" y="7.62" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="52.578" y="6.35" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="52.578" y="7.62" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="53.578" y="9.17" size="0.8" layer="27" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VDC" value="50V" x="52.578" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -2224,8 +2224,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="445-14258-1-ND" x="57.15" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TDK" x="57.15" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7S1A475K080AC" x="57.15" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.15" y="12.7" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="58.801" y="12.7" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="57.15" y="12.7" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="56.15" y="11.15" size="0.8" layer="27" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="57.15" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
@@ -2234,8 +2234,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="57.15" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="57.15" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="57.15" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.15" y="13.97" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="58.801" y="13.97" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="57.15" y="13.97" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="56.15" y="12.42" size="0.8" layer="27" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="57.15" y="13.97" size="1.778" layer="27" display="off"/>
 </element>
@@ -2244,8 +2244,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-12679-1-ND" x="54.737" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="54.737" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06033A470FAT2A" x="54.737" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54.737" y="7.62" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="54.737" y="8.89" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="54.737" y="7.62" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="56.287" y="6.62" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VDC" value="25V" x="54.737" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2254,8 +2254,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-12679-1-ND" x="57.277" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="57.277" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06033A470FAT2A" x="57.277" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="57.277" y="7.62" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="57.277" y="8.89" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="57.277" y="7.62" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="58.827" y="6.62" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VDC" value="25V" x="57.277" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2264,8 +2264,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="52.07" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="52.07" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="52.07" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="52.07" y="17.78" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="52.07" y="19.05" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="52.07" y="17.78" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="48.26" y="17.78" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="52.07" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2362,8 +2362,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="43.688" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="43.688" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="43.688" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="43.688" y="11.43" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="41.91" y="11.176" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="43.688" y="11.43" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="39.878" y="11.43" size="0.8" layer="27" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="43.688" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -2372,8 +2372,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="47.752" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="47.752" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="47.752" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.752" y="11.43" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="47.625" y="12.319" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="47.752" y="11.43" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="49.022" y="11.43" size="0.8" layer="27" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="47.752" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
@@ -2415,8 +2415,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="48.26" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="48.26" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="48.26" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="48.26" y="2.54" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="48.26" y="3.81" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="48.26" y="2.54" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="46.99" y="1.27" size="0.8" layer="27" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="48.26" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2425,8 +2425,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="44.323" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="44.323" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="44.323" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.323" y="2.54" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="44.323" y="3.81" size="0.635" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="44.323" y="2.54" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="45.593" y="3.81" size="0.8" layer="27" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VDC" value="10V" x="44.323" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2648,7 +2648,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C10" pad="2"/>
 <contactref element="SW1" pad="4"/>
 <contactref element="SW1" pad="3"/>
-<wire x1="56.2356" y1="16.3449" x2="56.198" y2="16.338" width="0.3048" layer="1"/>
 <via x="56.134" y="17.653" extent="1-16" drill="0.254"/>
 <via x="56.261" y="15.113" extent="1-16" drill="0.254"/>
 <via x="57.912" y="14.859" extent="1-16" drill="0.254"/>
