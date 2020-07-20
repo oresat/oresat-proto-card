@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18312,7 +18312,7 @@ voltage 0-1.2V</text>
 <wire x1="45.72" y1="223.52" x2="10.16" y2="223.52" width="0.1524" layer="97"/>
 <text x="233.68" y="220.98" size="1.778" layer="97">VBAT not bypassed becase not enough room
 instead tied into nearest bypass cap</text>
-<text x="48.26" y="71.12" size="1.778" layer="97">Rx-Tx switch happens on 
+<text x="71.12" y="76.2" size="1.778" layer="97">Rx-Tx switch happens on 
 programming board</text>
 <wire x1="76.2" y1="5.08" x2="76.2" y2="55.88" width="0.1524" layer="97"/>
 <wire x1="76.2" y1="55.88" x2="317.5" y2="55.88" width="0.1524" layer="97"/>
@@ -19362,10 +19362,10 @@ programming board</text>
 <approved hash="104,2,134.62,99.06,U11,VDD,VPD,,,"/>
 <approved hash="104,2,134.62,54.61,U12,VDD,VPD,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,223.757,78.9661,JP9,,,,,"/>
-<approved hash="113,1,223.478,128.496,JP10,,,,,"/>
+<approved hash="113,1,223.757,78.9356,JP9,,,,,"/>
+<approved hash="113,1,223.478,128.466,JP10,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,1,245.068,202.156,JP2,,,,,"/>
+<approved hash="113,1,245.068,202.126,JP2,,,,,"/>
 <approved hash="113,3,250.148,28.1661,JP8,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME4,,,,,"/>
 <approved hash="113,3,133.308,28.1661,JP11,,,,,"/>
