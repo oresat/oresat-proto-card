@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -277,15 +277,6 @@
 </library>
 <library name="Tova">
 <packages>
-<package name="2MM-TEST-POINT">
-<wire x1="-0.85" y1="-0.9" x2="0.85" y2="-0.9" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="-0.9" x2="0.85" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="0.9" x2="-0.85" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="0.9" x2="-0.85" y2="-0.9" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="0.7366"/>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
-<text x="-1.6" y="1.5" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
-</package>
 <package name="SOT23">
 <wire x1="1.4" y1="0.6" x2="-1.4" y2="0.6" width="0.3" layer="51"/>
 <wire x1="-1.4" y1="0.6" x2="-1.4" y2="-0.6" width="0.3" layer="51"/>
@@ -315,14 +306,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="TEST-POINT">
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="1" x="0" y="0" visible="off" length="point" direction="pas"/>
-</symbol>
 <symbol name="N_MOSFET">
 <wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
@@ -357,21 +340,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEST-POINT" prefix="TP">
-<gates>
-<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2MM-TEST-POINT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PMV45EN" prefix="Q">
 <gates>
 <gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
@@ -10201,58 +10169,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-6.8" y1="-2" x2="-6.8" y2="-1.8" width="0.05" layer="39"/>
 <wire x1="-6.8" y1="-1.8" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
 </package>
-<package name="WURTH_687120183622">
-<wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.4" width="0.127" layer="51"/>
-<wire x1="6.5" y1="1.4" x2="7.85" y2="1.4" width="0.127" layer="51"/>
-<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="1.4" x2="-7.85" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-7.85" y1="1.4" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="21"/>
-<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="-8" y1="4.3" x2="-8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="8" y1="-0.9" x2="8" y2="4.3" width="0.05" layer="39"/>
-<wire x1="8" y1="4.3" x2="-8" y2="4.3" width="0.05" layer="39"/>
-<wire x1="-7.85" y1="2.3" x2="-7.85" y2="1.4" width="0.127" layer="21"/>
-<text x="5.6" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="5.6" y="-3.4" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="PAD1" x="7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
-<smd name="PAD2" x="-7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
-<wire x1="-5.3" y1="2.5" x2="-5.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="5.3" y1="2.5" x2="5.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="8" y1="-0.9" x2="6.8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-0.9" x2="6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-2" x2="5.1" y2="-2" width="0.05" layer="39"/>
-<wire x1="5.1" y1="-2" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2.6" x2="-5.1" y2="-2" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-2" x2="-6.8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-0.9" x2="-8" y2="-0.9" width="0.05" layer="39"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ORESAT-DEBUG-CONNECTOR">
@@ -10288,32 +10204,7 @@ by exp-lbrs.ulp</description>
 <gate name="G$1" symbol="ORESAT-DEBUG-CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-CARD" package="TE_2-1734592-0">
-<connects>
-<connect gate="G$1" pin="CARD-RX" pad="12"/>
-<connect gate="G$1" pin="CARD-TX" pad="13"/>
-<connect gate="G$1" pin="DEBUG-0" pad="17"/>
-<connect gate="G$1" pin="DEBUG-1" pad="18"/>
-<connect gate="G$1" pin="DEBUG-2" pad="19"/>
-<connect gate="G$1" pin="DEBUG-3" pad="20"/>
-<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
-<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3 6 9"/>
-<connect gate="G$1" pin="HOST-D+" pad="7"/>
-<connect gate="G$1" pin="HOST-D-" pad="8"/>
-<connect gate="G$1" pin="NRST" pad="10"/>
-<connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
-<connect gate="G$1" pin="SWCLK" pad="15"/>
-<connect gate="G$1" pin="SWDIO" pad="14"/>
-<connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
-<connect gate="G$1" pin="VTARGET" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SOLAR" package="WURTH_687120183622">
+<device name="-ALL" package="TE_2-1734592-0">
 <connects>
 <connect gate="G$1" pin="CARD-RX" pad="12"/>
 <connect gate="G$1" pin="CARD-TX" pad="13"/>
@@ -15627,7 +15518,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="TP25" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP25" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2">
@@ -15663,14 +15554,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="J7" library="oresat-debug-connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-SOLAR"/>
+<part name="J7" library="oresat-debug-connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-ALL"/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="TP26" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP27" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP28" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP29" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="TP30" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP26" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP27" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP28" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP29" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP30" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R50" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="A129632CT-ND"/>
@@ -16047,13 +15938,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="DMP2240UDM"/>
 </part>
-<part name="R77" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R77" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
 <attribute name="MFR" value="Stackpole"/>
 <attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
-<part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP39" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP40" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R78" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
@@ -16077,13 +15967,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-07100RL "/>
 </part>
-<part name="R81" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<part name="R81" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="RNCP0603FTD10K0CT-ND  "/>
 <attribute name="MFR" value="Stackpole"/>
 <attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
-<part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R82" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="A129718CT-ND"/>
@@ -16121,7 +16010,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <description>Connectors</description>
 <plain>
 <text x="341.63" y="26.67" size="3.81" layer="94">OreSat Proto-Card</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">4.0</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">4.1</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
 <text x="106.68" y="63.5" size="2.54" layer="97" rot="R90">Auxiliary Connector</text>
@@ -16779,7 +16668,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <sheet>
 <description>Power</description>
 <plain>
-<text x="416.56" y="6.35" size="3.81" layer="94">4.0</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">4.1</text>
 <text x="198.12" y="259.08" size="2.54" layer="97">Main Power Switch</text>
 <text x="60.96" y="219.71" size="2.54" layer="97">Address selection for Card
 (See MAX7310 datasheet)</text>
@@ -17350,16 +17239,13 @@ bootloader</text>
 <attribute name="MFR" x="91.44" y="46.99" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="91.44" y="46.99" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R77" gate="R" x="88.9" y="26.67" smashed="yes" rot="R90">
-<attribute name="DIS" x="88.9" y="26.67" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="88.9" y="26.67" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="88.9" y="26.67" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="88.9" y="26.67" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="87.63" y="22.86" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.63" y="29.21" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND74" gate="1" x="88.9" y="17.78" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="91.44" y="15.24" size="1.778" layer="96" rot="MR0"/>
+<instance part="R77" gate="R" x="95.25" y="31.75" smashed="yes" rot="R180">
+<attribute name="DIS" x="95.25" y="31.75" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="95.25" y="31.75" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="95.25" y="31.75" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="95.25" y="31.75" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="91.44" y="33.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.79" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="TP39" gate="G$1" x="274.32" y="185.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="271.78" y="182.88" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -17400,16 +17286,13 @@ bootloader</text>
 <attribute name="NAME" x="68.58" y="95.25" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.93" y="95.25" size="1.778" layer="96"/>
 </instance>
-<instance part="R81" gate="R" x="88.9" y="71.12" smashed="yes" rot="R90">
-<attribute name="DIS" x="88.9" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="88.9" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="88.9" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="88.9" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="87.63" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.63" y="73.66" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND76" gate="1" x="88.9" y="62.23" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="91.44" y="59.69" size="1.778" layer="96" rot="MR0"/>
+<instance part="R81" gate="R" x="95.25" y="76.2" smashed="yes" rot="R180">
+<attribute name="DIS" x="95.25" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="95.25" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="95.25" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="95.25" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="90.17" y="77.47" size="1.778" layer="95"/>
+<attribute name="VALUE" x="96.52" y="77.47" size="1.778" layer="96"/>
 </instance>
 <instance part="R82" gate="R" x="111.76" y="100.33" smashed="yes" rot="R90">
 <attribute name="DIS" x="111.76" y="100.33" size="1.778" layer="96" rot="R90" display="off"/>
@@ -17588,11 +17471,6 @@ bootloader</text>
 <wire x1="251.46" y1="220.98" x2="251.46" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R77" gate="R" pin="1"/>
-<pinref part="GND74" gate="1" pin="GND"/>
-<wire x1="88.9" y1="20.32" x2="88.9" y2="21.59" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="D7" gate="G$1" pin="C"/>
 <pinref part="GND73" gate="1" pin="GND"/>
 <wire x1="219.71" y1="200.66" x2="225.806" y2="200.66" width="0.1524" layer="91"/>
@@ -17602,11 +17480,6 @@ bootloader</text>
 <pinref part="GND75" gate="1" pin="GND"/>
 <wire x1="134.62" y1="38.1" x2="134.62" y2="39.37" width="0.1524" layer="91"/>
 <pinref part="U12" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R81" gate="R" pin="1"/>
-<pinref part="GND76" gate="1" pin="GND"/>
-<wire x1="88.9" y1="64.77" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND77" gate="1" pin="GND"/>
@@ -18115,16 +17988,13 @@ bootloader</text>
 </net>
 <net name="N$539" class="0">
 <segment>
-<pinref part="Q10" gate=".1" pin="G"/>
-<pinref part="R77" gate="R" pin="2"/>
-<wire x1="88.9" y1="31.75" x2="88.9" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="46.99" x2="152.4" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="31.75" x2="88.9" y2="31.75" width="0.1524" layer="91"/>
-<junction x="88.9" y="31.75"/>
 <pinref part="TP41" gate="G$1" pin="1"/>
-<junction x="152.4" y="31.75"/>
 <pinref part="U12" gate="G$1" pin="OUT"/>
 <wire x1="145.415" y1="46.99" x2="152.4" y2="46.99" width="0.1524" layer="91"/>
+<pinref part="R77" gate="R" pin="1"/>
+<wire x1="100.33" y1="31.75" x2="152.4" y2="31.75" width="0.1524" layer="91"/>
+<junction x="152.4" y="31.75"/>
 </segment>
 </net>
 <net name="N$540" class="0">
@@ -18143,16 +18013,13 @@ bootloader</text>
 </net>
 <net name="N$573" class="0">
 <segment>
-<pinref part="R81" gate="R" pin="2"/>
-<wire x1="88.9" y1="76.2" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="91.44" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="TP42" gate="G$1" pin="1"/>
-<junction x="152.4" y="76.2"/>
-<pinref part="Q10" gate=".2" pin="G"/>
-<junction x="88.9" y="76.2"/>
 <pinref part="U11" gate="G$1" pin="OUT"/>
 <wire x1="145.415" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R81" gate="R" pin="1"/>
+<wire x1="100.33" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="152.4" y="76.2"/>
 </segment>
 </net>
 <net name="PEN-SCL-FILT" class="0">
@@ -18282,6 +18149,22 @@ bootloader</text>
 <wire x1="142.24" y1="149.86" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$398" class="0">
+<segment>
+<pinref part="Q10" gate=".1" pin="G"/>
+<pinref part="R77" gate="R" pin="2"/>
+<wire x1="90.17" y1="31.75" x2="88.9" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="31.75" x2="88.9" y2="44.45" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$400" class="0">
+<segment>
+<pinref part="Q10" gate=".2" pin="G"/>
+<pinref part="R81" gate="R" pin="2"/>
+<wire x1="90.17" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -18290,7 +18173,7 @@ bootloader</text>
 <text x="193.04" y="212.09" size="1.778" layer="97" rot="MR0">NRST pull-up
 built in</text>
 <text x="412.75" y="190.5" size="2.54" layer="97" rot="R180">CAN Transceiver</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">4.0</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">4.1</text>
 <text x="13.97" y="149.86" size="1.778" layer="97">Emergency M0 
 bootstrapping over OPD 
 I2C Address: 
@@ -19362,10 +19245,10 @@ programming board</text>
 <approved hash="104,2,134.62,99.06,U11,VDD,VPD,,,"/>
 <approved hash="104,2,134.62,54.61,U12,VDD,VPD,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,223.757,78.9356,JP9,,,,,"/>
-<approved hash="113,1,223.478,128.466,JP10,,,,,"/>
+<approved hash="113,1,223.757,78.9661,JP9,,,,,"/>
+<approved hash="113,1,223.478,128.496,JP10,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,1,245.068,202.126,JP2,,,,,"/>
+<approved hash="113,1,245.068,202.156,JP2,,,,,"/>
 <approved hash="113,3,250.148,28.1661,JP8,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME4,,,,,"/>
 <approved hash="113,3,133.308,28.1661,JP11,,,,,"/>
