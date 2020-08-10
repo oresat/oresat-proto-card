@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -15562,13 +15562,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP28" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP29" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP30" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="R50" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
+<part name="R50" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="A129632CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
 <attribute name="MPN" value="CRGCQ0402F2K7"/>
 </part>
-<part name="R51" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
+<part name="R51" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="A129632CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>

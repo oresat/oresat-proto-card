@@ -5927,7 +5927,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP30" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="20.3" y="11.2" smashed="yes">
 <attribute name="NAME" x="19.3" y="12.6" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="R50" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="26.4" y="70.4" smashed="yes" rot="R270">
+<element name="R50" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7k" x="26.4" y="70.4" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="26.4" y="70.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="A129632CT-ND" x="26.4" y="70.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="26.4" y="70.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5936,7 +5936,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="26.25" y="68.9" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="24.85" y="71.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R51" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="25.2" y="71.1" smashed="yes" rot="R270">
+<element name="R51" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7k" x="25.2" y="71.1" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="25.2" y="71.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DPN" value="A129632CT-ND" x="25.2" y="71.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="25.2" y="71.1" size="1.778" layer="27" rot="R270" display="off"/>
