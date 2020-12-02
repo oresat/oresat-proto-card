@@ -155,6 +155,23 @@ So worst case, 10 mV error. To keep this under 10%, make sure the trip voltage i
 
 What's the power use at 300 mA? That's (1.8, 2.2, 2.52) W. So 9 mW is max 0.05% power loss of the system. seems OK.
 
+### Inhibiting during power up
+
+We're experiencing some issues where we turn on the power switch and it immediately trips. This is annoying, and we can fix it
+by using their cute inhibit circuit to inhibit the CB during power up. Note that after reset, we clear the trip by holding the 
+CB-RESET down for 100 ms, forcing it on. For the protocard, this is fine. For the star tracker, it's 250 ms. So, let's go with
+an inhibit of 250 ms.
+ 
+- t_inhibit = R4 * C1 * ln(delV / 0.6V)
+- Pick a large R4, but not to large: 100k
+- 250 ms = 100k * C1 * ln( 8.4/0.6)
+- C1 = 947 nF ~ 1 uF
+
+This was implemented on OreSat0 FlatSat and seemed to work very well; I couldn't replicate the turn on + trip problem. 
+
+
+
+
 
 
 
