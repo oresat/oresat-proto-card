@@ -15804,20 +15804,20 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Stackpole"/>
 <attribute name="MPN" value="RNCP0603FTD10K0"/>
 </part>
-<part name="R71" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
+<part name="R71" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
+<part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10K">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
+<part name="C8" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
 <part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R73" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16004,6 +16004,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND79" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U11" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
 <part name="U12" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
+<part name="C1" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-6472-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL21B106KOQNNNG"/>
+</part>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16704,6 +16711,7 @@ bootloader</text>
 <text x="13.97" y="7.62" size="1.778" layer="97">All resistors 0603 +/- 1% unless marked</text>
 <text x="13.97" y="5.08" size="1.778" layer="97">All caps are ceramic 10% X5R &gt;= 16V V unless marked</text>
 <text x="328.93" y="26.67" size="3.81" layer="94">OreSat Proto-Card</text>
+<text x="229.87" y="233.68" size="1.778" layer="97">0805</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -17355,6 +17363,17 @@ bootloader</text>
 <attribute name="NAME" x="140.335" y="41.91" size="1.27" layer="95"/>
 <attribute name="VALUE" x="140.335" y="40.64" size="1.27" layer="96"/>
 </instance>
+<instance part="C1" gate="CE" x="228.6" y="241.3" smashed="yes">
+<attribute name="NAME" x="229.87" y="241.3" size="1.778" layer="95"/>
+<attribute name="VALUE" x="229.87" y="236.22" size="1.778" layer="96"/>
+<attribute name="DIS" x="228.6" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="228.6" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="228.6" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="228.6" y="241.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND3" gate="1" x="228.6" y="231.14" smashed="yes">
+<attribute name="VALUE" x="226.06" y="228.6" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17495,6 +17514,11 @@ bootloader</text>
 <pinref part="C23" gate="CE" pin="2"/>
 <pinref part="GND79" gate="1" pin="GND"/>
 <wire x1="111.76" y1="83.82" x2="111.76" y2="85.09" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="CE" pin="2"/>
+<wire x1="228.6" y1="236.22" x2="228.6" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -17669,7 +17693,11 @@ bootloader</text>
 <pinref part="R64" gate="G$1" pin="1"/>
 <junction x="287.02" y="246.38"/>
 <pinref part="Q7" gate="G$1" pin="D"/>
-<wire x1="220.98" y1="246.38" x2="287.02" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="246.38" x2="228.6" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="C1" gate="CE" pin="1"/>
+<wire x1="228.6" y1="246.38" x2="287.02" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="243.84" x2="228.6" y2="246.38" width="0.1524" layer="91"/>
+<junction x="228.6" y="246.38"/>
 </segment>
 </net>
 <net name="CB-RESET" class="0">
