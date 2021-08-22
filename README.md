@@ -38,6 +38,11 @@ easy way to hack in functionality. NOT MEANT FOR FLIGHT.
       - RF Adapters - In Series SMPM JACK/JACK BULLET .21IN
       - Molex w/3D: https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000220_RF_COAX_CONNECTORS.xml
 
+## OreSat Power Domain (OPD)
+
+You can find more design information on the OPD [here](https://docs.google.com/document/d/1NOkO6gGEJUFRpOrkwClRlZlzWuTLteq6fP9LPf_Ez0M/edit?usp=sharing).
+
+
 ## LICENSE
 
 Copyright Portland State Aerospace Society 2018.
