@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name oresat-proto-card-eagle-import)(type Legacy)(uri ${KIPRJMOD}/oresat-proto-card-eagle-import.lib)(options "")(descr ""))
-)
