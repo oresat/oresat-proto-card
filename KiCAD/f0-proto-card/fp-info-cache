@@ -1,1 +1,253 @@
+61085248871918
+oresat-passives
+0201-A
+<b>0201 (metric 0603) loose 'IPC-A'</b>{return}<br>In house package for generous spacing based on IPC-7351B.{return}<p>{return}This may be a poor choice as the large solder area relative to pad area (>3) may lead to tombstoning.{return}However, paste type and stencil thickness, etc. are also factors.
+
 0
+2
+2
+oresat-passives
+0201-A-NOSILK
+<b>0201 (metric 0603) loose 'IPC-A' without silkscreen</b>{return}<br>In house package for generous spacing based on IPC-7351B.{return}This package is identical to 0201-A, but has its tPlace silkscreen layer removed.{return}<p>{return}This may be a poor choice as the large solder area relative to pad area (>3) may lead to tombstoning.{return}However, paste type and stencil thickness, etc. are also factors.
+
+0
+2
+2
+oresat-passives
+0201-B
+<b>0201 (metric 0603) normal 'IPC-B'</b>{return}<br>In house package for nominal spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0201-B-NOSILK
+<b>0201 (metric 0603) normal 'IPC-B' without silkscreen</b>{return}<br>In house package for nominal spacing based on IPC-7351A. Cross-checked against other packages.{return} This package is identical to 0201-B, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0201-C
+<b>0201 (metric 0603) tight 'IPC-C'</b>{return}<br>In house package for minimum spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0201-C-NOSILK
+<b>0201 (metric 0603) tight 'IPC-C' without silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return} This package is identical to 0201-C, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0402-A
+<b>0402 (metric 1005) loose 'IPC-A'</b>{return}<br>In house package for generous spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0402-A-NOSILK
+<b>0402 (metric 1005) loose 'IPC-A' without silkscreen</b>{return}<br>In house package for generous spacing based on IPC-7351B.{return}This package is identical to 0402-A, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0402-B
+<b>e0402 (metric 1005) normal 'IPC-B'</b>{return}<br>In house package for nominal spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0402-B-NOSILK
+<b>e0402 (metric 1005) normal 'IPC-B' without silkscreen</b>{return}<br>In house package for nominal spacing based on IPC-7351B.{return}This package is identical to 0402-B, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0402-C
+<b>0402 (metric 1005) tight 'IPC-C'</b>{return}<br>In house package for minimum spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0402-C-NOSILK
+<b>0402 (metric 1005) tight 'IPC-C' without silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return}This package is identical to 0402-C, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0603-A
+<b>0603 (metric 1608) loose 'IPC-A'</b>{return}<br>In house package for generous spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0603-A-NOSILK
+<b>0603 (metric 1608) loose 'IPC-A' without silkscreen</b>{return}<br>In house package for generous spacing based on IPC-7351B.{return}This package is identical to 0603-A, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0603-B
+<b>0603 (metric 1608) normal 'IPC-B'</b>{return}<br>In house package for nominal spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0603-B-NOSILK
+<b>0603 (metric 1608) normal 'IPC-B' without silkscreen</b>{return}<br>In house package for nominal spacing based on IPC-7351B.{return}This package is identical to 0603-B, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0603-C
+<b>0603 (metric 1608) tight 'IPC-C'</b>{return}<br>In house package for minimum spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0603-C-NOSILK
+<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return}This package is identical to 0603-C, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0805-A
+<b>0805 (metric 2012) loose 'IPC-A'</b>{return}<br>In house package for generous spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0805-A-NOSILK
+<b>0805 (metric 2012) loose 'IPC-A' without silkscreen</b>{return}<br>In house package for generous spacing based on IPC-7351B.{return}This package is identical to 0805-A, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0805-B
+<b>0805 (metric 2012) normal 'IPC-B'</b>{return}<br>In house package for nominal spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0805-B-NOSILK
+<b>0805 (metric 2012) normal 'IPC-B' without silkscreen</b>{return}<br>In house package for nominal spacing based on IPC-7351B.{return}This package is identical to 0805-B, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+0805-C
+<b>0805 (metric 2012) tight 'IPC-C'</b>{return}<br>In house package for minimum spacing based on IPC-7351B.
+
+0
+2
+2
+oresat-passives
+0805-C-NOSILK
+<b>0805 (metric 2012) tight 'IPC-C' wilthout silkscreen</b>{return}<br>In house package for minimum spacing based on IPC-7351B.{return}This package is identical to 0805-C, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
+oresat-passives
+1206-A
+<b>1206 (metric 3216) loose 'IPC-A'</b>{return}<br>In house package for generous spacing based on IPC-7351A. Cross-checked against other packages.
+
+0
+2
+2
+oresat-passives
+1206-B
+<b>1206 (metric 3216) normal 'IPC-B'</b>{return}<br>In house package for nominal spacing based on IPC-7351A. Cross-checked against other packages.
+
+0
+2
+2
+oresat-passives
+1206-C
+<b>1206 (metric 3216) tight 'IPC-C'</b>{return}<br>In house package for minimum spacing based on IPC-7351A. Cross-checked against other packages.
+
+0
+2
+2
+oresat-passives
+1206-or-0805
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+oresat-passives
+CRYSTAL-5X3.2-4SMD
+
+
+0
+4
+4
+oresat-passives
+CRYSTAL_3.2X1.5
+
+
+0
+2
+2
+oresat-passives
+L_ECS-MPI4040
+Inductor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal
+inductor
+0
+2
+2
+oresat-passives
+PAT0816(0603)
+Susumu PAT 0816 series High Precision Chip Attentuators
+
+0
+3
+3
+oresat-passives
+PAT1220(0805)
+
+
+0
+3
+3
+oresat-passives
+Panasonic_Resistor_Array_EXBA10
+
+
+0
+10
+10
+oresat-passives
+R-PAC100-FOR-MELTWIRE
+
+
+0
+4
+2
+oresat-passives
+c_0603-SMALL
+0603 (metric 1608) tight 'IPC-C' without silkscreenIn house package for minimum spacing based on IPC-7351B.This package is identical to 0603-C, but has its tPlace silkscreen layer removed.
+
+0
+2
+2
