@@ -4,6 +4,12 @@
 
   (paper "User" 469.9 317.627)
 
+  (title_block
+    (title "oresat-proto-card")
+    (date "2024-02-25")
+    (rev "5.0")
+  )
+
   (lib_symbols
   )
 
