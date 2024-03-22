@@ -2,11 +2,11 @@
 
   (uuid 04d32576-d084-475b-9eac-d7f3fd9579d7)
 
-  (paper "User" 469.9 317.627)
+  (paper "USLedger")
 
   (title_block
-    (title "oresat-proto-card")
-    (date "2024-02-25")
+    (title "OreSat M0 Proto Card")
+    (date "2024-03-21")
     (rev "5.0")
   )
 
@@ -14,14 +14,14 @@
   )
 
 
-  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 190.5 110.49) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 5e24a3e8-a65e-478d-b976-97cb63cc1885)
-    (property "Sheetname" "Connectors" (at 25.4 24.6884 0)
+    (property "Sheetname" "Connectors" (at 190.5 109.7784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Connectors.kicad_sch" (at 25.4 29.7946 0)
+    (property "Sheetfile" "m0-proto-card-sch-connectors.kicad_sch" (at 190.5 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -31,14 +31,14 @@
     )
   )
 
-  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 190.5 123.19) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 74ca5f60-14f2-4db3-a5c5-49a2ce7c0209)
-    (property "Sheetname" "Power" (at 76.2 24.6884 0)
+    (property "Sheetname" "Power" (at 190.5 122.4784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Power.kicad_sch" (at 76.2 29.7946 0)
+    (property "Sheetfile" "m0-proto-card-sch-power.kicad_sch" (at 190.5 127.5846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -48,14 +48,14 @@
     )
   )
 
-  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 190.5 137.16) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid e68cb6cd-039d-43ad-93aa-b705d581519b)
-    (property "Sheetname" "Microcontroller" (at 127 24.6884 0)
+    (property "Sheetname" "Microcontroller" (at 190.5 136.4484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Microcontroller.kicad_sch" (at 127 29.7946 0)
+    (property "Sheetfile" "m0-proto-card-sch-microcontroller.kicad_sch" (at 190.5 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

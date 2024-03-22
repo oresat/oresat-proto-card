@@ -2,11 +2,11 @@
 
   (uuid 2c21849f-4e90-4351-9c00-702b76f03229)
 
-  (paper "B")
+  (paper "USLedger")
 
   (title_block
-    (title "oresat-proto-card")
-    (date "2024-02-25")
+    (title "OreSat M0 Proto Card: Connectors")
+    (date "2024-03-21")
     (rev "5.0")
   )
 
