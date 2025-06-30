@@ -3476,98 +3476,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-proto-card-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-proto-card-eagle-import:STAND-OFFTIGHT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3640,6 +3548,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Auxiliary Connector"
 		(exclude_from_sim no)
@@ -3707,9 +3716,9 @@
 		)
 		(uuid "ca9a7a27-1c9b-4b73-9d60-960953d0a38c")
 	)
-	(text "JP9 NOTES: does not have oresat-connector equivalent. Replaced with generic."
+	(text "24 not connected??????"
 		(exclude_from_sim no)
-		(at 196.596 207.264 0)
+		(at 196.85 149.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4136,16 +4145,6 @@
 			(type solid)
 		)
 		(uuid "1c1f63ae-21e6-4472-a3b5-493bd7b6a0f1")
-	)
-	(wire
-		(pts
-			(xy 297.18 154.94) (xy 297.18 152.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c60331a-1195-4318-84c3-1df002a43a68")
 	)
 	(wire
 		(pts
@@ -5176,6 +5175,16 @@
 			(type solid)
 		)
 		(uuid "96b7b16c-7b21-463f-a6e0-073bf987b4e7")
+	)
+	(wire
+		(pts
+			(xy 297.18 152.4) (xy 297.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975403f3-b94b-4ed6-9218-17c3900832c6")
 	)
 	(wire
 		(pts
@@ -6685,8 +6694,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 314.96 121.92 0)
+		(lib_id "power:GND")
+		(at 314.96 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6694,7 +6703,7 @@
 		(dnp no)
 		(uuid "58f376b6-baf1-4e99-a5d3-47a9f6e49a4e")
 		(property "Reference" "#GND030"
-			(at 314.96 121.92 0)
+			(at 314.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,16 +6712,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 312.42 124.46 0)
+			(at 314.96 123.19 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 121.92 0)
+			(at 314.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 121.92 0)
+			(at 314.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,12 +6737,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 314.96 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6750,8 +6759,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 314.96 139.7 0)
+		(lib_id "power:GND")
+		(at 314.96 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6759,7 +6768,7 @@
 		(dnp no)
 		(uuid "5ce3cdd9-909b-4679-9dbf-834d43fad1cf")
 		(property "Reference" "#GND027"
-			(at 314.96 139.7 0)
+			(at 314.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,16 +6777,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 312.42 142.24 0)
+			(at 314.96 140.97 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 139.7 0)
+			(at 314.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 139.7 0)
+			(at 314.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,12 +6802,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 314.96 139.7 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7317,8 +7326,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 209.55 134.62 0)
+		(lib_id "power:GND")
+		(at 209.55 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7327,7 +7336,7 @@
 		(dnp no)
 		(uuid "80cd8216-cc64-4d27-b71a-95dcd536a2ef")
 		(property "Reference" "#GND038"
-			(at 209.55 134.62 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,16 +7345,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 137.16 0)
+			(at 209.55 135.89 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 134.62 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 134.62 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,12 +7370,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 209.55 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7383,8 +7392,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 297.18 157.48 0)
+		(lib_id "power:GND")
+		(at 297.18 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7393,7 +7402,7 @@
 		(dnp no)
 		(uuid "82e0a3b9-4a3f-41cf-b9fb-7cdc794ab0ed")
 		(property "Reference" "#GND01"
-			(at 297.18 157.48 0)
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,16 +7411,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 160.02 0)
+			(at 297.18 158.75 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 157.48 0)
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 157.48 0)
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,12 +7436,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 297.18 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7687,8 +7696,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 297.18 121.92 0)
+		(lib_id "power:GND")
+		(at 297.18 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7697,7 +7706,7 @@
 		(dnp no)
 		(uuid "b8e22caa-a6fe-4ee9-bf8b-2b05c5c087ed")
 		(property "Reference" "#GND014"
-			(at 297.18 121.92 0)
+			(at 297.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,16 +7715,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 124.46 0)
+			(at 297.18 123.19 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 121.92 0)
+			(at 297.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 121.92 0)
+			(at 297.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,12 +7740,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 297.18 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7754,7 +7763,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 196.85 187.96 0)
+		(at 199.39 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7762,7 +7771,7 @@
 		(dnp no)
 		(uuid "cb7e2445-7e90-4b55-a7ca-0ec352162727")
 		(property "Reference" "JP9"
-			(at 190.5 174.625 0)
+			(at 193.04 174.625 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7771,7 +7780,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 196.85 203.2 0)
+			(at 199.39 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7779,7 +7788,7 @@
 			)
 		)
 		(property "Footprint" "oresat-proto-card:1X10"
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,7 +7797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +7806,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +7815,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7825,7 @@
 			)
 		)
 		(property "DPN" "732-5329-ND "
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7835,7 @@
 			)
 		)
 		(property "MFR" "Wurth"
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +7845,7 @@
 			)
 		)
 		(property "MPN" "61302011121"
-			(at 196.85 187.96 0)
+			(at 199.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,8 +7894,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 99.06 119.38 0)
+		(lib_id "power:GND")
+		(at 99.06 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7895,7 +7904,7 @@
 		(dnp no)
 		(uuid "e8dafe26-303b-47b0-89b6-3a6ed4e59df3")
 		(property "Reference" "#GND02"
-			(at 99.06 119.38 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,16 +7913,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 123.19 0)
+			(at 99.06 120.65 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 119.38 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 119.38 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,12 +7938,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 119.38 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8113,8 +8122,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 297.18 139.7 0)
+		(lib_id "power:GND")
+		(at 297.18 137.16 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8123,7 +8132,7 @@
 		(dnp no)
 		(uuid "ef62bc7d-31e6-4391-8261-ad3a373e66b4")
 		(property "Reference" "#GND010"
-			(at 297.18 139.7 0)
+			(at 297.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,16 +8141,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 142.24 0)
+			(at 297.18 140.97 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 139.7 0)
+			(at 297.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 139.7 0)
+			(at 297.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,12 +8166,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 297.18 139.7 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8352,8 +8361,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:GND")
-		(at 314.96 157.48 0)
+		(lib_id "power:GND")
+		(at 314.96 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8361,7 +8370,7 @@
 		(dnp no)
 		(uuid "feacf6cc-6af2-49cc-bf66-a3441310a099")
 		(property "Reference" "#GND020"
-			(at 314.96 157.48 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,16 +8379,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 312.42 160.02 0)
+			(at 314.96 158.75 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 157.48 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 157.48 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,12 +8404,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 314.96 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
