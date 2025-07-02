@@ -3716,7 +3716,7 @@
 		)
 		(uuid "ca9a7a27-1c9b-4b73-9d60-960953d0a38c")
 	)
-	(text "24 not connected??????"
+	(text "24 not connected?????? Clean up wiring here.."
 		(exclude_from_sim no)
 		(at 196.85 149.098 0)
 		(effects
