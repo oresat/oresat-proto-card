@@ -674,7 +674,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small_US"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -694,7 +694,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Small_US"
+			(property "Value" "C_Small"
 				(at 0.254 -2.032 0)
 				(effects
 					(font
@@ -712,7 +712,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -721,7 +721,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "capacitor, small US symbol"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -730,7 +730,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -748,7 +748,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_US_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -761,12 +761,12 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -1.524 -0.762)
-					(mid 0 -0.3734)
-					(end 1.524 -0.762)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -774,7 +774,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_US_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -814,7 +814,183 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Small_Filled"
+		(symbol "Device:Crystal_GND2_Small"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal_GND2_Small"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Three pin crystal, GND on pin 2, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND2_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND2_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -826,7 +1002,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -1.27 2.032 0)
+				(at -1.27 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -834,8 +1010,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D_Small_Filled"
-				(at -3.81 -2.032 0)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -861,16 +1037,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode, small symbol, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -888,7 +1055,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -897,7 +1064,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -906,10 +1073,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Small_Filled_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
-						(xy -0.762 0) (xy 0.762 0)
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
 					)
 					(stroke
 						(width 0)
@@ -921,10 +1100,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -943,8 +1122,20 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_Small_Filled_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -979,6 +1170,746 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-connectors:oresat-debug-all"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "oresat-debug-all_1_0"
+				(polyline
+					(pts
+						(xy -7.62 30.48) (xy -7.62 -33.02)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -33.02) (xy 7.62 -33.02)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 30.48) (xy -7.62 30.48)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -33.02) (xy 7.62 30.48)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "PADs"
+					(at -2.54 -31.75 0)
+					(effects
+						(font
+							(size 1.524 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "PAD1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "PAD2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 27.94 180)
+					(length 2.54)
+					(name "VBUSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 27.94 180)
+					(length 2.54)
+					(name "VBUSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 22.86 180)
+					(length 2.54)
+					(name "VTARGET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 20.32 180)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 17.78 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "CARD-TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "CARD-RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "DEVICE-D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "DEVICE-D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "HOST-D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "HOST-D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "DEBUG-0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -17.78 180)
+					(length 2.54)
+					(name "DEBUG-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -20.32 180)
+					(length 2.54)
+					(name "DEBUG-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -22.86 180)
+					(length 2.54)
+					(name "DEBUG-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-ics:TCAN330"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U11"
+				(at -3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TCAN330"
+				(at -3.81 -17.78 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-live-card:SOT23-8_TI-DCN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan330.pdf?ts=1651525305550&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN330"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC TRANSCEIVER 1/1 SOT23-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TCAN330GDCN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCAN330_1_0"
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TCAN330_1_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1377,786 +2308,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-proto-card-eagle-import:CRYSTAL-WITH-GND"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-proto-card:CRYSTAL_2.5X2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CRYSTAL-WITH-GND_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.778) (xy -1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -1.016 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 1.524) (xy -0.381 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.524) (xy 0.381 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.524) (xy -0.381 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 -1.524) (xy 0.381 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.778) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 1.016 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-proto-card-eagle-import:ORESAT-DEBUG-CONNECTOR-ALL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 31.75 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "oresat-proto-card:TE_2-1734592-0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ORESAT-DEBUG-CONNECTOR-ALL_1_0"
-				(polyline
-					(pts
-						(xy -6.35 30.48) (xy -6.35 -33.02)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -33.02) (xy 8.89 -33.02)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 30.48) (xy -6.35 30.48)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -33.02) (xy 8.89 30.48)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "PADs"
-					(at -1.27 -31.75 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin bidirectional line
-					(at 1.27 -35.56 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 1.27 -35.56 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 27.94 180)
-					(length 2.54)
-					(name "VBUSP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 27.94 180)
-					(length 2.54)
-					(name "VBUSP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 22.86 180)
-					(length 2.54)
-					(name "VTARGET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 20.32 180)
-					(length 2.54)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 17.78 180)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 15.24 180)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 12.7 180)
-					(length 2.54)
-					(name "SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 7.62 180)
-					(length 2.54)
-					(name "CARD-TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 5.08 180)
-					(length 2.54)
-					(name "CARD-RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "DEVICE-D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "DEVICE-D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -7.62 180)
-					(length 2.54)
-					(name "HOST-D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -10.16 180)
-					(length 2.54)
-					(name "HOST-D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -15.24 180)
-					(length 2.54)
-					(name "DEBUG-0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -17.78 180)
-					(length 2.54)
-					(name "DEBUG-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -20.32 180)
-					(length 2.54)
-					(name "DEBUG-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -22.86 180)
-					(length 2.54)
-					(name "DEBUG-3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -3139,259 +3290,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-proto-card-eagle-import:TCAN330"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 7.62 -17.78 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 7.62 -20.32 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-proto-card:SOT23-8_TI-DCN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCAN330_1_0"
-				(polyline
-					(pts
-						(xy -10.16 12.7) (xy -10.16 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -12.7) (xy 10.16 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 12.7) (xy -10.16 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -12.7) (xy 10.16 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "SHDN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3653,6 +3551,27 @@
 		)
 		(uuid "2570ec6a-617c-4864-9337-e88220034144")
 	)
+	(text "it is labeled: STM32F091C\nHOWEVER the MPN is labeled: STM32F042K6T\nWhich one is it????"
+		(exclude_from_sim no)
+		(at 231.14 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "365f629e-9642-43d0-891d-1058c517e900")
+	)
+	(text "NOT YELLOW!!\n(Also, on PCB there is a courtyard issue with new footprint, but I don't want to move it case it connects to backplane or something)"
+		(exclude_from_sim no)
+		(at 22.098 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3686932f-844c-4877-b839-aae54317147f")
+	)
 	(text "VBAT not bypassed becase not enough room\ninstead tied into nearest bypass cap"
 		(exclude_from_sim no)
 		(at 238.76 44.45 0)
@@ -3731,6 +3650,16 @@
 			(justify left bottom)
 		)
 		(uuid "b53474ff-942b-440f-9207-b8bd0313d380")
+	)
+	(text "written on this page BUT applies to 2nd page as well. (except for that weird 10k thingy)"
+		(exclude_from_sim no)
+		(at 184.404 259.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc0c9865-0671-49d5-8af1-00699486b0a2")
 	)
 	(junction
 		(at 281.94 80.01)
@@ -3938,6 +3867,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 110.49) (xy 368.3 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "023796b6-61db-4dd6-a8d5-58102ab27060")
+	)
+	(wire
+		(pts
 			(xy 223.52 161.29) (xy 223.52 240.03)
 		)
 		(stroke
@@ -3995,6 +3934,16 @@
 			(type solid)
 		)
 		(uuid "073abde6-75f3-4e4b-8cca-4ce59ae5a5c9")
+	)
+	(wire
+		(pts
+			(xy 368.3 105.41) (xy 368.3 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07819864-4cfe-49c2-8cb1-f4dbbad0d1f4")
 	)
 	(wire
 		(pts
@@ -4065,16 +4014,6 @@
 			(type solid)
 		)
 		(uuid "0ee254e6-9962-48e2-b595-84de8d940b8a")
-	)
-	(wire
-		(pts
-			(xy 368.3 107.95) (xy 368.3 105.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "10240dc4-894b-415d-b5fd-cb1a9f9731ab")
 	)
 	(wire
 		(pts
@@ -4178,16 +4117,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 102.87) (xy 365.76 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "195a666c-8ce1-4f35-a966-cd8ad3b337f6")
-	)
-	(wire
-		(pts
 			(xy 187.96 113.03) (xy 187.96 237.49)
 		)
 		(stroke
@@ -4248,6 +4177,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 113.03) (xy 370.84 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c2d5097-0fcb-4235-9dd0-7466116d29d1")
+	)
+	(wire
+		(pts
 			(xy 124.46 222.25) (xy 142.24 222.25)
 		)
 		(stroke
@@ -4255,16 +4194,6 @@
 			(type solid)
 		)
 		(uuid "1c91e4a9-d17e-4cc3-a875-db8cf256eac3")
-	)
-	(wire
-		(pts
-			(xy 370.84 107.95) (xy 368.3 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1e8265f5-12a1-4e72-8b43-8a93e65b189b")
 	)
 	(wire
 		(pts
@@ -4388,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 110.49) (xy 360.68 110.49)
+			(xy 327.66 110.49) (xy 368.3 110.49)
 		)
 		(stroke
 			(width 0.1524)
@@ -4578,16 +4507,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 102.87) (xy 365.76 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "39bb07d5-8ab1-4bd2-8345-9be21046a091")
-	)
-	(wire
-		(pts
 			(xy 175.26 100.33) (xy 200.66 100.33)
 		)
 		(stroke
@@ -4738,6 +4657,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c1cd5f-fafb-4752-be2a-851d994b66d7")
+	)
+	(wire
+		(pts
 			(xy 106.68 133.35) (xy 106.68 80.01)
 		)
 		(stroke
@@ -4848,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 102.87) (xy 370.84 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52372b07-17b8-4599-a2a5-3bf74ec64cb2")
+	)
+	(wire
+		(pts
 			(xy 114.3 232.41) (xy 114.3 199.39)
 		)
 		(stroke
@@ -4868,7 +4807,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 102.87) (xy 363.22 102.87)
+			(xy 320.04 102.87) (xy 365.76 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -4895,16 +4834,6 @@
 			(type solid)
 		)
 		(uuid "5670a7c0-172f-46ad-9251-a3cf82c6d061")
-	)
-	(wire
-		(pts
-			(xy 363.22 102.87) (xy 363.22 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "569ad4f1-c4ce-480f-abd4-b8dba8aee648")
 	)
 	(wire
 		(pts
@@ -4995,6 +4924,16 @@
 			(type solid)
 		)
 		(uuid "60a1fd78-4fd2-4a5c-93ca-758c412cf7a8")
+	)
+	(wire
+		(pts
+			(xy 365.76 97.79) (xy 370.84 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "618e3fe7-f9dc-4723-b851-f872a9b29626")
 	)
 	(wire
 		(pts
@@ -5178,16 +5117,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 113.03) (xy 370.84 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "791093c1-79a2-4a4f-a337-bdb65e3bb7c8")
-	)
-	(wire
-		(pts
 			(xy 139.7 189.23) (xy 104.14 189.23)
 		)
 		(stroke
@@ -5248,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 107.95) (xy 325.12 107.95)
+			(xy 325.12 107.95) (xy 370.84 107.95)
 		)
 		(stroke
 			(width 0.1524)
@@ -5395,6 +5324,16 @@
 			(type solid)
 		)
 		(uuid "890176fa-683a-4d6b-bda1-6b1740ddae42")
+	)
+	(wire
+		(pts
+			(xy 365.76 102.87) (xy 365.76 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8ae5e01c-02d5-4aba-ab57-13cd6d1fcc69")
 	)
 	(wire
 		(pts
@@ -6068,16 +6007,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 97.79) (xy 360.68 110.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c3e84594-83da-4c96-afaa-c9ee20a17bb1")
-	)
-	(wire
-		(pts
 			(xy 236.22 173.99) (xy 281.94 173.99)
 		)
 		(stroke
@@ -6195,16 +6124,6 @@
 			(type solid)
 		)
 		(uuid "cc177638-5d03-4570-bb5e-3ea53c70af47")
-	)
-	(wire
-		(pts
-			(xy 370.84 97.79) (xy 360.68 97.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cd2f5d92-b8ee-4532-9e53-2ba79ed58b4f")
 	)
 	(wire
 		(pts
@@ -7680,7 +7599,7 @@
 		(at 49.53 212.09 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7743,8 +7662,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:ORESAT-DEBUG-CONNECTOR-ALL")
-		(at 26.67 191.77 0)
+		(lib_id "oresat-connectors:oresat-debug-all")
+		(at 27.94 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7752,7 +7671,7 @@
 		(dnp no)
 		(uuid "06389a78-e9bf-4f7e-8a2d-4d95bc0d255e")
 		(property "Reference" "J7"
-			(at 24.13 160.02 0)
+			(at 25.4 160.02 0)
 			(effects
 				(font
 					(size 2.0828 1.7703)
@@ -7762,7 +7681,7 @@
 			)
 		)
 		(property "Value" "ORESAT-DEBUG-CONNECTOR-ALL"
-			(at 26.67 191.77 0)
+			(at 27.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,8 +7689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:TE_2-1734592-0"
-			(at 26.67 191.77 0)
+		(property "Footprint" "oresat-connectors:J-TE-2-1734592-0"
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 191.77 0)
+			(at 27.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,11 +7708,12 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 191.77 0)
+			(at 27.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8113,7 +8033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 210.82 29.21 0)
 		(mirror x)
 		(unit 1)
@@ -8149,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -8158,7 +8078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -8223,7 +8143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:CRYSTAL-WITH-GND")
+		(lib_id "Device:Crystal_GND2_Small")
 		(at 68.58 69.85 90)
 		(mirror x)
 		(unit 1)
@@ -8250,7 +8170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:CRYSTAL_2.5X2"
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
 			(at 68.58 69.85 0)
 			(effects
 				(font
@@ -8259,7 +8179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236Q.pdf"
 			(at 68.58 69.85 0)
 			(effects
 				(font
@@ -8268,12 +8188,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Three pin crystal, GND on pin 2, small symbol"
 			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8318,9 +8239,6 @@
 		)
 		(pin "3"
 			(uuid "cdc0700b-be61-4918-9517-e5b33cc43a20")
-		)
-		(pin "4"
-			(uuid "5582357f-0ce2-46df-964c-633364a7494e")
 		)
 		(pin "1"
 			(uuid "3370b959-4171-433c-8649-68b898d41318")
@@ -8496,7 +8414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:2X10"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 264.16 229.87 0)
 			(effects
 				(font
@@ -8633,7 +8551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-proto-card-eagle-import:TCAN330")
+		(lib_id "oresat-ics:TCAN330")
 		(at 383.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8659,7 +8577,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:SOT23-8_TI-DCN"
+		(property "Footprint" "oresat-ics:SOT23-8_TI-DCN"
 			(at 383.54 105.41 0)
 			(effects
 				(font
@@ -8668,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan330.pdf?ts=1651525305550&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN330"
 			(at 383.54 105.41 0)
 			(effects
 				(font
@@ -8677,12 +8595,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC TRANSCEIVER 1/1 SOT23-8"
 			(at 383.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -8715,13 +8634,21 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TCAN330GDCNT"
+		(property "MPN" "TCAN330GDCN"
 			(at 383.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 383.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8763,7 +8690,7 @@
 		(at 45.72 209.55 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8897,7 +8824,7 @@
 		(at 53.34 214.63 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8987,7 +8914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:2X10"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 147.32 229.87 0)
 			(effects
 				(font
@@ -9124,7 +9051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 393.7 87.63 270)
 		(mirror x)
 		(unit 1)
@@ -9160,7 +9087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -9169,7 +9096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 393.7 87.63 0)
 			(effects
 				(font
@@ -9234,7 +9161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small_Filled")
+		(lib_id "Device:LED_Small_Filled")
 		(at 358.14 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9260,8 +9187,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:LED-0603"
-			(at 358.14 85.09 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 358.14 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,8 +9196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 358.14 85.09 0)
+		(property "Datasheet" "~"
+			(at 358.14 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,12 +9205,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 358.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
@@ -9323,6 +9251,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 358.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 358.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9445,7 +9391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f042t6.pdf"
 			(at 223.52 85.09 0)
 			(effects
 				(font
@@ -9964,7 +9910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 60.96 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -10000,7 +9946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -10009,7 +9955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -10074,7 +10020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 236.22 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10109,7 +10055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 236.22 29.21 0)
 			(effects
 				(font
@@ -10118,7 +10064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 236.22 29.21 0)
 			(effects
 				(font
@@ -10385,7 +10331,7 @@
 		(at 40.64 179.07 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10514,7 +10460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 203.2 29.21 0)
 		(mirror x)
 		(unit 1)
@@ -10550,7 +10496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -10559,7 +10505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -10690,7 +10636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 223.52 29.21 0)
 		(mirror x)
 		(unit 1)
@@ -10726,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 223.52 29.21 0)
 			(effects
 				(font
@@ -10735,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 223.52 29.21 0)
 			(effects
 				(font
@@ -10976,7 +10922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small_US")
+		(lib_id "Device:C_Small")
 		(at 68.58 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -11012,7 +10958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -11021,7 +10967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 68.58 77.47 0)
 			(effects
 				(font
@@ -11090,7 +11036,7 @@
 		(at 41.91 207.01 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11639,7 +11585,7 @@
 		(at 43.18 62.23 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)

@@ -3694,6 +3694,16 @@
 		)
 		(uuid "696dbcd3-bbcd-46a8-9586-8838d312d31f")
 	)
+	(text "want confirmation/sanity check before updating this from library"
+		(exclude_from_sim no)
+		(at 162.052 249.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80287fe8-36b6-4f19-88bf-9eca914647e8")
+	)
 	(text "OreSat Power Domain signals\n(See power sheet)"
 		(exclude_from_sim no)
 		(at 118.11 81.28 0)
@@ -3716,9 +3726,9 @@
 		)
 		(uuid "ca9a7a27-1c9b-4b73-9d60-960953d0a38c")
 	)
-	(text "24 not connected?????? Clean up wiring here.."
+	(text "THIS IS SOOOO WEIRD!!!!! Want to confirm before switching around the pins"
 		(exclude_from_sim no)
-		(at 196.85 149.098 0)
+		(at 197.358 148.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7787,7 +7797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:1X10"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 199.39 187.96 0)
 			(effects
 				(font
