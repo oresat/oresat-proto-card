@@ -1175,45 +1175,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-connectors:oresat-debug-all"
+		(symbol "Interface_CAN_LIN:TCAN330"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -2.54 0)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 -2.54 0)
+			(property "Value" "TCAN330"
+				(at 2.54 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -2.54 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1222,104 +1216,51 @@
 					(hide yes)
 				)
 			)
-			(symbol "oresat-debug-all_1_0"
-				(polyline
-					(pts
-						(xy -7.62 30.48) (xy -7.62 -33.02)
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN330_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -7.62 -33.02) (xy 7.62 -33.02)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 30.48) (xy -7.62 30.48)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -33.02) (xy 7.62 30.48)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "PADs"
-					(at -2.54 -31.75 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -35.56 90)
+			)
+			(symbol "TCAN330_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -35.56 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PAD2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 27.94 180)
-					(length 2.54)
-					(name "VBUSP"
+					(name "TXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1329,159 +1270,15 @@
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 27.94 180)
-					(length 2.54)
-					(name "VBUSP"
-						(effects
-							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
 				)
-				(pin passive line
-					(at 10.16 22.86 180)
+				(pin tri_state line
+					(at -12.7 2.54 0)
 					(length 2.54)
-					(name "VTARGET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 20.32 180)
-					(length 2.54)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 17.78 180)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 15.24 180)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 12.7 180)
-					(length 2.54)
-					(name "SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "CARD-TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "CARD-RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "DEVICE-D+"
+					(name "RXD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1491,290 +1288,13 @@
 					(number "4"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "DEVICE-D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "HOST-D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "HOST-D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -15.24 180)
-					(length 2.54)
-					(name "DEBUG-0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -17.78 180)
-					(length 2.54)
-					(name "DEBUG-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -20.32 180)
-					(length 2.54)
-					(name "DEBUG-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -22.86 180)
-					(length 2.54)
-					(name "DEBUG-3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -27.94 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-ics:TCAN330"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U11"
-				(at -3.81 -15.24 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TCAN330"
-				(at -3.81 -17.78 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-live-card:SOT23-8_TI-DCN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan330.pdf?ts=1651525305550&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN330"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC TRANSCEIVER 1/1 SOT23-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor" "DigiKey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TCAN330GDCN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCAN330_1_0"
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "SHDN"
 						(effects
@@ -1792,34 +1312,16 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -2.54 0)
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "RXD"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1828,7 +1330,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 15.24 270)
+					(at 0 10.16 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -1846,7 +1348,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1900,16 +1402,484 @@
 					)
 				)
 			)
-			(symbol "TCAN330_1_1"
+			(embedded_fonts no)
+		)
+		(symbol "oresat-connectors:ORESAT-DEBUG-CONNECTOR-ALL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 31.75 0)
+				(effects
+					(font
+						(size 2.0828 1.7703)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "oresat-proto-card:TE_2-1734592-0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ORESAT-DEBUG-CONNECTOR-ALL_1_0"
+				(text "PADs"
+					(at -1.27 -31.75 0)
+					(effects
+						(font
+							(size 1.524 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -35.56 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "PAD1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -35.56 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "PAD2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 27.94 180)
+					(length 2.54)
+					(name "VBUSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 27.94 180)
+					(length 2.54)
+					(name "VBUSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 22.86 180)
+					(length 2.54)
+					(name "VTARGET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 20.32 180)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 17.78 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 15.24 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 12.7 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "CARD-TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "CARD-RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "DEVICE-D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "DEVICE-D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "HOST-D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "HOST-D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "DEBUG-0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "DEBUG-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -20.32 180)
+					(length 2.54)
+					(name "DEBUG-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -22.86 180)
+					(length 2.54)
+					(name "DEBUG-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ORESAT-DEBUG-CONNECTOR-ALL_1_1"
 				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
+					(start -6.35 30.48)
+					(end 8.89 -33.02)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -3529,17 +3499,6 @@
 		)
 		(uuid 7f20cda0-2568-4743-9ff3-778687564df1)
 	)
-	(text "Emergency M0\nbootstrapping over OPD\nI2C Address:\n0b0111110x"
-		(exclude_from_sim no)
-		(at 19.05 115.57 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "1dac517d-2b7d-4d3b-a2bf-418957c854e2")
-	)
 	(text "Power/Current\ndraw from OPD.\nSignal is analog\nvoltage 0-1.2V"
 		(exclude_from_sim no)
 		(at 109.22 153.67 0)
@@ -3561,16 +3520,6 @@
 			(justify left)
 		)
 		(uuid "365f629e-9642-43d0-891d-1058c517e900")
-	)
-	(text "NOT YELLOW!!\n(Also, on PCB there is a courtyard issue with new footprint, but I don't want to move it case it connects to backplane or something)"
-		(exclude_from_sim no)
-		(at 22.098 159.512 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3686932f-844c-4877-b839-aae54317147f")
 	)
 	(text "VBAT not bypassed becase not enough room\ninstead tied into nearest bypass cap"
 		(exclude_from_sim no)
@@ -3698,12 +3647,6 @@
 		(uuid "16f151c7-8a95-4c03-ba34-95848670f799")
 	)
 	(junction
-		(at 325.12 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ac38650-6b70-4a57-b304-38d6740a78b0")
-	)
-	(junction
 		(at 307.34 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3726,6 +3669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e64b9b3-14d1-4815-bff5-3ca2c7cdd907")
+	)
+	(junction
+		(at 325.12 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410e16f8-a644-421c-b85b-b3baf56a8335")
 	)
 	(junction
 		(at 160.02 57.15)
@@ -3867,16 +3816,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 110.49) (xy 368.3 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "023796b6-61db-4dd6-a8d5-58102ab27060")
-	)
-	(wire
-		(pts
 			(xy 223.52 161.29) (xy 223.52 240.03)
 		)
 		(stroke
@@ -3937,16 +3876,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 105.41) (xy 368.3 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "07819864-4cfe-49c2-8cb1-f4dbbad0d1f4")
-	)
-	(wire
-		(pts
 			(xy 274.32 166.37) (xy 274.32 87.63)
 		)
 		(stroke
@@ -3967,6 +3896,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 102.87) (xy 365.76 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0abcda9f-b541-48a0-99d0-294794b54803")
+	)
+	(wire
+		(pts
 			(xy 121.92 207.01) (xy 157.48 207.01)
 		)
 		(stroke
@@ -3974,16 +3913,6 @@
 			(type solid)
 		)
 		(uuid "0b2991d9-cb49-4546-8735-3735323dd1ff")
-	)
-	(wire
-		(pts
-			(xy 383.54 90.17) (xy 383.54 87.63)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0b3275e7-0c17-439b-859c-c706eacc10bf")
 	)
 	(wire
 		(pts
@@ -4097,6 +4026,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 100.33) (xy 363.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16942b1e-a3f2-4729-992d-a0f3187d07a0")
+	)
+	(wire
+		(pts
 			(xy 271.78 224.79) (xy 317.5 224.79)
 		)
 		(stroke
@@ -4135,16 +4074,6 @@
 		)
 		(uuid "1a9c2c03-45fa-4aa2-9b69-15d7b10b307f")
 	)
-	(polyline
-		(pts
-			(xy 50.8 41.91) (xy 15.24 41.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1b2cef7b-02d5-4f02-8e76-479cf20d5bb7")
-	)
 	(wire
 		(pts
 			(xy 38.1 212.09) (xy 49.53 212.09)
@@ -4155,16 +4084,6 @@
 		)
 		(uuid "1b510236-0ff3-4706-b492-33f2ec5bccf1")
 	)
-	(polyline
-		(pts
-			(xy 50.8 120.65) (xy 50.8 41.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1b804167-bee3-466f-ac51-6dd76be2e08c")
-	)
 	(wire
 		(pts
 			(xy 170.18 95.25) (xy 170.18 219.71)
@@ -4174,16 +4093,6 @@
 			(type solid)
 		)
 		(uuid "1bb299fa-20b0-408b-a532-70bbc2f40cc9")
-	)
-	(wire
-		(pts
-			(xy 368.3 113.03) (xy 370.84 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c2d5097-0fcb-4235-9dd0-7466116d29d1")
 	)
 	(wire
 		(pts
@@ -4204,16 +4113,6 @@
 			(type solid)
 		)
 		(uuid "1fa51530-3d78-4f8c-ae3d-344f5ab861ec")
-	)
-	(polyline
-		(pts
-			(xy 15.24 41.91) (xy 15.24 120.65)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1fb14403-0011-481b-a67b-a46f8267dde8")
 	)
 	(wire
 		(pts
@@ -4314,16 +4213,6 @@
 			(type solid)
 		)
 		(uuid "2564e2eb-bd0f-47cc-abda-b7e800f32182")
-	)
-	(wire
-		(pts
-			(xy 327.66 110.49) (xy 368.3 110.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2627b22a-5de2-4bb1-a849-9381f9070a7f")
 	)
 	(wire
 		(pts
@@ -4504,6 +4393,16 @@
 			(type solid)
 		)
 		(uuid "386581cb-2aa9-4652-8004-6691f8d1ec96")
+	)
+	(wire
+		(pts
+			(xy 383.54 87.63) (xy 383.54 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3900d9ee-1703-45d1-8d14-cde4486fb4ab")
 	)
 	(wire
 		(pts
@@ -4717,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 105.41) (xy 322.58 105.41)
+			(xy 322.58 105.41) (xy 370.84 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -4767,23 +4666,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 242.57) (xy 254 247.65)
+			(xy 254 242.57) (xy 254 245.11)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "5185b47a-2883-41d2-a422-f64187fe52da")
-	)
-	(wire
-		(pts
-			(xy 368.3 102.87) (xy 370.84 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "52372b07-17b8-4599-a2a5-3bf74ec64cb2")
 	)
 	(wire
 		(pts
@@ -4814,6 +4703,16 @@
 			(type solid)
 		)
 		(uuid "540b646b-7547-45fb-8829-7af5efc5ee9b")
+	)
+	(wire
+		(pts
+			(xy 325.12 107.95) (xy 368.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542da235-8b8f-4ae7-860c-9e330102a24d")
 	)
 	(wire
 		(pts
@@ -4927,16 +4826,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 97.79) (xy 370.84 97.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "618e3fe7-f9dc-4723-b851-f872a9b29626")
-	)
-	(wire
-		(pts
 			(xy 111.76 234.95) (xy 142.24 234.95)
 		)
 		(stroke
@@ -5037,6 +4926,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 110.49) (xy 363.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ef0afa-e2e3-4725-b1bf-7d5364b429e2")
+	)
+	(wire
+		(pts
 			(xy 383.54 87.63) (xy 383.54 85.09)
 		)
 		(stroke
@@ -5094,6 +4993,16 @@
 			(type solid)
 		)
 		(uuid "71f4d9a9-a6fb-4e1d-8fbf-7fdc971bb02b")
+	)
+	(wire
+		(pts
+			(xy 368.3 102.87) (xy 368.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b0745b-c72b-4e75-89cd-1a221948ed3a")
 	)
 	(wire
 		(pts
@@ -5157,6 +5066,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 110.49) (xy 370.84 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "79ba7152-3972-41f9-95ec-33e2a8078c02")
+	)
+	(wire
+		(pts
 			(xy 39.37 228.6) (xy 39.37 232.41)
 		)
 		(stroke
@@ -5174,26 +5093,6 @@
 			(type solid)
 		)
 		(uuid "7bdbd789-31ec-4028-ad64-7d524e225186")
-	)
-	(wire
-		(pts
-			(xy 325.12 107.95) (xy 370.84 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7c1a4d15-efca-47f4-9f69-0b2f1870c3f3")
-	)
-	(wire
-		(pts
-			(xy 383.54 120.65) (xy 383.54 125.73)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7c915f9e-00f8-498a-affc-00f00dab6ffe")
 	)
 	(wire
 		(pts
@@ -5324,16 +5223,6 @@
 			(type solid)
 		)
 		(uuid "890176fa-683a-4d6b-bda1-6b1740ddae42")
-	)
-	(wire
-		(pts
-			(xy 365.76 102.87) (xy 365.76 97.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8ae5e01c-02d5-4aba-ab57-13cd6d1fcc69")
 	)
 	(wire
 		(pts
@@ -5517,6 +5406,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 115.57) (xy 383.54 125.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99a57b1a-2e77-4b9a-b721-4513b966827b")
+	)
+	(wire
+		(pts
 			(xy 271.78 163.83) (xy 271.78 90.17)
 		)
 		(stroke
@@ -5644,6 +5543,16 @@
 			(type solid)
 		)
 		(uuid "9e7570ac-0e99-4ef2-8c14-7804da35dd1a")
+	)
+	(wire
+		(pts
+			(xy 370.84 100.33) (xy 363.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01d794c-0086-407e-a4fa-7aedea17b6fc")
 	)
 	(wire
 		(pts
@@ -6075,16 +5984,6 @@
 		)
 		(uuid "c9a733d2-5ea0-48b7-961d-28fcec468732")
 	)
-	(polyline
-		(pts
-			(xy 15.24 120.65) (xy 50.8 120.65)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c9db34b3-70c6-4607-ba89-bff802c83f16")
-	)
 	(wire
 		(pts
 			(xy 226.06 163.83) (xy 271.78 163.83)
@@ -6347,6 +6246,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 102.87) (xy 368.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f2d4c6-c9a3-472d-a188-707ce8753b25")
+	)
+	(wire
+		(pts
 			(xy 281.94 173.99) (xy 281.94 80.01)
 		)
 		(stroke
@@ -6444,6 +6353,16 @@
 			(type solid)
 		)
 		(uuid "edba7e15-1581-457d-a0de-c3c5978d34e5")
+	)
+	(wire
+		(pts
+			(xy 370.84 105.41) (xy 370.84 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0c5e2ed-7319-4c48-aa4a-e163ae72fffc")
 	)
 	(wire
 		(pts
@@ -6735,6 +6654,16 @@
 		)
 		(uuid "19b0f1d6-7fc8-458a-bf62-0079a4b4d3f0")
 	)
+	(label "CAN_TX"
+		(at 345.44 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d2cf39a-5c14-434c-8492-922ab29317d3")
+	)
 	(label "PA0"
 		(at 248.92 80.01 0)
 		(effects
@@ -6864,6 +6793,16 @@
 			(justify right bottom)
 		)
 		(uuid "43fbe461-3141-4169-a4fa-386712391a5b")
+	)
+	(label "CAN_SHDN"
+		(at 345.44 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47f0ab8d-26cf-4a57-aa04-3829b9f898a7")
 	)
 	(label "PA15"
 		(at 248.92 113.03 0)
@@ -7004,6 +6943,16 @@
 			(justify left bottom)
 		)
 		(uuid "6b3d92f8-727d-469b-af38-7cf3b1568210")
+	)
+	(label "CAN_RX"
+		(at 345.44 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e9f7806-f2d8-4bbd-a989-9d3b314306b9")
 	)
 	(label "PB11"
 		(at 160.02 232.41 0)
@@ -7274,6 +7223,16 @@
 			(justify left bottom)
 		)
 		(uuid "be4bb1fa-9dc4-4240-9163-4bf64ab79c60")
+	)
+	(label "PA9{slash}CAN_SILENT"
+		(at 345.44 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c41bd32a-eaf0-43fc-b320-913fdbe3173d")
 	)
 	(label "PA7/SPI1_MOSI"
 		(at 276.86 222.25 0)
@@ -7662,8 +7621,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:oresat-debug-all")
-		(at 27.94 191.77 0)
+		(lib_id "oresat-connectors:ORESAT-DEBUG-CONNECTOR-ALL")
+		(at 26.67 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7671,7 +7630,7 @@
 		(dnp no)
 		(uuid "06389a78-e9bf-4f7e-8a2d-4d95bc0d255e")
 		(property "Reference" "J7"
-			(at 25.4 160.02 0)
+			(at 24.13 160.02 0)
 			(effects
 				(font
 					(size 2.0828 1.7703)
@@ -7681,7 +7640,7 @@
 			)
 		)
 		(property "Value" "ORESAT-DEBUG-CONNECTOR-ALL"
-			(at 27.94 191.77 0)
+			(at 26.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,8 +7648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-TE-2-1734592-0"
-			(at 27.94 194.31 0)
+		(property "Footprint" "oresat-proto-card:TE_2-1734592-0"
+			(at 26.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 194.31 0)
+			(at 26.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 191.77 0)
+			(at 26.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,141 +8504,6 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-ics:TCAN330")
-		(at 383.54 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49261280-ce76-4eb6-989d-004b4a52e8a8")
-		(property "Reference" "U1"
-			(at 387.35 120.65 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TCAN330"
-			(at 387.35 123.19 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "oresat-ics:SOT23-8_TI-DCN"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan330.pdf?ts=1651525305550&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCAN330"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC TRANSCEIVER 1/1 SOT23-8"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "296-44211-1-ND"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCAN330GDCN"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 383.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83731f26-1004-4239-bbbb-acb67794122e")
-		)
-		(pin "2"
-			(uuid "086f47bf-b379-406c-82a5-e9b00e872fcc")
-		)
-		(pin "4"
-			(uuid "34341cd9-66a9-4f3e-959b-3a2b5aaad94f")
-		)
-		(pin "3"
-			(uuid "91e80eb3-3cb8-4632-a300-4c3bc0dce754")
-		)
-		(pin "6"
-			(uuid "22b1faee-cdbb-4daf-9b49-e3f984371e37")
-		)
-		(pin "5"
-			(uuid "b6d299ee-eb7a-47b6-8de1-4c0affeea320")
-		)
-		(pin "7"
-			(uuid "119bdc3a-9673-4ede-b564-251e5fa696e6")
-		)
-		(pin "8"
-			(uuid "a1aca159-2cce-4e30-a650-38fcdae68f76")
-		)
-		(instances
-			(project "oresat-proto-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10571,7 +10395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 247.65 0)
+		(at 254 245.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10580,7 +10404,7 @@
 		(dnp no)
 		(uuid "b714d11f-520a-438d-ab68-da9e812f7aad")
 		(property "Reference" "#GND065"
-			(at 254 247.65 0)
+			(at 254 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +10413,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 251.46 0)
+			(at 254 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 247.65 0)
+			(at 254 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,7 +10430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 247.65 0)
+			(at 254 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 247.65 0)
+			(at 254 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,7 +10576,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ba345e59-f84e-4eb8-bc37-49b380ad0e3c")
 		(property "Reference" "R50"
 			(at 18.8214 68.58 0)
@@ -10916,6 +10740,95 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "#SUPPLY012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:TCAN330")
+		(at 383.54 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd93de9d-647e-4299-9649-05fbda61d545")
+		(property "Reference" "U4"
+			(at 385.6833 93.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN330"
+			(at 385.6833 96.0698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+			(at 383.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 383.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 383.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "801f6fc6-701a-47f9-bb3e-fc5ec07beb4a")
+		)
+		(pin "3"
+			(uuid "97cd6548-7586-4ee3-94cc-f258f63a1054")
+		)
+		(pin "4"
+			(uuid "2c65c8f1-def1-486c-a356-ca3e491dc184")
+		)
+		(pin "5"
+			(uuid "6c435816-4128-44b8-bb1f-73c2bf616a29")
+		)
+		(pin "2"
+			(uuid "aa004117-e3e5-4d3c-a9e6-a83db14e198d")
+		)
+		(pin "7"
+			(uuid "e896bb07-5763-4e63-8974-5d4835daa14e")
+		)
+		(pin "1"
+			(uuid "31140d2f-88a8-4562-900f-5b407fa2d44c")
+		)
+		(pin "6"
+			(uuid "ee4d9cc3-b807-41bf-bb54-2131ff7d2313")
+		)
+		(instances
+			(project ""
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11412,7 +11325,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3e2a3e2-0332-4e0f-8b14-c40fe6c435ba")
 		(property "Reference" "R51"
 			(at 23.9014 68.58 0)
