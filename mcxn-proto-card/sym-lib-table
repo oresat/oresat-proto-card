@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "oresat-proto-card-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-proto-card-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-connectors.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-diodes")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-diodes.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-graphics")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-graphics.kicad_sym")(options "")(descr ""))
