@@ -7125,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical"
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -7152,7 +7152,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" ""
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -7162,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "609-3243-ND"
+		(property "DPN" ""
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Amphenol "
+		(property "MFR" ""
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -7182,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "67997-410HLF"
+		(property "MPN" ""
 			(at 201.93 80.01 0)
 			(effects
 				(font

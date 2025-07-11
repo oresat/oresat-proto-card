@@ -1288,7 +1288,7 @@
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "IN_(NC)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1338,7 +1338,7 @@
 				)
 			)
 			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX7310.pdf"
-				(at 0 15.24 0)
+				(at -2.032 20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2131,7 +2131,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm"
+			(property "Footprint" "Package_DFN_QFN:Texas_RSA_VQFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm"
 				(at 0.508 13.97 0)
 				(effects
 					(font
@@ -2140,8 +2140,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62110.pdf?ts=1752185757661&ref_url=https%253A%252F%252Fwww.google.com%252F"
+				(at -0.762 16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2156,14 +2156,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(symbol "TPS6211X_1_0"
@@ -2279,7 +2271,7 @@
 				(pin power_in line
 					(at 0 -20.32 90)
 					(length 2.54)
-					(name "PGND"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,7 +2328,7 @@
 					(at 0 -20.32 90)
 					(length 2.54)
 					(hide yes)
-					(name "PGND"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2355,7 +2347,26 @@
 					(at 0 -20.32 90)
 					(length 2.54)
 					(hide yes)
-					(name "AGND"
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4257,7 +4268,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -4278,7 +4289,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-Channel Power MOSFET, SOT-23-6"
+			(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4921,6 +4932,16 @@
 		)
 		(uuid "2fa70e26-33e0-4949-8af1-af58746a59fc")
 	)
+	(text "Can i remove this please its HURTING me (TP32)"
+		(exclude_from_sim no)
+		(at 352.044 176.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "300c0ec5-c183-456f-9a16-ed4a957abf42")
+	)
 	(text "IS 10k OK? Testing Required\n\nShould be like every other 10k"
 		(exclude_from_sim no)
 		(at 240.03 215.9 0)
@@ -5010,6 +5031,26 @@
 		)
 		(uuid "899a5fe2-941a-4261-ae87-db077948796c")
 	)
+	(text "Datasheet (pg 24) says this is for overpowered circuit breaker\n	-otherwise pullup COUT1 and COUT2 high\nAlso add manual reset here if needed"
+		(exclude_from_sim no)
+		(at 286.766 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ce0350b-8dd2-4438-9c6a-f570f0cf9612")
+	)
+	(text "#caps here just for smoothing?"
+		(exclude_from_sim no)
+		(at 366.268 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c0fdd68-bb11-46a0-a17c-55654c1c9060")
+	)
 	(text "0805"
 		(exclude_from_sim no)
 		(at 382.27 198.374 0)
@@ -5042,6 +5083,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3401858-dd53-4079-8a2a-7e36731e90ab")
+	)
+	(text "Design notes on table 3 of data sheet"
+		(exclude_from_sim no)
+		(at 366.776 218.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec2cce3f-d2fb-49bb-be14-dcfce7cb74e4")
 	)
 	(text "Main Power Switch"
 		(exclude_from_sim no)
@@ -10124,7 +10175,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 391.16 69.85 0)
 			(effects
 				(font
@@ -10133,7 +10184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 386.08 72.39 0)
 			(effects
 				(font
@@ -11174,7 +11225,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_RSA_VQFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -11183,7 +11234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62110.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1751434366274&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps62110"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62110.pdf?ts=1752185757661&ref_url=https%253A%252F%252Fwww.google.com%252F"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -11288,6 +11339,9 @@
 		)
 		(pin "3"
 			(uuid "d7afbd23-5c74-4dc5-a27d-99725f3a8948")
+		)
+		(pin "17"
+			(uuid "678f27f9-50fd-455e-a15e-5d597623e8af")
 		)
 		(instances
 			(project "oresat-proto-card"
@@ -13684,7 +13738,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:ECS-MPI4040"
+		(property "Footprint" "oresat-passives:L_ECS-MPI4040"
 			(at 368.3 184.15 0)
 			(effects
 				(font
@@ -14390,7 +14444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 361.315 33.02 0)
 			(effects
 				(font
@@ -14411,7 +14465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel Power MOSFET, SOT-23-6"
+		(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
 			(at 363.22 38.1 0)
 			(effects
 				(font
@@ -18979,7 +19033,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-ics:SOT23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -18988,7 +19042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -19779,7 +19833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
 			(at 208.915 33.02 0)
 			(effects
 				(font
@@ -19800,7 +19854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel Power MOSFET, SOT-23-6"
+		(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
 			(at 210.82 38.1 0)
 			(effects
 				(font
@@ -20035,7 +20089,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:1206-C"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 287.02 35.56 0)
 			(effects
 				(font

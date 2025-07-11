@@ -1427,8 +1427,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "oresat-proto-card:TE_2-1734592-0"
-				(at 0 0 0)
+			(property "Footprint" "oresat-connectors:J-TE-2-1734592-0"
+				(at -0.254 38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3510,16 +3510,15 @@
 		)
 		(uuid "2570ec6a-617c-4864-9337-e88220034144")
 	)
-	(text "it is labeled: STM32F091C\nHOWEVER the MPN is labeled: STM32F042K6T\nWhich one is it????"
+	(text "Look at datasheet pg 30. Different layout guideline for filtering and etc (for 3MHz to 3GHz)"
 		(exclude_from_sim no)
-		(at 231.14 128.524 0)
+		(at 379.984 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "365f629e-9642-43d0-891d-1058c517e900")
+		(uuid "4b4f4d4f-d6f1-4ec1-bc7a-d10da155b63f")
 	)
 	(text "VBAT not bypassed becase not enough room\ninstead tied into nearest bypass cap"
 		(exclude_from_sim no)
@@ -7636,7 +7635,6 @@
 					(size 2.0828 1.7703)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "ORESAT-DEBUG-CONNECTOR-ALL"
@@ -7648,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-proto-card:TE_2-1734592-0"
+		(property "Footprint" "oresat-connectors:J-TE-2-1734592-0"
 			(at 26.67 191.77 0)
 			(effects
 				(font

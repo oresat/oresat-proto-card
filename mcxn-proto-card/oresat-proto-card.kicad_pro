@@ -687,13 +687,19 @@
           "label": "LIBRARIES",
           "name": "${LIBRARIES}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Value_1",
+          "name": "Value_1",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
