@@ -4932,16 +4932,6 @@
 		)
 		(uuid "2fa70e26-33e0-4949-8af1-af58746a59fc")
 	)
-	(text "Can i remove this please its HURTING me (TP32)"
-		(exclude_from_sim no)
-		(at 352.044 176.022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "300c0ec5-c183-456f-9a16-ed4a957abf42")
-	)
 	(text "IS 10k OK? Testing Required\n\nShould be like every other 10k"
 		(exclude_from_sim no)
 		(at 240.03 215.9 0)

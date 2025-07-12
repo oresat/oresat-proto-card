@@ -3499,6 +3499,16 @@
 		)
 		(uuid 7f20cda0-2568-4743-9ff3-778687564df1)
 	)
+	(text "Should this be locked on the PCB?"
+		(exclude_from_sim no)
+		(at 22.86 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10ec2e87-1cf1-4089-8885-1a1dde46881e")
+	)
 	(text "Power/Current\ndraw from OPD.\nSignal is analog\nvoltage 0-1.2V"
 		(exclude_from_sim no)
 		(at 109.22 153.67 0)
