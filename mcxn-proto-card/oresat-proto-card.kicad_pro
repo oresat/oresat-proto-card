@@ -178,6 +178,10 @@
         [
           "copper_edge_clearance|184090000|65400000|52e7be73-668e-4667-b358-d3f0bb96f26b|914e3c1c-61f9-4861-b840-206ac42dd92d",
           ""
+        ],
+        [
+          "courtyards_overlap|132195000|150471125|97605c8b-032a-4896-8e46-680c5d6b443e|e27c75d8-b9d3-428e-9114-627394137c30",
+          ""
         ]
       ],
       "meta": {
@@ -385,11 +389,43 @@
   "erc": {
     "erc_exclusions": [
       [
+        "multiple_net_names|2552700|2095500|a4ca0713-717c-463e-8896-5793735af44e|62a72287-e2a8-4d4e-aed6-05be19ec3253|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b",
+        ""
+      ],
+      [
+        "multiple_net_names|3060700|1905000|4e503ae5-6b39-4146-aa9a-e628adc38d39|d7afbd23-5c74-4dc5-a27d-99725f3a8948|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209",
+        ""
+      ],
+      [
+        "pin_to_pin|2552700|774700|19f46546-52be-4508-96e6-5a2b7392af92|66c43ced-22b6-4178-ba05-fd6d934bb9fb|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209",
+        ""
+      ],
+      [
         "power_pin_not_driven|1193800|1104900|526374b0-0f80-4677-8f19-6fe11378086c|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
         ""
       ],
       [
+        "power_pin_not_driven|1320800|1104900|526374b0-0f80-4677-8f19-6fe11378086c|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1854200|1409700|7d746251-bbee-4e13-869e-5cd2440ec484|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1981200|317500|11ab4e36-55cc-468a-ab4d-fe2905276397|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1981200|406400|11ab4e36-55cc-468a-ab4d-fe2905276397|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2120900|1041400|0270d40e-68b8-457f-a7d1-1f350cbea272|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2235200|1460500|1e107583-3710-485e-a069-701c09ec6329|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
         ""
       ],
       [
@@ -401,11 +437,27 @@
         ""
       ],
       [
+        "power_pin_not_driven|3060700|1905000|16a09a70-b069-4ec4-9af0-ca7d348a4383|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
+        ""
+      ],
+      [
         "power_pin_not_driven|3302000|1841500|16a09a70-b069-4ec4-9af0-ca7d348a4383|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
         ""
       ],
       [
+        "power_pin_not_driven|3568700|1854200|5f67924b-0156-4a7f-bb25-5100ecd6f12d|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
+        ""
+      ],
+      [
         "power_pin_not_driven|3810000|1790700|c105cc65-1d74-42c3-9aee-fb5986e7706b|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
+        ""
+      ],
+      [
+        "same_local_global_label|889000|914400|f175fcba-19c5-425d-a6b7-f9f80708ca53|8e97b228-2e3f-406c-acbe-71e219c27a09|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885",
+        ""
+      ],
+      [
+        "same_local_global_label|889000|939800|96963773-5481-4043-a1b9-c321c4d84940|c50db319-d15a-4224-a554-9740738b7437|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885",
         ""
       ]
     ],
@@ -623,6 +675,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -723,19 +776,19 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": false
         },
         {
           "group_by": true,
@@ -753,18 +806,36 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
@@ -775,45 +846,21 @@
         },
         {
           "group_by": false,
-          "label": "DNP",
-          "name": "DNP",
-          "show": false
+          "label": "DIS",
+          "name": "DIS",
+          "show": true
         },
         {
           "group_by": false,
           "label": "DPN",
           "name": "DPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFR",
-          "name": "MFR",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIS",
-          "name": "DIS",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -842,10 +889,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Footprint"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

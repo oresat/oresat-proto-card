@@ -5,9 +5,9 @@
 	(uuid "2c21849f-4e90-4351-9c00-702b76f03229")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat M0 Proto Card: Connectors")
-		(date "2025-06-29")
-		(rev "5.0")
+		(title "OreSat MCXN Proto Card")
+		(date "2025-11-13")
+		(rev "6.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x10"
@@ -3522,18 +3522,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 140.97 38.1)
-		(end 231.14 228.6)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ef8d1a5b-01a0-42e1-936a-ffb346f22849)
-	)
 	(text "Auxiliary Connector"
 		(exclude_from_sim no)
 		(at 69.342 204.724 90)
@@ -3855,7 +3843,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 200.66) (xy 194.31 200.66)
+			(xy 119.38 200.66) (xy 127 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -3945,7 +3933,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 187.96) (xy 194.31 187.96)
+			(xy 111.76 187.96) (xy 127 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -4055,7 +4043,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 195.58) (xy 194.31 195.58)
+			(xy 114.3 195.58) (xy 127 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -4325,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 182.88) (xy 194.31 182.88)
+			(xy 116.84 182.88) (xy 127 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -4825,7 +4813,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 177.8) (xy 194.31 177.8)
+			(xy 121.92 177.8) (xy 127 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -4845,7 +4833,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 185.42) (xy 194.31 185.42)
+			(xy 114.3 185.42) (xy 127 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4925,7 +4913,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 193.04) (xy 194.31 193.04)
+			(xy 111.76 193.04) (xy 127 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -5415,7 +5403,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 180.34) (xy 194.31 180.34)
+			(xy 119.38 180.34) (xy 127 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -5535,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 190.5) (xy 194.31 190.5)
+			(xy 86.36 190.5) (xy 127 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -5705,7 +5693,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 198.12) (xy 194.31 198.12)
+			(xy 116.84 198.12) (xy 127 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -7626,7 +7614,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 199.39 187.96 0)
+		(at 132.08 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7634,7 +7622,7 @@
 		(dnp no)
 		(uuid "cb7e2445-7e90-4b55-a7ca-0ec352162727")
 		(property "Reference" "JP9"
-			(at 193.04 174.625 0)
+			(at 129.794 175.514 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7643,7 +7631,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 199.39 203.2 0)
+			(at 132.08 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7639,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7657,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7666,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7676,7 @@
 			)
 		)
 		(property "DPN" "732-5329-ND "
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +7686,7 @@
 			)
 		)
 		(property "MFR" "Wurth"
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7696,7 @@
 			)
 		)
 		(property "MPN" "61302011121"
-			(at 199.39 187.96 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

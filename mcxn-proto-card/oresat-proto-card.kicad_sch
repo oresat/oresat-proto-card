@@ -5,9 +5,9 @@
 	(uuid "04d32576-d084-475b-9eac-d7f3fd9579d7")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat M0 Proto Card")
-		(date "2025-06-29")
-		(rev "5.0")
+		(title "OreSat MCXN Proto Card")
+		(date "2025-11-13")
+		(rev "6.0")
 	)
 	(lib_symbols)
 	(sheet
