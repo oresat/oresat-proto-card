@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2025-11-13")
+		(date "2025-12-28")
 		(rev "6.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -4313,17 +4313,6 @@
 		)
 		(uuid "130d6a8f-2c31-4c59-9c5c-baa24674fa51")
 	)
-	(text "All caps are ceramic 10% X5R >= 16V V unless marked"
-		(exclude_from_sim no)
-		(at 15.24 287.02 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d8a9dc2-b998-4fff-b9ae-522c106ab388")
-	)
 	(text "3.3V Card Switching Supply"
 		(exclude_from_sim no)
 		(at 297.942 179.07 0)
@@ -4348,17 +4337,6 @@
 		)
 		(uuid "3b42215b-f030-4cde-9ceb-02197acd346f")
 	)
-	(text "All resistors 0603 +/- 1% unless marked"
-		(exclude_from_sim no)
-		(at 15.24 284.48 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e689482-db4c-4e36-a9bf-5232e03948a6")
-	)
 	(text "OreSat Power Domain (OPD)\nPower Supply from C3 (3.3V)"
 		(exclude_from_sim no)
 		(at 66.04 144.526 0)
@@ -4380,6 +4358,17 @@
 			(justify left bottom)
 		)
 		(uuid "54214215-11c6-4711-9170-02d12fdb5cac")
+	)
+	(text "All resistors 0603 +/- 1% and AEQ unless marked"
+		(exclude_from_sim no)
+		(at 113.792 263.652 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56946b07-18dd-4ca8-bb63-119f5bd004e8")
 	)
 	(text "0805"
 		(exclude_from_sim no)
@@ -4404,6 +4393,17 @@
 			(justify left bottom)
 		)
 		(uuid "68cf19d9-7374-4de3-90ab-02b83b32b63a")
+	)
+	(text "All caps are ceramic 0603 10% X5R >= 16V Vwv and AEQ unless marked"
+		(exclude_from_sim no)
+		(at 113.792 266.192 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "832a304d-b47b-4dd5-9562-66f5a4ad8db4")
 	)
 	(text "250 ms inhibit\non power up"
 		(exclude_from_sim no)
@@ -4456,19 +4456,6 @@
 			(justify left bottom)
 		)
 		(uuid "bdecc1e7-73c4-4862-be2e-d2730895e5b5")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 241.554 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d126cdcd-e959-49ee-a3aa-61ff2d2a7670")
 	)
 	(text "Address selection for Card: 0x10"
 		(exclude_from_sim no)
@@ -5461,6 +5448,16 @@
 			(type solid)
 		)
 		(uuid "39666d49-f0ba-4709-a33d-e85a3e4003d9")
+	)
+	(wire
+		(pts
+			(xy 44.45 204.47) (xy 46.99 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397435a3-1747-4a6d-be5d-ad427f442bbc")
 	)
 	(wire
 		(pts
@@ -6544,16 +6541,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 204.47) (xy 46.99 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8875f109-2140-4a68-8f1c-7672d8f3d5b1")
-	)
-	(wire
-		(pts
 			(xy 198.12 60.96) (xy 198.12 62.23)
 		)
 		(stroke
@@ -7334,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 162.56) (xy 44.45 162.56)
+			(xy 45.72 162.56) (xy 43.18 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -8232,194 +8219,122 @@
 		)
 		(uuid "f68dede8-dff4-430e-97ca-93d892275219")
 	)
-	(global_label "OPD_SCL"
-		(shape bidirectional)
-		(at 44.45 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "060b8874-47f6-46d7-bed2-9e7e7f033a82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.0078 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OPD_SDA"
-		(shape bidirectional)
-		(at 45.72 204.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1db35e5b-b23d-4b85-86bf-1f45dd850b38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.2173 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "4211-IOUT"
-		(shape input)
-		(at 290.83 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "299d4ef8-b973-423c-876f-be8a765444e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.459 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ISP-UART_TXD"
-		(shape input)
-		(at 208.28 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d9e4f60-6f85-47ea-af30-addcced3e516")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.5667 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OPD_PWR"
-		(shape input)
-		(at 43.18 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64924f4e-c228-49c1-8a1f-0c0e4fe4be1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.3653 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ISP-UART_RXD"
-		(shape output)
-		(at 208.28 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "653ef99e-0d32-431e-af24-d3a77d927ff1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.2643 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C3-UART-RX"
-		(shape output)
-		(at 248.92 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a662719-b7a6-452b-8eb0-496701c5f03d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.5863 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C3-UART-TX"
+	(hierarchical_label "C3-UART-TX"
 		(shape input)
 		(at 248.92 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "c23d5b6b-50cc-4976-92d4-e832c6e0046e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.2839 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "0f5ec25a-64d0-40d2-9106-60c298c34c67")
 	)
-	(global_label "~{BOOT}"
+	(hierarchical_label "OPD-SCL"
+		(shape input)
+		(at 43.18 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "18bb976b-51b6-495d-a34d-01c06a3fea8d")
+	)
+	(hierarchical_label "C3-UART-RX"
+		(shape output)
+		(at 248.92 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "42833d02-76c1-42b7-a411-261bb1430b70")
+	)
+	(hierarchical_label "411-IOUT"
+		(shape passive)
+		(at 290.83 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "650bd78e-de15-4897-83eb-7a763d9da9ad")
+	)
+	(hierarchical_label "BOOTCFG"
 		(shape output)
 		(at 167.64 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "e9154c7e-0e93-4b9c-b216-6b34b88079ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.5238 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "96db30cc-bf81-4f7f-8153-7245937bbd61")
+	)
+	(hierarchical_label "MCU-UART-RX"
+		(shape output)
+		(at 208.28 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
+			(justify right)
 		)
+		(uuid "9eb5b0f8-3168-4cc3-bf8a-81f9d9abe20c")
+	)
+	(hierarchical_label "OPD-PWR"
+		(shape input)
+		(at 43.18 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a4c28549-f175-4153-8fef-973d22e25893")
+	)
+	(hierarchical_label "MCU-UART-TX"
+		(shape input)
+		(at 208.28 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "eb4d8d31-902e-4073-b1f3-0476d23aed71")
+	)
+	(hierarchical_label "OPD-SDA"
+		(shape bidirectional)
+		(at 44.45 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "efb64543-dde7-459b-8a5a-0b90e189854a")
 	)
 	(symbol
 		(lib_id "oresat-ics:MIC842LYC5")

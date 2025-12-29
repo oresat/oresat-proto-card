@@ -6,8 +6,9 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2025-11-13")
+		(date "2025-12-28")
 		(rev "6.0")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -4971,7 +4972,7 @@
 	)
 	(text "Connect to CAN2 \nbecause the proto\ncard isn't part \nof critical systems."
 		(exclude_from_sim no)
-		(at 178.562 55.372 0)
+		(at 173.482 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4979,7 +4980,7 @@
 		)
 		(uuid "16c59639-107b-4e20-9234-be5595089c68")
 	)
-	(text "All caps are ceramic 10% X5R >= 16V Vwv and AEQ unless marked"
+	(text "All caps are ceramic 0603 10% X5R >= 16V Vwv and AEQ unless marked"
 		(exclude_from_sim no)
 		(at 113.03 266.7 0)
 		(effects
@@ -5089,6 +5090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "098b5a87-8291-49a6-b788-28ea7a4293ff")
+	)
+	(junction
+		(at 76.2 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0cc0d4-5625-46d8-b9a1-bd889e785469")
 	)
 	(junction
 		(at 129.54 44.45)
@@ -5523,6 +5530,16 @@
 			(type default)
 		)
 		(uuid "16f792f8-612d-47ce-8c33-2e06421700f5")
+	)
+	(wire
+		(pts
+			(xy 76.2 218.44) (xy 88.9 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d43d3b-cbc1-41cb-abf9-a2bc79de4f75")
 	)
 	(wire
 		(pts
@@ -7644,6 +7661,16 @@
 		)
 		(uuid "fd1d1597-1d1f-4b59-8cd2-8580634a0486")
 	)
+	(wire
+		(pts
+			(xy 96.52 218.44) (xy 97.79 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feca8f9d-0726-4005-be50-f39138034a93")
+	)
 	(label "P3_13"
 		(at 66.04 142.24 0)
 		(effects
@@ -8404,152 +8431,109 @@
 		)
 		(uuid "fbb91cf0-8fec-4fd4-9240-281962d3a2f9")
 	)
-	(global_label "ISP-UART_TXD"
-		(shape output)
-		(at 85.09 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3fec55ad-f681-46fd-a33c-88664e14ff93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8033 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CAN2_L"
-		(shape bidirectional)
-		(at 153.67 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "62c3cc0e-d7d7-41bc-96e9-98737ac0f5b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.4406 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ISP-UART_TXD"
-		(shape input)
-		(at 330.2 204.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69f34bd5-8ab6-418e-96ca-44e8daa4ef23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.4867 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "~{BOOT}"
+	(hierarchical_label "BOOTCFG"
 		(shape input)
 		(at 285.75 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "a4ca0713-717c-463e-8896-5793735af44e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.6338 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1e07cada-9930-45eb-a76d-c32ce9c382b7")
 	)
-	(global_label "ISP-UART_RXD"
+	(hierarchical_label "MCU-UART-TX"
+		(shape output)
+		(at 85.09 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "30e8c50d-0be9-4fee-8971-effcf7c263db")
+	)
+	(hierarchical_label "CAN2_L"
+		(shape bidirectional)
+		(at 153.67 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4781af5a-1d82-48c8-a86d-d5be6cad176b")
+	)
+	(hierarchical_label "CAN2_H"
+		(shape bidirectional)
+		(at 153.67 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a1e4138c-5037-4c21-923f-610c4ff3567b")
+	)
+	(hierarchical_label "MCU-UART-RX"
 		(shape input)
 		(at 85.09 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "ab7d631a-7649-446d-9578-4fe1bdf7ffbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.1057 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "a8a50012-b32b-4819-9671-7e33f4d36faf")
 	)
-	(global_label "ISP-UART_RXD"
-		(shape output)
-		(at 330.2 207.01 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "MCU-UART-TX"
+		(shape input)
+		(at 330.2 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "e9327131-3f73-4940-b59c-425a2ddd971a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.1843 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "b74aca10-b512-4412-9712-9e097200d533")
 	)
-	(global_label "CAN2_H"
-		(shape bidirectional)
-		(at 153.67 53.34 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "411-IOUT"
+		(shape passive)
+		(at 97.79 218.44 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "f639fc4a-db90-479f-bab5-76faf986a3b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.737 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "f2cdd041-1732-44f7-89a2-ac02f396d5bf")
+	)
+	(hierarchical_label "MCU-UART-RX"
+		(shape output)
+		(at 330.2 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
+			(justify right)
 		)
+		(uuid "f89907a2-a7a2-412a-9265-5e926b831093")
 	)
 	(symbol
 		(lib_id "oresat-ics:MCXN947VKLT")
@@ -9089,6 +9073,116 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 92.71 218.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c8f863-2a44-4e24-adbb-144dcb7804bf")
+		(property "Reference" "R7"
+			(at 93.218 219.964 90)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1k"
+			(at 89.408 219.964 90)
+			(effects
+				(font
+					(size 1.778 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 92.964 219.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" ""
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b4b30fe-8ba7-4f1a-85e0-4afe507fd84d")
+		)
+		(pin "2"
+			(uuid "4dbe8bee-3ce8-401b-b237-9da8bbf35c25")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "R7")
 					(unit 1)
 				)
 			)

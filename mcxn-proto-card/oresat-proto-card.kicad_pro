@@ -182,6 +182,14 @@
         [
           "courtyards_overlap|132195000|150471125|97605c8b-032a-4896-8e46-680c5d6b443e|e27c75d8-b9d3-428e-9114-627394137c30",
           ""
+        ],
+        [
+          "silk_overlap|154207300|80620900|3d09cc6c-6c95-4ff7-b2e6-a49b7ff7332e|48604123-5f5d-4eb6-9eec-a3d0a792d8ce",
+          ""
+        ],
+        [
+          "silk_overlap|155594624|80275767|3d09cc6c-6c95-4ff7-b2e6-a49b7ff7332e|79d29d73-5dcc-4a56-9d9f-b3e1862cc88f",
+          ""
         ]
       ],
       "meta": {
@@ -228,14 +236,14 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -433,10 +441,6 @@
         ""
       ],
       [
-        "power_pin_not_driven|2971800|1549400|dbe841a4-a015-49fc-a7ce-19a21cfc9b6d|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|",
-        ""
-      ],
-      [
         "power_pin_not_driven|3060700|1905000|16a09a70-b069-4ec4-9af0-ca7d348a4383|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
         ""
       ],
@@ -450,14 +454,6 @@
       ],
       [
         "power_pin_not_driven|3810000|1790700|c105cc65-1d74-42c3-9aee-fb5986e7706b|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
-        ""
-      ],
-      [
-        "same_local_global_label|889000|914400|f175fcba-19c5-425d-a6b7-f9f80708ca53|8e97b228-2e3f-406c-acbe-71e219c27a09|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885",
-        ""
-      ],
-      [
-        "same_local_global_label|889000|939800|96963773-5481-4043-a1b9-c321c4d84940|c50db319-d15a-4224-a554-9740738b7437|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885|/04d32576-d084-475b-9eac-d7f3fd9579d7/5e24a3e8-a65e-478d-b976-97cb63cc1885",
         ""
       ]
     ],
@@ -940,12 +936,8 @@
       "Root"
     ],
     [
-      "5e24a3e8-a65e-478d-b976-97cb63cc1885",
-      "Connectors"
-    ],
-    [
       "74ca5f60-14f2-4db3-a5c5-49a2ce7c0209",
-      "Power"
+      "OreSat Power Domain"
     ],
     [
       "e68cb6cd-039d-43ad-93aa-b705d581519b",

@@ -3555,16 +3555,16 @@
 		)
 		(uuid "60223b94-5b55-4a0a-a207-2d442b60aa07")
 	)
-	(text "All resistors 0603 +/- 1% unless marked"
+	(text "All resistors 0603 +/- 1% and AEQ unless marked"
 		(exclude_from_sim no)
-		(at 15.24 246.38 0)
+		(at 112.776 263.652 0)
 		(effects
 			(font
-				(size 1.778 1.5113)
+				(size 1.778 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "696dbcd3-bbcd-46a8-9586-8838d312d31f")
+		(uuid "6ac2d525-1cff-4c6a-9d67-8652b4933eb3")
 	)
 	(text "my computer refuses to let me do labels ToT help"
 		(exclude_from_sim no)
@@ -3576,6 +3576,17 @@
 		)
 		(uuid "70f0f64e-b870-498b-b3ac-3ca6644ceed2")
 	)
+	(text "All caps are ceramic 0603 10% X5R >= 16V Vwv and AEQ unless marked"
+		(exclude_from_sim no)
+		(at 112.776 266.192 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9129ab0c-e971-4baa-9a94-67d580fd7ad3")
+	)
 	(text "OreSat Power Domain signals\n(See power sheet)"
 		(exclude_from_sim no)
 		(at 118.11 81.28 0)
@@ -3586,17 +3597,6 @@
 			(justify left bottom)
 		)
 		(uuid "9c387d1c-b2c2-4e54-b69f-0863dfb2ca31")
-	)
-	(text "All caps are 0603 ceramic 10% X5R Vw>=16V unless marked"
-		(exclude_from_sim no)
-		(at 15.24 248.92 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca9a7a27-1c9b-4b73-9d60-960953d0a38c")
 	)
 	(text "RF connections and test points"
 		(exclude_from_sim no)
