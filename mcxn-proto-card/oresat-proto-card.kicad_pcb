@@ -164,7 +164,7 @@
 	(net 21 "/AUX-5")
 	(net 22 "/AUX-9")
 	(net 23 "/SPARE1")
-	(net 24 "/<NO NET>")
+	(net 24 "/OPD_PWR")
 	(net 25 "/SPARE21")
 	(net 26 "/SPARE8")
 	(net 27 "/OPD_SCL")
@@ -222,7 +222,7 @@
 	(net 79 "unconnected-(U11-Pad3)")
 	(net 80 "Net-(U2-IO0)")
 	(net 81 "Net-(U2-IO1)")
-	(net 82 "/Microcontroller/ISPMODE_N")
+	(net 82 "/Microcontroller/~{ISPMODE}")
 	(net 83 "/OreSat Power Domain/AD0")
 	(net 84 "Net-(U1C-P1_31)")
 	(net 85 "/Microcontroller/RESET")
@@ -359,7 +359,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -371,7 +371,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -816,7 +816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -828,7 +828,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -840,7 +840,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1259,7 +1259,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "/<NO NET>")
+			(net 24 "/OPD_PWR")
 			(pintype "passive")
 			(solder_mask_margin 0.0635)
 			(uuid "08187808-dbde-4232-a343-abfb1bc04cdd")
@@ -1272,7 +1272,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "/<NO NET>")
+			(net 24 "/OPD_PWR")
 			(pintype "passive")
 			(solder_mask_margin 0.0635)
 			(uuid "308ff7f9-5d6b-47e6-8791-3cf24db2bed8")
@@ -1934,7 +1934,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2308,7 +2308,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2320,7 +2320,7 @@
 				)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2332,7 +2332,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2345,7 +2345,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2371,7 +2371,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2729,7 +2729,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2741,7 +2741,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2753,7 +2753,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 325.4 152.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2765,7 +2765,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 325.4 152.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2777,7 +2777,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 325.4 152.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2789,7 +2789,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT1K00"
 			(at 325.4 152.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3880,7 +3880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3892,7 +3892,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3904,7 +3904,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3928,7 +3928,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3940,7 +3940,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4192,7 +4192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4204,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4216,7 +4216,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4229,7 +4229,7 @@
 				)
 			)
 		)
-		(property "DPN" "511-1584-1-ND"
+		(property "DPN" "732-4971-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4242,7 +4242,7 @@
 				)
 			)
 		)
-		(property "MFR" "Rohm"
+		(property "MFR" "Wurth"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4255,7 +4255,7 @@
 				)
 			)
 		)
-		(property "MPN" "SML-E12M8WT86"
+		(property "MPN" "150060GS75000"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4492,7 +4492,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4504,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4516,7 +4516,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4528,7 +4528,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1.00MHRCT-ND  "
+		(property "DPN" "RMCF0603FT1M00CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4540,7 +4540,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4552,7 +4552,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-071ML"
+		(property "MPN" "RMCF0603FT1M00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4805,7 +4805,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4817,7 +4817,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4829,7 +4829,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4842,7 +4842,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4868,7 +4868,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5157,7 +5157,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 252.6 -112.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5208,6 +5208,7 @@
 		(path "/7ffce064-dc28-4ce5-a933-169d3c907426")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start 1.5 -2)
 			(end 1.3 -2)
@@ -5452,7 +5453,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5464,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5476,7 +5477,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5489,7 +5490,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5515,7 +5516,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5966,7 +5967,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5978,7 +5979,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5990,7 +5991,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6003,7 +6004,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6029,7 +6030,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6503,7 +6504,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6970,7 +6971,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6982,7 +6983,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "4.7 pF ±0.5pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6994,7 +6995,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7007,7 +7008,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1885C1H4R7WA01D"
+		(property "MPN" "C0603C479D5GACAUTO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7033,7 +7034,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
+		(property "DPN" "399-15924-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7484,7 +7485,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7496,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7508,7 +7509,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 90.9 242.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7520,7 +7521,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-100HRCT-ND "
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 90.9 242.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7532,7 +7533,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 90.9 242.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7544,7 +7545,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL "
+		(property "MPN" "RMCF0603FT100R"
 			(at 90.9 242.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8390,7 +8391,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8402,7 +8403,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8414,7 +8415,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 262.8 8.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8426,7 +8427,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 262.8 8.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8438,7 +8439,7 @@
 				)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 262.8 8.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8450,7 +8451,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 262.8 8.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8821,7 +8822,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8877,7 +8878,7 @@
 		(path "/8eb94c93-b1d5-454b-a4d1-4d066cdfc836")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 26.78)
 			(end 3.92 26.78)
@@ -9343,7 +9344,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9355,7 +9356,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9367,7 +9368,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9380,7 +9381,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9406,7 +9407,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9671,7 +9672,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9683,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9695,7 +9696,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 306.4 164.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9707,7 +9708,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 306.4 164.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9719,7 +9720,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 306.4 164.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9731,7 +9732,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 306.4 164.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9984,7 +9985,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9996,7 +9997,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10008,7 +10009,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 258.8 159 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10020,7 +10021,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 258.8 159 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10032,7 +10033,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Murata Electronics"
 			(at 258.8 159 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10044,7 +10045,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 258.8 159 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10297,7 +10298,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10309,7 +10310,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10321,7 +10322,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 71.8 231.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10333,7 +10334,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 71.8 231.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10345,7 +10346,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 71.8 231.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10357,7 +10358,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 71.8 231.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11081,7 +11082,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11582,7 +11583,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "6.8u"
+		(property "Value" "22u"
 			(at -1 1.55 90)
 			(layer "F.Fab")
 			(uuid "04f9932a-19f5-4f6b-8690-74f4a42255c3")
@@ -11594,7 +11595,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf?utm_source=Datasheets&utm_medium=Part-details&utm_campaign=DS_Referrals&utm_content=Datasheet_Button&utm_term=06035A6R8C4T4A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11606,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Description" "6.8 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "22 µF ±10% 4V Ceramic Capacitor X7T 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11618,7 +11619,7 @@
 				)
 			)
 		)
-		(property "MFR" "TDK Corporation"
+		(property "MFR" "KYOCERA AVX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11631,7 +11632,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA4J1X5R1C685K125AC"
+		(property "MPN" "KAM15CT70G226KT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11657,7 +11658,7 @@
 				)
 			)
 		)
-		(property "DPN" "445-12661-1-ND"
+		(property "DPN" "478-KAM15CT70G226KTCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12200,7 +12201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12212,7 +12213,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual PMOS transistor, 6 pin package"
+		(property "Description" "Mosfet Array 20V 2A 600mW Surface Mount SOT-26"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12224,7 +12225,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13108,7 +13109,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13120,7 +13121,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13132,7 +13133,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13144,7 +13145,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13156,7 +13157,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13168,7 +13169,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT1K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13421,7 +13422,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5029/KAM21AT70J226KU.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13433,7 +13434,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22 µF ±10% 6.3V Ceramic Capacitor X7T 0805 (2012 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13445,7 +13446,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 221.7 -46.9 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13457,7 +13458,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-9959-1-ND"
+		(property "DPN" "478-KAM21AT70J226KUCT-ND"
 			(at 221.7 -46.9 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13469,7 +13470,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KYOCERA AVX"
 			(at 221.7 -46.9 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13481,7 +13482,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BD71A226ME44L"
+		(property "MPN" "KAM21AT70J226KU"
 			(at 221.7 -46.9 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13666,7 +13667,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13678,7 +13679,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13690,7 +13691,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13703,7 +13704,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13729,7 +13730,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13994,7 +13995,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14006,7 +14007,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14018,7 +14019,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 271.8 153.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14030,7 +14031,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 271.8 153.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14042,7 +14043,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 271.8 153.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14054,7 +14055,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 271.8 153.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14424,7 +14425,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 240.6 -100.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14475,6 +14476,7 @@
 		(path "/297920a0-0bff-41a8-907a-0b0c698ceeb2")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start 1.5 -2)
 			(end 1.3 -2)
@@ -14905,7 +14907,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14917,7 +14919,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14929,7 +14931,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14942,7 +14944,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14968,7 +14970,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15233,7 +15235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15663,7 +15665,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 121 "/Microcontroller/P4_0")
-			(pinfunction "P4_0/ANA_0")
+			(pinfunction "ADC0_A0 ")
 			(pintype "passive")
 			(uuid "65e7f80e-150d-49e7-91e2-4fda8d1f4890")
 		)
@@ -15681,7 +15683,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 120 "/Microcontroller/P4_2")
-			(pinfunction "P4_2")
+			(pinfunction "DAC0_OUT/ADC0_A4/ADC1_A4/CMP0_IN4N/CMP1_IN4N/CMP2_IN4N")
 			(pintype "passive")
 			(uuid "d03da6ed-3167-4629-a92d-a29195de9fe2")
 		)
@@ -15690,7 +15692,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 125 "/Microcontroller/P4_3")
-			(pinfunction "P4_3")
+			(pinfunction "DAC1_OUT/ADC0_B4/ADC1_B4/CMP0_IN5N/CMP1_IN5N/CMP2_IN5N")
 			(pintype "passive")
 			(uuid "4cc99336-f8fa-478a-aeaa-4dc982b20cff")
 		)
@@ -15699,7 +15701,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 126 "/Microcontroller/P4_4")
-			(pinfunction "P4_4/ANA_4")
+			(pinfunction "ADC1_A0 ")
 			(pintype "passive")
 			(uuid "75bf3259-4f27-4f47-b407-2c5db1be2b7d")
 		)
@@ -16176,7 +16178,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 169 "/Microcontroller/TDI ")
-			(pinfunction "TDI ")
+			(pinfunction "P0_3")
 			(pintype "passive")
 			(uuid "c16e56a4-5349-4ef2-8552-d8a626935082")
 		)
@@ -16202,7 +16204,7 @@
 			(at 3 -7.738 270)
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 82 "/Microcontroller/ISPMODE_N")
+			(net 82 "/Microcontroller/~{ISPMODE}")
 			(pinfunction "ISPMODE_N")
 			(pintype "passive")
 			(uuid "900a7861-3373-400f-b370-b1f14fc30cfb")
@@ -16221,7 +16223,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 102 "/Microcontroller/SDA")
-			(pinfunction "I2C_SDA ")
+			(pinfunction "P0_16")
 			(pintype "passive")
 			(uuid "e0c485a0-0960-44f8-a75e-806872a23fdc")
 		)
@@ -16230,7 +16232,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 99 "/Microcontroller/SCL")
-			(pinfunction "I2C_SCL ")
+			(pinfunction "P0_17")
 			(pintype "passive")
 			(uuid "69844e6f-f745-45f5-ba1a-648d8f1a4a78")
 		)
@@ -16512,7 +16514,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16524,7 +16526,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16536,7 +16538,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16548,7 +16550,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16560,7 +16562,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16572,7 +16574,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT1K00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17012,7 +17014,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17024,7 +17026,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17036,7 +17038,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17049,7 +17051,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17075,7 +17077,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17328,7 +17330,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at -0.8 1.35 0)
 			(layer "F.Fab")
 			(uuid "e23f46e3-a888-413c-8875-18b189a65227")
@@ -17340,7 +17342,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17352,7 +17354,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17364,7 +17366,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 279.8 175.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17376,7 +17378,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 279.8 175.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17388,7 +17390,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 279.8 175.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17400,7 +17402,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 279.8 175.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17653,7 +17655,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17665,7 +17667,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17677,7 +17679,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 80.8 243.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17689,7 +17691,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-10.0HRCT-ND"
+		(property "DPN" "RMCF0603FT10R0CT-ND"
 			(at 80.8 243.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17701,7 +17703,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 80.8 243.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17713,7 +17715,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710RL"
+		(property "MPN" "RMCF0603FT10R0"
 			(at 80.8 243.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17918,7 +17920,7 @@
 			(size 0.6 0.9)
 			(layers "F.Cu" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 24 "/<NO NET>")
+			(net 24 "/OPD_PWR")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
@@ -18000,7 +18002,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18494,7 +18496,7 @@
 			(size 0.85 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 82 "/Microcontroller/ISPMODE_N")
+			(net 82 "/Microcontroller/~{ISPMODE}")
 			(pinfunction "IO5")
 			(pintype "bidirectional")
 			(uuid "b99b808b-b15e-4cd4-b7e7-ffcfb496202f")
@@ -18809,7 +18811,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 4.1A (Ta) 510mW (Ta), 5W (Tc) Surface Mount TO-236AB"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18821,7 +18823,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19360,7 +19362,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19629,7 +19631,7 @@
 			(size 0.6 0.9)
 			(layers "F.Cu" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 82 "/Microcontroller/ISPMODE_N")
+			(net 82 "/Microcontroller/~{ISPMODE}")
 			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
@@ -19688,7 +19690,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19700,7 +19702,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19709,6 +19711,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "259d38d3-6baa-40dd-8435-7a0a691d32e8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4091bc88-4696-478b-b3bc-d5b13216f22c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb657adb-fea6-4435-817b-c2ff8170a9a8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a13e6617-4ef2-43ff-a2f8-568235d1d7d1")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20047,7 +20101,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20059,7 +20113,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20071,7 +20125,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 65 234.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20083,7 +20137,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 65 234.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20095,7 +20149,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 65 234.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20107,7 +20161,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 65 234.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20383,7 +20437,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digikey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20438,6 +20492,7 @@
 		(path "/ee5c4e9a-2c14-4773-94c5-272c4faf22f2")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start -7.9375 -6.731)
 			(end -6.747 -6.731)
@@ -21104,7 +21159,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21116,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21125,6 +21180,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31fe3459-07ef-4adc-963e-a85a29359f12")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "399-6851-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd98ebee-b2da-4c72-b0fc-74ad30e76fe6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0ea888e-e381-4a91-9c67-673aa9988d1d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "C0603C103K5RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68b6708a-b9c3-4dbe-95cb-fdbee7ad14a6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21474,7 +21581,7 @@
 				)
 			)
 		)
-		(property "Description" "IC Single Comparator W/REF, SC-70-5"
+		(property "Description" "Comparator with Voltage Reference Push-Pull SC-70-5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21484,6 +21591,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c96577ce-76f6-4c09-a3c3-3d34e051d796")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "576-2927-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701c61cf-0280-4cba-90b9-0fa9a73c453a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Microchip"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6b52b0a-c61d-45e5-90bc-d11ff4b90fa4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "MIC842LYC5-TR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8fedc1e-2255-4c9c-98e9-f6d3afccebbd")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -21902,7 +22061,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -21914,7 +22073,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -21926,7 +22085,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 51.5 218.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21938,7 +22097,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-6472-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 51.5 218.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21950,7 +22109,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Murata Electronics"
 			(at 51.5 218.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21962,7 +22121,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 51.5 218.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22475,7 +22634,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22770,7 +22929,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22782,7 +22941,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22794,7 +22953,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22807,7 +22966,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22833,7 +22992,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23110,7 +23269,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor_big-symbol"
+		(property "Description" "6.8 µH Shielded Inductor 2.4 A 91mOhm 1816 (4540 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23146,7 +23305,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23372,7 +23531,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23384,7 +23543,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23396,7 +23555,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23409,7 +23568,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-14941-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23422,7 +23581,7 @@
 				)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23435,7 +23594,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C104K4PAC7867"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23723,7 +23882,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24740,7 +24899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24752,7 +24911,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24764,7 +24923,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24777,7 +24936,7 @@
 				)
 			)
 		)
-		(property "DPN" "1830-1064-1-ND"
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24790,7 +24949,7 @@
 				)
 			)
 		)
-		(property "MFR" "Inolux"
+		(property "MFR" "Wurth"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24803,7 +24962,7 @@
 				)
 			)
 		)
-		(property "MPN" "IN-S63AT5A"
+		(property "MPN" "150060AS75000"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25064,7 +25223,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 246.6 -106.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25115,6 +25274,7 @@
 		(path "/54c36e09-6351-41a6-a77d-e099e483b14c")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start 1.5 -2)
 			(end 1.3 -2)
@@ -25557,7 +25717,7 @@
 				)
 			)
 		)
-		(property "Description" "IC Single Comparator W/REF, SC-70-5"
+		(property "Description" "Comparator with Voltage Reference Push-Pull SC-70-5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25567,6 +25727,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b497003-a054-4b84-98ea-6f8293ff09dd")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "576-2927-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c4b3de3-2f55-47f8-8069-f25c3b39d352")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Microchip"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08a9c739-0159-43ab-8bec-4c39a6fce341")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "MIC842LYC5-TR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1a75c5c-e96c-4253-b2ea-a0080b1405c9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -26496,7 +26708,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26508,7 +26720,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26520,7 +26732,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26533,7 +26745,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26559,7 +26771,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26917,7 +27129,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26929,7 +27141,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "4.7 pF ±0.5pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26941,7 +27153,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26954,7 +27166,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1885C1H4R7WA01D"
+		(property "MPN" "C0603C479D5GACAUTO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26980,7 +27192,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
+		(property "DPN" "399-15924-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27338,7 +27550,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27350,7 +27562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27362,7 +27574,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27375,7 +27587,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27401,7 +27613,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27666,7 +27878,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27678,7 +27890,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27690,7 +27902,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27702,7 +27914,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-6472-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27714,7 +27926,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27726,7 +27938,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B106KOQNNNG"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27911,7 +28123,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -27923,7 +28135,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -27935,7 +28147,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 279.8 177.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27947,7 +28159,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT100KCT-ND"
 			(at 279.8 177.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27959,7 +28171,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 279.8 177.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27971,7 +28183,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT100K"
 			(at 279.8 177.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28212,7 +28424,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at -1 1.55 0)
 			(layer "F.Fab")
 			(uuid "b517ab06-5714-44b6-9cfb-a18ffc460bb1")
@@ -28224,7 +28436,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28236,7 +28448,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28248,7 +28460,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28261,7 +28473,7 @@
 				)
 			)
 		)
-		(property "DPN" "1276-4275-1-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28274,7 +28486,7 @@
 				)
 			)
 		)
-		(property "MFR" "Samsung"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28287,7 +28499,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1005F6653CS"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28552,7 +28764,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28564,7 +28776,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28576,7 +28788,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 329 167.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28588,7 +28800,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 329 167.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28600,7 +28812,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Murata Electronics"
 			(at 329 167.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28612,7 +28824,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 329 167.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28981,7 +29193,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 241.2 139 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29033,7 +29245,7 @@
 		(path "/cb7e2445-7e90-4b55-a7ca-0ec352162727")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 24.24)
 			(end 1.38 24.24)
@@ -29347,7 +29559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29359,7 +29571,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29368,6 +29580,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0cb6810-49ee-44e4-9473-7454de6b6dc7")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "089d5825-8714-4845-9372-6002455e6ea2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd16ef86-a8f5-4753-873e-138dbc6939fd")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "C0603C474K3RACAUTO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aabbe2ac-a860-4683-9a31-433cc45a9a1d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30057,7 +30321,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30108,6 +30372,7 @@
 		(path "/fc967b13-43b1-469a-a284-c9b4be4fe38d")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_rect
 			(start -1 4.2)
 			(end 1 6)
@@ -30936,7 +31201,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30948,7 +31213,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30957,6 +31222,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77d67422-7e5d-4902-bc72-a3bbac5446ab")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cde7401-95fe-45eb-bdab-e0b29fef308f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "563649b8-3847-418b-aca5-c9df65803b2d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f42b3011-ff65-4773-817f-ebd8190aadfa")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -31201,7 +31518,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31225,7 +31542,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31530,7 +31847,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -31542,7 +31859,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -31554,7 +31871,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 59.6 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31566,7 +31883,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-0.0GRCT-ND"
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 59.6 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31578,7 +31895,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 59.6 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31590,7 +31907,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
+		(property "MPN" "RMCF0603ZT0R00"
 			(at 59.6 236 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31936,7 +32253,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31948,7 +32265,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31960,7 +32277,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 329 165.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31972,7 +32289,7 @@
 				)
 			)
 		)
-		(property "DPN" "A129718CT-ND"
+		(property "DPN" "RMCF0603FT330KCT-ND"
 			(at 329 165.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31984,7 +32301,7 @@
 				)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 329 165.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31996,7 +32313,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRGCQ0603F330K"
+		(property "MPN" "RMCF0603FT330K"
 			(at 329 165.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32249,7 +32566,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32261,7 +32578,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32273,7 +32590,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32286,7 +32603,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32312,7 +32629,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32890,7 +33207,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -32902,7 +33219,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -32911,6 +33228,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d04125cf-110a-4ab5-baf2-f4afe8cc68e6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7934a888-57f6-4745-8b17-0aead79ae00a")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT1K00CT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad063ab2-4696-4588-903c-69ab69ac8f97")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aee01ea4-92a8-4582-9a80-2aa10bdee53d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -33840,7 +34209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33852,7 +34221,7 @@
 				)
 			)
 		)
-		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34626,7 +34995,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34638,7 +35007,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34650,7 +35019,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 88.4 255.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34662,7 +35031,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 88.4 255.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34674,7 +35043,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Murata Electronics"
 			(at 88.4 255.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34686,7 +35055,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 88.4 255.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35031,7 +35400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35043,7 +35412,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35055,7 +35424,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35068,7 +35437,7 @@
 				)
 			)
 		)
-		(property "DPN" "511-1584-1-ND"
+		(property "DPN" "732-4971-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35081,7 +35450,7 @@
 				)
 			)
 		)
-		(property "MFR" "Rohm"
+		(property "MFR" "Wurth"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35094,7 +35463,7 @@
 				)
 			)
 		)
-		(property "MPN" "SML-E12M8WT86"
+		(property "MPN" "150060GS75000"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35332,7 +35701,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35344,7 +35713,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35356,7 +35725,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 218.9 -59.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35368,7 +35737,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 218.9 -59.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35380,7 +35749,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 218.9 -59.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35392,7 +35761,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 218.9 -59.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35645,7 +36014,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35657,7 +36026,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35669,7 +36038,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 244.8 -76.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35681,7 +36050,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-14941-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 244.8 -76.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35693,7 +36062,7 @@
 				)
 			)
 		)
-		(property "MFR" "Kemet"
+		(property "MFR" "KEMET"
 			(at 244.8 -76.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35705,7 +36074,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C104K4PAC7867"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 244.8 -76.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36051,7 +36420,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36063,7 +36432,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36072,6 +36441,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de6b3a58-a3f9-4d54-a459-4468429cc0b4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "636cbfd6-da01-48c3-9b26-8ebf63f18c63")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aad55863-a339-489b-973a-cb44fc94abe9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce0ae2fb-bea3-4d2d-9c6a-70c8a9d8e1a9")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -36410,7 +36831,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -36422,7 +36843,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -36431,6 +36852,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3f8dd5-8928-4e8e-b357-ff787ff66d8e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c904415-45a0-4979-af8e-ed8056978696")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "258fbfcf-5da1-47b9-82e5-69eb40195aff")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "809499b5-070c-45e1-bc20-7ae3751c0743")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -37014,7 +37487,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37065,6 +37538,7 @@
 		(path "/65bbfc35-4101-4c37-bf48-a35dc0d04b65")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_rect
 			(start -1 4.2)
 			(end 1 6)
@@ -37662,7 +38136,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -37674,7 +38148,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -37683,6 +38157,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dc8a881-f723-4798-b0fe-7464e105fb0b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e3faf58-c25d-4804-9055-77bba266d57d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8038df2a-0a49-4785-bdf4-e2b4b7d7e938")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "GRT188R71E105KE13D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6a1a276-17de-4a85-843d-4b3ffeea2675")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -37927,7 +38453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37939,7 +38465,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37951,7 +38477,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 253 -90.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37963,7 +38489,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1.00MHRCT-ND  "
+		(property "DPN" "RMCF0603FT1M00CT-ND"
 			(at 253 -90.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37975,7 +38501,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 253 -90.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37987,7 +38513,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-071ML"
+		(property "MPN" "RMCF0603FT1M00"
 			(at 253 -90.6 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38242,7 +38768,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38254,7 +38780,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38266,7 +38792,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 280 169.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38278,7 +38804,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-1444-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 280 169.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38290,7 +38816,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Murata Electronics"
 			(at 280 169.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38302,7 +38828,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX5R7BB105"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 280 169.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38554,7 +39080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-CSR_CSRN.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38566,7 +39092,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Current Sense Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -38578,7 +39104,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38591,7 +39117,7 @@
 				)
 			)
 		)
-		(property "DPN" "CSR1206FTR100CT-ND"
+		(property "DPN" "CSR1206FKR100CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38604,7 +39130,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38617,7 +39143,7 @@
 				)
 			)
 		)
-		(property "MPN" "CSR1206FTR100"
+		(property "MPN" "CSR1206FKR100"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38806,7 +39332,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38830,7 +39356,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39134,7 +39660,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39146,7 +39672,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39158,7 +39684,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39171,7 +39697,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39197,7 +39723,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39579,7 +40105,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39630,6 +40156,7 @@
 		(path "/19395620-3fc9-4b56-8e1f-154fe0710b3e")
 		(sheetname "/")
 		(sheetfile "oresat-proto-card.kicad_sch")
+		(attr dnp)
 		(fp_rect
 			(start -1 4.2)
 			(end 1 6)
@@ -40041,7 +40568,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -40053,7 +40580,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -40065,7 +40592,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 89.7 241.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40077,7 +40604,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-100HRCT-ND "
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 89.7 241.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40089,7 +40616,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 89.7 241.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40101,7 +40628,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07100RL "
+		(property "MPN" "RMCF0603FT100R"
 			(at 89.7 241.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40355,7 +40882,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -40367,7 +40894,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -40379,7 +40906,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 290 165.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40391,7 +40918,7 @@
 				)
 			)
 		)
-		(property "DPN" "311-0.0GRCT-ND"
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 290 165.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40403,7 +40930,7 @@
 				)
 			)
 		)
-		(property "MFR" "Yageo"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 290 165.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40415,7 +40942,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
+		(property "MPN" "RMCF0603ZT0R00"
 			(at 290 165.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40982,7 +41509,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -40994,7 +41521,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -41006,7 +41533,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 340.2 163.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41018,7 +41545,7 @@
 				)
 			)
 		)
-		(property "DPN" "A129718CT-ND"
+		(property "DPN" "RMCF0603FT330KCT-ND"
 			(at 340.2 163.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41030,7 +41557,7 @@
 				)
 			)
 		)
-		(property "MFR" "TE Connectivity"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 340.2 163.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41042,7 +41569,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRGCQ0603F330K"
+		(property "MPN" "RMCF0603FT330K"
 			(at 340.2 163.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41388,7 +41915,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41400,7 +41927,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41412,7 +41939,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41425,7 +41952,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41451,7 +41978,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41809,7 +42336,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=MCASU105AB7683KFCA01&fileType=CS"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188C71E225KE13-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41821,7 +42348,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7S 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41833,7 +42360,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41846,7 +42373,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BBJ225MAHT"
+		(property "MPN" "GRT188C71E225KE13D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41872,7 +42399,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-4929-1-ND"
+		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42546,7 +43073,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42558,7 +43085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42570,7 +43097,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 335.6 162.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42582,7 +43109,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT665KCT-ND"
 			(at 335.6 162.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42594,7 +43121,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 335.6 162.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42606,7 +43133,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT665K"
 			(at 335.6 162.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42871,7 +43398,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Circuit IC Switch 1:1 1Ohm 8-VSSOP"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -42880,6 +43407,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54b2347a-6c1f-4b70-ad49-e52254bfa210")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "296-24304-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a46d08f-cfc9-4a9b-b606-b87bb231184e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ac511b3-3872-41e8-beba-35ff6358b9b2")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "TS5A21366DCUR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69bcaade-ac54-403e-a211-b463f66d16bd")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -43184,7 +43763,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43196,7 +43775,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43208,7 +43787,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 258.2 13.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43220,7 +43799,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 258.2 13.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43232,7 +43811,7 @@
 				)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 258.2 13.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43244,7 +43823,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 258.2 13.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43498,7 +44077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "NA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43510,7 +44089,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OreSat Proto-Card PCB from OSH Park"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43519,6 +44098,58 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIS" "NA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be4a698f-5827-43b7-8568-075812b311da")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "DPN" "NA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00e1c668-f3c7-42f6-8e5b-750e1fff2e6b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MFR" "OSH Park"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6608096a-6e49-43aa-9cf6-f69e34647806")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "MPN" "oresat-proto-card-v6.0-2025-12-28"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a932ac5a-5a6d-40c8-a725-0709fa30d766")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -45696,7 +46327,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46221,7 +46852,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck Switching Regulator IC Positive Fixed 3.3V 1 Output 1.5A 16-VQFN Exposed Pad"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -46233,7 +46864,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47066,7 +47697,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47078,7 +47709,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47090,7 +47721,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 261.3 10.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47102,7 +47733,7 @@
 				)
 			)
 		)
-		(property "DPN" "P2.7KDBCT-ND"
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 261.3 10.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47114,7 +47745,7 @@
 				)
 			)
 		)
-		(property "MFR" "Panasonic"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 261.3 10.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47126,7 +47757,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3AEB272V"
+		(property "MPN" "RMCF0603FT2K70"
 			(at 261.3 10.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47565,7 +48196,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47577,7 +48208,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47589,7 +48220,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 225.6 -70.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47601,7 +48232,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 225.6 -70.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47613,7 +48244,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 225.6 -70.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47625,7 +48256,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 225.6 -70.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47878,7 +48509,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47890,7 +48521,7 @@
 				)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47902,7 +48533,7 @@
 				)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47915,7 +48546,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47941,7 +48572,7 @@
 				)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48347,7 +48978,7 @@
 				)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49014,7 +49645,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -49026,7 +49657,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -49038,7 +49669,7 @@
 				)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 338.4 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49050,7 +49681,7 @@
 				)
 			)
 		)
-		(property "DPN" "RNCP0603FTD10K0CT-ND  "
+		(property "DPN" "RMCF0603FT665KCT-ND"
 			(at 338.4 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49062,7 +49693,7 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole"
+		(property "MFR" "Stackpole Electronics Inc"
 			(at 338.4 156 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49074,7 +49705,7 @@
 				)
 			)
 		)
-		(property "MPN" "RNCP0603FTD10K0"
+		(property "MPN" "RMCF0603FT665K"
 			(at 338.4 156 0)
 			(layer "F.Fab")
 			(hide yes)

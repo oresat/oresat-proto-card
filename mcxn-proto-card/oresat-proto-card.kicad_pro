@@ -449,6 +449,10 @@
         ""
       ],
       [
+        "power_pin_not_driven|3340100|2108200|dbe841a4-a015-49fc-a7ce-19a21cfc9b6d|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7|/04d32576-d084-475b-9eac-d7f3fd9579d7|",
+        ""
+      ],
+      [
         "power_pin_not_driven|3568700|1854200|5f67924b-0156-4a7f-bb25-5100ecd6f12d|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
         ""
       ],
@@ -830,18 +834,6 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "DIS",
           "name": "DIS",
           "show": true
@@ -850,6 +842,18 @@
           "group_by": false,
           "label": "DPN",
           "name": "DPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {

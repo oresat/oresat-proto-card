@@ -5033,6 +5033,26 @@
 		)
 		(uuid "9bea7546-f663-45bc-8243-900c3b4be12e")
 	)
+	(text "4V"
+		(exclude_from_sim no)
+		(at 201.168 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a084bdf6-ad98-4ad0-9992-8f40196865dc")
+	)
+	(text "1.0 - 1.2 V depending \non Active mode"
+		(exclude_from_sim no)
+		(at 172.466 140.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6747400-9eb8-417f-82f3-73bc3fe940ad")
+	)
 	(text "OreSat Debug\nConnector"
 		(exclude_from_sim no)
 		(at 356.616 191.262 0)
@@ -5065,6 +5085,17 @@
 			)
 		)
 		(uuid "eb64644d-dc73-4f89-a994-1d51e47f6a3c")
+	)
+	(text "ISMODE_N"
+		(exclude_from_sim no)
+		(at 254 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee59d1df-9baf-4905-a55d-b0b8dd15828d")
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
@@ -6053,16 +6084,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 212.09) (xy 261.62 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470a8100-079a-4e04-911d-c0df4a464310")
-	)
-	(wire
-		(pts
 			(xy 191.77 142.24) (xy 203.2 142.24)
 		)
 		(stroke
@@ -6420,6 +6441,16 @@
 			(type solid)
 		)
 		(uuid "6cef7532-cfa3-43cd-94e8-6db161e1e1a8")
+	)
+	(wire
+		(pts
+			(xy 254 212.09) (xy 261.62 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d03e6e8-1d39-45b6-91b0-6adc6573eaf9")
 	)
 	(wire
 		(pts
@@ -7861,16 +7892,6 @@
 		)
 		(uuid "5c24a0bd-806d-4044-bbdb-0adbd0527194")
 	)
-	(label "ISPMODE_N"
-		(at 255.27 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62a72287-e2a8-4d4e-aed6-05be19ec3253")
-	)
 	(label "P3_21"
 		(at 66.04 127 0)
 		(effects
@@ -8012,7 +8033,7 @@
 		(uuid "8437a401-d948-421c-a529-39b1a335f297")
 	)
 	(label "SDA"
-		(at 255.27 212.09 0)
+		(at 254 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8112,7 +8133,7 @@
 		(uuid "8c60adad-5d73-4699-b322-74b78726e019")
 	)
 	(label "SCL"
-		(at 255.27 214.63 0)
+		(at 254 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8431,7 +8452,7 @@
 		)
 		(uuid "fbb91cf0-8fec-4fd4-9240-281962d3a2f9")
 	)
-	(hierarchical_label "BOOTCFG"
+	(hierarchical_label "~{ISPMODE}"
 		(shape input)
 		(at 285.75 209.55 0)
 		(effects
@@ -8569,7 +8590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 49.53 211.328 0)
 			(effects
 				(font
@@ -9115,7 +9136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -9124,7 +9145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -9133,7 +9154,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -9143,7 +9164,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -9163,7 +9184,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -9273,8 +9294,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8u"
-			(at 199.39 133.35 0)
+		(property "Value" "22u"
+			(at 199.644 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf?utm_source=Datasheets&utm_medium=Part-details&utm_campaign=DS_Referrals&utm_content=Datasheet_Button&utm_term=06035A6R8C4T4A"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -9300,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.8 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
+		(property "Description" "22 µF ±10% 4V Ceramic Capacitor X7T 0603 (1608 Metric)"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -9309,7 +9330,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "TDK Corporation"
+		(property "MFR" "KYOCERA AVX"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -9318,7 +9339,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CGA4J1X5R1C685K125AC"
+		(property "MPN" "KAM15CT70G226KT"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -9336,7 +9357,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "445-12661-1-ND"
+		(property "DPN" "478-KAM15CT70G226KTCT-ND"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -9730,7 +9751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9739,7 +9760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "4.7 pF ±0.5pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9748,7 +9769,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9757,7 +9778,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H4R7WA01D"
+		(property "MPN" "C0603C479D5GACAUTO"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -9775,7 +9796,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
+		(property "DPN" "399-15924-1-ND"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -10170,7 +10191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -10179,7 +10200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -10188,7 +10209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -10197,7 +10218,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -10215,7 +10236,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -10863,7 +10884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H4R7WA01-01A.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -10872,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "4.7 pF ±0.5pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -10881,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata"
+		(property "MFR" "KEMET"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -10890,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM1885C1H4R7WA01D"
+		(property "MPN" "C0603C479D5GACAUTO"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -10908,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
+		(property "DPN" "399-15924-1-ND"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -11142,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 210.82 146.05 0)
 			(effects
 				(font
@@ -11151,7 +11172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 210.82 146.05 0)
 			(effects
 				(font
@@ -11160,7 +11181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 210.82 146.05 0)
 			(effects
 				(font
@@ -11169,7 +11190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 210.82 146.05 0)
 			(effects
 				(font
@@ -11187,7 +11208,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 210.82 146.05 0)
 			(effects
 				(font
@@ -11315,7 +11336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 266.7 57.15 0)
 			(effects
 				(font
@@ -11553,7 +11574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -11562,7 +11583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -11571,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -11580,7 +11601,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -11598,7 +11619,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 257.81 29.21 0)
 			(effects
 				(font
@@ -11658,7 +11679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -11667,7 +11688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -11676,7 +11697,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -11685,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -11703,7 +11724,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -11896,7 +11917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 105.41 71.12 90)
 			(effects
 				(font
@@ -11905,7 +11926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 105.41 71.12 0)
 			(effects
 				(font
@@ -12082,7 +12103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 281.94 177.8 0)
 			(effects
 				(font
@@ -12652,7 +12673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 49.53 169.672 0)
 			(effects
 				(font
@@ -13502,7 +13523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 49.53 263.398 0)
 			(effects
 				(font
@@ -13775,6 +13796,7 @@
 		)
 		(pin "22"
 			(uuid "a4de8374-8d95-4c74-8fb8-e9ad494b17ed")
+			(alternate "ADC0_A0 ")
 		)
 		(pin "71"
 			(uuid "ae4f6653-a9bd-494d-8367-7a5de0708dff")
@@ -13823,12 +13845,15 @@
 		)
 		(pin "25"
 			(uuid "847a2c7c-a9dc-406f-864c-ab775acfd260")
+			(alternate "DAC1_OUT/ADC0_B4/ADC1_B4/CMP0_IN5N/CMP1_IN5N/CMP2_IN5N")
 		)
 		(pin "26"
 			(uuid "93f58a21-f4e6-4aa9-b5e7-0b2ce676fc88")
+			(alternate "ADC1_A0 ")
 		)
 		(pin "24"
 			(uuid "b989e5f8-df9d-47f0-9a25-1d2d79c5f1fd")
+			(alternate "DAC0_OUT/ADC0_A4/ADC1_A4/CMP0_IN4N/CMP1_IN4N/CMP2_IN4N")
 		)
 		(pin "27"
 			(uuid "0a3906b0-7860-407c-a642-041d5d3c55ed")
@@ -13979,7 +14004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -13988,7 +14013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -13997,7 +14022,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "Digi-Key"
+		(property "DIS" "DigiKey"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -14007,7 +14032,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -14027,7 +14052,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -14123,7 +14148,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 85.09 69.85 90)
 			(effects
 				(font
@@ -14462,7 +14487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 49.53 169.418 0)
 			(effects
 				(font
@@ -14910,7 +14935,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -15509,7 +15534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 237.49 146.812 0)
 			(effects
 				(font
@@ -15580,7 +15605,6 @@
 		)
 		(pin "79"
 			(uuid "dce14c6f-e949-48de-8396-f4a99cbf5a42")
-			(alternate "TDI ")
 		)
 		(pin "55"
 			(uuid "4454fd8b-2873-488b-93e8-b95c0f98f7ff")
@@ -15661,11 +15685,9 @@
 		)
 		(pin "84"
 			(uuid "3414be1a-d795-4e73-8fc5-ae3b4985b35e")
-			(alternate "I2C_SDA ")
 		)
 		(pin "85"
 			(uuid "31c5fefa-7968-4b30-9236-7b2df5874b84")
-			(alternate "I2C_SCL ")
 		)
 		(pin "87"
 			(uuid "0e055234-884c-4e5e-b625-41ff19f9c713")
@@ -16072,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 233.68 29.21 0)
 			(effects
 				(font
@@ -16081,7 +16103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 233.68 29.21 0)
 			(effects
 				(font
@@ -16090,7 +16112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 233.68 29.21 0)
 			(effects
 				(font
@@ -16099,7 +16121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 233.68 29.21 0)
 			(effects
 				(font
@@ -16117,7 +16139,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 233.68 29.21 0)
 			(effects
 				(font
@@ -16177,7 +16199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -16186,7 +16208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -16195,7 +16217,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -16204,7 +16226,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -16222,7 +16244,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -16882,7 +16904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -16891,7 +16913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -16900,7 +16922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -16909,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -16927,7 +16949,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 241.3 29.21 0)
 			(effects
 				(font
@@ -17121,7 +17143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -17130,7 +17152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -17139,7 +17161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -17148,7 +17170,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -17166,7 +17188,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 266.7 66.04 0)
 			(effects
 				(font
@@ -17893,7 +17915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -17902,7 +17924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -17911,7 +17933,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -17920,7 +17942,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -17938,7 +17960,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 248.92 29.21 0)
 			(effects
 				(font
@@ -17999,7 +18021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=MCASU105AB7683KFCA01&fileType=CS"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188C71E225KE13-01.pdf"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -18008,7 +18030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7S 0603 (1608 Metric)"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -18017,7 +18039,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -18026,7 +18048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BBJ225MAHT"
+		(property "MPN" "GRT188C71E225KE13D"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -18044,7 +18066,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-4929-1-ND"
+		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -18172,7 +18194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 261.62 179.07 0)
 			(effects
 				(font
@@ -18190,7 +18212,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 261.62 179.07 0)
 			(effects
 				(font
@@ -18276,7 +18298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 233.68 35.052 0)
 			(effects
 				(font
@@ -18983,7 +19005,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 201.93 128.27 90)
 			(effects
 				(font
@@ -19186,7 +19208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -19195,7 +19217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -19204,7 +19226,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -19213,7 +19235,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -19231,7 +19253,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -19357,7 +19379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1801/TMK107BJ105KAHT_SS.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -19366,7 +19388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -19375,7 +19397,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -19384,7 +19406,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -19402,7 +19424,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -20659,7 +20681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -20668,7 +20690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -20677,7 +20699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -20686,7 +20708,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -20704,7 +20726,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 218.44 29.21 0)
 			(effects
 				(font
@@ -20764,7 +20786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 269.24 179.07 0)
 			(effects
 				(font
@@ -20782,7 +20804,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIS" "DIgiKey"
+		(property "DIS" "DigiKey"
 			(at 269.24 179.07 0)
 			(effects
 				(font
@@ -20869,7 +20891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1068/TMK107BJ104KAHT_SS.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -20878,7 +20900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -20887,7 +20909,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -20896,7 +20918,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -20914,7 +20936,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 266.7 29.21 0)
 			(effects
 				(font
@@ -21507,7 +21529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNx4xDS.pdf"
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
 			(at 50.8 -18.288 0)
 			(effects
 				(font
