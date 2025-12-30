@@ -13845,7 +13845,6 @@
 		)
 		(pin "25"
 			(uuid "847a2c7c-a9dc-406f-864c-ab775acfd260")
-			(alternate "DAC1_OUT/ADC0_B4/ADC1_B4/CMP0_IN5N/CMP1_IN5N/CMP2_IN5N")
 		)
 		(pin "26"
 			(uuid "93f58a21-f4e6-4aa9-b5e7-0b2ce676fc88")
@@ -13853,7 +13852,6 @@
 		)
 		(pin "24"
 			(uuid "b989e5f8-df9d-47f0-9a25-1d2d79c5f1fd")
-			(alternate "DAC0_OUT/ADC0_A4/ADC1_A4/CMP0_IN4N/CMP1_IN4N/CMP2_IN4N")
 		)
 		(pin "27"
 			(uuid "0a3906b0-7860-407c-a642-041d5d3c55ed")
