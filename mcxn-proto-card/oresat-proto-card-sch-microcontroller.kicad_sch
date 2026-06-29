@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2026-06-27")
+		(date "2026-06-28")
 		(rev "6.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -4783,7 +4783,7 @@
 	)
 	(text "ISMODE_N"
 		(exclude_from_sim no)
-		(at 254 209.55 0)
+		(at 237.49 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4806,7 +4806,7 @@
 		(uuid "f7a3e7cd-f865-4bc4-b53b-8ce75ba8172e")
 	)
 	(junction
-		(at 265.43 173.99)
+		(at 248.92 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06c171e3-4c4c-4887-9451-8176adee4ff8")
@@ -4872,10 +4872,10 @@
 		(uuid "454ca209-9c7e-4c52-becb-45ffd5ddb21e")
 	)
 	(junction
-		(at 281.94 209.55)
+		(at 250.19 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "57a6ee15-fa75-4ae7-acf0-738e27169685")
+		(uuid "5a2666a7-142f-4b82-8fd4-1af9b1a594ba")
 	)
 	(junction
 		(at 207.01 71.12)
@@ -4900,6 +4900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69e349a0-71a5-4095-a235-87a5911e6d68")
+	)
+	(junction
+		(at 265.43 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b525f60-7b94-4b89-bda3-0276a032f871")
 	)
 	(junction
 		(at 226.06 25.4)
@@ -4956,16 +4962,16 @@
 		(uuid "b47b5436-4ad4-44e7-883d-12a5d8bfa099")
 	)
 	(junction
-		(at 264.16 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbafb404-7bd6-41f9-81f3-59d9dce95842")
-	)
-	(junction
 		(at 256.54 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c66d592e-c61c-4849-9636-57ced7871ad4")
+	)
+	(junction
+		(at 247.65 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca2a939a-6e12-495c-b5d9-75e2690685c4")
 	)
 	(junction
 		(at 261.62 62.23)
@@ -4990,12 +4996,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7b22773-36cd-424a-8aff-c82a8e630675")
-	)
-	(junction
-		(at 266.7 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f04118c2-5532-40d1-85e3-a67bff3c708a")
 	)
 	(junction
 		(at 210.82 142.24)
@@ -5109,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 222.25) (xy 270.51 222.25)
+			(xy 237.49 222.25) (xy 254 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5129,7 +5129,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 209.55) (xy 281.94 209.55)
+			(xy 237.49 209.55) (xy 265.43 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5209,7 +5209,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 199.39) (xy 285.75 199.39)
+			(xy 237.49 199.39) (xy 269.24 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5249,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 173.99) (xy 265.43 173.99)
+			(xy 252.73 180.34) (xy 248.92 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5309,7 +5309,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 207.01) (xy 270.51 207.01)
+			(xy 237.49 207.01) (xy 254 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5429,7 +5429,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 173.99) (xy 265.43 172.72)
+			(xy 248.92 180.34) (xy 248.92 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5519,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 172.72) (xy 281.94 173.99)
+			(xy 265.43 179.07) (xy 265.43 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5559,7 +5559,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 186.69) (xy 264.16 214.63)
+			(xy 247.65 193.04) (xy 247.65 214.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -5689,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 209.55) (xy 285.75 209.55)
+			(xy 265.43 209.55) (xy 269.24 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 173.99) (xy 265.43 173.99)
+			(xy 245.11 180.34) (xy 248.92 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5809,7 +5809,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 181.61) (xy 281.94 209.55)
+			(xy 265.43 187.96) (xy 265.43 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5939,7 +5939,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 204.47) (xy 270.51 204.47)
+			(xy 237.49 204.47) (xy 254 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5969,7 +5969,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 184.15) (xy 266.7 212.09)
+			(xy 250.19 190.5) (xy 250.19 212.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -5979,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 217.17) (xy 270.51 217.17)
+			(xy 237.49 217.17) (xy 254 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6029,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 212.09) (xy 270.51 212.09)
+			(xy 250.19 212.09) (xy 254 212.09)
 		)
 		(stroke
 			(width 0)
@@ -6039,7 +6039,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 175.26) (xy 261.62 173.99)
+			(xy 245.11 181.61) (xy 245.11 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6079,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 212.09) (xy 261.62 212.09)
+			(xy 237.49 212.09) (xy 245.11 212.09)
 		)
 		(stroke
 			(width 0)
@@ -6249,7 +6249,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 214.63) (xy 261.62 214.63)
+			(xy 247.65 214.63) (xy 245.11 214.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -6349,7 +6349,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 201.93) (xy 270.51 201.93)
+			(xy 237.49 201.93) (xy 254 201.93)
 		)
 		(stroke
 			(width 0)
@@ -6419,7 +6419,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 196.85) (xy 285.75 196.85)
+			(xy 237.49 196.85) (xy 269.24 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 214.63) (xy 261.62 214.63)
+			(xy 237.49 214.63) (xy 245.11 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6529,7 +6529,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 194.31) (xy 285.75 194.31)
+			(xy 237.49 194.31) (xy 269.24 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6549,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 175.26) (xy 269.24 173.99)
+			(xy 252.73 181.61) (xy 252.73 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6629,7 +6629,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 184.15) (xy 266.7 184.15)
+			(xy 252.73 190.5) (xy 250.19 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -6659,7 +6659,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 214.63) (xy 270.51 214.63)
+			(xy 247.65 214.63) (xy 254 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6669,7 +6669,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 224.79) (xy 270.51 224.79)
+			(xy 237.49 224.79) (xy 254 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6799,7 +6799,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 212.09) (xy 261.62 212.09)
+			(xy 250.19 212.09) (xy 245.11 212.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -6839,7 +6839,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 182.88) (xy 269.24 184.15)
+			(xy 252.73 189.23) (xy 252.73 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6919,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 219.71) (xy 270.51 219.71)
+			(xy 237.49 219.71) (xy 254 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6939,7 +6939,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 184.15) (xy 264.16 186.69)
+			(xy 247.65 190.5) (xy 247.65 193.04)
 		)
 		(stroke
 			(width 0)
@@ -6949,7 +6949,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 227.33) (xy 270.51 227.33)
+			(xy 237.49 227.33) (xy 254 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6969,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 229.87) (xy 270.51 229.87)
+			(xy 237.49 229.87) (xy 254 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7079,7 +7079,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 182.88) (xy 261.62 184.15)
+			(xy 245.11 189.23) (xy 245.11 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7089,7 +7089,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 184.15) (xy 264.16 184.15)
+			(xy 245.11 190.5) (xy 247.65 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7178,7 +7178,7 @@
 		(uuid "008f71a2-b4b6-40bb-8f27-f7c300af9647")
 	)
 	(label "P0_23"
-		(at 254 229.87 0)
+		(at 237.49 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7218,7 +7218,7 @@
 		(uuid "2873db50-0bf8-4bc0-a179-f9888fab4703")
 	)
 	(label "P0_21"
-		(at 254 224.79 0)
+		(at 237.49 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7318,7 +7318,7 @@
 		(uuid "5523dbfa-5302-4659-9444-38a8c822a919")
 	)
 	(label "P0_18"
-		(at 254 217.17 0)
+		(at 237.49 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7328,7 +7328,7 @@
 		(uuid "5ab5bb66-c398-47b5-9831-c7cf6f6a1747")
 	)
 	(label "P0_5"
-		(at 254 207.01 0)
+		(at 237.49 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7368,7 +7368,7 @@
 		(uuid "6930642d-15ee-4720-97e7-add7b400e466")
 	)
 	(label "TDI "
-		(at 254 201.93 0)
+		(at 237.49 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7468,7 +7468,7 @@
 		(uuid "8419ae7a-0dc7-414f-a87f-8c6ccf8c35cd")
 	)
 	(label "P0_20"
-		(at 254 222.25 0)
+		(at 237.49 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7478,7 +7478,7 @@
 		(uuid "8437a401-d948-421c-a529-39b1a335f297")
 	)
 	(label "SDA"
-		(at 254 212.09 0)
+		(at 237.49 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7568,7 +7568,7 @@
 		(uuid "8c60adad-5d73-4699-b322-74b78726e019")
 	)
 	(label "SCL"
-		(at 254 214.63 0)
+		(at 237.49 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7688,7 +7688,7 @@
 		(uuid "d1bfb246-63ac-4de1-a11b-7945003c2e74")
 	)
 	(label "P0_22"
-		(at 254 227.33 0)
+		(at 237.49 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7738,7 +7738,7 @@
 		(uuid "dc641c9c-1090-4463-ae61-52503d00a0fa")
 	)
 	(label "P0_19"
-		(at 254 219.71 0)
+		(at 237.49 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7858,7 +7858,7 @@
 		(uuid "fa624192-b19a-4e3e-b0fe-3fb038758944")
 	)
 	(label "P0_4"
-		(at 254 204.47 0)
+		(at 237.49 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7882,7 +7882,7 @@
 	)
 	(hierarchical_label "~{ISPMODE}"
 		(shape input)
-		(at 285.75 209.55 0)
+		(at 269.24 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7908,7 +7908,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)
-		(at 285.75 196.85 0)
+		(at 269.24 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7921,7 +7921,7 @@
 	)
 	(hierarchical_label "SWO"
 		(shape bidirectional)
-		(at 285.75 199.39 0)
+		(at 269.24 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7973,7 +7973,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
-		(at 285.75 194.31 0)
+		(at 269.24 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9959,7 +9959,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 212.09 270)
+		(at 254 212.09 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9970,7 +9970,7 @@
 		(dnp no)
 		(uuid "2574f9e8-0ca7-4618-b26f-16177cb6ba24")
 		(property "Reference" "TP76"
-			(at 272.034 212.09 90)
+			(at 255.524 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9981,7 +9981,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 212.09 0)
+			(at 261.62 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,7 +9992,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 212.09 0)
+			(at 264.16 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10003,7 +10003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 212.09 0)
+			(at 254 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,7 +10014,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 212.09 0)
+			(at 254 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,7 +10038,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 217.17 270)
+		(at 254 217.17 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10049,7 +10049,7 @@
 		(dnp no)
 		(uuid "262d6871-d998-4ee0-ba48-45e44c4fdc5b")
 		(property "Reference" "TP78"
-			(at 272.034 217.17 90)
+			(at 255.524 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10060,7 +10060,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 217.17 0)
+			(at 261.62 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,7 +10071,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 217.17 0)
+			(at 264.16 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 217.17 0)
+			(at 254 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10093,7 +10093,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 217.17 0)
+			(at 254 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11107,7 +11107,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 224.79 270)
+		(at 254 224.79 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11118,7 +11118,7 @@
 		(dnp no)
 		(uuid "3733a868-bb6c-4459-ac22-7a623e63d62a")
 		(property "Reference" "TP81"
-			(at 272.034 224.79 90)
+			(at 255.524 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11129,7 +11129,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 224.79 0)
+			(at 261.62 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11140,7 +11140,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 224.79 0)
+			(at 264.16 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +11151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 224.79 0)
+			(at 254 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11162,7 +11162,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 224.79 0)
+			(at 254 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12017,7 +12017,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 281.94 177.8 180)
+		(at 265.43 184.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12028,7 +12028,7 @@
 		(fields_autoplaced yes)
 		(uuid "54e8f4af-14db-47c1-ac48-584fcb0c1ff1")
 		(property "Reference" "R9"
-			(at 284.48 176.5299 0)
+			(at 267.97 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12039,7 +12039,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 284.48 179.0699 0)
+			(at 267.97 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12050,7 +12050,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 280.924 177.546 90)
+			(at 264.414 183.896 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12061,7 +12061,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 281.94 177.8 0)
+			(at 265.43 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12072,7 +12072,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 281.94 177.8 0)
+			(at 265.43 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12083,7 +12083,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 281.94 177.8 90)
+			(at 265.43 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12094,7 +12094,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 281.94 177.8 90)
+			(at 265.43 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12105,7 +12105,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 281.94 177.8 90)
+			(at 265.43 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12116,7 +12116,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 281.94 177.8 90)
+			(at 265.43 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12143,7 +12143,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 219.71 270)
+		(at 254 219.71 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12154,7 +12154,7 @@
 		(dnp no)
 		(uuid "57b34a06-1c1d-46f4-b547-7460ce5c74ad")
 		(property "Reference" "TP79"
-			(at 272.034 219.71 90)
+			(at 255.524 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12165,7 +12165,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 219.71 0)
+			(at 261.62 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12176,7 +12176,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 219.71 0)
+			(at 264.16 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12187,7 +12187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 219.71 0)
+			(at 254 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12198,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 219.71 0)
+			(at 254 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12537,7 +12537,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 281.94 172.72 0)
+		(at 265.43 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12549,7 +12549,7 @@
 		(fields_autoplaced yes)
 		(uuid "6375e2c3-432b-4e08-8875-f292a939666e")
 		(property "Reference" "#PWR017"
-			(at 281.94 176.53 0)
+			(at 265.43 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12560,7 +12560,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 281.94 168.5869 0)
+			(at 265.43 174.9369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12570,7 +12570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 172.72 0)
+			(at 265.43 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12581,7 +12581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 172.72 0)
+			(at 265.43 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12592,7 +12592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 281.94 172.72 0)
+			(at 265.43 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13282,7 +13282,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 229.87 270)
+		(at 254 229.87 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13293,7 +13293,7 @@
 		(dnp no)
 		(uuid "6aa69272-ba74-42a0-b3c3-42c1a7298e26")
 		(property "Reference" "TP83"
-			(at 272.034 229.87 90)
+			(at 255.524 229.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13304,7 +13304,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 229.87 0)
+			(at 261.62 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13315,7 +13315,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 229.87 0)
+			(at 264.16 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13326,7 +13326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 229.87 0)
+			(at 254 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,7 +13337,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 229.87 0)
+			(at 254 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14073,7 +14073,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 222.25 270)
+		(at 254 222.25 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -14084,7 +14084,7 @@
 		(dnp no)
 		(uuid "71983ac3-810d-44d0-8e54-9db95ac250dc")
 		(property "Reference" "TP80"
-			(at 272.034 222.25 90)
+			(at 255.524 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14095,7 +14095,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 222.25 0)
+			(at 261.62 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14106,7 +14106,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 222.25 0)
+			(at 264.16 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14117,7 +14117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 222.25 0)
+			(at 254 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14128,7 +14128,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 222.25 0)
+			(at 254 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15280,7 +15280,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 201.93 270)
+		(at 254 201.93 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15291,7 +15291,7 @@
 		(dnp no)
 		(uuid "83a14436-de01-4fa0-b41b-b5fd3791a133")
 		(property "Reference" "TP84"
-			(at 272.034 201.93 90)
+			(at 255.524 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15302,7 +15302,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 201.93 0)
+			(at 261.62 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15313,7 +15313,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 201.93 0)
+			(at 264.16 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15324,7 +15324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 201.93 0)
+			(at 254 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15335,7 +15335,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 201.93 0)
+			(at 254 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15749,7 +15749,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 214.63 270)
+		(at 254 214.63 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15760,7 +15760,7 @@
 		(dnp no)
 		(uuid "883ccfba-6c74-4bfe-97b4-429e66e5cb20")
 		(property "Reference" "TP77"
-			(at 272.034 214.63 90)
+			(at 255.524 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15771,7 +15771,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 214.63 0)
+			(at 261.62 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15782,7 +15782,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 214.63 0)
+			(at 264.16 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15793,7 +15793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 214.63 0)
+			(at 254 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15804,7 +15804,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 214.63 0)
+			(at 254 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15907,7 +15907,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:MCXN947VKLT")
-		(at 237.49 212.09 0)
+		(at 220.98 212.09 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -15918,7 +15918,7 @@
 		(dnp no)
 		(uuid "8948d8f1-2bbe-46da-ba69-8beaba34c2df")
 		(property "Reference" "U1"
-			(at 237.49 188.468 0)
+			(at 220.98 188.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15928,7 +15928,7 @@
 			)
 		)
 		(property "Value" "MCXN947VKLT"
-			(at 237.49 190.5 0)
+			(at 220.98 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15938,7 +15938,7 @@
 			)
 		)
 		(property "Footprint" "oresat-ics:MCXN947KVLT-QFP50P1600X1600X160-101N"
-			(at 237.744 140.208 0)
+			(at 221.234 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15949,7 +15949,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/MCXNP184M150F70.pdf"
-			(at 237.49 146.812 0)
+			(at 220.98 146.812 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15960,7 +15960,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 100HLQFP (also MCXN947VNLT)"
-			(at 237.744 143.764 0)
+			(at 221.234 143.764 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,7 +15971,7 @@
 			)
 		)
 		(property "MFR" "NXP"
-			(at 162.56 696.85 0)
+			(at 146.05 696.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15983,7 +15983,7 @@
 			)
 		)
 		(property "MPN" "MCXN947VKLT"
-			(at 162.56 796.85 0)
+			(at 146.05 796.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15995,7 +15995,7 @@
 			)
 		)
 		(property "DIS" "Mouser"
-			(at 237.49 212.09 0)
+			(at 220.98 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16006,7 +16006,7 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
-			(at 237.49 212.09 0)
+			(at 220.98 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17782,7 +17782,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 227.33 270)
+		(at 254 227.33 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17793,7 +17793,7 @@
 		(dnp no)
 		(uuid "aa490e99-2a47-4856-8e02-abeeef20c31a")
 		(property "Reference" "TP82"
-			(at 272.034 227.33 90)
+			(at 255.524 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17804,7 +17804,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 227.33 0)
+			(at 261.62 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17815,7 +17815,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 227.33 0)
+			(at 264.16 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17826,7 +17826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 227.33 0)
+			(at 254 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17837,7 +17837,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 227.33 0)
+			(at 254 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17861,7 +17861,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 207.01 270)
+		(at 254 207.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17872,7 +17872,7 @@
 		(dnp no)
 		(uuid "aadd3734-e8bd-4092-9bad-f00e87476ecf")
 		(property "Reference" "TP86"
-			(at 272.034 207.01 90)
+			(at 255.524 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17883,7 +17883,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 207.01 0)
+			(at 261.62 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17894,7 +17894,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 207.01 0)
+			(at 264.16 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17905,7 +17905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 207.01 0)
+			(at 254 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17916,7 +17916,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 207.01 0)
+			(at 254 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18742,7 +18742,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 261.62 179.07 0)
+		(at 245.11 185.42 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18753,7 +18753,7 @@
 		(dnp no)
 		(uuid "bf9de63a-1c07-408e-b78f-646836801f8d")
 		(property "Reference" "R8"
-			(at 260.35 176.53 0)
+			(at 243.84 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18764,7 +18764,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 260.35 180.34 0)
+			(at 243.84 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18775,7 +18775,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 262.636 178.816 90)
+			(at 246.126 185.166 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18786,7 +18786,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 261.62 179.07 0)
+			(at 245.11 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18797,7 +18797,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 261.62 179.07 0)
+			(at 245.11 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18808,7 +18808,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 261.62 179.07 0)
+			(at 245.11 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18819,7 +18819,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT4K70CT-ND"
-			(at 261.62 179.07 0)
+			(at 245.11 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18830,7 +18830,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 261.62 179.07 0)
+			(at 245.11 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18841,7 +18841,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT4K70"
-			(at 261.62 179.07 0)
+			(at 245.11 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19810,7 +19810,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 270.51 204.47 270)
+		(at 254 204.47 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19821,7 +19821,7 @@
 		(dnp no)
 		(uuid "cf078453-7b4d-4108-a5ab-9797d75f9738")
 		(property "Reference" "TP85"
-			(at 272.034 204.47 90)
+			(at 255.524 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19832,7 +19832,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 278.13 204.47 0)
+			(at 261.62 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19843,7 +19843,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 280.67 204.47 0)
+			(at 264.16 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19854,7 +19854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 204.47 0)
+			(at 254 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19865,7 +19865,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 270.51 204.47 0)
+			(at 254 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21158,7 +21158,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 265.43 172.72 0)
+		(at 248.92 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21170,7 +21170,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4224e56-84d1-4bd3-bb31-28763c7cda1f")
 		(property "Reference" "#PWR060"
-			(at 265.43 176.53 0)
+			(at 248.92 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21181,7 +21181,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 265.43 168.5869 0)
+			(at 248.92 174.9369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21191,7 +21191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 172.72 0)
+			(at 248.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21202,7 +21202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 172.72 0)
+			(at 248.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21213,7 +21213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.43 172.72 0)
+			(at 248.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21755,7 +21755,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 269.24 179.07 180)
+		(at 252.73 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21765,7 +21765,7 @@
 		(dnp no)
 		(uuid "f2bde492-98a5-490a-9996-9b4ec93dac46")
 		(property "Reference" "R23"
-			(at 270.51 176.53 0)
+			(at 254 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21776,7 +21776,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 270.51 180.34 0)
+			(at 254 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21787,7 +21787,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 268.224 178.816 90)
+			(at 251.714 185.166 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21798,7 +21798,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 269.24 179.07 0)
+			(at 252.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21809,7 +21809,7 @@
 			)
 		)
 		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 269.24 179.07 0)
+			(at 252.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21820,7 +21820,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 269.24 179.07 0)
+			(at 252.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21831,7 +21831,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT4K70CT-ND"
-			(at 269.24 179.07 0)
+			(at 252.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21842,7 +21842,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 269.24 179.07 0)
+			(at 252.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21853,7 +21853,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT4K70"
-			(at 269.24 179.07 0)
+			(at 252.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
