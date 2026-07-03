@@ -50,8 +50,8 @@
         "silk_text_thickness": 0.125,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 0,
-          "border_hatch_pitch": 0.1,
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
           "corner_radius": 0.2,
           "corner_smoothing": 2,
           "fill_mode": 0,
@@ -63,7 +63,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.127,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.127,
           "thermal_relief_spoke_width": 0.5
@@ -1015,13 +1015,13 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

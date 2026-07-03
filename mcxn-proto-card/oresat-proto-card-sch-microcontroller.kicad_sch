@@ -8597,23 +8597,23 @@
 		(dnp no)
 		(uuid "06c8f863-2a44-4e24-adbb-144dcb7804bf")
 		(property "Reference" "R7"
-			(at 93.218 219.964 90)
+			(at 91.44 213.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "1k"
-			(at 89.408 219.964 90)
+			(at 91.44 215.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -14153,7 +14153,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 109.22 63.5 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14163,29 +14162,29 @@
 		(dnp no)
 		(uuid "74728331-2e13-4499-bc0d-3871c5f8f8f3")
 		(property "Reference" "R21"
-			(at 107.696 64.008 90)
+			(at 107.95 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
-			(at 107.696 60.198 90)
+		(property "Value" "4.7k"
+			(at 107.95 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 108.204 63.754 90)
+			(at 110.236 63.754 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14206,7 +14205,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14229,7 +14228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14253,7 +14252,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 109.22 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18753,23 +18752,23 @@
 		(dnp no)
 		(uuid "bf9de63a-1c07-408e-b78f-646836801f8d")
 		(property "Reference" "R8"
-			(at 243.84 182.88 0)
+			(at 243.84 183.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 243.84 186.69 0)
+			(at 243.84 185.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -21765,23 +21764,23 @@
 		(dnp no)
 		(uuid "f2bde492-98a5-490a-9996-9b4ec93dac46")
 		(property "Reference" "R23"
-			(at 254 182.88 0)
+			(at 254 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 254 186.69 0)
+			(at 254 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)

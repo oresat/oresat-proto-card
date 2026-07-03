@@ -4838,7 +4838,7 @@
 	)
 	(text "C3-UART signals protected\nwhen IC unpowered"
 		(exclude_from_sim no)
-		(at 237.998 164.592 0)
+		(at 248.92 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4852,7 +4852,7 @@
 		(at 66.04 144.526 0)
 		(effects
 			(font
-				(size 1.778 1.5113)
+				(size 1.27 1.27)
 			)
 			(justify bottom)
 		)
@@ -4903,19 +4903,6 @@
 			(justify left bottom)
 		)
 		(uuid "68cf19d9-7374-4de3-90ab-02b83b32b63a")
-	)
-	(text "AUTOMOTIVE GRADE IC?\n"
-		(exclude_from_sim no)
-		(at 142.494 210.312 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "72f8c2c3-50aa-4e7f-a7ee-ca2ff66825c6")
 	)
 	(text "\"VBUSP\""
 		(exclude_from_sim no)
@@ -11901,7 +11888,7 @@
 		(dnp no)
 		(uuid "3708313a-a35c-4d73-80fb-cd4dfabaa11c")
 		(property "Reference" "R3"
-			(at 369.57 50.8 90)
+			(at 375.158 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11910,8 +11897,8 @@
 				)
 			)
 		)
-		(property "Value" "2.7k"
-			(at 374.65 50.8 90)
+		(property "Value" "10k"
+			(at 375.412 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,7 +11929,7 @@
 				)
 			)
 		)
-		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 372.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +11952,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT2K70CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 372.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11989,7 +11976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT2K70"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 372.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12469,7 +12456,7 @@
 		(dnp no)
 		(uuid "3fda5383-a022-40ca-b521-849091263bc4")
 		(property "Reference" "D7"
-			(at 195.326 141.986 0)
+			(at 195.834 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12479,8 +12466,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AMBER"
-			(at 199.136 144.018 0)
+		(property "Value" "AMB"
+			(at 195.834 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13655,7 +13642,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 49.53 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13687,7 +13674,7 @@
 				)
 			)
 		)
-		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 49.53 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13710,7 +13697,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT10R0CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 49.53 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13734,7 +13721,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT10R0"
+		(property "MPN" "RMCF0603FT100R"
 			(at 49.53 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13901,7 +13888,7 @@
 		(dnp no)
 		(uuid "5d09c8c4-fcb9-497f-ab9f-dc02a0bff21f")
 		(property "Reference" "R1"
-			(at 239.268 152.908 90)
+			(at 241.3 150.622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13910,8 +13897,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 242.824 152.908 90)
+		(property "Value" "100"
+			(at 241.3 152.908 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13942,7 +13929,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 241.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13975,7 +13962,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 241.3 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -13986,7 +13973,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 241.3 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -14728,7 +14715,7 @@
 		(dnp no)
 		(uuid "6573294c-de3b-4919-a1ca-56bfa879bc93")
 		(property "Reference" "R76"
-			(at 195.58 133.35 90)
+			(at 196.85 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14737,8 +14724,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 190.5 133.35 90)
+		(property "Value" "4.7k"
+			(at 196.85 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14769,7 +14756,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 193.04 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14792,7 +14779,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT4K70CT-ND"
 			(at 193.04 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14816,7 +14803,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT4K70"
 			(at 193.04 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15123,8 +15110,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 382.524 204.724 90)
+		(property "Value" "GRN"
+			(at 380.492 204.978 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16908,7 +16895,7 @@
 		(dnp no)
 		(uuid "8a8b7a01-908f-440a-bb49-dc9c37f6a941")
 		(property "Reference" "R17"
-			(at 372.11 195.58 90)
+			(at 377.952 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16917,8 +16904,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 377.19 195.58 90)
+		(property "Value" "10k"
+			(at 377.952 196.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16949,7 +16936,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 374.65 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -16972,7 +16959,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 374.65 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -16996,7 +16983,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 374.65 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20205,7 +20192,7 @@
 		(dnp no)
 		(uuid "cf0ea3b2-7cfa-4dbd-944f-363f525c54ff")
 		(property "Reference" "R2"
-			(at 239.268 162.052 90)
+			(at 241.554 162.052 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20214,8 +20201,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 243.078 162.052 90)
+		(property "Value" "100"
+			(at 241.554 164.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20246,7 +20233,7 @@
 				)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 241.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20279,7 +20266,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT1K00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 241.3 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -20290,7 +20277,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT1K00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 241.3 160.02 90)
 			(hide yes)
 			(show_name no)
