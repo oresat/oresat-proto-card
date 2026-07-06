@@ -4755,13 +4755,14 @@
 		)
 		(uuid "03e2ec7d-45a0-44a3-a883-ff3dd676ec0c")
 	)
-	(text "Feedback settings trips at 295m mA"
+	(text "Circuit Breaker trips at 295 mA\n(Link to calculations)"
 		(exclude_from_sim no)
-		(at 299.212 53.848 0)
+		(at 296.418 50.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(href "https://docs.google.com/spreadsheets/d/1PE7U5m56bN0CZ0h20G8QKrn_dD4fJunBUuOQCO6Czg8/edit?usp=sharing")
 		)
 		(uuid "0b3d7ab7-e1bf-4d01-8865-74538eebe1a4")
 	)
@@ -12763,7 +12764,7 @@
 		(dnp no)
 		(uuid "42f2902a-4ff2-45e1-8386-95953fbe5519")
 		(property "Reference" "R68"
-			(at 306.07 68.58 90)
+			(at 306.07 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12772,7 +12773,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "100"
 			(at 306.07 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12804,7 +12805,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 306.07 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12827,7 +12828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 306.07 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12851,7 +12852,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 306.07 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -20449,7 +20450,7 @@
 		(dnp no)
 		(uuid "cfd11f98-64bb-464f-a074-806a01ede35a")
 		(property "Reference" "R66"
-			(at 311.15 60.96 90)
+			(at 311.15 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20458,7 +20459,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "100"
 			(at 311.15 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20490,7 +20491,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 311.15 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -20513,7 +20514,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603ZT0R00CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 311.15 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -20537,7 +20538,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603ZT0R00"
+		(property "MPN" "RMCF0603FT100R"
 			(at 311.15 58.42 0)
 			(hide yes)
 			(show_name no)
