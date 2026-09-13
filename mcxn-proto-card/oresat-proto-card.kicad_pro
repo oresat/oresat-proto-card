@@ -132,14 +132,6 @@
         [
           "silk_overlap|124600000|141500000|4cf26bb5-27d4-4614-9788-e3a4a54bd421|54a1d665-3c1f-4c92-9c10-9416121753c3",
           ""
-        ],
-        [
-          "silk_overlap|154145743|80636488|3d09cc6c-6c95-4ff7-b2e6-a49b7ff7332e|48604123-5f5d-4eb6-9eec-a3d0a792d8ce",
-          ""
-        ],
-        [
-          "silk_overlap|155594624|80275767|3d09cc6c-6c95-4ff7-b2e6-a49b7ff7332e|79d29d73-5dcc-4a56-9d9f-b3e1862cc88f",
-          ""
         ]
       ],
       "meta": {
@@ -1182,7 +1174,7 @@
         "uuid": "04d32576-d084-475b-9eac-d7f3fd9579d7"
       }
     ],
-    "used_designators": "FID1-4,TP6,J3,#VBUSP1,#PWR46,#PWR51",
+    "used_designators": "R10,R84,FID1-4,#VBUSP1,U4,TP6,TP87,C18,#PWR23,#PWR40,#PWR46,#PWR48,#PWR51,J3",
     "variants": []
   },
   "sheets": [
