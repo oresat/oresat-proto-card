@@ -17694,7 +17694,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17717,7 +17717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17741,7 +17741,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "GRT188R71E105KE13D"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)

@@ -1174,7 +1174,7 @@
         "uuid": "04d32576-d084-475b-9eac-d7f3fd9579d7"
       }
     ],
-    "used_designators": "R10,R84,FID1-4,#VBUSP1,U4,TP6,TP87,C18,#PWR23,#PWR40,#PWR46,#PWR48,#PWR51,J3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
