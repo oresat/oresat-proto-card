@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2026-06-28")
-		(rev "6.1")
+		(date "2026-10-19")
+		(rev "6.2")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -1315,6 +1315,161 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4442,6 +4597,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "All caps are ceramic 0603 10% X5R >= 16V Vwv and AEQ unless marked"
 		(exclude_from_sim no)
@@ -4464,6 +4734,17 @@
 			(justify left bottom)
 		)
 		(uuid "53b1d202-53ed-4cc8-b755-99bc146001af")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 81.28 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76feda47-e28c-44ed-8b3e-1649e56299de")
 	)
 	(text "RF connections and test points"
 		(exclude_from_sim no)
@@ -4628,6 +4909,12 @@
 		(uuid "723f6e8a-e09a-448d-8d34-216ad500753a")
 	)
 	(junction
+		(at 68.58 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "753fdd90-2207-49e9-8c99-48f7974cbbbf")
+	)
+	(junction
 		(at 54.61 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4692,6 +4979,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd68fe3a-ed86-41be-8a9d-21193ca0904d")
+	)
+	(junction
+		(at 68.58 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc3f76d-da3a-4619-bc1c-a4579ea89dad")
 	)
 	(junction
 		(at 54.61 124.46)
@@ -4924,6 +5217,16 @@
 			(type solid)
 		)
 		(uuid "10e289d4-93d2-4f05-b8cd-678d0dec93f6")
+	)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a5a1da-7b7d-40f6-bb51-139e59e0bb3a")
 	)
 	(wire
 		(pts
@@ -5164,6 +5467,16 @@
 			(type solid)
 		)
 		(uuid "30ce443d-f1e3-41d7-8c2b-331b895e3a62")
+	)
+	(wire
+		(pts
+			(xy 73.66 106.68) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329b8d14-3ea6-409a-9c99-ae02b0f83690")
 	)
 	(wire
 		(pts
@@ -5517,6 +5830,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 97.79) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5559db0a-ba8f-4e32-8fa1-ee2937de7948")
+	)
+	(wire
+		(pts
 			(xy 170.18 165.1) (xy 170.18 210.82)
 		)
 		(stroke
@@ -5604,6 +5927,16 @@
 			(type solid)
 		)
 		(uuid "5e642e3d-821e-4183-94b5-ec90b0d2da0c")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea9f700-91d8-4cc9-a71d-29159486fb0c")
 	)
 	(wire
 		(pts
@@ -5707,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 104.14) (xy 54.61 104.14)
+			(xy 68.58 104.14) (xy 54.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5744,6 +6077,16 @@
 			(type solid)
 		)
 		(uuid "6fc40f3c-21a1-4f70-80cf-94df53b6e791")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71716dd8-5833-4c77-88de-eb603a8330a4")
 	)
 	(wire
 		(pts
@@ -5934,6 +6277,16 @@
 			(type solid)
 		)
 		(uuid "86f861f1-fb16-46a4-9c15-ea9738f0a1b4")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8709fb8e-bd14-4b9b-a401-6a442111f600")
 	)
 	(wire
 		(pts
@@ -6577,7 +6930,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 67.31 101.6)
+			(xy 54.61 101.6) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -6594,16 +6947,6 @@
 			(type solid)
 		)
 		(uuid "cdc5652e-7841-485f-9533-2bceabd51b93")
-	)
-	(wire
-		(pts
-			(xy 67.31 104.14) (xy 67.31 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd6006e-748f-4215-a683-785cbce26f0b")
 	)
 	(wire
 		(pts
@@ -6747,6 +7090,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 104.14) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5b0a99-b2f0-45cf-bbb3-eb0f738acfaf")
+	)
+	(wire
+		(pts
 			(xy 54.61 137.16) (xy 53.34 137.16)
 		)
 		(stroke
@@ -6827,7 +7180,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 99.06) (xy 67.31 101.6)
+			(xy 68.58 96.52) (xy 68.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9146,6 +9499,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 68.58 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873cddc9-3325-4c7d-8241-ebf4f322787a")
+		(property "Reference" "#FLG01"
+			(at 66.675 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 64.77 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ae9b257-1417-4576-8989-f6b3d47e2f95")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x11_Odd_Even")
 		(at 181.61 81.28 90)
 		(unit 1)
@@ -9450,6 +9882,136 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
 					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c2d95d6-b3bc-4980-bb19-15cb0f243e5d")
+		(property "Reference" "C13"
+			(at 80.518 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10u"
+			(at 80.264 103.632 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-passives:0805-B-NOSILK"
+			(at 72.6948 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRT21BC71E106KE13K"
+			(at 73.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "084d0909-27b8-4f2e-9af2-572fab50b1be")
+		)
+		(pin "1"
+			(uuid "d79102ac-1aa9-4f3f-af5f-4c883f65377b")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9762,6 +10324,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 68.58 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d34f7551-601c-4f84-b153-56919f95c7a2")
+		(property "Reference" "#FLG02"
+			(at 66.675 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 64.77 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ae9b257-1417-4576-8989-f6b3d47e2f95")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 236.22 261.62 0)
 		(unit 1)
@@ -9839,7 +10480,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 106.68 0)
+		(at 68.58 109.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9850,7 +10491,7 @@
 		(dnp no)
 		(uuid "e8dafe26-303b-47b0-89b6-3a6ed4e59df3")
 		(property "Reference" "#GND02"
-			(at 67.31 106.68 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9861,7 +10502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 110.49 0)
+			(at 68.58 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9871,7 +10512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 106.68 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +10523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 106.68 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9893,7 +10534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 106.68 0)
+			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10177,7 +10818,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:VBUS")
-		(at 67.31 99.06 0)
+		(at 68.58 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10187,7 +10828,7 @@
 		(dnp no)
 		(uuid "efa3206d-6bd3-46bc-98f7-f2e530668dbe")
 		(property "Reference" "#VBUS02"
-			(at 67.31 102.87 0)
+			(at 68.58 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10198,7 +10839,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 67.31 95.758 0)
+			(at 68.58 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10208,7 +10849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 99.06 0)
+			(at 68.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10219,7 +10860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 99.06 0)
+			(at 68.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +10871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 99.06 0)
+			(at 68.58 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
