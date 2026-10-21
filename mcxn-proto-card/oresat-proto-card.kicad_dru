@@ -21,3 +21,8 @@
     (condition "A.insideArea('EDGE_PERMIT_ZONE')")
     (constraint edge_clearance (min -1mm))
 )
+
+(rule "Allow_Holes_To_Edge"
+    (condition "A.insideArea('EDGE_PERMIT_ZONE')")
+    (constraint hole_clearance (min -1mm))
+)

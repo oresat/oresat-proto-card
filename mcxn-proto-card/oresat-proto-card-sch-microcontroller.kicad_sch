@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2026-10-19")
+		(date "2026-10-21")
 		(rev "6.2")
 		(company "Portland State Aerospace Society")
 	)
@@ -5555,16 +5555,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 181.61) (xy 337.82 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "380bd1a8-8aee-4077-b315-1ba13c789812")
-	)
-	(wire
-		(pts
 			(xy 139.7 45.72) (xy 149.86 45.72)
 		)
 		(stroke
@@ -6565,6 +6555,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 55.88) (xy 339.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7a6bd5-54e8-4235-8190-7db6120e5a19")
+	)
+	(wire
+		(pts
 			(xy 138.43 134.62) (xy 148.59 134.62)
 		)
 		(stroke
@@ -6822,6 +6822,16 @@
 			(type default)
 		)
 		(uuid "c6562e87-88a4-4ded-8472-552ae7195231")
+	)
+	(wire
+		(pts
+			(xy 337.82 181.61) (xy 337.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b893bc-465e-4ff8-8e7d-50b122d1a56b")
 	)
 	(wire
 		(pts
@@ -7132,16 +7142,6 @@
 			(type default)
 		)
 		(uuid "f68d0d75-d447-4f43-b6c4-33a30e4b7ad7")
-	)
-	(wire
-		(pts
-			(xy 339.09 55.88) (xy 339.09 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f2b891-7752-496c-b1f0-8a910e6f2ffb")
 	)
 	(wire
 		(pts
@@ -8604,84 +8604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 339.09 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03ee4ca9-7cd9-4e55-abdd-a4313b62f8d8")
-		(property "Reference" "#PWR018"
-			(at 339.09 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 339.09 51.7469 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 339.09 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339.09 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 339.09 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87764a49-9c90-43e8-b556-d3a29c60dca8")
-		)
-		(instances
-			(project "oresat-proto-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 148.59 198.12 270)
 		(mirror x)
@@ -9168,6 +9090,85 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 339.09 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fca8e90-f637-408a-b4e5-0bb1d1625122")
+		(property "Reference" "#PWR063"
+			(at 339.09 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 339.09 51.7469 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 339.09 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f18d233b-f71e-4ed4-9a36-7f71fd5aadd6")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -11343,6 +11344,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 337.82 181.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be74bbe-aa61-4e1e-b127-4bcdacee5eda")
+		(property "Reference" "#PWR062"
+			(at 337.82 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 337.82 177.4769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 337.82 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3f50aab-6067-438e-8a3a-1b1c1e52239d")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 81.28 0)
 		(mirror y)
@@ -12481,85 +12561,6 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 337.82 181.61 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6375e2c3-432b-4e08-8875-f292a939666e")
-		(property "Reference" "#PWR017"
-			(at 337.82 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 337.82 177.4769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 337.82 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49b361b5-3d20-4467-a951-e7079c747fa8")
-		)
-		(instances
-			(project "oresat-proto-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)

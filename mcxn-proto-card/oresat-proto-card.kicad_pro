@@ -82,55 +82,15 @@
           ""
         ],
         [
-          "hole_clearance|168910000|65900000|1adc5d7c-893a-4813-9973-b8fe5c7e18d4|1fd6841f-5641-4408-8fa0-2f9dce80a58d",
-          ""
-        ],
-        [
-          "hole_clearance|168910000|65900000|9cfcb3e3-d34b-4255-a197-d18e61c15515|1fd6841f-5641-4408-8fa0-2f9dce80a58d",
-          ""
-        ],
-        [
-          "hole_clearance|172090000|65900000|204d9e45-cbdf-4918-8890-744c066c72bf|601ecd81-a3a0-49f9-8f2d-cb7822c1d2d8",
-          ""
-        ],
-        [
-          "hole_clearance|172090000|65900000|b40906b9-3f57-4521-b0cf-c9601d33a497|601ecd81-a3a0-49f9-8f2d-cb7822c1d2d8",
-          ""
-        ],
-        [
-          "hole_clearance|174910000|65900000|040e7b16-ffbd-45ac-826c-1b8c0ad80f9a|2f93231a-3929-401d-8a35-e6bbbd79e406",
-          ""
-        ],
-        [
-          "hole_clearance|174910000|65900000|e0db8a58-0f55-4f4e-96e9-5a9cd2c565b1|2f93231a-3929-401d-8a35-e6bbbd79e406",
-          ""
-        ],
-        [
-          "hole_clearance|178090000|65900000|07b14844-36f8-4a4d-9adf-5674e163f315|c66a6a90-68b6-45d1-a9f9-331456ba3ab8",
-          ""
-        ],
-        [
-          "hole_clearance|178090000|65900000|a8328a4a-b1cf-4643-8754-be5114b9a69e|c66a6a90-68b6-45d1-a9f9-331456ba3ab8",
-          ""
-        ],
-        [
-          "hole_clearance|180910000|65900000|6672753e-9b4e-493c-b3de-93d6cc2c8a4d|1f8cad3b-e4ef-4e75-9db6-1bf27a7cb069",
-          ""
-        ],
-        [
-          "hole_clearance|180910000|65900000|e47a4e31-cca8-4683-9fbc-8306b021d41e|1f8cad3b-e4ef-4e75-9db6-1bf27a7cb069",
-          ""
-        ],
-        [
-          "hole_clearance|184090000|65900000|3fe337d3-0c75-46cd-889b-277d5496a2dc|b664bd63-1605-4ad2-8e3b-e478253b423e",
-          ""
-        ],
-        [
-          "hole_clearance|184090000|65900000|914e3c1c-61f9-4861-b840-206ac42dd92d|b664bd63-1605-4ad2-8e3b-e478253b423e",
+          "silk_over_copper|141650000|83460000|4cae24bd-52b7-4927-a7e5-60ebb380425b|ae820697-9162-4c6d-a1dd-f8379b5bbf8e",
           ""
         ],
         [
           "silk_overlap|124600000|141500000|4cf26bb5-27d4-4614-9788-e3a4a54bd421|54a1d665-3c1f-4c92-9c10-9416121753c3",
+          ""
+        ],
+        [
+          "silk_overlap|141750244|83597835|4cae24bd-52b7-4927-a7e5-60ebb380425b|b8c38c26-abf3-43f9-8ffb-f34e0c3d790e",
           ""
         ]
       ],
@@ -358,27 +318,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|3060700|1905000|55c644b0-3b3a-451d-9c2d-d0c2ce0937ca|d7afbd23-5c74-4dc5-a27d-99725f3a8948|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209",
+        "multiple_net_names|3060700|1905000|20a19e35-282b-4328-ba59-cb93564d4522|d7afbd23-5c74-4dc5-a27d-99725f3a8948|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209",
         ""
       ],
       [
-        "pin_to_pin|2552700|774700|19f46546-52be-4508-96e6-5a2b7392af92|66c43ced-22b6-4178-ba05-fd6d934bb9fb|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209",
-        ""
-      ],
-      [
-        "pin_to_pin|3314700|2057400|221f9c8f-b9e9-4175-b5fa-6f605538ae7f|2ae9b257-1417-4576-8989-f6b3d47e2f95|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1854200|1409700|7d746251-bbee-4e13-869e-5cd2440ec484|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1905000|1790700|020d4bb5-9f42-46b3-9070-46a808fdac9b|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7|/04d32576-d084-475b-9eac-d7f3fd9579d7|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2120900|1041400|0270d40e-68b8-457f-a7d1-1f350cbea272|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|",
+        "pin_to_pin|3314700|2057400|221f9c8f-b9e9-4175-b5fa-6f605538ae7f|2ae9b257-1417-4576-8989-f6b3d47e2f96|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7",
         ""
       ],
       [
@@ -391,10 +335,6 @@
       ],
       [
         "power_pin_not_driven|2844800|1066800|0270d40e-68b8-457f-a7d1-1f350cbea272|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|3568700|1854200|5f67924b-0156-4a7f-bb25-5100ecd6f12d|00000000-0000-0000-0000-000000000000|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|/04d32576-d084-475b-9eac-d7f3fd9579d7/74ca5f60-14f2-4db3-a5c5-49a2ce7c0209|",
         ""
       ]
     ],
@@ -674,8 +614,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "RF",
@@ -1130,7 +1070,7 @@
         "uuid": "04d32576-d084-475b-9eac-d7f3fd9579d7"
       }
     ],
-    "used_designators": "#FLG1-5,C13,TP83",
+    "used_designators": "#FLG1-6,#PWR4-5,#PWR61-63,#VBUS5,#VBUSP8,C13,TP83",
     "variants": []
   },
   "sheets": [

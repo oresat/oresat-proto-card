@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2026-10-19")
+		(date "2026-10-21")
 		(rev "6.2")
 		(company "Portland State Aerospace Society")
 	)
@@ -4207,142 +4207,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-power:VBUSP"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#VBUSP"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUSP"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUSP\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUSP_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUSP_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VBUSP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -5610,6 +5474,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 180.34) (xy 189.23 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c33c61c-5081-4482-bb6d-304b91936f67")
+	)
+	(wire
+		(pts
 			(xy 100.33 162.56) (xy 111.76 162.56)
 		)
 		(stroke
@@ -5627,16 +5501,6 @@
 			(type solid)
 		)
 		(uuid "3e540fa3-b006-49e3-8edf-24f02c7aa3fb")
-	)
-	(wire
-		(pts
-			(xy 190.5 180.34) (xy 191.77 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f3bebe9-9d08-41af-977b-629014ccf8ca")
 	)
 	(wire
 		(pts
@@ -5807,16 +5671,6 @@
 			(type solid)
 		)
 		(uuid "520bbb0f-71ed-4e7e-83a5-0e815221867d")
-	)
-	(wire
-		(pts
-			(xy 190.5 179.07) (xy 190.5 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5283adfb-3411-4763-a2e5-ec97e110683e")
 	)
 	(wire
 		(pts
@@ -6437,6 +6291,16 @@
 			(type solid)
 		)
 		(uuid "9422d39e-f898-41bc-8fe7-92d8c6c5d31e")
+	)
+	(wire
+		(pts
+			(xy 189.23 180.34) (xy 189.23 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9481b5f5-e2d9-42c9-96cf-64719c7fcebd")
 	)
 	(wire
 		(pts
@@ -8610,6 +8474,82 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 189.23 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e417be1-5a18-4bcc-b758-14b13ba21f28")
+		(property "Reference" "#VBUS05"
+			(at 189.23 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUSP"
+			(at 189.23 175.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4be7cb3-2aff-43ec-b247-34239334d113")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
+					(reference "#VBUS05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 186.69 190.5 0)
 		(mirror y)
@@ -9132,84 +9072,6 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-power:VBUSP")
-		(at 190.5 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "687d2eba-da2f-441f-9517-88a8ed354059")
-		(property "Reference" "#VBUSP01"
-			(at 190.5 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUSP"
-			(at 190.5 176.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUSP\""
-			(at 190.5 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "020d4bb5-9f42-46b3-9070-46a808fdac9b")
-		)
-		(instances
-			(project "oresat-proto-card"
-				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
-					(reference "#VBUSP01")
 					(unit 1)
 				)
 			)
