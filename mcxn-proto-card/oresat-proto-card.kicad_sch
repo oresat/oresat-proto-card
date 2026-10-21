@@ -10391,7 +10391,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ae9b257-1417-4576-8989-f6b3d47e2f95")
+			(uuid "2ae9b257-1417-4576-8989-f6b3d47e2f96")
 		)
 		(instances
 			(project "oresat-proto-card"

@@ -17526,7 +17526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17572,7 +17572,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22373,7 +22373,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/727/EMK107BBJ475KAHT_SS.pdf"
 			(at 339.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22384,7 +22384,7 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 339.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22406,7 +22406,7 @@
 				)
 			)
 		)
-		(property "DPN" "399-6851-1-ND"
+		(property "DPN" "587-4332-1-ND"
 			(at 339.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22417,7 +22417,7 @@
 				)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "MFR" "Taiyo Yuden"
 			(at 339.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22428,7 +22428,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C103K5RACAUTO"
+		(property "MPN" "EMK107BBJ475KAHT"
 			(at 339.09 50.8 0)
 			(hide yes)
 			(show_name no)
