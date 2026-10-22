@@ -26,7 +26,7 @@ The proto card also has the OreSat auxiliary connector and 3 RF backplane connec
 ## Documentation Links
 
 - Git repository: <https://github.com/oresat/oresat-flatsat>
-- **TODO:** Design Notes + Design Review Notes
+- Design Notes can be found [here](https://docs.google.com/document/d/1n5go-qSHrDDtgpcY3E4sctoJmh-bkNlo19UB8_QK84I/edit?usp=sharing)
 
 ## Documentation Files
 
