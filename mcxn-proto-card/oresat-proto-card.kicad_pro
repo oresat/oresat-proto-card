@@ -90,7 +90,7 @@
           ""
         ],
         [
-          "silk_overlap|141750244|83597835|4cae24bd-52b7-4927-a7e5-60ebb380425b|b8c38c26-abf3-43f9-8ffb-f34e0c3d790e",
+          "silk_overlap|141650000|83460000|4cae24bd-52b7-4927-a7e5-60ebb380425b|b8c38c26-abf3-43f9-8ffb-f34e0c3d790e",
           ""
         ]
       ],
@@ -1070,7 +1070,7 @@
         "uuid": "04d32576-d084-475b-9eac-d7f3fd9579d7"
       }
     ],
-    "used_designators": "#FLG1-6,#PWR4-5,#PWR61-63,#VBUS5,#VBUSP8,C13,TP83",
+    "used_designators": "#FLG1-6,#PWR4-5,#PWR40,#PWR61-63,#VBUS5,#VBUSP8,C13,Q10,R10,TP83",
     "variants": []
   },
   "sheets": [

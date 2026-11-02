@@ -9450,13 +9450,13 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8eb94c93-b1d5-454b-a4d1-4d066cdfc836")
-		(property "Reference" "JP1"
-			(at 166.37 82.55 0)
+		(property "Reference" "J10"
+			(at 166.878 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -9623,7 +9623,7 @@
 		(instances
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
-					(reference "JP1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10044,19 +10044,19 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "cb7e2445-7e90-4b55-a7ca-0ec352162727")
-		(property "Reference" "JP2"
-			(at 340.614 71.374 0)
+		(property "Reference" "J11"
+			(at 341.122 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 342.9 99.06 0)
+			(at 343.154 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10179,7 +10179,7 @@
 		(instances
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7"
-					(reference "JP2")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10435,7 +10435,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -11248,7 +11248,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{ISPMODE}" output
+		(pin "BOOT-ROM" output
 			(at 151.13 153.67 0)
 			(uuid "d6af16e2-f605-45b3-b7dd-376a098a8c2e")
 			(effects
@@ -11355,7 +11355,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{ISPMODE}" input
+		(pin "BOOT-ROM" input
 			(at 151.13 190.5 0)
 			(uuid "13c49003-6e33-41c8-b59c-25dbc9a883f2")
 			(effects

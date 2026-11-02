@@ -9034,7 +9034,7 @@
 		)
 		(uuid "650bd78e-de15-4897-83eb-7a763d9da9ad")
 	)
-	(hierarchical_label "~{ISPMODE}"
+	(hierarchical_label "BOOT-ROM"
 		(shape output)
 		(at 167.64 128.27 0)
 		(effects

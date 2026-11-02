@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat MCXN Proto Card")
-		(date "2026-10-21")
+		(date "2026-11-01")
 		(rev "6.2")
 		(company "Portland State Aerospace Society")
 	)
@@ -1542,6 +1542,307 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_NMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4803,17 +5104,6 @@
 		)
 		(uuid "eb64644d-dc73-4f89-a994-1d51e47f6a3c")
 	)
-	(text "ISMODE_N"
-		(exclude_from_sim no)
-		(at 309.88 212.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee59d1df-9baf-4905-a55d-b0b8dd15828d")
-	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
 		(at 213.868 34.29 0)
@@ -4954,6 +5244,12 @@
 		(uuid "8a7d19c6-79e2-48f6-9135-1f7d35aa9487")
 	)
 	(junction
+		(at 364.49 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da2f055-6bbd-4085-b2c9-6bab32faddc4")
+	)
+	(junction
 		(at 321.31 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4966,13 +5262,19 @@
 		(uuid "8dff5ce8-6a2f-4249-a6ae-89b834ca5bd7")
 	)
 	(junction
+		(at 359.41 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ceaeb2d-8419-49c2-83fb-fb9589de7082")
+	)
+	(junction
 		(at 252.73 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2d0a273-2646-42c5-82ae-cb5991526c76")
 	)
 	(junction
-		(at 337.82 212.09)
+		(at 355.6 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9afc0e9-7bed-48d4-8540-9fd1c59ef129")
@@ -5215,6 +5517,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 218.44) (xy 364.49 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1195df7e-973d-46a0-b19b-a502d7beeff3")
+	)
+	(wire
+		(pts
 			(xy 149.86 50.8) (xy 139.7 50.8)
 		)
 		(stroke
@@ -5222,6 +5534,16 @@
 			(type default)
 		)
 		(uuid "133e6f34-ffb6-45e1-84e7-fb3e3db93ae4")
+	)
+	(wire
+		(pts
+			(xy 359.41 228.6) (xy 359.41 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1438a06b-1f9d-4013-8e29-21cc892ac52d")
 	)
 	(wire
 		(pts
@@ -5505,6 +5827,26 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 228.6) (xy 359.41 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3006006d-b7bb-4395-8149-1ba14453aa3b")
+	)
+	(wire
+		(pts
+			(xy 364.49 228.6) (xy 359.41 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30524023-c391-4fe1-a210-bb19b2b0f1aa")
+	)
+	(wire
+		(pts
 			(xy 138.43 238.76) (xy 148.59 238.76)
 		)
 		(stroke
@@ -5552,6 +5894,16 @@
 			(type default)
 		)
 		(uuid "35528c14-8f32-4429-9e97-4b65971b4a5c")
+	)
+	(wire
+		(pts
+			(xy 364.49 218.44) (xy 370.84 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e7454e-1564-428c-8b0a-33eb19014d94")
 	)
 	(wire
 		(pts
@@ -5715,13 +6067,13 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 212.09) (xy 341.63 212.09)
+			(xy 355.6 212.09) (xy 355.6 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "450f5148-bc55-4b2b-a638-802cc0f20cba")
+		(uuid "47fdef26-0da8-4b16-86d6-4f9cc29140ea")
 	)
 	(wire
 		(pts
@@ -5845,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 190.5) (xy 337.82 212.09)
+			(xy 355.6 210.82) (xy 355.6 212.09)
 		)
 		(stroke
 			(width 0)
@@ -6355,6 +6707,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 223.52) (xy 355.6 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cbbcf4-f4a5-477a-a688-8321df4a30fb")
+	)
+	(wire
+		(pts
 			(xy 138.43 180.34) (xy 148.59 180.34)
 		)
 		(stroke
@@ -6382,6 +6744,16 @@
 			(type default)
 		)
 		(uuid "9c528bd9-02c8-4ef8-82e2-2739eec1f2fc")
+	)
+	(wire
+		(pts
+			(xy 364.49 227.33) (xy 364.49 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dac81b8-13d3-42de-b1df-446e2ef05142")
 	)
 	(wire
 		(pts
@@ -6825,7 +7197,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 181.61) (xy 337.82 182.88)
+			(xy 355.6 201.93) (xy 355.6 203.2)
 		)
 		(stroke
 			(width 0)
@@ -7095,7 +7467,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 212.09) (xy 337.82 212.09)
+			(xy 326.39 212.09) (xy 355.6 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7112,6 +7484,16 @@
 			(type default)
 		)
 		(uuid "ef2cb1f0-4dbc-42eb-809f-40fa641e7610")
+	)
+	(wire
+		(pts
+			(xy 363.22 218.44) (xy 364.49 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1019bdd-bb2b-4276-9729-7f55139c8e39")
 	)
 	(wire
 		(pts
@@ -7833,6 +8215,16 @@
 		)
 		(uuid "b8b050d0-7a6d-41b9-832f-4768b0d2d864")
 	)
+	(label "ISPMODE_N"
+		(at 309.88 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfb61e2e-5d65-4bbe-84a2-10334f983d42")
+	)
 	(label "P3_1"
 		(at 138.43 165.1 0)
 		(effects
@@ -8056,9 +8448,9 @@
 		)
 		(uuid "1c006518-7ed6-4e42-bf33-472cf09af920")
 	)
-	(hierarchical_label "~{ISPMODE}"
+	(hierarchical_label "BOOT-ROM"
 		(shape input)
-		(at 341.63 212.09 0)
+		(at 370.84 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11345,7 +11737,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 337.82 181.61 0)
+		(at 355.6 201.93 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11357,7 +11749,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be74bbe-aa61-4e1e-b127-4bcdacee5eda")
 		(property "Reference" "#PWR062"
-			(at 337.82 185.42 0)
+			(at 355.6 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +11760,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 337.82 177.4769 0)
+			(at 355.6 197.7969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11378,7 +11770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 181.61 0)
+			(at 355.6 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11389,7 +11781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 181.61 0)
+			(at 355.6 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11400,7 +11792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 337.82 181.61 0)
+			(at 355.6 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11970,6 +12362,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 358.14 218.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "493dc76b-5f1c-44ad-a3b5-84545772f4b9")
+		(property "Reference" "Q10"
+			(at 353.06 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DMN2050LQ-7"
+			(at 353.06 223.266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 353.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MFR" "Diodes Incorporated"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DMN2050LQ-7"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a049b41a-b9f2-4eef-b0d4-a98be1eaf0ed")
+		)
+		(pin "2"
+			(uuid "3c135bc7-3813-4af1-ba02-944d69fb9c1f")
+		)
+		(pin "3"
+			(uuid "49fc3cb9-f224-43a3-bd2a-21ccd7f48e86")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 148.59 233.68 270)
 		(mirror x)
@@ -12127,7 +12652,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 337.82 186.69 180)
+		(at 355.6 207.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12135,10 +12660,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "54e8f4af-14db-47c1-ac48-584fcb0c1ff1")
 		(property "Reference" "R9"
-			(at 340.36 185.4199 0)
+			(at 357.124 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12149,7 +12673,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 340.36 187.9599 0)
+			(at 357.124 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12160,7 +12684,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 336.804 186.436 90)
+			(at 354.584 206.756 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12171,7 +12695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 337.82 186.69 0)
+			(at 355.6 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12182,7 +12706,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 337.82 186.69 0)
+			(at 355.6 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12193,7 +12717,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 337.82 186.69 90)
+			(at 355.6 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12204,7 +12728,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 337.82 186.69 90)
+			(at 355.6 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12215,7 +12739,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 337.82 186.69 90)
+			(at 355.6 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12226,7 +12750,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 337.82 186.69 90)
+			(at 355.6 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12482,6 +13006,83 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 359.41 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60e4cabd-e4ef-4451-8aef-ade53ca546b5")
+		(property "Reference" "#PWR040"
+			(at 359.41 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 359.41 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 359.41 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcf5dbb5-8f7d-4ed0-9606-56863d53787c")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -15093,7 +15694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TCAN337G"
+		(property "Value" "TCAN337GDCNR"
 			(at 207.518 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15116,7 +15717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan330.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1789074087273&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftcan330"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan337.pdf"
 			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15127,7 +15728,7 @@
 				)
 			)
 		)
-		(property "Description" "1/1 Transceiver Half CANbus 8-SOIC"
+		(property "Description" "1/1 Transceiver CANbus SOT-23-8"
 			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15149,7 +15750,7 @@
 				)
 			)
 		)
-		(property "DPN" "TCAN337GD-ND"
+		(property "DPN" "296-48971-1-ND"
 			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15171,7 +15772,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCAN337GD"
+		(property "MPN" "TCAN337GDCNR"
 			(at 201.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -20853,6 +21454,131 @@
 			(project "oresat-proto-card"
 				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
 					(reference "TP62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 364.49 223.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da576d94-54e9-477b-afc1-84c869d2aa15")
+		(property "Reference" "R10"
+			(at 366.014 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 366.014 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 363.474 223.266 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 364.49 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 364.49 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 364.49 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 364.49 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 364.49 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 364.49 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "14a51667-8e0d-4978-b903-614526233abc")
+		)
+		(pin "1"
+			(uuid "1c662776-a3e1-44ee-9140-5ae10696c0d7")
+		)
+		(instances
+			(project "oresat-proto-card"
+				(path "/04d32576-d084-475b-9eac-d7f3fd9579d7/e68cb6cd-039d-43ad-93aa-b705d581519b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
